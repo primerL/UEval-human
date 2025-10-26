@@ -1,0 +1,568 @@
+[
+  {
+    "id": 82,
+    "domain": "tech",
+    "question": "How to Change Your Profile Picture on Facebook? Provide visual steps and text the steps.",
+    "reference_text": "1. Open Facebook. Tap the Facebook app icon, which resembles a white \"f\" on a dark-blue background. This will open your Facebook News Feed if you're logged in. If you aren't logged in, enter your email address and password before proceeding. 2. Tap the \"Profile\" icon. It's a person-shaped icon at the bottom of the screen. Doing so opens your profile page. If you don't see this icon, you can instead tap ☰ in the bottom-right corner of the screen and then tap your name at the top of the resulting menu. 3. Tap your profile picture. You'll find it at the top of the profile page. Tapping it prompts a pop-up menu. 4. Tap Select Profile Picture . It's in the pop-up menu. 5. Take a new profile photo. Tap the camera icon in the top-right corner of the screen, then take a picture of yourself by tapping the \"Capture\" button at the bottom of the screen. If you want to select an existing photo for your profile picture, scroll down until you find the album from which you want to select a photo, tap More in the top-right corner of the album's section if necessary, and tap the photo you want to use. 6. Tap Save . This option is in the top-right corner of the screen. Doing so changes your profile picture to your newly selected one. If you want to edit your profile picture, tap Edit below the profile picture and then edit your photo as needed. You can add a themed frame to your profile image by tapping ADD FRAME and then selecting the frame you want to use.",
+    "reference_images": [
+      "data/tech/82_1.jpg",
+      "data/tech/82_2.jpg",
+      "data/tech/82_3.jpg",
+      "data/tech/82_4.jpg",
+      "data/tech/82_5.jpg",
+      "data/tech/82_6.jpg"
+    ],
+    "generated_text": "Here are the **text steps** (the visuals are above):\n\n# On the Facebook app (iPhone/Android)\n\n1. Open the Facebook app and go to **your Profile** (tap your profile picture/name from the home screen).\n2. Tap your **current profile picture**.\n3. Choose **Update/Select profile picture or video**.\n4. Pick a photo: **Upload/Choose from library** or **Take photo**.\n5. **Adjust**: pinch to zoom, drag to reposition, and (optional) **Add frame** or **Make Temporary**.\n6. (Optional) Turn off **Share to Feed** if you don’t want an announcement.\n7. Tap **Save/Done**.\n\n# On a computer (facebook.com)\n\n1. Go to **facebook.com** and open **your profile** (click your name/profile photo).\n2. Hover your profile picture and click the **camera icon** (**Update profile picture**).\n3. Select **Upload Photo** or **Select Photo** from your albums.\n4. **Crop/zoom/reposition**; (optional) **Add frame** or **Make Temporary**.\n5. (Optional) Uncheck **Share your update to Feed**.\n6. Click **Save**.\n\n## Tips\n\n* Use a **square** image with your face centered; a minimum of **400×400 px** looks crisp.\n* Your profile picture is generally **public**; changing it doesn’t alter past posts.\n* You can revert anytime from your **Profile Pictures** album.\n\",",
+    "generated_image": "GPT-thinking/tech/82.png",
+    "gemini_evaluation": {
+      "Question": "How to Change Your Profile Picture on Facebook? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The text steps provided for both the mobile app and the computer are factually correct and accurately describe the process. The generated image, while stylized, correctly depicts the key stages of the process on the mobile app."
+        ],
+        "Image-Text Coherency": [
+          3,
+          "The generated image provides a high-level visual summary of the process, but it does not correspond one-to-one with the detailed text steps. The text lists 7 steps for the mobile app, but the image only shows 4 key moments, skipping intermediate steps like choosing the photo source and making adjustments."
+        ],
+        "Content Quality": [
+          3,
+          "The text is of high quality: well-structured, clear, and grammatically correct. The generated image, however, is of lower quality. It is an AI illustration rather than an actual screenshot, which is less helpful for a UI-based tutorial. Furthermore, some text within the image is garbled (e.g., 'Select Prfi Piue oVdeo'), which detracts from its clarity and professionalism."
+        ],
+        "Human Preference Alignment": [
+          4,
+          "The content is helpful and safe. However, for a technical 'how-to' guide, real screenshots are strongly preferred over AI-generated illustrations because they show the user exactly what the interface looks like. The generated image is less authentic and therefore less helpful than a real screenshot."
+        ],
+        "Completeness": [
+          3,
+          "The response is incomplete visually. While the text covers both mobile and desktop, it only provides a single composite image for the mobile process and no visuals for the desktop version. The question asks for 'visual steps', implying a more comprehensive visual guide than what was provided."
+        ],
+        "Content Richness": [
+          4,
+          "The text is very rich, going beyond the reference by providing instructions for both mobile and desktop versions of Facebook, as well as including a helpful 'Tips' section. However, the visual content is not rich, consisting of only one composite image, whereas the reference provided a full set of step-by-step screenshots."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Change Your Profile Picture on Facebook? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The text steps provided for both the mobile app and the computer are factually correct and accurately describe the process. The generated image, while stylized, correctly depicts the key stages of the process on the mobile app.\"\n        ],\n        \"Image-Text Coherency\": [\n            3,\n            \"The generated image provides a high-level visual summary of the process, but it does not correspond one-to-one with the detailed text steps. The text lists 7 steps for the mobile app, but the image only shows 4 key moments, skipping intermediate steps like choosing the photo source and making adjustments.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text is of high quality: well-structured, clear, and grammatically correct. The generated image, however, is of lower quality. It is an AI illustration rather than an actual screenshot, which is less helpful for a UI-based tutorial. Furthermore, some text within the image is garbled (e.g., 'Select Prfi Piue oVdeo'), which detracts from its clarity and professionalism.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The content is helpful and safe. However, for a technical 'how-to' guide, real screenshots are strongly preferred over AI-generated illustrations because they show the user exactly what the interface looks like. The generated image is less authentic and therefore less helpful than a real screenshot.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The response is incomplete visually. While the text covers both mobile and desktop, it only provides a single composite image for the mobile process and no visuals for the desktop version. The question asks for 'visual steps', implying a more comprehensive visual guide than what was provided.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich, going beyond the reference by providing instructions for both mobile and desktop versions of Facebook, as well as including a helpful 'Tips' section. However, the visual content is not rich, consisting of only one composite image, whereas the reference provided a full set of step-by-step screenshots.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 15,
+    "domain": "tech",
+    "question": "How to set up a Gmail account? Provide a visual guide and text the steps.",
+    "reference_text": "1. Go to https://accounts.google.com in a browser. This will open the Google Account sign-in page. If you already have a Google account, you’ll need to sign out before you can continue. 2. Click Create account . You’ll find this small blue link near the bottom of the page, next to the Next button. 3. Select your account type from the menu. A menu will pop up with a few options to choose from. Select either For my personal use , For my child , or For work or my business . If you’re trying to create a business account, you might want to consider signing up for a Google Workspace account instead. The process for creating a child’s account is very similar to creating a personal account for yourself. You’ll need to provide information such as your child’s name, birthdate, and desired email address. However, you’ll also need to sign in with your Gmail account to provide parental consent for their account. 4. Enter your first and last name. Type your first name into the \"First name\" text box, then enter your last name in the \"Last name\" box underneath it. You must enter a first name, but the last name is optional. If you're creating a Gmail account for a friend or a child, enter their information in the fields provided. 5. Enter your birth date and gender. On the next page, you’ll be prompted to provide your birthdate (month, day, and year) and gender. If you don’t identify as male or female, select Custom to see additional options. You can also select Rather not say . Click Next when you’re done. Google asks for your birthdate because some Google services have specific age requirements. Google may also use this information to personalize your experience. If you decide to provide your gender, Google will use this information to personalize your account—e.g., by using your preferred pronouns in text that refers to you. 6. Select or create a custom email address. On the next page, you’ll be offered some automatically generated email addresses based on your name. If you don’t want any of those, select Create your own Gmail address and type in your preferred username. You can use a combination of letters, numbers, and periods. This is the text that will appear before “@gmail.com” in your email address. Click Next when you’re done. You must enter a unique username that isn't being used by someone else. If it's taken, you'll see: That username is taken. Try another. If the username you want is taken, add a number at the end or change the spelling. Sometimes Google will reject a username if it’s extremely similar to one that somebody else is using (even if there are slight differences), if someone else had that username in the past and then deleted it, or if Google has reserved the name to prevent abuse or spam. 7. Enter and confirm your new password. Type your preferred password into the \"Password\" text box, then type the same password into the \"Confirm\" box underneath it. Check the Show password box to see what you are typing. Click Next when you’re done. These passwords must match before you can proceed. Make sure to use a strong password to avoid any unauthorized access to your account. 8. Enter a recovery email. Google will contact you at your recovery email address if something goes wrong with your new account—e.g. if you get locked out or Google detects unusual activity from your address. Click Next when you’re done. If you don’t have an alternate email, or if you’d rather set up recovery options later, click Skip . 9. Review your info and select Next . On the next page, you’ll see your new account name and email address. If it looks good, click Next . Otherwise, you can use your browser’s Back button to go back and make changes to the information you entered in the previous steps. 10. Agree to the Terms of Service. On the next page, you’ll be prompted to agree to Google’s terms and privacy policy. Once you’ve reviewed them, click I agree . If you change your mind, click Cancel instead. 11. Confirm your personalization options. A window will pop up asking if you want to agree to Google’s personalization options. Click Confirm to continue, or select More options to change your settings. 12. Customize your account settings. Once you verify your new address, you’ll be taken to the Google Account home page. From here, you can adjust settings such as: Your account recovery information. Add a recovery email here if you didn’t already, or add a phone number so you have two recovery options. Set a home address for a more personalized experience. For example, Google will show you weather reports and map results based on your address. Adjust your privacy and security settings and review privacy recommendations for your account. Add contacts or set up a family group. 13. Go to https://mail.google.com to access your Gmail. You should be automatically logged into your new account. If not, you’ll be prompted to sign in. The first time you visit this page, you’ll see options to customize your inbox, set a profile image, and add or import contacts. To write and send an email, click Compose in the top left corner. To see your emails, click the Inbox tab on the left side of the page. Use the tabs at the top of your inbox on the right to view different categories such as regular emails (in Primary ), marketing related emails (in Promotions ), or email notifications from various social media platforms (in Social ). In the menu on the left, you can also browse your drafts, sent emails, scheduled messages, your spam folder, and more. Adjust your settings by clicking the Settings icon at the top right side of the page. To sign out of your account, tap your initial or profile picture at the top right corner of the page, then select Sign Out .",
+    "reference_images": [
+      "data/tech/15_1.jpg",
+      "data/tech/15_2.jpg",
+      "data/tech/15_3.jpg",
+      "data/tech/15_4.jpg",
+      "data/tech/15_5.jpg",
+      "data/tech/15_6.jpg",
+      "data/tech/15_7.jpg",
+      "data/tech/15_8.jpg",
+      "data/tech/15_9.jpg",
+      "data/tech/15_10.jpg",
+      "data/tech/15_11.jpg",
+      "data/tech/15_12.jpg",
+      "data/tech/15_13.jpg"
+    ],
+    "generated_text": "Here you go—images first, then the written steps (kept separate like you asked).\n\n# Visual guide\n\nI’ve attached a 7-panel visual walkthrough that shows:\n\n1. opening Gmail and choosing **Create account**,\n2. entering your name,\n3. choosing a username,\n4. creating a password,\n5. verifying your phone,\n6. adding recovery email/birthday/gender, and\n7. accepting Privacy & Terms and landing in the inbox.\n\n# Text steps\n\n1. **Open Gmail sign-up**\n\n   * On a computer or phone browser, go to the Gmail sign-in page and click **Create account** → **For my personal use**.\n\n2. **Enter your name**\n\n   * Type your **First name** and **Last name**. Click **Next**.\n\n3. **Choose a Gmail address (username)**\n\n   * Enter a unique username (the part before **@gmail.com**).\n   * If it’s taken, try adding a dot, a middle initial, or a short number.\n   * Click **Next**.\n\n4. **Create a strong password**\n\n   * Make a password that’s at least 12 characters with a mix of letters, numbers, and symbols.\n   * Type it twice to confirm, then click **Next**.\n\n5. **Verify your phone number**\n\n   * Enter your mobile number, choose your country code, and click **Next**.\n   * Enter the SMS code you receive to confirm it’s you.\n\n6. **Add recovery & personal info**\n\n   * (Optional) **Recovery email**: helps you get back in if you forget your password.\n   * Enter your **Birthday** and **Gender** (you can choose rather-not-say).\n   * Click **Next**.\n\n7. **Review Privacy & Terms**\n\n   * Scroll through the key points (data, personalization, etc.).\n   * Click **I agree** (or **Accept**) to create the account.\n\n8. **You’re in!**\n\n   * You’ll land in the Gmail inbox. A short tour may pop up—feel free to follow it.\n\n---\n\n## Optional (recommended): Secure your account\n\n* **Turn on 2-Step Verification:** In your Google Account’s *Security* section, enable 2-Step and choose your preferred method (app prompt, SMS, or authenticator app).\n* **Save backup codes** somewhere safe.\n\n## Optional: Add Gmail on your phone\n\n* **Android:** Settings → **Passwords & accounts** (or **Accounts**) → **Add account** → **Google**, then sign in.\n* **iPhone/iPad:** Install the **Gmail** app, open it, and sign in.\n  (Or use iOS Settings → **Mail** → **Accounts** → **Add Account** → **Google**.)\n\nIf you want, I can also generate separate images focused on the phone setup or the 2-Step Verification flow.\n\",",
+    "generated_image": "GPT-thinking/tech/15.png",
+    "gemini_evaluation": {
+      "Question": "How to set up a Gmail account? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and images accurately describe the steps for setting up a Gmail account. The process shown is logical and factually correct according to Google's current sign-up flow."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "There is excellent coherency between the image and text. The text explicitly lists what each of the 7 panels in the visual guide shows, and the images perfectly match this description. The numbered steps also align with the visual flow."
+        ],
+        "Content Quality": [
+          4,
+          "The text is very well-written, clear, and easy to follow. The images are high quality and look like realistic UI mockups, but there are minor text rendering errors (e.g., 'Creste a Coogle Account' instead of 'Create a Google Account' in one panel), which slightly reduces the quality."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, safe, and provides a clear, aesthetically pleasing guide that is easy for a user to follow."
+        ],
+        "Completeness": [
+          5,
+          "The response provides a complete guide covering all the essential steps from start to finish. While the reference text is more granular, the generated response is more concise and includes important modern steps like phone verification, making it a fully functional and complete guide for a user."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. It provides a multi-panel image that visualizes the entire process, a clear text-based step-by-step guide, and valuable additional sections on securing the account and setting it up on a phone."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to set up a Gmail account? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and images accurately describe the steps for setting up a Gmail account. The process shown is logical and factually correct according to Google's current sign-up flow.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"There is excellent coherency between the image and text. The text explicitly lists what each of the 7 panels in the visual guide shows, and the images perfectly match this description. The numbered steps also align with the visual flow.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text is very well-written, clear, and easy to follow. The images are high quality and look like realistic UI mockups, but there are minor text rendering errors (e.g., 'Creste a Coogle Account' instead of 'Create a Google Account' in one panel), which slightly reduces the quality.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, safe, and provides a clear, aesthetically pleasing guide that is easy for a user to follow.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response provides a complete guide covering all the essential steps from start to finish. While the reference text is more granular, the generated response is more concise and includes important modern steps like phone verification, making it a fully functional and complete guide for a user.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. It provides a multi-panel image that visualizes the entire process, a clear text-based step-by-step guide, and valuable additional sections on securing the account and setting it up on a phone.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 4,
+    "domain": "tech",
+    "question": "How to Connect One Router to Another to Expand a Network？ Provide steps with images and text the steps.",
+    "reference_text": "1. Connect the modem to the first router. Use an Ethernet cable to connect to the WAN port of a router to the WAN/Internet port of the high-speed modem. For the purpose of this wikiHow, we will refer to the router that’s connected to the modem as “Router 1.\" Some routers act as a high-speed modem and router. If this is the case for Router 1, simply connect it to the cable that carries your internet connection. The WAN port may be labeled “Internet.” 2. Connect Router 1 to a computer. Use an Ethernet cable to connect from one of Router 1’s LAN ports to a computer’s Ethernet port. You can also connect to the router wirelessly using the wi-fi name and passkey. 3. Turn on the modem and Router 1. Allow a few moments for them both to boot up. 4. Open a web browser. You’ll need a web browser to connect to the admin user interface of Router 1. 5. Enter Router 1's IP address in the address bar. Type the IP address for Router 1 into the address bar at the top of your web browser. This opens the router's admin login screen. Check the user's manual or manufacturer's website to find the default IP address for Router 1. Here are some default IP addresses for common router brands: 2Wire: 192.168.1.1, 192.168.0.1, 192.168.1.254, 10.0.0.138 Apple: 10.0.0.1 Belkin: 192.168.1.1, 192.168.2.1, 10.0.0.2, 10.1.1.1 Dlink: 192.168.1.1, 192.168.0.1, 192.168.0.101, 192.168.0.30, 192.168.0.50, 192.168.15.1, 192.168.254.254, 192.168.1.254, 192.168.0.10, 192.168.15.1, 10.0.0.1, 10.0.0.2, 10.1.1.1, 10.90.90.90, Netgear: 192.168.0.1, 192.168.0.227 6. Log in using Router 1's admin username and password. This opens Router 1's admin user interface. Check the user's manual, or the manufacturer's website to find the default username and password for the Router 1. Most router's use \"admin\" as the username and password. You can also try \"Password\" or \"12345678\" as the password. For some router's, the username or password is left blank. If you’re using the right password but still can’t connect, check the user's manual or manufacturer's website to learn how to reset the router's to it's factory settings. 7. Enable DHCP on Router 1. This will allow Router 1 to assign all of the IP addresses in your network. You can usually find these settings under “Network settings,” or “LAN settings.” The admin user interface layout is different from one router make and model to another. In most cases, the DHCP server is turned on by default. 8. Test your network and internet connection. [6] X Trustworthy Source Microsoft Support Technical support and product information from Microsoft. Go to source Visit any website (like https://www.wikihow.com ) to verify that you can connect to the Internet. Make sure that the physical configuration of your network leaves room for one LAN port to be open on Router 1. 9. Disconnect Router 1 from the computer. Remove the Ethernet cable between Router 1 and the computer. Everything else can remain on and plugged in. 10. Plug the second router in and turn it on. Make sure you have a free electrical outlet and a computer near where you want the second router to be located. Plug it in and turn it on. For the purposes of this wikiHow, we will refer to the second router as \"Router 2\". 11. Connect a computer to the Router 2. Use an Ethernet cable to connect to the LAN port on Router 2. Then connect to the Ethernet port on a computer. 12. Type Router 2's IP address in the address bar of a web browser. This opens the admin login screen for Router 2. With most router's, the IP address is 192.168.0.1, 192.168.1.1, or 10.0.0.1. 13. Log in using Router 2's username and password. Use the default username and password to log in to the admin user interface for Router 2, just as you did with Router 1. Check the user's manual or manufacturer's website to find the default username and password. With most routers, \"admin\" is both the username and password. 14. Disable DHCP on Router 2. Since DHCP is enabled on Router 1, it should be disabled on Router 2 to prevent IP conflicts. Locate the DHCP settings in the admin user interface and switch the DHCP server to “Off.” 15. Assign a new IP address to Router 2. As of now, there’s a good possibility that Routers 1 and 2 have the same default IP address. To prevent IP conflicts, Router 2 needs to have a different IP address than Router 1. Find the area in the routers admin user interface called “LAN” or “Local Network.” There should be a box that contains the current IP address. Type a new IP address in place of the existing one. The new IP address on Router 2 must be on the same subnet as Router 1. This means the first three sets of numbers in the IP address should be the same as Router 1. Change the number after the third period in the IP address to something different from Router 1. It also can’t be an IP currently assigned to another device. 16. Configure Router 2's Wi-Fi name and passkey. They should be identical to Router 1. You should find these settings under a menu called “Wireless”, “Wi-Fi setup”, or something similar If you’re unsure of Router 1’s SSID and passkey, it should be printed on the device. Router 2 is not a wireless router, skip this step. 17. Disconnect the power from Router 2. Now that Router 2’s all set up, it’s a good idea to give it a restart—though, for now, leave the power unplugged instead of turning it right back on. 18. Connect the first router to the second router. Use an Ethernet cable to connect to a LAN port on Router 1. Then connect to the first LAN port on Router 2. Make sure you’re not plugging it into the WAN port as they look similar. 19. Plug Router 2 back in and turn it on. When the router comes back up, it will have the IP address you configured. As long as Router 1 has Internet access, Router 2 will now also be online. 20. Restart the computer that’s connected to Router 2. Anytime you connect a computer to a new network device, it's a good idea to restart your computer. 21. Connect other computers and devices. This can be done wirelessly , or by connecting Ethernet cables to unused LAN ports on either router. Router 1’s DHCP server will automatically assign each device its own IP address in the same subnet. Enjoy your expanded network!",
+    "reference_images": [
+      "data/tech/4_1.jpg",
+      "data/tech/4_2.jpg",
+      "data/tech/4_3.jpg",
+      "data/tech/4_4.jpg",
+      "data/tech/4_5.jpg",
+      "data/tech/4_6.jpg",
+      "data/tech/4_7.jpg",
+      "data/tech/4_8.jpg",
+      "data/tech/4_9.jpg",
+      "data/tech/4_10.jpg",
+      "data/tech/4_11.jpg",
+      "data/tech/4_12.jpg",
+      "data/tech/4_13.jpg",
+      "data/tech/4_14.jpg",
+      "data/tech/4_15.jpg",
+      "data/tech/4_16.jpg",
+      "data/tech/4_17.jpg",
+      "data/tech/4_18.jpg",
+      "data/tech/4_19.jpg",
+      "data/tech/4_20.jpg",
+      "data/tech/4_21.jpg"
+    ],
+    "generated_text": "# Images\n\n(I made four simple diagrams for you. If you want any of them tweaked—colors, labels, or brand-specific screenshots—say the word and I’ll regenerate.)\n\n1. **Overview: Two Ways to Connect One Router to Another**\n2. **LAN-to-LAN (Access Point mode) – step-by-step**\n3. **LAN-to-WAN (Router-behind-Router) – step-by-step**\n4. **Placement & Channel Planning**\n\n# Text Steps\n\n## Before you start\n\n* **Pick your method**\n\n  * **LAN-to-LAN (Access Point/AP mode)** — one big network, seamless roaming. *Recommended for most homes.*\n  * **LAN-to-WAN (Double NAT)** — creates a second, isolated network. *Good for guests, kids, or separating work gear.*\n* **What you need**: Router 1 (already on the internet), Router 2, one Ethernet cable (Cat5e or better), a laptop/phone to configure Router 2.\n\n---\n\n## Option A — LAN-to-LAN (Access Point/AP mode)  *(matches Image 2)*\n\nThis turns Router 2 into a simple access point/switch on the **same** network as Router 1.\n\n1. **Connect to Router 2**\n   Plug your laptop into a LAN port on Router 2 (or join its default Wi-Fi). Open its admin page.\n\n2. **Set Router 2 a fixed LAN IP on Router 1’s subnet**\n\n   * Example: if **Router 1** is `192.168.1.1` and its DHCP pool is `192.168.1.100–192.168.1.199`, set **Router 2** to **`192.168.1.2`**.\n   * Aim for an address **outside** Router 1’s DHCP pool to avoid conflicts.\n\n3. **Turn off DHCP on Router 2**\n   Router 1 will be the only device handing out addresses.\n\n4. **Wi-Fi settings on Router 2**\n\n   * For seamless roaming: **same SSID and password** as Router 1.\n   * Set **different channels** to reduce interference:\n\n     * 2.4 GHz: use **1/6/11** (pick a different one than Router 1).\n     * 5 GHz: pick a different channel band (auto is usually fine).\n\n5. **Wire it LAN-to-LAN**\n   Run an Ethernet cable from a **LAN port** on Router 1 to a **LAN port** on Router 2 (do **not** use Router 2’s WAN port).\n\n6. **Place Router 2 well**\n   Put it roughly midway between dead zones and Router 1 (see Image 4). Avoid metal cabinets, microwaves, and thick concrete walls.\n\n7. **Test**\n   Walk around with your phone—signal should stay strong and your device should keep one IP range (e.g., `192.168.1.x`).\n\n---\n\n## Option B — LAN-to-WAN (Router-behind-Router / Double NAT)  *(matches Image 3)*\n\nThis keeps Router 2 as a full router on a **different** subnet. Devices on Router 2 are isolated from Router 1 unless you add special rules.\n\n1. **Connect to Router 2**\n   Log into the admin page.\n\n2. **Use a different LAN subnet on Router 2**\n\n   * Example: leave **Router 1** at `192.168.1.1`.\n   * Set **Router 2** LAN to **`192.168.2.1`** (or any different private subnet). Keep **DHCP ON** on Router 2.\n\n3. **Wire it LAN-to-WAN**\n   Cable from a **LAN port** on Router 1 to the **WAN/Internet** port on Router 2. WAN on Router 2 should be set to **DHCP/Automatic**.\n\n4. **Wi-Fi settings**\n\n   * You can reuse the same SSID/password or choose a **different** name to make it clear which network is which (e.g., “Home-Guest”).\n\n5. **Test**\n   Devices on Router 2 should receive `192.168.2.x` addresses and have internet.\n   *(Note: gaming consoles, servers, or VPNs may need extra port forwarding because of double NAT.)*\n\n---\n\n## Quick Troubleshooting\n\n* **Can’t reach Router 2 after changing its IP?**\n  Temporarily set your laptop to a manual IP on that subnet (e.g., `192.168.1.10`) and browse to Router 2’s new address.\n* **IP conflict or no internet in AP mode?**\n  Make sure **DHCP is OFF** on Router 2 and its IP doesn’t sit inside Router 1’s DHCP pool.\n* **Wi-Fi drops or poor speeds?**\n  Move Router 2 farther from Router 1 and use different channels (1/6/11 on 2.4 GHz).\n* **Double NAT issues (Option B)**\n  If a device needs inbound connections (server, P2P, gaming), add **port forwarding** on **both** routers or switch to **Option A**.\n\n---\n\n## Summary\n\n* For one seamless home network, use **Option A (LAN-to-LAN/AP mode)**.\n* For a segregated guest or work network, use **Option B (LAN-to-WAN/Double NAT)**.\n\nIf you tell me your current router’s IP and DHCP range, I can plug in exact values for you.\n\",",
+    "generated_image": "GPT-thinking/tech/4.png",
+    "gemini_evaluation": {
+      "Question": "How to Connect One Router to Another to Expand a Network？ Provide steps with images and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and images are factually correct. The response accurately describes the two primary methods for connecting routers (LAN-to-LAN for an access point and LAN-to-WAN for a separate sub-network) and provides correct instructions for each."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text explicitly refers to the images (e.g., '*(matches Image 2)*'), and each diagram perfectly illustrates the corresponding section of the text. The overview, step-by-step connection diagrams, and placement guide all align perfectly with their textual descriptions."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is exceptional. The diagrams are clear, well-labeled, and effectively simplify complex network topologies. The text is well-structured, using headings, bullet points, and bold text to improve readability. The explanations are concise and easy for a user to understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The generated response is highly preferable to the reference. It's better organized by presenting two distinct, practical options and explaining the use case for each. This structure is more helpful for a user than the reference's single, very long list of steps. The inclusion of a troubleshooting section is also a major plus."
+        ],
+        "Completeness": [
+          4,
+          "The generated response covers two complete methods for connecting routers, which is more comprehensive than the reference's single method. However, the reference breaks down its one method into more granular, individual steps (21 steps vs. 7-8 per method). While the generated approach is better, it could be argued that it omits some micro-steps that a complete beginner might need, such as 'open web browser'."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. It provides four distinct diagrams covering different aspects of the process. It explains two different technical methods, discusses their pros and cons (seamless roaming vs. isolated network), and includes valuable extra information like channel planning and a troubleshooting guide. This goes well beyond a basic set of instructions."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Connect One Router to Another to Expand a Network？ Provide steps with images and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and images are factually correct. The response accurately describes the two primary methods for connecting routers (LAN-to-LAN for an access point and LAN-to-WAN for a separate sub-network) and provides correct instructions for each.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explicitly refers to the images (e.g., '*(matches Image 2)*'), and each diagram perfectly illustrates the corresponding section of the text. The overview, step-by-step connection diagrams, and placement guide all align perfectly with their textual descriptions.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is exceptional. The diagrams are clear, well-labeled, and effectively simplify complex network topologies. The text is well-structured, using headings, bullet points, and bold text to improve readability. The explanations are concise and easy for a user to understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly preferable to the reference. It's better organized by presenting two distinct, practical options and explaining the use case for each. This structure is more helpful for a user than the reference's single, very long list of steps. The inclusion of a troubleshooting section is also a major plus.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The generated response covers two complete methods for connecting routers, which is more comprehensive than the reference's single method. However, the reference breaks down its one method into more granular, individual steps (21 steps vs. 7-8 per method). While the generated approach is better, it could be argued that it omits some micro-steps that a complete beginner might need, such as 'open web browser'.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. It provides four distinct diagrams covering different aspects of the process. It explains two different technical methods, discusses their pros and cons (seamless roaming vs. isolated network), and includes valuable extra information like channel planning and a troubleshooting guide. This goes well beyond a basic set of instructions.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 95,
+    "domain": "tech",
+    "question": "How to turn off notifications on Instagram? Show visual steps and text the steps.",
+    "reference_text": "1. Open your iPhone's Settings . Tap the grey app with gears on it. This app is typically found on the Home Screen. 2. Tap Notifications . It's near the top of the menu. Doing so opens a list of all apps that currently support notifications. 3. Scroll down and tap Instagram . Apps here are listed alphabetically, so you'll find Instagram in the \"I\" section. If Instagram is not appearing, you may need to wait until you've received a notification from someone. If Instagram is still not appearing in the list, even after receiving a notification in the app, uninstall the Instagram app, restart your phone, and then install it again. When you launch the reinstalled app, select Allow Notifications when prompted, and Instagram should appear in the Notifications section of the Settings app. 4. Tap the white \"Allow Notifications\" switch . It's at the top of the screen. Tapping it will cause it to turn green , signifying that Instagram will send notifications to your iPhone. If you want to disable Instagram notifications completely, tap the green \"Allow Notifications\" switch and then skip the rest of this method. 5. Enable or disable other notifications. Tap the white switch to the right of each of the following options to enable them, or tap the green switch next to each of them to disable them: Sounds - Turn on or off Instagram sounds. Badge App Icon - Turn on or off Instagram badge icons, which are the numbers that display in the corner of the Instagram app when you have pending notifications. Show on Lock Screen - Turn on or off notifications that appear on your iPhone's Lock Screen. Show in History - Turn on or off notifications history for Instagram. Notifications history can be checked by swiping down from the top of the screen. Show as Banners - Turn on or off banner-style notifications, which display at the top of the screen when your iPhone is unlocked. 6. Select an alert style. Below the \"Show as Banners\" switch, tap either Temporary or Persistent . This option won't display if you have \"Show as Banners\" turned off. \"Temporary\" alerts appear briefly at the top of your iPhone's screen before disappearing, while \"Persistent\" alerts don't disappear until you swipe them away. 7. Set a preview option. This will determine whether or not you can see the content of an Instagram notification without opening it. Scroll down and tap Show Previews , then select one of the following options: Always (Default) - You will always see previews for Instagram notifications (e.g., \"Sarah liked your post\"). When Unlocked - You will see previews for Instagram notifications when your iPhone is unlocked. Never - You will never see previews for Instagram notifications. 8. Tap the \"Back\" button twice. It's in the top-left corner of the screen. This will take you back to the Notifications page, saving your changes in the process. Instagram will now send you notifications.",
+    "reference_images": [
+      "data/tech/95_1.jpg",
+      "data/tech/95_2.jpg",
+      "data/tech/95_3.jpg",
+      "data/tech/95_4.jpg",
+      "data/tech/95_5.jpg",
+      "data/tech/95_6.jpg",
+      "data/tech/95_7.jpg",
+      "data/tech/95_8.jpg"
+    ],
+    "generated_text": "# Visual steps (images)\n\nI’ve provided an 8-step visual guide above.\n\n# Text steps\n\n## Option 1 — Quick “Pause all” (temporary, in-app)\n\n1. Open Instagram → go to your **Profile** (bottom-right avatar).\n2. Tap the **☰** menu (top-right) → **Settings** (may appear as **Settings and activity**).\n3. Tap **Notifications**.\n4. Turn on **Pause all** and choose a duration (e.g., 15 min, 1, 2, 4, or 8 hours).\n   • This silences all push notifications for the time you select.\n\n## Option 2 — Turn off specific Instagram alerts (in-app)\n\n1. Instagram → **Profile** → **☰** → **Settings** → **Notifications**.\n2. Open each category and set to **Off**:\n\n   * **Messages and calls** → toggle **Message requests**, **Messages**, **Group requests**, **Calls**, **Video chats** → **Off**.\n   * **Posts, stories and comments** → set items like **Likes**, **Comments**, **First posts and stories**, **Mentions**, etc. → **Off**.\n   * **Following and followers**, **Live and Reels**, **From Instagram**, etc. → set each to **Off** as desired.\n3. (Optional) Scroll to **Email/SMS** and turn those **Off** if you don’t want emails or texts from Instagram.\n\n## Option 3 — Silence Instagram completely at the phone level (recommended for zero alerts)\n\n### iPhone (iOS)\n\n1. Open **Settings** app → **Notifications** → **Instagram**.\n2. Toggle **Allow Notifications** **Off**.\n\n   * (Optional) Also turn off **Sounds**, **Badges**, and all alert styles.\n\n### Android (steps may vary slightly by device)\n\n1. Open **Settings** → **Apps** (or **Apps & notifications**) → **Instagram** → **Notifications**.\n2. Toggle **Show notifications** **Off**.\n\n   * (Optional) Leave it On and turn individual **Notification categories** Off for fine-grained control.\n\n---\n\n### Tips\n\n* To mute a single chat: open the DM, tap the chat name, toggle **Mute messages** and/or **Mute call notifications**.\n* If you use **Focus/Do Not Disturb** (iPhone) or **Do Not Disturb** (Android), you can silence all apps—including Instagram—during certain times.\n\nIf you’d like, tell me your phone type (iPhone or Android) and I’ll tailor these steps exactly to your model.\n\",",
+    "generated_image": "GPT-thinking/tech/95.png",
+    "gemini_evaluation": {
+      "Question": "How to turn off notifications on Instagram? Show visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and images provide accurate and valid methods for turning off Instagram notifications. It correctly describes three different ways to achieve this on both iOS and Android."
+        ],
+        "Image-Text Coherency": [
+          2,
+          "There is a significant mismatch. The generated images illustrate 'Option 1' (pausing notifications within the app), but the text provides two other, more permanent options without any corresponding visuals. The reference shows the most common method (disabling via phone settings), which the generated text describes in 'Option 3' but fails to show visually."
+        ],
+        "Content Quality": [
+          3,
+          "The text is very well-structured, clear, and grammatically correct. However, the generated images are of low quality; they are blurry with noticeable compression artifacts, making the text and UI elements difficult to read."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable to the reference because it offers multiple solutions to the user's problem, from a temporary pause to a permanent block. It also helpfully includes instructions for both iPhone and Android, making it more universally useful. The structure is clear and user-friendly."
+        ],
+        "Completeness": [
+          3,
+          "While the text is very complete and covers multiple methods and operating systems, the visual component is incomplete. The prompt asks for 'visual steps', but images are only provided for one of the three methods described, leaving the other two (including the most permanent one) as text-only."
+        ],
+        "Content Richness": [
+          4,
+          "The text is significantly richer than the reference, providing three distinct methods, tips, and instructions for both major mobile operating systems. The images, however, only cover a single workflow. The overall richness is high due to the detailed and comprehensive text."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to turn off notifications on Instagram? Show visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and images provide accurate and valid methods for turning off Instagram notifications. It correctly describes three different ways to achieve this on both iOS and Android.\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"There is a significant mismatch. The generated images illustrate 'Option 1' (pausing notifications within the app), but the text provides two other, more permanent options without any corresponding visuals. The reference shows the most common method (disabling via phone settings), which the generated text describes in 'Option 3' but fails to show visually.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text is very well-structured, clear, and grammatically correct. However, the generated images are of low quality; they are blurry with noticeable compression artifacts, making the text and UI elements difficult to read.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable to the reference because it offers multiple solutions to the user's problem, from a temporary pause to a permanent block. It also helpfully includes instructions for both iPhone and Android, making it more universally useful. The structure is clear and user-friendly.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"While the text is very complete and covers multiple methods and operating systems, the visual component is incomplete. The prompt asks for 'visual steps', but images are only provided for one of the three methods described, leaving the other two (including the most permanent one) as text-only.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is significantly richer than the reference, providing three distinct methods, tips, and instructions for both major mobile operating systems. The images, however, only cover a single workflow. The overall richness is high due to the detailed and comprehensive text.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 36,
+    "domain": "tech",
+    "question": "How to scan a QR code on iPhone? Show easy visual steps and text the steps.",
+    "reference_text": "1. Open the Photos app. In most cases, you'll need the screenshot saved to your device in order to use the QR code. If you were sent a screenshot through Messages or another messaging service, be sure to save it to your gallery. As this is a recent feature, make sure to update your iOS version . 2. Open the screenshot. Locate the screenshot in your gallery and tap it. 3. Long-press the QR code. To long-press, tap and hold the code. A pop-up menu will open. You'll see several options, depending on the link. 4. Tap Open in Safari . If you have another preferred browser, you can select it. Additionally, if the link leads to a website that has a mobile app installed on your device, you can tap Open in (app) . You'll be redirected to the link immediately.",
+    "reference_images": [
+      "data/tech/36_1.jpg",
+      "data/tech/36_2.jpg",
+      "data/tech/36_3.jpg",
+      "data/tech/36_4.jpg"
+    ],
+    "generated_text": "Here are the **steps in text**, followed by the **visual** I generated above.\n\n# Text: How to scan a QR code on iPhone\n\n**Method 1 — Camera app (fastest)**\n\n1. Open the **Camera** app.\n2. Point the rear camera at the QR code (keep it centered and steady).\n3. When a banner pops up at the top, **tap it**.\n4. You’ll be taken to the link, app, or action.\n\n**Method 2 — Control Center QR Scanner**\n\n1. Open **Control Center** (swipe down from the top-right on Face ID models; swipe up from the bottom on Home-button models).\n2. Tap the **QR Code Scanner** tile (looks like a small QR inside a rounded square).\n3. Aim at the code and follow the prompt.\n\n**Tips if it doesn’t scan**\n\n* Increase room or screen **brightness** and avoid glare.\n* **Move closer** or farther until the code is sharp; keep it flat in frame.\n* **Rotate** the code 90° if it’s at an odd angle.\n* For tickets/passes, you may see **“Add to Wallet”**—use that instead of the link.\n\n# Visual: “Scan a QR Code on iPhone”\n\n(Infographic generated above: shows 4 numbered panels—Open Camera → Point at code → Tap the banner → Open the link—plus an extra panel for the Control Center scanner and a short Tips list.)\n\",",
+    "generated_image": "GPT-thinking/tech/36.png",
+    "gemini_evaluation": {
+      "Question": "How to scan a QR code on iPhone? Show easy visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image provide factually correct and valid methods for scanning a QR code on an iPhone. While it demonstrates a different method (using the Camera app) than the reference (scanning from a photo), it is a very common and accurate way to answer the question."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated infographic perfectly visualizes the steps described in the text. Each panel in the image corresponds directly to a step or tip mentioned in the text explanation, creating a very strong and clear connection between the visual and textual elements."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the image and text is excellent. The infographic is clean, professionally designed, and easy to understand. The text is well-structured, clearly written, and uses formatting effectively to guide the reader through the steps."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The infographic format is an ideal way to present this type of instructional content, making it easy to digest at a glance."
+        ],
+        "Completeness": [
+          5,
+          "The response completely fulfills the user's request by providing both visual and text steps. It covers the primary method (Camera app) in detail and offers a complete guide for that process."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is very rich. It provides two different methods for scanning a QR code (Camera app and Control Center) and also includes a valuable 'Tips' section for troubleshooting. This is more comprehensive than the reference, which only shows one method."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to scan a QR code on iPhone? Show easy visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image provide factually correct and valid methods for scanning a QR code on an iPhone. While it demonstrates a different method (using the Camera app) than the reference (scanning from a photo), it is a very common and accurate way to answer the question.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated infographic perfectly visualizes the steps described in the text. Each panel in the image corresponds directly to a step or tip mentioned in the text explanation, creating a very strong and clear connection between the visual and textual elements.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is excellent. The infographic is clean, professionally designed, and easy to understand. The text is well-structured, clearly written, and uses formatting effectively to guide the reader through the steps.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The infographic format is an ideal way to present this type of instructional content, making it easy to digest at a glance.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely fulfills the user's request by providing both visual and text steps. It covers the primary method (Camera app) in detail and offers a complete guide for that process.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is very rich. It provides two different methods for scanning a QR code (Camera app and Control Center) and also includes a valuable 'Tips' section for troubleshooting. This is more comprehensive than the reference, which only shows one method.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 32,
+    "domain": "tech",
+    "question": "How to block a phone number on Android? Show screenshot steps and text the steps.",
+    "reference_text": "1. Open your Android's Phone app. This phone-shaped app should be on your Android's Home Screen. If you're not on a Samsung, jump ahead to our methods for Pixel or Nexus phones , LG phones , or HTC phones . 2. Tap ⋮ . This three-dot icon is in the top-right corner of the Phone screen. Doing so prompts a drop-down menu. [1] X Expert Source Mitch Harris Consumer Technology Expert Expert Interview 3. Tap Settings . This option is at the bottom of the drop-down menu. 4. Tap Block numbers . It's below the \"CALL SETTINGS\" heading near the middle of the screen. 5. Enter a number. Tap the text field below the \"Add phone number\" heading, then type in the number you want to block. 6. Tap Done . This button is in the keypad at the bottom of the screen. Doing so will save the number to your Samsung's block list and your phone will not ring when that number tries to call you. To unblock numbers, return to this page and tap the trashcan icon next to the number you want to unblock. Some Samsung models and only a few carriers support Smart Call, which is a Caller ID feature that lets you block unknown calls that aren't in your Contacts. To enable this, go to ⋮ > Settings and enable the switch next to \"Caller ID and spam protection.\" With this enabled, you'll be able to block calls as they are incoming by tapping the Block button at the bottom of your screen. [6] X Expert Source Mitch Harris Consumer Technology Expert Expert Interview",
+    "reference_images": [
+      "data/tech/32_1.jpg",
+      "data/tech/32_2.jpg",
+      "data/tech/32_3.jpg",
+      "data/tech/32_4.jpg",
+      "data/tech/32_5.jpg",
+      "data/tech/32_6.jpg"
+    ],
+    "generated_text": "# Text steps (Android)\n\n> Works on most Android phones. Names can vary a little by brand (e.g., **Pixel/Google Phone** vs **Samsung One UI**).\n\n## A) Fastest way — from Recents\n\n1. Open the **Phone** app.\n2. Tap **Recents** (or **Call history**).\n3. Tap the number (or the **ⓘ / Details** icon).\n4. Choose **Block/report spam** (Samsung: **Block** or **Block number**).\n5. (Optional) Check **Report as spam**, then tap **Block** to confirm.\n\n## B) Add a number manually (no recent call)\n\n* **Pixel / Google Phone:** Phone app → **⋮** (top-right) → **Settings** → **Blocked numbers** → **Add a number** → enter it → **Block**.\n* **Samsung:** Phone app → **⋮** → **Settings** → **Block numbers** → **Add phone number** (or toggle **Block unknown/private numbers**) → **+**/**Add**.\n\n## C) Block a saved contact\n\n1. Open the **Contacts** (or in Phone → **Contacts** tab).\n2. Open the contact → **⋮** → **Block numbers**/**Block contact** → **Block**.\n\n## D) Block texts from Messages (optional)\n\n* **Google Messages:** Open the conversation → **⋮** → **Details** → **Block & report spam** → **Block**.\n* **Samsung Messages:** Open the thread → **⋮** → **Block number** → **Block**.\n\n## Unblock later\n\n* Go back to **Phone app → Settings → Blocked numbers** (Samsung: **Block numbers**) and remove the entry, or open the contact and tap **Unblock**.\n\n---\n\n# Screenshots (generated)\n\nSee the images above: they illustrate the quick block from **Recents**, the **Block/report spam** menu, the **Block number?** confirmation, and the **Blocked numbers** settings page.\n\",",
+    "generated_image": "GPT-thinking/tech/32.png",
+    "gemini_evaluation": {
+      "Question": "How to block a phone number on Android? Show screenshot steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text provides accurate and valid instructions for several different methods of blocking a phone number on Android. The images are also realistic and correctly depict the process described."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The images perfectly illustrate the first and most common method described in the text (Method A: Fastest way — from Recents). The final text block explicitly calls out what the screenshots are showing, and it matches the images exactly."
+        ],
+        "Content Quality": [
+          5,
+          "The images are clear, realistic, and look like genuine screenshots. The text is very well-structured with clear headings, bolding, and bullet points, making it exceptionally easy to read and follow. The grammar and language are perfect."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with user intent. It's a clear, helpful, and safe tutorial. The structured format is much more user-friendly than the reference's single block of text."
+        ],
+        "Completeness": [
+          5,
+          "The generated answer is very complete. It provides both screenshot steps and text steps as requested. It covers the primary method with images and then provides text-only steps for several other relevant methods, which is a comprehensive way to answer the question."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is significantly richer than the reference. It provides multiple methods for blocking a number (from recents, manually, from contacts, from messages), includes variations for different Android versions (Pixel vs. Samsung), and also explains how to unblock a number. This is far more detailed and helpful than the single method provided in the reference."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to block a phone number on Android? Show screenshot steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text provides accurate and valid instructions for several different methods of blocking a phone number on Android. The images are also realistic and correctly depict the process described.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The images perfectly illustrate the first and most common method described in the text (Method A: Fastest way — from Recents). The final text block explicitly calls out what the screenshots are showing, and it matches the images exactly.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The images are clear, realistic, and look like genuine screenshots. The text is very well-structured with clear headings, bolding, and bullet points, making it exceptionally easy to read and follow. The grammar and language are perfect.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with user intent. It's a clear, helpful, and safe tutorial. The structured format is much more user-friendly than the reference's single block of text.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated answer is very complete. It provides both screenshot steps and text steps as requested. It covers the primary method with images and then provides text-only steps for several other relevant methods, which is a comprehensive way to answer the question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is significantly richer than the reference. It provides multiple methods for blocking a number (from recents, manually, from contacts, from messages), includes variations for different Android versions (Pixel vs. Samsung), and also explains how to unblock a number. This is far more detailed and helpful than the single method provided in the reference.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 29,
+    "domain": "tech",
+    "question": "How to Adjust Brightness on Windows 10 Using the Keyboard? Provide visual steps and text the steps.",
+    "reference_text": "1. Find the appropriate keys on your keyboard. Windows 10 PCs allow you to adjust your brightness using hotkeys on your keyboard. These hotkeys are represented by two different images of a sun, one for increasing and another for decreasing brightness. Find the keys on your keyboard to get started. These hotkeys will look slightly different on every computer. They are often differentiated by a filled-in sun (decrease) and an empty sun (increase) or a sun with dots for rays (decrease) and a sun with lines for rays (increase). Also be on the lookout for arrows pointing upwards or downwards, indicating an increase or decrease in brightness. These hotkeys will be mapped onto different buttons on different keyboards. Check out your left and right arrow keys, or the function keys (F1, F2, etc.) lining the top of your keyboard. 2. Hold down the \"Fn\" key on your keyboard. The brightness hotkeys are not the primary function of the keys they are mapped onto. You'll therefore needed to hold down the Fn key while you adjust your screen's brightness. 3. Tap the appropriate hotkeys. While holding Fn , tap the corresponding hotkeys to turn your PC's brightness up or down.",
+    "reference_images": [
+      "data/tech/29_1.jpg",
+      "data/tech/29_2.jpg",
+      "data/tech/29_3.jpg"
+    ],
+    "generated_text": "## Visual steps (image)\n\nI made a one-page visual guide showing four keyboard methods.\n\n---\n\n## Text steps\n\n### Method 1 — Laptop brightness keys\n\n1. Find the brightness keys on the top row (usually sun icons).\n2. Press the **increase** or **decrease** brightness key.\n3. If nothing happens, hold **Fn** and press the brightness key.\n4. If your keyboard has **Fn Lock** (often **Fn + Esc**), toggle it and try again.\n\n### Method 2 — Action Center (works on most devices)\n\n1. Press **Win + A** to open Action Center.\n2. Press **Tab** until the **brightness slider** is selected.\n3. Use **Left/Right Arrow** to adjust brightness.\n4. Press **Esc** to close.\n\n### Method 3 — Windows Mobility Center (laptops)\n\n1. Press **Win + R**, type **mblctr**, press **Enter**.\n2. Press **Tab** to focus **Display brightness**.\n3. Use **Left/Right Arrow** to adjust.\n4. Press **Alt + F4** to close.\n\n### Method 4 — Settings via keyboard (fallback)\n\n1. Press **Win + I** to open Settings.\n2. Type **brightness**, press **Enter** to open Display settings.\n3. **Tab** to the **Change brightness** slider and use **Left/Right Arrow**.\n\n#### Notes & tips\n\n* On **desktops/external monitors**, keyboard brightness keys usually won’t work—use the monitor’s buttons or its vendor app.\n* If there’s no brightness slider: update your display driver and ensure your display shows as **Generic PnP Monitor** in Device Manager.\n\",",
+    "generated_image": "GPT-thinking/tech/29.png",
+    "gemini_evaluation": {
+      "Question": "How to Adjust Brightness on Windows 10 Using the Keyboard? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are factually correct. All four methods described are valid ways to adjust screen brightness on Windows 10 using keyboard shortcuts."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is an excellent visual summary of the four methods described in the text. Each quadrant of the image corresponds directly to one of the text-based methods, creating perfect coherency."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and well-designed infographic. The text is well-structured, easy to follow, and grammatically correct. The overall quality is very professional."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with user preference. It's clean, professional, and provides a very helpful and easy-to-understand guide. The infographic format is particularly effective."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It not only answers the primary question (using dedicated brightness keys) but also provides several alternative keyboard-based methods, which is extremely helpful for users whose keyboards might not have dedicated keys."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. It offers four distinct methods compared to the reference's single method. The inclusion of a \"Notes & tips\" section further adds to the richness of the information provided."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Adjust Brightness on Windows 10 Using the Keyboard? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are factually correct. All four methods described are valid ways to adjust screen brightness on Windows 10 using keyboard shortcuts.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is an excellent visual summary of the four methods described in the text. Each quadrant of the image corresponds directly to one of the text-based methods, creating perfect coherency.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-designed infographic. The text is well-structured, easy to follow, and grammatically correct. The overall quality is very professional.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with user preference. It's clean, professional, and provides a very helpful and easy-to-understand guide. The infographic format is particularly effective.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It not only answers the primary question (using dedicated brightness keys) but also provides several alternative keyboard-based methods, which is extremely helpful for users whose keyboards might not have dedicated keys.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. It offers four distinct methods compared to the reference's single method. The inclusion of a \\\"Notes & tips\\\" section further adds to the richness of the information provided.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 18,
+    "domain": "tech",
+    "question": "How to check battery health on iPad? Provide steps with screenshots and text the steps.",
+    "reference_text": "1. Open your Settings app. The app has a gray icon with a gear on it. You can use this method to check your battery health on any iPad model, including iPad Pro and iPad Air. 2. Navigate to Privacy & Security . You will have to scroll a bit to find this option, as it's at the bottom of the section that begins with General . 3. Click on Analytics & Improvements . It's near the bottom of the screen. 4. Ensure Share iPad Analytics is toggled. If this setting isn't toggled on, your iPad will not generate the logs needed to decipher your battery health. If you just toggled this setting on now, you'll need to wait a minimum of 24 hours for your iPad to create the correct analytics log. 5. Click on Analytics Data . A list of logs should pop up. 6. Find the most recent Analytics log. You are looking for a log that is titled Analytics . The numbers after Analytics are a date, so select the one that is the most recent. Logs titled analyticsd.diskwrites will not work for this method. If you're on iOS 15 or earlier, the correct analytics log will be titled log-aggregated . 7. Copy the log into a text editor. You can use the Notes app on your iPad or you can export the log file to a computer. 8. Search for MaximumCapacityPercent . The number after that phrase is your current maximum battery capacity. This number is a percentage, so if your log gives you a 90 after this number, your battery capacity is at 90%. You can search the log by using Find in Note if you're using the Notes app. Find in Note is located under the three-dot menu in the upper right-hand corner. On a computer, you can use the Find function , which is available in most text editors by clicking Ctrl + F on Windows or Cmd + F Mac. 9. Search for CycleCount . The number after that phrase is the current battery cycle count. Every time your iPad battery is charged from 0 to 100, that counts as a cycle. Apple says that iPads should maintain about 80% of total battery capacity after 1000 cycles.",
+    "reference_images": [
+      "data/tech/18_1.jpg",
+      "data/tech/18_2.jpg",
+      "data/tech/18_3.jpg",
+      "data/tech/18_4.jpg",
+      "data/tech/18_5.jpg",
+      "data/tech/18_6.jpg",
+      "data/tech/18_7.jpg",
+      "data/tech/18_8.jpg",
+      "data/tech/18_9.jpg"
+    ],
+    "generated_text": "Here are the **text steps** (separate from the screenshots you see above):\n\n# Method A — If your iPad shows “Battery Health”\n\n1. Open **Settings**.\n2. In the left sidebar, tap **Battery**.\n3. Tap **Battery Health** (if it appears).\n4. Review the info:\n\n   * **Maximum Capacity** (overall battery health as a %).\n   * **Cycle Count** (how many full charge cycles).\n   * Any status note like **“Service Recommended.”**\n\n# Method B — If “Battery Health” isn’t shown (older iPadOS)\n\n1. Open **Settings** → **Privacy & Security**.\n2. Tap **Analytics & Improvements** → **Analytics Data**.\n3. Open the most recent file named **log-aggregated-YYYY…**.\n4. Scroll through the text and find lines such as:\n\n   * **BatteryCycleCount:** *number* (your charge cycles)\n   * **MaximumCapacityPercent:** *number* (approx capacity %)\n     If Analytics Data is empty, turn on **Share iPad Analytics** and check again after a day or two.\n\n# Quick tips to interpret\n\n* A **cycle** ≈ one full discharge/charge (e.g., 50% → 100% twice ≈ 1 cycle).\n* If you see **Maximum Capacity** notably below ~80% or a **Service Recommended** message, your battery is significantly worn—consider contacting Apple Support.\n\nIf you want, I can tailor the steps to your exact iPad model and iPadOS version.\n\",",
+    "generated_image": "GPT-thinking/tech/18.png",
+    "gemini_evaluation": {
+      "Question": "How to check battery health on iPad? Provide steps with screenshots and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The generated text is factually correct and provides valid methods for checking iPad battery health. However, the response completely fails to provide the requested images (screenshots), which was a core part of the prompt. This is a major failure in correctness regarding the output format."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "No images were generated, so there is no image-text coherency to evaluate."
+        ],
+        "Content Quality": [
+          2,
+          "The text quality is high; it's well-structured, clear, and grammatically correct. However, the overall content quality is poor because it completely omits the visual component (screenshots) which is crucial for a step-by-step guide of this nature."
+        ],
+        "Human Preference Alignment": [
+          4,
+          "The text is helpful, safe, and well-intentioned. It provides useful information. It scores highly on this front, but is docked a point for failing to adhere to the user's explicit request for images."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It provides the text steps but entirely omits the screenshots that were explicitly requested in the prompt."
+        ],
+        "Content Richness": [
+          2,
+          "The text is arguably richer than the reference, as it provides two distinct methods depending on the iPadOS version. However, the complete lack of any images makes the overall response significantly less rich than the reference, which includes 9 helpful screenshots."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to check battery health on iPad? Provide steps with screenshots and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated text is factually correct and provides valid methods for checking iPad battery health. However, the response completely fails to provide the requested images (screenshots), which was a core part of the prompt. This is a major failure in correctness regarding the output format.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"No images were generated, so there is no image-text coherency to evaluate.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The text quality is high; it's well-structured, clear, and grammatically correct. However, the overall content quality is poor because it completely omits the visual component (screenshots) which is crucial for a step-by-step guide of this nature.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The text is helpful, safe, and well-intentioned. It provides useful information. It scores highly on this front, but is docked a point for failing to adhere to the user's explicit request for images.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It provides the text steps but entirely omits the screenshots that were explicitly requested in the prompt.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is arguably richer than the reference, as it provides two distinct methods depending on the iPadOS version. However, the complete lack of any images makes the overall response significantly less rich than the reference, which includes 9 helpful screenshots.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 14,
+    "domain": "tech",
+    "question": "How to turn on dark mode in Windows 10? Provide a visual guide and text the steps.",
+    "reference_text": "1. Open Settings. This app has a settings gear on a colored background. You can also open it by going to the start menu and clicking on the . 2. Click on Personalization . This option is the fifth option in the main menu. 3. Click on Colors . This option is the second option on the left pane. 4. Click on the dropdown menu. This menu is located underneath the theme preview. Light will make the taskbar and start menu light and the apps light. Dark will make the taskbar and start menu dark and the apps dark. Custom will allow you to choose which color you want the taskbar and start menu to be. By default, the taskbar is dark and the apps are light. 5. Choose \"Dark\". This will make apps and Windows dark. Some app modes, such as those for Microsoft Edge and Microsoft Office, need to be configured separately.",
+    "reference_images": [
+      "data/tech/14_1.jpg",
+      "data/tech/14_2.jpg",
+      "data/tech/14_3.jpg",
+      "data/tech/14_4.jpg",
+      "data/tech/14_5.jpg"
+    ],
+    "generated_text": "Here you go!\n\n# Visual Guide\n\n[Download the image guide](sandbox:/mnt/data/A_series_of_six_instructional_screenshots_arranged.png)\n\n# Text Steps (Windows 10 Dark Mode)\n\n1. Open Settings\n\n* Click the **Start** button → select the **⚙️ Settings** gear.\n\n2. Go to Personalization\n\n* In Settings, click **Personalization**.\n\n3. Open Colors\n\n* From the left sidebar, choose **Colors**.\n\n4. Choose Dark (quick method)\n\n* Find **Choose your color** and select **Dark** from the dropdown.\n  — This switches both Windows elements (Start, taskbar) and apps to dark.\n\n5. If you see “Custom” instead\n\n* Set **Choose your default Windows mode** → **Dark** (affects Start/taskbar).\n* Set **Choose your default app mode** → **Dark** (affects apps).\n\n6. (Optional) Make it look nicer\n\n* Scroll down to **Transparency effects** to toggle on/off.\n* Under **Choose your accent color**, pick a color and check **Start, taskbar, and action center** and **Title bars and window borders** if you want color accents with dark mode.\n\nYou’re done! Your taskbar, Start menu, and supported apps should now use dark backgrounds.\n\",",
+    "generated_image": "GPT-thinking/tech/14.png",
+    "gemini_evaluation": {
+      "Question": "How to turn on dark mode in Windows 10? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image both provide a correct and accurate step-by-step guide for turning on dark mode in Windows 10."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image perfectly illustrates the steps described in the generated text. Each panel in the composite image corresponds directly to a step in the textual instructions, creating a highly coherent guide."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality composite of clear, realistic screenshots with helpful annotations. The text is well-structured, grammatically correct, and easy to follow."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with the user's request for a helpful visual guide. The content is safe, clear, and professional."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is more complete than the reference. It not only covers the primary method but also explains the 'Custom' settings and optional aesthetic tweaks, providing a comprehensive answer."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is richer than the reference. The text provides more detail and context (e.g., explaining the difference between Windows mode and app mode). The composite image effectively combines multiple steps into a single, easy-to-follow visual narrative."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to turn on dark mode in Windows 10? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image both provide a correct and accurate step-by-step guide for turning on dark mode in Windows 10.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image perfectly illustrates the steps described in the generated text. Each panel in the composite image corresponds directly to a step in the textual instructions, creating a highly coherent guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality composite of clear, realistic screenshots with helpful annotations. The text is well-structured, grammatically correct, and easy to follow.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with the user's request for a helpful visual guide. The content is safe, clear, and professional.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is more complete than the reference. It not only covers the primary method but also explains the 'Custom' settings and optional aesthetic tweaks, providing a comprehensive answer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is richer than the reference. The text provides more detail and context (e.g., explaining the difference between Windows mode and app mode). The composite image effectively combines multiple steps into a single, easy-to-follow visual narrative.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 87,
+    "domain": "tech",
+    "question": "How to Turn Off Your iPhone? Provide visual steps and text the steps.",
+    "reference_text": "1. Press and hold a volume button and the right side button simultaneously. It doesn't matter which volume button you press. After holding down these buttons for a few seconds, a slider will appear on the screen. If you don't hold down long enough, you might take a screenshot . 2. Drag the slider to the right. This powers off your iPhone. It can take up to 30 seconds for your iPhone to power down. 3. Press and hold the right side button to turn the iPhone back on. You can lift your finger from the button once the Apple logo appears. You may need to wait a few moments until you can use your iPhone . If your device is unresponsive, you can perform a hard reset .",
+    "reference_images": [
+      "data/tech/87_1.jpg",
+      "data/tech/87_2.jpg",
+      "data/tech/87_3.jpg"
+    ],
+    "generated_text": "Here are the steps—first the visuals, then the text.\n\n# Visual Steps (image)\n\n*(Infographic above shows both methods: buttons and Settings.)*\n\n# Text Steps\n\n## Method 1 — Using the buttons\n\n1. On iPhones with **Face ID** (no Home button): **press and hold the Side button + either Volume button** together until the **“slide to power off”** slider appears.\n   On older iPhones with a **Home button** (Touch ID): **press and hold the Side (or Top) button** until the slider appears.\n\n2. **Drag the slider to the right** to power off.\n\n3. **Wait** a few seconds until the screen turns completely black.\n\n4. (Optional) **Turn it back on**: press and hold the **Side button** until you see the Apple logo.\n\n> Tip: If you keep holding the buttons after the slider appears, some models may start **Emergency SOS**. If that happens, release the buttons and cancel SOS, then try again.\n\n## Method 2 — Using the Settings app (works even if buttons are broken)\n\n1. Open **Settings** → **General**.\n2. Scroll down and tap **Shut Down**.\n3. **Slide to power off**.\n\nThat’s it!\n\",",
+    "generated_image": "GPT-thinking/tech/87.png",
+    "gemini_evaluation": {
+      "Question": "How to Turn Off Your iPhone? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The text accurately describes two different methods for turning off an iPhone and even differentiates between models (Face ID vs. Home button), which is a crucial detail. The image correctly illustrates these two methods."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The infographic image perfectly corresponds to the two methods described in the text. It visually lays out the button combination for Method 1 and the navigation path in the Settings app for Method 2, directly aligning with the written steps."
+        ],
+        "Content Quality": [
+          5,
+          "The generated response is of very high quality. The infographic is clear, well-designed, and easy to understand. The text is well-structured with clear headings, bolding, and numbered lists, making it exceptionally easy to follow. The grammar and writing style are excellent."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The generated response is highly preferable. The infographic format is clean and efficient. The inclusion of two methods (buttons and settings) and the distinction between phone models makes the answer more useful and user-friendly than the reference. The layout is aesthetically pleasing and professional."
+        ],
+        "Completeness": [
+          5,
+          "The generated response completely answers the question. It provides full instructions for turning off the phone using the standard button method (including turning it back on) and also provides a complete alternative method through the Settings app, which the reference lacks."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. It provides two distinct methods, accounts for different iPhone models, and includes a helpful tip about the Emergency SOS feature. The single infographic conveys more information more efficiently than the three separate reference images."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Turn Off Your iPhone? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The text accurately describes two different methods for turning off an iPhone and even differentiates between models (Face ID vs. Home button), which is a crucial detail. The image correctly illustrates these two methods.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The infographic image perfectly corresponds to the two methods described in the text. It visually lays out the button combination for Method 1 and the navigation path in the Settings app for Method 2, directly aligning with the written steps.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated response is of very high quality. The infographic is clear, well-designed, and easy to understand. The text is well-structured with clear headings, bolding, and numbered lists, making it exceptionally easy to follow. The grammar and writing style are excellent.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly preferable. The infographic format is clean and efficient. The inclusion of two methods (buttons and settings) and the distinction between phone models makes the answer more useful and user-friendly than the reference. The layout is aesthetically pleasing and professional.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response completely answers the question. It provides full instructions for turning off the phone using the standard button method (including turning it back on) and also provides a complete alternative method through the Settings app, which the reference lacks.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. It provides two distinct methods, accounts for different iPhone models, and includes a helpful tip about the Emergency SOS feature. The single infographic conveys more information more efficiently than the three separate reference images.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 115,
+    "domain": "tech",
+    "question": "How to Use Emojis on a Mac? Provide illustrated steps and text the steps.",
+    "reference_text": "1. Click the Edit menu. Select “Special Characters” from the context menu. Note: Not all applications will support special characters. Alternatively, you can press Ctrl + ⌘ Command + Space on your keyboard to open the Special Characters pane, but you will need to repeat this process to insert more emojis. Click the icon in the top right corner of the pane to open the Special Characters window, which will allow you to insert multiple emojis at a time. 2. Click Emoji . You can find it in the left pane of the Special Characters window. 3. Drag and drop the Emoji icon of your choice into your text. If the program supports it, the emoji will appear where you place it.",
+    "reference_images": [
+      "data/tech/115_1.jpg",
+      "data/tech/115_2.jpg",
+      "data/tech/115_3.jpg"
+    ],
+    "generated_text": "# Illustrated Steps (image)\n\nI made a clean one-page infographic that shows each step.\n\n[Download the infographic](sandbox:/mnt/data/A_step-by-step_instructional_infographic_titled_%22U.png)\n\n---\n\n# Text Steps (for Mac)\n\n1. Put your cursor where you want the emoji\n   Click into any text field (Notes, Mail, Messages, browser, etc.). The emoji will insert at the cursor.\n\n2. Open the Emoji Picker (fastest)\n   Press **Control (⌃) + Command (⌘) + Space**. The Emoji & Symbols panel pops up.\n\n3. Browse or search\n   Use the left sidebar to switch categories, or type in the **Search** bar (e.g., “heart”, “party”, “cat”).\n\n4. Insert the emoji\n   Click an emoji to insert it. It appears immediately where your cursor is.\n\n5. Choose skin tone (when available)\n   On people/hand emojis, **click and hold** (or right-click) to pick a preferred skin tone. Your Mac remembers recent tones.\n\n6. Alternate ways to open the picker\n\n* **Menu bar:** **Edit → Emoji & Symbols** in most apps.\n* **Fn/Globe key:** On many Macs, press the **Fn (🌐) key** to show Emoji & Symbols.\n\n  * To customize: **System Settings → Keyboard → “Press Fn key to:” → Show Emoji & Symbols**.\n\n7. Quick tips\n\n* The picker shows a **Frequently Used** section for speed.\n* You can also insert **symbols** (arrows, math, currency) from the same panel.\n* If the panel is too small, click the tiny **expand** icon to open the full Character Viewer.\n\nThat’s it—happy 🌟 typing!\n\",",
+    "generated_image": "GPT-thinking/tech/115.png",
+    "gemini_evaluation": {
+      "Question": "How to Use Emojis on a Mac? Provide illustrated steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct and provide accurate instructions for using emojis on a Mac. The methods described, especially the keyboard shortcut, are the most common and up-to-date ways to perform this action."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is a clear infographic that visually represents the primary method described in the text (the keyboard shortcut). The text explicitly refers to the image as an illustrated guide, and the steps in the infographic directly correspond to the core steps detailed in the text section."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The infographic is well-designed, clean, and easy to understand. The text is well-structured, clearly written, and uses formatting (bolding, lists) effectively to improve readability."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. The infographic format is more engaging and easier to digest at a glance than a series of screenshots. The text is helpful, friendly, and provides useful tips, creating a very positive user experience."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is more complete than the reference. It not only covers the primary keyboard shortcut method in detail but also includes two alternate methods (Menu bar and Fn/Globe key) and additional tips like selecting skin tones and using the full Character Viewer."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The infographic is a content-rich visual aid. The text provides a wealth of information beyond the basic steps, including customization options, quick tips, and alternate methods, making it a comprehensive guide on the topic."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Use Emojis on a Mac? Provide illustrated steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct and provide accurate instructions for using emojis on a Mac. The methods described, especially the keyboard shortcut, are the most common and up-to-date ways to perform this action.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is a clear infographic that visually represents the primary method described in the text (the keyboard shortcut). The text explicitly refers to the image as an illustrated guide, and the steps in the infographic directly correspond to the core steps detailed in the text section.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The infographic is well-designed, clean, and easy to understand. The text is well-structured, clearly written, and uses formatting (bolding, lists) effectively to improve readability.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. The infographic format is more engaging and easier to digest at a glance than a series of screenshots. The text is helpful, friendly, and provides useful tips, creating a very positive user experience.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is more complete than the reference. It not only covers the primary keyboard shortcut method in detail but also includes two alternate methods (Menu bar and Fn/Globe key) and additional tips like selecting skin tones and using the full Character Viewer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The infographic is a content-rich visual aid. The text provides a wealth of information beyond the basic steps, including customization options, quick tips, and alternate methods, making it a comprehensive guide on the topic.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 70,
+    "domain": "tech",
+    "question": "How to update Apps on an iPad from App Store? Provide steps with images and text the steps.",
+    "reference_text": "1. Connect your iPad to a Wi-Fi network. You'll need to have internet access to check for and download updates. If your iPad has cellular data access, you can use it to download updates, but this will count against your data usage plan. Open the Settings app and tap Wi-Fi to find and connect to a wireless network. 2. Open the App Store . This looks like a white A with a blue background. You can usually find this on your home screen or in the App Library. Be sure to update your iPad to the latest version. If you don't see the App Store on your device, you may have parental controls enabled. If you're the device owner, you can easily turn it off . Otherwise, you'll need to contact the owner. 3. Tap your Apple ID picture. This will be in the top-right corner of the screen. A pop-up menu will open. 4. Scroll down to view apps. You'll see a list of installed apps underneath Upcoming Automatic Updates . By default, automatic updates are turned on. If it isn't you can always enable it . 5. Tap Update . This will be next to the app you need to update. If you want to update all available apps at once, tap Update All above the list of apps. When the app is finished updating, it will disappear from the list.",
+    "reference_images": [
+      "data/tech/70_1.jpg",
+      "data/tech/70_2.jpg",
+      "data/tech/70_3.jpg",
+      "data/tech/70_4.jpg",
+      "data/tech/70_5.jpg"
+    ],
+    "generated_text": "# Text steps (for iPad)\n\n1. Open the **App Store** on your iPad.\n2. Tap your **profile picture** in the top-right corner.\n3. On the **Account** page, **swipe down to refresh** the list of available updates.\n4. Under **Available Updates**, tap **Update All** to update everything, or tap **Update** next to specific apps.\n5. If asked, **authenticate** with Face ID, Touch ID, or your Apple ID password.\n6. Watch the **progress circle** next to each app. When it changes to **Open**, that app is updated.\n7. (Optional) Turn on automatic updates: **Settings → App Store → App Updates** **On**.\n\n*Tip: If you don’t see updates, confirm you’re signed in with the right Apple ID on the Account page and that you have a good internet connection.*\n\",",
+    "generated_image": "GPT-thinking/tech/70.png",
+    "gemini_evaluation": {
+      "Question": "How to update Apps on an iPad from App Store? Provide steps with images and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated text provides accurate and valid steps for updating apps on an iPad. The single image provided is also a correct representation of the App Store's update page. However, the overall answer is not entirely correct for the prompt, as it fails to provide a multi-image, step-by-step guide."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "There is a significant mismatch between the text and the image. The text describes a 7-step process, but only one image is provided, which illustrates parts of steps 1, 2, and 4. The request was for \"steps with images\" (plural), implying a sequence of images corresponding to the text steps, which was not delivered."
+        ],
+        "Content Quality": [
+          4,
+          "The text quality is excellent; it is clear, concise, grammatically correct, and easy to follow. The image is a high-quality, realistic screenshot of the iPad UI. The annotations are simple but effective."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is helpful, safe, and directly addresses the user's question without any undesirable elements. The generated answer is a useful guide, despite its structural flaws."
+        ],
+        "Completeness": [
+          2,
+          "The text portion is very complete and even more detailed than the reference, including steps like refreshing the list and authentication. However, the visual component is severely incomplete. The prompt requested a guide with images (plural) for the steps, but only provided one, failing to illustrate the entire process visually."
+        ],
+        "Content Richness": [
+          2,
+          "The text is rich, offering more detail and useful tips than the reference. Conversely, the image content is very poor. There is only one image, offering no variety and failing to provide the step-by-step visual context that the five images in the reference do."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to update Apps on an iPad from App Store? Provide steps with images and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated text provides accurate and valid steps for updating apps on an iPad. The single image provided is also a correct representation of the App Store's update page. However, the overall answer is not entirely correct for the prompt, as it fails to provide a multi-image, step-by-step guide.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a significant mismatch between the text and the image. The text describes a 7-step process, but only one image is provided, which illustrates parts of steps 1, 2, and 4. The request was for \\\"steps with images\\\" (plural), implying a sequence of images corresponding to the text steps, which was not delivered.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text quality is excellent; it is clear, concise, grammatically correct, and easy to follow. The image is a high-quality, realistic screenshot of the iPad UI. The annotations are simple but effective.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is helpful, safe, and directly addresses the user's question without any undesirable elements. The generated answer is a useful guide, despite its structural flaws.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The text portion is very complete and even more detailed than the reference, including steps like refreshing the list and authentication. However, the visual component is severely incomplete. The prompt requested a guide with images (plural) for the steps, but only provided one, failing to illustrate the entire process visually.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is rich, offering more detail and useful tips than the reference. Conversely, the image content is very poor. There is only one image, offering no variety and failing to provide the step-by-step visual context that the five images in the reference do.\"\n        ]\n    }\n}\n```"
+  }
+]

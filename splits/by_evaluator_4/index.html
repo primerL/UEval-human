@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEval Human Evaluation - Select Your Task</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+        }
+
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .info-box ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        .splits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .split-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+
+        .split-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .split-card h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .split-card .stats {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .split-card .domain-list {
+            margin: 10px 0;
+            font-size: 13px;
+            color: #666;
+        }
+
+        .split-card a {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .split-card a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .instructions {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .instructions h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .instructions ol {
+            margin-left: 20px;
+            line-height: 1.8;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 UEval Human Evaluation</h1>
+        <p class="subtitle">Select your evaluation task below</p>
+
+        <div class="info-box">
+            <h3>📊 About This Evaluation</h3>
+            <ul>
+                <li>Evaluate AI-generated multimodal outputs (images + text)</li>
+                <li>Rate on 6 criteria: Correctness, Image-Text Coherency, Content Quality, Human Preference, Completeness, Content Richness</li>
+                <li>Each rating uses a 0-5 scale (5 is best)</li>
+                <li>Your progress is automatically saved in your browser</li>
+            </ul>
+        </div>
+
+        <h2 style="margin-bottom: 20px;">Choose Your Evaluation Set:</h2>
+
+        <div class="splits-grid">
+
+            <div class="split-card">
+                <h3>Evaluator 1</h3>
+                <div class="stats">25 samples to evaluate</div>
+                <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(3), tech(3), textbook(4)</div>
+                <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator1.json">Start Evaluation →</a>
+            </div>
+        
+            <div class="split-card">
+                <h3>Evaluator 2</h3>
+                <div class="stats">25 samples to evaluate</div>
+                <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(3), tech(3), textbook(4)</div>
+                <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator2.json">Start Evaluation →</a>
+            </div>
+        
+            <div class="split-card">
+                <h3>Evaluator 3</h3>
+                <div class="stats">25 samples to evaluate</div>
+                <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(2), tech(3), textbook(5)</div>
+                <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator3.json">Start Evaluation →</a>
+            </div>
+        
+            <div class="split-card">
+                <h3>Evaluator 4</h3>
+                <div class="stats">25 samples to evaluate</div>
+                <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(2), tech(3), textbook(5)</div>
+                <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator4.json">Start Evaluation →</a>
+            </div>
+        
+        </div>
+
+        <div class="instructions">
+            <h3>📝 Instructions</h3>
+            <ol>
+                <li>Click on your assigned evaluation set above</li>
+                <li>For each sample, compare the reference (left) with generated content (right)</li>
+                <li>Rate all 6 criteria and provide brief reasoning</li>
+                <li>Click "Save Evaluation" to save your work</li>
+                <li>Use arrow keys (← →) for quick navigation</li>
+                <li>When finished, click "Download All Evaluations" to save your results</li>
+                <li>Send the downloaded JSON file back to the coordinator</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,740 @@
+[
+  {
+    "id": "DD_0150",
+    "domain": "textbook",
+    "question": "Can you explain how breathing works using a labeled diagram? I want to know how air gets to the lungs and how it leaves. Provide a diagram and explain.",
+    "reference_text": "This image shows the parts of the human respiratory system. Respiration involves taking in air filled with oxygen into the human body or lungs and releasing carbon dioxide from the body. Respiration involves breathing through the nose/nasal cavity. The air then travels down into the lungs through the pharynx, followed by the larynx and finally through the trachea. The lungs are located in the chest cavity or thoracic cavity along with the heart. The chest cavity are covered by ribs on the outside. The pleura lines the thoracic cavity and envelopes the lungs. The trachea is subdivided into two bronchi before it enters the lungs. The bronchi are further divided into tiny bronchioles inside the lungs. The bronchioles have a tree like structure. The lungs are separated from the abdominal cavity by the diaphragm. The diaphragm contracts while breathing in and relaxes when breathing out. The process of respiration is controlled by the respiratory centers located in the brain.",
+    "reference_images": [
+      "data/textbook/human_system_respiratory_1327.png"
+    ],
+    "generated_text": "# Text explanation (separate from the image)\n\nHere’s the path air takes in and out of your lungs, step by step:\n\n1. Inhalation (breathing in)\n\n* The diaphragm contracts and moves downward while the external intercostal muscles lift the ribs.\n* This expands the chest cavity, lowering the pressure inside the lungs below outside air pressure.\n* Air flows in through the **nose or mouth** → **pharynx** (throat) → **larynx** (voice box) → **trachea** (windpipe) → splits into **right and left bronchi** → smaller **bronchioles** → tiny air sacs called **alveoli**.\n\n2. Gas exchange in the alveoli\n\n* Each alveolus is wrapped in a web of capillaries.\n* **Oxygen (O₂)** diffuses from the air in the alveoli into the blood (where it binds to hemoglobin).\n* **Carbon dioxide (CO₂)** diffuses from the blood into the alveoli to be exhaled.\n\n3. Exhalation (breathing out)\n\n* The diaphragm relaxes and moves upward; the rib cage falls.\n* Chest volume decreases, pressure inside the lungs rises above outside air pressure.\n* Air flows out along the same path in reverse: **alveoli → bronchioles → bronchi → trachea → larynx → pharynx → nose/mouth**.\n* At rest this is mostly passive; during hard breathing, abdominal and internal intercostal muscles actively squeeze air out.\n\n4. Built-in protections & helpers\n\n* **Nasal hairs, mucus, and cilia** trap dust and pathogens and sweep them upward to be swallowed or coughed out.\n* The **epiglottis** guides food away from the airway when you swallow.\n* **C-shaped cartilage rings** in the trachea keep it open.\n\n5. Quick glossary\n\n* **Diaphragm:** dome-shaped muscle under the lungs that powers breathing.\n* **Alveoli:** tiny air sacs where gas exchange happens.\n* **Bronchi/bronchioles:** branching airways that distribute air within the lungs.\n\nIf you’d like, I can add callouts for common issues (like asthma narrowing the bronchioles) or show how exercise changes breathing mechanics.\n\n*(The labeled diagram image is provided separately above.)*\n",
+    "generated_image": "GPT-thinking/textbook/150.png",
+    "gemini_evaluation": {
+      "Question": "Can you explain how breathing works using a labeled diagram? I want to know how air gets to the lungs and how it leaves. Provide a diagram and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image is an anatomically correct diagram of the respiratory system, and the labels are accurate. The text explanation correctly describes the process of inhalation, exhalation, and gas exchange."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text explanation perfectly complements the diagram. All the major structures labeled in the image (Nasal cavity, Pharynx, Larynx, Trachea, Bronchi, Lungs, Diaphragm) are mentioned in the text as part of the air pathway. The diagram's depiction of diaphragm movement directly supports the textual explanation of inhalation and exhalation."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and easy-to-understand diagram. The text is exceptionally well-written and structured, using headings, bullet points, and bolded terms to enhance readability and comprehension."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. It's safe, appropriate, and provides a very clear and helpful educational answer. The formatting of the text is exemplary and makes the complex process easy to follow."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the user's question. It provides both the requested labeled diagram and a detailed explanation of how air gets to the lungs and how it leaves, covering both inhalation and exhalation."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is very rich in detail, much more so than the reference. It not only describes the path of air but also explains the mechanics of breathing (diaphragm and intercostal muscle movement, pressure changes), the process of gas exchange at the alveolar level, and built-in protective mechanisms. The glossary is a valuable addition."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Can you explain how breathing works using a labeled diagram? I want to know how air gets to the lungs and how it leaves. Provide a diagram and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image is an anatomically correct diagram of the respiratory system, and the labels are accurate. The text explanation correctly describes the process of inhalation, exhalation, and gas exchange.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explanation perfectly complements the diagram. All the major structures labeled in the image (Nasal cavity, Pharynx, Larynx, Trachea, Bronchi, Lungs, Diaphragm) are mentioned in the text as part of the air pathway. The diagram's depiction of diaphragm movement directly supports the textual explanation of inhalation and exhalation.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and easy-to-understand diagram. The text is exceptionally well-written and structured, using headings, bullet points, and bolded terms to enhance readability and comprehension.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. It's safe, appropriate, and provides a very clear and helpful educational answer. The formatting of the text is exemplary and makes the complex process easy to follow.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the user's question. It provides both the requested labeled diagram and a detailed explanation of how air gets to the lungs and how it leaves, covering both inhalation and exhalation.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is very rich in detail, much more so than the reference. It not only describes the path of air but also explains the mechanics of breathing (diaphragm and intercostal muscle movement, pressure changes), the process of gas exchange at the alveolar level, and built-in protective mechanisms. The glossary is a valuable addition.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0021",
+    "domain": "textbook",
+    "question": "I keep mixing up the layers of Earth's atmosphere. Can you walk me through them and show how they change with altitude? Provide an image and explain.",
+    "reference_text": "The Earth has five different layers in its atmosphere. The atmosphere layers vary by temperature. As the altitude in the atmosphere increases, the air temperature changes. The lowest layer is the troposphere, it gets some of its heat from the sun. However, it gets most of its heat from the Earth's surface. The troposphere is also the shortest layer of the atmosphere. It holds 75 percent of all the gas molecules in the atmosphere. The air is densest in this layer.",
+    "reference_images": [
+      "data/textbook/layers_of_atmosphere_7066.png"
+    ],
+    "generated_text": "# Text (explanation)\nHere’s a quick walkthrough of each atmospheric layer, from the ground up, and how temperature changes with height. (Use the diagram above as the visual.)\n\n**1) Troposphere (\\~0–8 km at poles; \\~0–18 km at tropics)**\n\n* **What it is:** The weather layer—clouds, storms, and most water vapor.\n* **Temperature trend:** **Decreases** with altitude (air expands and cools).\n* **Top boundary:** **Tropopause** (often around −50 to −60 °C); its height varies with latitude and season.\n\n**2) Stratosphere (\\~10–50 km)**\n\n* **What it is:** Home of the **ozone layer**; commercial jets often cruise in the lower stratosphere (smooth, stable air).\n* **Temperature trend:** **Increases** with altitude because ozone absorbs UV sunlight and warms this layer.\n* **Top boundary:** **Stratopause** (temperature peaks near 0 °C).\n\n**3) Mesosphere (\\~50–85 km)**\n\n* **What it is:** Where many **meteors burn up**; very thin, cold air.\n* **Temperature trend:** **Decreases** with altitude (little ozone heating, strong radiative cooling).\n* **Top boundary:** **Mesopause**—the **coldest** part of the atmosphere (often \\~−90 °C).\n\n**4) Thermosphere (\\~85–600+ km)**\n\n* **What it is:** Very thin gas that’s strongly affected by the Sun; overlaps the **ionosphere**, where **auroras** occur and radio signals refract.\n* **Temperature trend:** **Increases sharply** with altitude (atoms absorb energetic solar radiation); kinetic temperatures can be very high, though the air is too thin to feel “hot.”\n\n**5) Exosphere (\\~600–10,000 km)**\n\n* **What it is:** The outer fringe where atoms can escape to space; satellites orbit here (and in the upper thermosphere).\n* **Temperature trend:** Stays **high** in kinetic terms, but particle density is extremely low.\n\n---\n\n## How key properties change with altitude\n\n* **Pressure & density:** Drop off **exponentially**—half the atmosphere’s mass is below \\~5–6 km; \\~99% is below \\~30 km.\n* **Temperature profile:** Alternates with altitude due to different **heating mechanisms**\n\n * Cooling in the **troposphere** (expansion) → warming in the **stratosphere** (ozone UV absorption) → cooling in the **mesosphere** → warming in the **thermosphere** (solar extreme-UV absorption).\n* **Composition:** Below \\~80–100 km is the **homosphere** (well-mixed composition). Above that, lighter gases become more common (start of the **heterosphere**).\n* **Ionosphere:** Not a separate “layer” by altitude alone; it **overlaps** the mesosphere/thermosphere (\\~60–1,000 km) and is defined by ionization from solar radiation (important for auroras and radio).\n\nIf you’d like, I can add typical Celsius/°F scale values on the temperature curve or include example altitudes for planes, balloons, meteors, the ISS, and GPS satellites.\n",
+    "generated_image": "GPT-thinking/textbook/21.png",
+    "gemini_evaluation": {
+      "Question": "I keep mixing up the layers of Earth's atmosphere. Can you walk me through them and show how they change with altitude? Provide an image and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The layers of the atmosphere are listed in the correct order, the temperature trends are described accurately, and the key features of each layer (ozone, meteors, aurora) are correctly placed and explained."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text explicitly refers to the diagram, and every concept explained in the text (the five layers, the temperature curve, the location of planes, meteors, satellites) is visually represented in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, professional-looking infographic that is easy to understand. The text is well-structured with headings, bullet points, and bold text, making the information highly digestible. The language is clear and grammatically correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is safe, helpful, and provides a clear, educational answer to the user's question. The visual and textual presentation is aesthetically pleasing and user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It addresses all parts of the user's question, providing a walkthrough of the atmospheric layers, explaining how temperature changes with altitude, and including a supporting image. It covers all five standard layers of the atmosphere."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail. Beyond just listing the layers, it explains the reasons for the temperature changes (e.g., ozone absorption), mentions the boundary regions (tropopause, etc.), and provides extra context on pressure, density, and the ionosphere. The image is also rich, including icons, altitude in both km and miles, and a clear temperature graph."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I keep mixing up the layers of Earth's atmosphere. Can you walk me through them and show how they change with altitude? Provide an image and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The layers of the atmosphere are listed in the correct order, the temperature trends are described accurately, and the key features of each layer (ozone, meteors, aurora) are correctly placed and explained.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text explicitly refers to the diagram, and every concept explained in the text (the five layers, the temperature curve, the location of planes, meteors, satellites) is visually represented in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, professional-looking infographic that is easy to understand. The text is well-structured with headings, bullet points, and bold text, making the information highly digestible. The language is clear and grammatically correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is safe, helpful, and provides a clear, educational answer to the user's question. The visual and textual presentation is aesthetically pleasing and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It addresses all parts of the user's question, providing a walkthrough of the atmospheric layers, explaining how temperature changes with altitude, and including a supporting image. It covers all five standard layers of the atmosphere.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail. Beyond just listing the layers, it explains the reasons for the temperature changes (e.g., ozone absorption), mentions the boundary regions (tropopause, etc.), and provides extra context on pressure, density, and the ionosphere. The image is also rich, including icons, altitude in both km and miles, and a clear temperature graph.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0224",
+    "domain": "textbook",
+    "question": "How does a reflecting telescope form an image? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows the optics of a reflecting telescope. Light enters the aperture and strikes a large concave mirror at the back of the tube, called the objective. The mirror reflects the light inward to a small angled mirror, which redirects it to the eyepiece. The eyepiece lenses then focus the light into a clear image for the observer.",
+    "reference_images": [
+      "data/textbook/parts_telescope_8153.png"
+    ],
+    "generated_text": "# Written explanation\n\nA reflecting telescope forms an image using mirrors instead of a large front lens.\n\n1. **Light collection & focusing**\n   Parallel rays from a distant object enter the tube and strike a **concave primary mirror** (usually parabolic). Because the rays are nearly parallel, the parabolic surface reflects them so they **converge toward a common focus**. This creates a **real, inverted image** at the **focal plane**.\n\n2. **Fold/redirect the beam**\n   To reach a convenient viewing or instrument position, a **secondary mirror** intercepts the converging beam and redirects it:\n\n   * **Newtonian**: a small **flat** mirror at ~45° sends the light out the side of the tube to a focuser.\n   * **Cassegrain**: a small **convex** mirror sends the light back through a hole in the primary to the rear of the telescope.\n\n3. **Viewing or recording the image**\n\n   * An **eyepiece** acts like a magnifying glass that views the real image at the focal plane, producing a magnified virtual image for your eye.\n   * A **camera sensor** can be placed at the focal plane to record the image directly (prime focus).\n\n4. **Key relationships**\n\n   * **Magnification** (for visual use): ( M \\approx \\dfrac{f_{\\text{telescope}}}{f_{\\text{eyepiece}}} ).\n   * **Angular resolution (diffraction limit)**: ( \\theta \\approx 1.22,\\dfrac{\\lambda}{D} ), so a **larger aperture (D)** resolves finer detail.\n   * **Light-gathering power** scales with **area** (\\propto D^2), so bigger mirrors reveal fainter objects.\n\n5. **Practical notes**\n\n   * The central obstruction (secondary mirror) and its support can slightly reduce contrast and create diffraction spikes on bright stars.\n   * Reflectors avoid chromatic aberration (since mirrors reflect all wavelengths the same), but they must be **collimated** (optics precisely aligned) to perform at their best.\n   * Image orientation isn’t “upright”—it may appear **rotated and/or mirrored** depending on the design and accessories, which is fine for astronomy.\n\nIf you’d like, I can also generate a second image showing the Cassegrain light path or label additional components (spider vanes, focuser, focal plane detail, etc.).\n",
+    "generated_image": "GPT-thinking/textbook/224.png",
+    "gemini_evaluation": {
+      "Question": "How does a reflecting telescope form an image? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately depicts the light path in a Newtonian reflecting telescope, and the text provides a detailed and accurate explanation of the principles involved."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text and image are perfectly coherent. The text explicitly describes the components and light path of a Newtonian telescope, which is precisely what the diagram illustrates. The labels in the image correspond directly to the terms used in the explanation."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The generated image is a clear, well-labeled, and easy-to-understand diagram. The text is well-structured, using headings and bullet points, making it highly readable and informative. The language is precise and the grammar is correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The diagram is clean and professional, and the text is formatted for easy comprehension."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It fully answers the question by providing both a detailed written explanation and a clear illustrative image, covering all the essential steps of image formation in a reflecting telescope."
+        ],
+        "Content Richness": [
+          5,
+          "The response is exceptionally rich in content. The text goes far beyond a basic explanation, including different types of reflectors (Newtonian, Cassegrain), key performance formulas (magnification, resolution), and practical considerations like collimation and aberrations. This level of detail adds significant educational value."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How does a reflecting telescope form an image? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately depicts the light path in a Newtonian reflecting telescope, and the text provides a detailed and accurate explanation of the principles involved.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text and image are perfectly coherent. The text explicitly describes the components and light path of a Newtonian telescope, which is precisely what the diagram illustrates. The labels in the image correspond directly to the terms used in the explanation.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The generated image is a clear, well-labeled, and easy-to-understand diagram. The text is well-structured, using headings and bullet points, making it highly readable and informative. The language is precise and the grammar is correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The diagram is clean and professional, and the text is formatted for easy comprehension.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It fully answers the question by providing both a detailed written explanation and a clear illustrative image, covering all the essential steps of image formation in a reflecting telescope.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is exceptionally rich in content. The text goes far beyond a basic explanation, including different types of reflectors (Newtonian, Cassegrain), key performance formulas (magnification, resolution), and practical considerations like collimation and aberrations. This level of detail adds significant educational value.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0119",
+    "domain": "textbook",
+    "question": "What are the internal parts of an earthworm and how do they function? Use the image to explain.",
+    "reference_text": "Earthworms have a segmented body with a complete digestive system, a brain, ventral nerve cord, and hearts that pump blood. They are hermaphrodites with both reproductive organs.",
+    "reference_images": [
+      "data/textbook/parts_worm_7310.png"
+    ],
+    "generated_text": "Text (what the main parts do):\n1.\tMouth/Prostomium – scoops soil‐organic matter into the mouth.\n2.\tPharynx – muscular “suction pump” that pulls food in and lubricates it with mucus.\n3.\tEsophagus – narrow tube that carries food posteriorly.\n4.\tCrop – thin-walled storage sac; temporarily holds food.\n5.\tGizzard – thick, muscular grinder; uses sand/grit to pulverize food.\n6.\tIntestine – long absorptive tube where enzymes finish digestion and nutrients are absorbed into blood.\n7.\tTyphlosole – inward fold of the intestinal wall that increases surface area for absorption.\n8.\tDorsal blood vessel – main longitudinal vessel that carries blood anteriorly (toward the head).\n9.\tVentral blood vessel – returns blood posteriorly; supplies segmental vessels.\n10.\tAortic arches (“hearts”) – muscular loops that pump blood from dorsal to ventral vessels, maintaining pressure.\n11.\tCerebral ganglion (brain) – small paired nerve center above the pharynx; coordinates movement and behavior.\n12.\tVentral nerve cord & segmental ganglia – the worm’s “spinal cord”; relays signals to/from each segment for coordinated crawling.\n13.\tNephridia – paired coiled tubes in most segments that remove nitrogenous waste and regulate salts/water (excretory system).\n14.\tSeminal vesicles – sacs that store sperm produced by the testes before mating.\n15.\tSeminal receptacles – receive and store sperm from a partner during mating.\n16.\tOvaries/Oviducts – produce eggs and release them to be packaged later in a cocoon.\n17.\tAnus – eliminates indigestible material; castings enrich soil.\n\nHow it all works together (quick flow):\nFood goes mouth → pharynx → esophagus → crop → gizzard → intestine (typhlosole boosts absorption) → anus. The closed circulatory system (dorsal/ventral vessels + aortic arches) distributes oxygen and nutrients. The nervous system (brain + ventral nerve cord) synchronizes peristalsis and bristle (setae) use for locomotion. Nephridia in each segment handle waste and water balance. As hermaphrodites, earthworms exchange sperm; the clitellum (external band, not shown) later secretes a cocoon where eggs and stored sperm unite and develop. ￼",
+    "generated_image": "GPT-thinking/textbook/119.png",
+    "gemini_evaluation": {
+      "Question": "What are the internal parts of an earthworm and how do they function? Use the image to explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately labels the major internal organs of an earthworm, and the text provides a detailed and accurate description of each part's function."
+        ],
+        "Image-Text Coherency": [
+          4,
+          "The image and text are well-aligned. The image provides a visual diagram of the key structures, and all the parts labeled in the image are explained in detail in the text. However, the text is more comprehensive than the image's labels (e.g., it mentions the typhlosole and nephridia, which are not labeled), so the coherency is not perfect."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, easy-to-understand diagram. The text is exceptionally well-written, highly organized with a numbered list and a summary, and uses precise scientific language. It is very high-quality educational content."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference. It is an appropriate, educational, and well-presented answer to a biological question. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is very complete, significantly more so than the reference. It thoroughly answers both parts of the question by identifying numerous internal parts and clearly explaining their functions and how the systems work together."
+        ],
+        "Content Richness": [
+          5,
+          "The generated text is extremely rich in detail, providing a comprehensive breakdown of the digestive, circulatory, nervous, excretory, and reproductive systems. The summary paragraph effectively synthesizes the information, adding significant value and depth to the explanation."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are the internal parts of an earthworm and how do they function? Use the image to explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately labels the major internal organs of an earthworm, and the text provides a detailed and accurate description of each part's function.\"\n        ],\n        \"Image-Text Coherency\": [\n            4,\n            \"The image and text are well-aligned. The image provides a visual diagram of the key structures, and all the parts labeled in the image are explained in detail in the text. However, the text is more comprehensive than the image's labels (e.g., it mentions the typhlosole and nephridia, which are not labeled), so the coherency is not perfect.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, easy-to-understand diagram. The text is exceptionally well-written, highly organized with a numbered list and a summary, and uses precise scientific language. It is very high-quality educational content.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference. It is an appropriate, educational, and well-presented answer to a biological question. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is very complete, significantly more so than the reference. It thoroughly answers both parts of the question by identifying numerous internal parts and clearly explaining their functions and how the systems work together.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated text is extremely rich in detail, providing a comprehensive breakdown of the digestive, circulatory, nervous, excretory, and reproductive systems. The summary paragraph effectively synthesizes the information, adding significant value and depth to the explanation.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0257",
+    "domain": "textbook",
+    "question": "What is a covalent bond and how does it form in ammonia (NH₃)? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram depicts covalent bonds in the ammonia compound. A covalent bond is a chemical bond that involves the sharing of electron pairs between atoms. Ammonia is a compound of nitrogen and hydrogen with the formula NH₃. It has 3 hydrogen atoms and 1 nitrogen atom. The nitrogen atom has 5 outer electrons, and the hydrogen atom has 1 electron. The nitrogen atom shares 2 electrons with each hydrogen atom, one provided by the nitrogen atom and the other provided by the hydrogen atom.",
+    "reference_images": [
+      "data/textbook/chemical_bonding_covalent_9051.png"
+    ],
+    "generated_text": "# Image\n\n*(Generated above.)*\n\n# Written explanation\n\nA **covalent bond** is a chemical bond formed when two atoms **share a pair of electrons**. The shared pair is attracted by both nuclei, which holds the atoms together. Each atom “counts” both electrons toward a stable valence (an octet for most atoms, a duet for hydrogen).\n\n**How it forms in ammonia (NH₃):**\n\n* **Nitrogen (N)** has **5 valence electrons**. Three are unpaired and available for bonding; the remaining two make **one lone pair**.\n* **Each hydrogen (H)** has **1 valence electron** and needs one more to reach a duet.\n* Nitrogen shares one electron with each of three hydrogens, creating **three N–H covalent (σ) bonds**—three shared pairs.\n* After bonding, **N achieves an octet** (3 shared pairs = 6 electrons + its lone pair = 8) and **each H achieves a duet**.\n* The molecule adopts **sp³** electron geometry with a **trigonal pyramidal shape**; the **H–N–H angle is ~107°** (slightly less than 109.5° because the lone pair repels bonding pairs more strongly).\n* Each **N–H bond is polar covalent** (electrons are drawn a bit toward N), making NH₃ a polar molecule.",
+    "generated_image": "GPT-thinking/textbook/257.png",
+    "gemini_evaluation": {
+      "Question": "What is a covalent bond and how does it form in ammonia (NH₃)? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both scientifically accurate. The text correctly defines a covalent bond and accurately describes its formation in ammonia, including valence electrons, octet/duet rules, and molecular geometry. The image correctly depicts the 3D trigonal pyramidal structure of ammonia, including the lone pair of electrons."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the trigonal pyramidal shape, the three N-H bonds, and the lone pair on the nitrogen atom, all of which are clearly and accurately visualized in the 3D model shown in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear 3D rendering of the ammonia molecule. The text is well-structured, using bolding and bullet points effectively, and is written with correct grammar and clear scientific language."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and provides a clear, educational explanation. The image is aesthetically pleasing for a scientific diagram. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers both parts of the question. It provides a clear definition of a covalent bond and then gives a detailed explanation of how these bonds form specifically in the ammonia molecule."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. The text goes into much greater detail, explaining concepts like valence electrons, lone pairs, molecular geometry (sp³ hybridization, trigonal pyramidal shape), bond angles, and molecular polarity, which provides a more thorough and advanced understanding. The 3D image also provides more structural information than the 2D reference Lewis structure."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What is a covalent bond and how does it form in ammonia (NH₃)? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both scientifically accurate. The text correctly defines a covalent bond and accurately describes its formation in ammonia, including valence electrons, octet/duet rules, and molecular geometry. The image correctly depicts the 3D trigonal pyramidal structure of ammonia, including the lone pair of electrons.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the trigonal pyramidal shape, the three N-H bonds, and the lone pair on the nitrogen atom, all of which are clearly and accurately visualized in the 3D model shown in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear 3D rendering of the ammonia molecule. The text is well-structured, using bolding and bullet points effectively, and is written with correct grammar and clear scientific language.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and provides a clear, educational explanation. The image is aesthetically pleasing for a scientific diagram. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers both parts of the question. It provides a clear definition of a covalent bond and then gives a detailed explanation of how these bonds form specifically in the ammonia molecule.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. The text goes into much greater detail, explaining concepts like valence electrons, lone pairs, molecular geometry (sp³ hybridization, trigonal pyramidal shape), bond angles, and molecular polarity, which provides a more thorough and advanced understanding. The 3D image also provides more structural information than the 2D reference Lewis structure.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0255",
+    "domain": "textbook",
+    "question": "What is an ionic bond and how does it form in lithium fluoride (LiF)? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows the ionic bonds in lithium fluoride molecule. An ionic bond is the force of attraction that holds together positive and negative ions. The lithium fluorine molecule consists of one lithium atom and one fluorine atom with the chemical formula of LiF. The lithium ion has one more proton than the number of electrons thus has the charge of +1. The fluorine ion has one more electron than the number of protons thus has the charge of -1. The lithium ion and fluorine ion have equal but opposite charges so they attract each other. By the attracting force, they form a lithium fluoride molecule.",
+    "reference_images": [
+      "data/textbook/chemical_bonding_ionic_9071.png"
+    ],
+    "generated_text": "# Written explanation\n\n**What is an ionic bond?**\nAn ionic bond is the electrostatic attraction between positively and negatively charged ions that forms after one atom transfers one or more electrons to another. It’s not a “shared pair” (like in a covalent bond); it’s a non-directional Coulombic attraction between opposite charges.\n\n**How it forms in lithium fluoride (LiF):**\n\n1. **Start with neutral atoms**\n\n* Lithium (Li): 1s² 2s¹ → one valence electron.\n* Fluorine (F): 1s² 2s² 2p⁵ → seven valence electrons.\n\n2. **Electron transfer**\n\n* Lithium loses its single 2s valence electron:\n  Li → Li⁺ + e⁻\n* Fluorine gains that electron to complete an octet:\n  F + e⁻ → F⁻\n\n3. **Ionic attraction and crystal**\n\n* The resulting ions attract strongly: Li⁺ + F⁻ → **LiF(s)**.\n* In the solid, countless Li⁺ and F⁻ ions pack into a rock-salt lattice, where each Li⁺ is surrounded by six F⁻ (and vice versa). This **lattice energy** makes LiF very stable, hard, and high-melting.\n\n**Why it happens**\nLithium easily gives up its loosely held valence electron (low ionization of the outer electron), while fluorine strongly attracts an extra electron (high electron affinity). The large electronegativity difference drives electron transfer; the lattice’s electrostatic stabilization locks the ions into the solid.\n\n---\n\n*Image is shown above. (You asked for image and text separately, so the picture is separate from this explanation.)*",
+    "generated_image": "GPT-thinking/textbook/255.png",
+    "gemini_evaluation": {
+      "Question": "What is an ionic bond and how does it form in lithium fluoride (LiF)? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "Both the generated image and text are factually correct. The image accurately depicts the Bohr models for lithium and fluorine, the transfer of an electron, and the resulting ions. The text provides a correct and detailed explanation of ionic bonding using LiF as an example."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the process of a lithium atom losing an electron and a fluorine atom gaining it, which is precisely what the diagram illustrates. Every step mentioned in the text is visually represented in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, well-labeled, and professional-looking scientific diagram. The text is exceptionally well-structured, using headings and bullet points to present information clearly. The language is precise and grammatically correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for a clear, educational, and safe answer. The image is aesthetically pleasing for a diagram, and the text is helpful and easy to read."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It answers both parts of the question (what an ionic bond is and how it forms in LiF) and provides both the requested image and a written explanation."
+        ],
+        "Content Richness": [
+          5,
+          "The generated content is significantly richer than the reference. The text goes into greater depth, explaining the underlying principles like electron configurations, ionization energy, electron affinity, and the formation of a crystal lattice, which provides a more comprehensive understanding of the topic."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What is an ionic bond and how does it form in lithium fluoride (LiF)? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"Both the generated image and text are factually correct. The image accurately depicts the Bohr models for lithium and fluorine, the transfer of an electron, and the resulting ions. The text provides a correct and detailed explanation of ionic bonding using LiF as an example.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the process of a lithium atom losing an electron and a fluorine atom gaining it, which is precisely what the diagram illustrates. Every step mentioned in the text is visually represented in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, well-labeled, and professional-looking scientific diagram. The text is exceptionally well-structured, using headings and bullet points to present information clearly. The language is precise and grammatically correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for a clear, educational, and safe answer. The image is aesthetically pleasing for a diagram, and the text is helpful and easy to read.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It answers both parts of the question (what an ionic bond is and how it forms in LiF) and provides both the requested image and a written explanation.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated content is significantly richer than the reference. The text goes into greater depth, explaining the underlying principles like electron configurations, ionization energy, electron affinity, and the formation of a crystal lattice, which provides a more comprehensive understanding of the topic.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0146",
+    "domain": "textbook",
+    "question": "Can you explain how the heart pumps blood through the body? I often mix up the atria and ventricles. Provide a diagram and explain.",
+    "reference_text": "The diagram shows the different components that make up the heart. The heart is the key organ in the circulatory system. As a hollow, muscular pump, its main function is to propel blood throughout the body. The septum is the wall of muscle divides it down the middle, into a left half and a right half. There are 4 chambers in the heart: top chamber is called atrium; bottom chambers are called ventricles. Blood can flow from the atrium to ventricle because of openings called valves. Valves open in one direction like trapdoors to let the blood pass through, then they close, so the blood cannot flow backwards into the atria. There are also valves at the bottom of the large arteries that carry blood away from the heart: the aorta and the pulmonary artery. These valves keep the blood from flowing backward into the heart once it has been pumped out. Blood vessels of the body carry blood in a circle: moving away from the heart in arteries, traveling to various parts of the body in capillaries, and going back to the heart in veins. All the blood from the body is eventually collected into the two largest veins: the superior vena cava, which receives blood from the upper body, and the inferior vena cava, which receives blood from the lower body region.",
+    "reference_images": [
+      "data/textbook/human_system_circulatory_6068.png"
+    ],
+    "generated_text": "Here’s the plain-English explanation to go with the diagram.\n\n# How the heart pumps blood (and how to tell atria vs. ventricles)\n\n## Quick orientation\n\n* **Atria = receive** blood (upper chambers, thinner walls).\n* **Ventricles = pump** blood out (lower chambers, thicker walls).\n\n  * **Left ventricle** is the thickest—it powers blood to the whole body.\n\n## The loop (right side → lungs → left side → body)\n\n1. **Body → Right Atrium (RA):** “Used” (low-oxygen, blue) blood returns via the **superior & inferior venae cavae**.\n2. **RA → Right Ventricle (RV):** Through the **tricuspid valve** (a door that only swings forward).\n3. **RV → Lungs:** RV squeezes; the **pulmonary valve** opens; blood goes through the **pulmonary arteries** to the lungs to pick up oxygen.\n4. **Lungs → Left Atrium (LA):** Now oxygen-rich (red) blood comes back through the **pulmonary veins**.\n5. **LA → Left Ventricle (LV):** Through the **mitral (bicuspid) valve**.\n6. **LV → Body:** LV contracts; the **aortic valve** opens; blood enters the **aorta** and out to all tissues.\n\n## What the valves do (why flow is one-way)\n\n* Valves open/close from **pressure differences**, not muscles.\n* When ventricles **contract (systole):** AV valves (tricuspid/mitral) **close** to stop backflow; semilunar valves (pulmonary/aortic) **open** to let blood out.\n* When ventricles **relax (diastole):** Semilunar **close**; AV **open** so the ventricles can refill.\n\n## Atria vs. ventricles—never mix them up again\n\n* **Alphabet trick:** *A*tria before *V*entricles—blood always passes A → V.\n* **Job titles:** Atria are the **waiting rooms** (collecting blood); ventricles are the **engine rooms** (do the heavy pumping).\n* **Valve names as clues:** **TRI**cuspid is on the **R**ight (both have an “R”); **MI**tral is on the **L**eft (think “MIT—Left”).\n* **Wall thickness check:** Thin = atrium; **bulky = ventricle** (especially LV).\n\n## Two quick cycles to picture\n\n* **Diastole (filling):** Atria and ventricles relaxed; AV valves open; most filling happens now (+ a small “atrial kick”).\n* **Systole (pumping):** Ventricles contract; semilunar valves open; blood exits to lungs/body.\n\n## Oxygen color key\n\n* **Blue path:** to lungs (low O₂).\n* **Red path:** to body (high O₂).\n\nThat’s it—follow the arrows A→V, right side sends to lungs, left side sends to body, and valves keep everything moving forward.\n",
+    "generated_image": "GPT-thinking/textbook/146.png",
+    "gemini_evaluation": {
+      "Question": "Can you explain how the heart pumps blood through the body? I often mix up the atria and ventricles. Provide a diagram and explain.",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The generated text is factually correct and provides an accurate, detailed explanation of blood flow through the heart. However, the user explicitly requested a diagram, and none was provided. This is a major failure to meet the prompt's requirements."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "There is no generated image. The text explicitly refers to a diagram ('Here’s the plain-English explanation to go with the diagram.'), but no diagram exists, resulting in a complete lack of coherency."
+        ],
+        "Content Quality": [
+          2,
+          "The text quality is excellent—it is clear, well-structured, easy to understand, and uses helpful mnemonics. However, the failure to generate the requested image, which is a critical component for explaining this topic, severely lowers the overall quality of the response."
+        ],
+        "Human Preference Alignment": [
+          3,
+          "The text is highly preferable due to its clarity and directness in addressing the user's specific confusion. However, the missing diagram is a significant drawback, as a visual aid is almost essential for this type of explanation and was explicitly requested."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It provides the text explanation but completely omits the diagram, which was one of the two main components requested by the user."
+        ],
+        "Content Richness": [
+          3,
+          "The text is very rich, offering more detail and helpful learning aids (mnemonics, definitions of systole/diastole) than the reference text. However, the total response lacks richness because it is missing the visual component (the diagram), which would have greatly enhanced the explanation."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Can you explain how the heart pumps blood through the body? I often mix up the atria and ventricles. Provide a diagram and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated text is factually correct and provides an accurate, detailed explanation of blood flow through the heart. However, the user explicitly requested a diagram, and none was provided. This is a major failure to meet the prompt's requirements.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is no generated image. The text explicitly refers to a diagram ('Here’s the plain-English explanation to go with the diagram.'), but no diagram exists, resulting in a complete lack of coherency.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The text quality is excellent—it is clear, well-structured, easy to understand, and uses helpful mnemonics. However, the failure to generate the requested image, which is a critical component for explaining this topic, severely lowers the overall quality of the response.\"\n        ],\n        \"Human Preference Alignment\": [\n            3,\n            \"The text is highly preferable due to its clarity and directness in addressing the user's specific confusion. However, the missing diagram is a significant drawback, as a visual aid is almost essential for this type of explanation and was explicitly requested.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It provides the text explanation but completely omits the diagram, which was one of the two main components requested by the user.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The text is very rich, offering more detail and helpful learning aids (mnemonics, definitions of systole/diastole) than the reference text. However, the total response lacks richness because it is missing the visual component (the diagram), which would have greatly enhanced the explanation.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0244",
+    "domain": "textbook",
+    "question": "What information is shown in a nuclear symbol? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows the nuclear symbol for Boron. The atomic number, in the lower left, represents the number of protons. The mass number, in the upper left, represents protons plus neutrons. If the atom is an ion, its charge is shown in the upper right. These numbers identify the element and isotope.",
+    "reference_images": [
+      "data/textbook/atomic_mass_number_9001.png"
+    ],
+    "generated_text": "# Written explanation (separate from the image)\n\nA nuclear symbol (isotope notation) is written in the form (^{A}_{Z}!X^{q}). It conveys:\n\n* **Element symbol (X)** — which element it is (e.g., C, Cl, U).\n* **Atomic number (Z)** — the number of protons in the nucleus. This defines the element.\n* **Mass number (A)** — total number of nucleons (protons + neutrons).\n\n  * From this you can **derive neutrons**: (N = A - Z).\n* **Charge (q)** (optional) — ionic charge; if omitted, the atom is neutral.\n\n  * From this you can **derive electrons**:\n\n    * If the charge is positive (q=+n), electrons (= Z - n).\n    * If the charge is negative (q=-n), electrons (= Z + n).\n\n**Example:** (^{37}_{17}\\text{Cl}^{-}) → 17 protons, (37-17=20) neutrons, and (17+1=18) electrons.\n\n*(Your image above illustrates these parts visually.)*\n",
+    "generated_image": "GPT-thinking/textbook/244.png",
+    "gemini_evaluation": {
+      "Question": "What information is shown in a nuclear symbol? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram correctly labels the components of a nuclear symbol (mass number, atomic number, element symbol, charge), and the text accurately explains what each component represents and how to derive the number of subatomic particles."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the general form of a nuclear symbol, and the image provides a clear visual diagram of that general form, with labels that match the terms used in the text. The text even explicitly refers to the image for visual illustration."
+        ],
+        "Content Quality": [
+          5,
+          "The content is of very high quality. The image is a clear, simple, and effective educational diagram. The text is well-structured, using bullet points and bolding for clarity, and is grammatically correct. The explanation is easy to follow and comprehensive."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference. It is helpful, safe, and well-presented. The diagram is aesthetically clean and professional."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested image and a detailed written explanation, covering all the necessary information about a nuclear symbol."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is richer than the reference. While the reference uses a specific example (Boron), the generated response uses a general formula (A, Z, X, q), which is more broadly educational. It also provides extra valuable information on how to calculate the number of neutrons and electrons, and includes a specific, worked-out example (Chlorine-37) to solidify the concept."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What information is shown in a nuclear symbol? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram correctly labels the components of a nuclear symbol (mass number, atomic number, element symbol, charge), and the text accurately explains what each component represents and how to derive the number of subatomic particles.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the general form of a nuclear symbol, and the image provides a clear visual diagram of that general form, with labels that match the terms used in the text. The text even explicitly refers to the image for visual illustration.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content is of very high quality. The image is a clear, simple, and effective educational diagram. The text is well-structured, using bullet points and bolding for clarity, and is grammatically correct. The explanation is easy to follow and comprehensive.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference. It is helpful, safe, and well-presented. The diagram is aesthetically clean and professional.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested image and a detailed written explanation, covering all the necessary information about a nuclear symbol.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is richer than the reference. While the reference uses a specific example (Boron), the generated response uses a general formula (A, Z, X, q), which is more broadly educational. It also provides extra valuable information on how to calculate the number of neutrons and electrons, and includes a specific, worked-out example (Chlorine-37) to solidify the concept.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0065",
+    "domain": "textbook",
+    "question": "What are faults, and how do they cause earthquakes? an image will help explain.",
+    "reference_text": "Faults are fractures in Earth's crust where blocks of rock move. Movement along faults—like normal, reverse, or strike-slip—can release energy that causes earthquakes. These faults are caused by tectonic forces such as tension, compression, or shear.",
+    "reference_images": [
+      "data/textbook/faults_1747.png"
+    ],
+    "generated_text": "Written explanation\n\nWhat is a fault?\nA fault is a fracture in Earth’s brittle crust where two blocks of rock slide past each other. When tectonic forces push, pull, or shear the crust, stress builds along the fault.\n\nHow faults cause earthquakes (the stick-slip cycle):\n1.\tLocked: Rough fault surfaces “stick” due to friction while plate motion keeps stressing them.\n2.\tStrain builds: Rock around the fault elastically bends and stores energy.\n3.\tRupture: When stress exceeds frictional strength, the fault suddenly slips. The break starts at the hypocenter (focus) at depth and spreads along the fault.\n4.\tSeismic waves: Stored elastic energy radiates as P and S waves that shake the ground. The point on the surface above the focus is the epicenter.\n5.\tAftershocks: The crust adjusts to the new positions, producing smaller quakes on or near the same fault.\n\nMain fault types & the stresses that create them:\n•\tNormal fault (tension/extension): Crust is pulled apart; the hanging wall moves down.\n•\tReverse/thrust fault (compression): Crust is squeezed; the hanging wall moves up (common in subduction zones and mountain belts).\n•\tStrike-slip fault (shear): Blocks slide horizontally past each other (e.g., transform boundaries); motion can be right-lateral or left-lateral.\n\nWhy some places shake more:\nMost large earthquakes occur at plate boundaries where stress accumulates fastest: subduction zones (big thrust quakes), continental collisions (reverse faults), and major transforms (strike-slip).\n\nImage generated separately above: labeled diagram showing a fault plane, the earthquake cycle with hypocenter/epicenter and waves, plus normal/reverse/strike-slip fault insets.",
+    "generated_image": "GPT-thinking/textbook/65.png",
+    "gemini_evaluation": {
+      "Question": "What are faults, and how do they cause earthquakes? an image will help explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "Both the generated text and image are factually correct and accurately represent geological concepts related to faults and earthquakes."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is an excellent visual representation of the concepts explained in the text. It clearly illustrates the fault plane, hypocenter/epicenter, seismic waves, and the three main fault types, all of which are described in the accompanying text."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-labeled educational diagram. The text is exceptionally well-structured, using headings, numbered lists, and bullet points to present complex information in an easy-to-understand manner. The writing is clear and grammatically correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for a clear, educational, and safe explanation. The diagram is aesthetically pleasing and effective."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the question. It defines what a fault is and provides a detailed, step-by-step explanation of how they cause earthquakes, which is more thorough than the reference."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is significantly richer than the reference. The text provides a much more detailed explanation, including the 'stick-slip cycle,' aftershocks, and the relationship with plate boundaries. The image is also richer, combining the earthquake process and the different fault types into one comprehensive diagram."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are faults, and how do they cause earthquakes? an image will help explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"Both the generated text and image are factually correct and accurately represent geological concepts related to faults and earthquakes.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is an excellent visual representation of the concepts explained in the text. It clearly illustrates the fault plane, hypocenter/epicenter, seismic waves, and the three main fault types, all of which are described in the accompanying text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-labeled educational diagram. The text is exceptionally well-structured, using headings, numbered lists, and bullet points to present complex information in an easy-to-understand manner. The writing is clear and grammatically correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for a clear, educational, and safe explanation. The diagram is aesthetically pleasing and effective.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the question. It defines what a fault is and provides a detailed, step-by-step explanation of how they cause earthquakes, which is more thorough than the reference.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is significantly richer than the reference. The text provides a much more detailed explanation, including the 'stick-slip cycle,' aftershocks, and the relationship with plate boundaries. The image is also richer, combining the earthquake process and the different fault types into one comprehensive diagram.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0018",
+    "domain": "textbook",
+    "question": "How does the alignment of the Sun and Moon cause a spring tide? Provide an image and brief explanation.",
+    "reference_text": "Spring tides occur after new or full moons when Sun, Moon, and Earth are aligned. The combined gravitational force creates the largest tidal ranges.",
+    "reference_images": [
+      "data/textbook/tides_2614.png"
+    ],
+    "generated_text": "**Image (diagram):**\n*Spring Tides — Sun–Earth–Moon Alignment*\n(Shows new moon and full moon syzygy with aligned gravitational pulls, reinforcing tidal bulges and producing higher highs & lower lows.)\n\n**Text (brief explanation):**\nA **spring tide** happens during the **new moon** and **full moon** when the **Sun, Moon, and Earth line up** (syzygy). In this alignment, the Sun’s tidal pull **adds to** the Moon’s stronger tidal pull, so the ocean’s tidal bulges line up along the Sun–Moon–Earth line. The result is a **larger tidal range**: **higher high tides** and **lower low tides** than average, occurring about **every two weeks**. Local coastline shape, depth, and weather can modify the exact heights.\n",
+    "generated_image": "GPT-thinking/textbook/18.png",
+    "gemini_evaluation": {
+      "Question": "How does the alignment of the Sun and Moon cause a spring tide? Provide an image and brief explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The explanation accurately describes the alignment of the Sun, Earth, and Moon during new and full moons, and the image correctly illustrates this concept and the resulting tidal bulges."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly aligned. The text explains the Sun-Earth-Moon alignment, the combined gravitational pulls, and the resulting higher high tides and lower low tides, all of which are clearly and accurately depicted in the diagram."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, well-labeled, and effective diagram for explaining the scientific concept. The text is well-written, grammatically correct, and uses formatting (bolding) effectively to highlight key terms."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and well-presented. The diagram is aesthetically pleasing for a technical illustration, and the text is easy to read and understand."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both an image and a text explanation as requested. It fully answers the question by explaining the mechanism behind spring tides."
+        ],
+        "Content Richness": [
+          5,
+          "The response is richer than the reference. The text includes additional relevant details such as the term 'syzygy', the frequency of spring tides ('every two weeks'), and a note on local factors. The image is also detailed, showing both new and full moon positions and labeling the resulting tides."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How does the alignment of the Sun and Moon cause a spring tide? Provide an image and brief explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The explanation accurately describes the alignment of the Sun, Earth, and Moon during new and full moons, and the image correctly illustrates this concept and the resulting tidal bulges.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly aligned. The text explains the Sun-Earth-Moon alignment, the combined gravitational pulls, and the resulting higher high tides and lower low tides, all of which are clearly and accurately depicted in the diagram.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, well-labeled, and effective diagram for explaining the scientific concept. The text is well-written, grammatically correct, and uses formatting (bolding) effectively to highlight key terms.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and well-presented. The diagram is aesthetically pleasing for a technical illustration, and the text is easy to read and understand.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both an image and a text explanation as requested. It fully answers the question by explaining the mechanism behind spring tides.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is richer than the reference. The text includes additional relevant details such as the term 'syzygy', the frequency of spring tides ('every two weeks'), and a note on local factors. The image is also detailed, showing both new and full moon positions and labeling the resulting tides.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0012",
+    "domain": "textbook",
+    "question": "What are the main zones of the ocean and their characteristics? Provide an image and brief explanation.",
+    "reference_text": "The ocean has pelagic and benthic realms. The pelagic includes epipelagic to hadopelagic zones. The habitat zones include Abyssal, Bathyal, Hadal, Neritic, and Oceanic, each with distinct light, pressure, and life conditions.",
+    "reference_images": [
+      "data/textbook/ocean_zones_7130.png"
+    ],
+    "generated_text": "# Text (brief explanation)\n\n**By depth/light (pelagic zones):**\n\n* **Epipelagic (Sunlight, 0–200 m):** Bright light; photosynthesis; warm, well-mixed, oxygen-rich; most plankton and many fish.\n* **Mesopelagic (Twilight, 200–1,000 m):** Dim light; no photosynthesis; strong temperature drop (thermocline) and an oxygen-minimum zone; daily vertical-migrating animals common.\n* **Bathypelagic (Midnight, 1,000–4,000 m):** Total darkness; ~4 °C; high pressure; slow metabolisms; bioluminescence widespread (e.g., lanternfish, anglerfish).\n* **Abyssopelagic (4,000–6,000 m):** Near-freezing; very high pressure; sparse, slow-growing life feeding on “marine snow.”\n* **Hadalpelagic (6,000–11,000 m; trenches):** Isolated trench ecosystems; extreme pressure; specialized fauna (e.g., giant amphipods, snailfish).\n\n**By distance from shore (horizontal):**\n\n* **Intertidal/Littoral:** Shoreline area alternately exposed and submerged by tides; highly variable; barnacles, mussels, crabs, seaweeds.\n* **Neritic (over continental shelf to ~200 m):** Well-lit, nutrient-rich, very productive; coral reefs, kelp forests; major fisheries.\n* **Oceanic (beyond shelf):** Open-ocean waters; generally lower nutrients at the surface except where upwelling occurs; large pelagic species roam.\n\n**Seafloor (benthic) counterparts:**\n\n* **Sublittoral (Shelf seafloor, to ~200 m):** Seagrass beds, corals, diverse invertebrates.\n* **Bathyal (200–4,000 m):** Continental slope; dark, cooler; soft sediments and canyon habitats.\n* **Abyssal (4,000–6,000 m):** Vast plains; fine sediments; hydrothermal vents and cold seeps host chemosynthetic communities.\n* **Hadal (6,000–11,000 m):** Trench floors and walls; scarce food, highly adapted species.\n\n---\n\n# Image\n\nI created an infographic diagram showing these zones from shore to open ocean, with depth labels, light/temperature/pressure cues, and typical organisms.\n\n**Download the image:** [Ocean Zones Diagram](sandbox:/mnt/data/A_didactic_educational_illustration_titled_%22OCEAN_.png)\n",
+    "generated_image": "GPT-thinking/textbook/12.png",
+    "gemini_evaluation": {
+      "Question": "What are the main zones of the ocean and their characteristics? Provide an image and brief explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are factually correct. The classification of ocean zones by depth, distance from shore, and the seafloor is accurate, and the characteristics described for each zone are scientifically sound."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image is an excellent visual representation of the text. All the zones mentioned in the text (e.g., Epipelagic, Neritic, Abyssal) are clearly labeled in the diagram. The characteristics described in the text, such as light penetration, temperature, pressure, and example organisms, are also visually depicted in the image, creating a strong and cohesive explanation."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is exceptional. The text is well-structured, clear, and easy to understand, using bullet points effectively. The image is a high-quality, professional-looking infographic that is both informative and aesthetically pleasing."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for an educational query. It is helpful, safe, and provides a clear, well-designed answer. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the question. It provides a detailed breakdown of the main ocean zones, explains their characteristics, and includes a comprehensive image, as requested. It is far more complete than the brief reference text."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in content. The text goes into significant detail, categorizing the zones in three different ways (pelagic, horizontal, benthic) and providing multiple characteristics for each. The image is also information-dense, incorporating depth, light levels, temperature, pressure, and examples of fauna."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are the main zones of the ocean and their characteristics? Provide an image and brief explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are factually correct. The classification of ocean zones by depth, distance from shore, and the seafloor is accurate, and the characteristics described for each zone are scientifically sound.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image is an excellent visual representation of the text. All the zones mentioned in the text (e.g., Epipelagic, Neritic, Abyssal) are clearly labeled in the diagram. The characteristics described in the text, such as light penetration, temperature, pressure, and example organisms, are also visually depicted in the image, creating a strong and cohesive explanation.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is exceptional. The text is well-structured, clear, and easy to understand, using bullet points effectively. The image is a high-quality, professional-looking infographic that is both informative and aesthetically pleasing.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for an educational query. It is helpful, safe, and provides a clear, well-designed answer. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the question. It provides a detailed breakdown of the main ocean zones, explains their characteristics, and includes a comprehensive image, as requested. It is far more complete than the brief reference text.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. The text goes into significant detail, categorizing the zones in three different ways (pelagic, horizontal, benthic) and providing multiple characteristics for each. The image is also information-dense, incorporating depth, light levels, temperature, pressure, and examples of fauna.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0266",
+    "domain": "textbook",
+    "question": "What is a ray in optics and what are the main types of rays used in ray diagrams? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows Ray (optics). In optics, a ray is an idealized model of light, obtained by choosing a line that is perpendicular to the wave fronts of the actual light, and that points in the direction of energy flow. Rays are used to model the propagation of light through an optical system by dividing the real light field up into discrete rays that can be computationally propagated through the system by the techniques of ray tracing. All three rays should meet at the same point. The Principal Ray or Chief Ray in an optical system is the meridional ray that starts at the edge of the object and passes through the center of the aperture stop. This ray crosses the optical axis at the locations of the pupils. The Central Ray is perpendicular to infrared radiation. The Focal Ray is drawn from the tip of the object through (or towards) the focal point, reflecting off the mirror parallel to the principal axis.",
+    "reference_images": [
+      "data/textbook/optics_ray_diagrams_9167.png"
+    ],
+    "generated_text": "# Written explanation\n\n**What is a ray (in optics)?**\nA ray is an idealized line that shows the direction light energy travels. In geometric optics we treat light as straight-line rays that are perpendicular to wavefronts and that obey the rules of **reflection** (angle in = angle out) and **refraction** (Snell’s law) at boundaries.\n\n**Main types of rays you see in ray diagrams**\n\n1. **Incident ray** – the incoming ray that strikes a surface or boundary.\n2. **Reflected ray** – the ray that bounces off a mirror; its angle to the normal equals the incident angle.\n3. **Refracted (transmitted) ray** – the ray that passes into a new medium and bends according to Snell’s law.\n4. **Principal rays** – standard, easy-to-trace rays used to locate images with thin lenses and spherical mirrors:\n\n* **For thin lenses**\n\n  * **Parallel (P) ray:** parallel to the principal axis; after the lens it passes through the focal point (F) (converging lens) or appears to come from (F) (diverging lens).\n  * **Focal (F) ray:** aimed toward the focal point before the lens; emerges parallel to the axis (roles swap for diverging lenses).\n  * **Central/Chief (O) ray:** passes through the optical center and continues essentially undeviated.\n\n* **For spherical mirrors**\n\n  * **Parallel (P) ray:** parallel to the axis; reflects through (F) (concave) or appears to come from (F) behind the mirror (convex).\n  * **Focal (F) ray:** goes through (F); reflects parallel to the axis.\n  * **Center-of-curvature (C) ray:** goes through the center of curvature; reflects back on itself.\n\nIn diagrams, **solid lines** usually show real rays; **dashed extensions** show virtual rays that appear to originate from a point.\n\n---\n\n# Image\n\nI’ve generated a labeled teaching diagram that shows:\n\n* Principal rays for a **converging lens**, **diverging lens**, **concave mirror**, and **convex mirror** (with objects and images).\n* Small insets for **reflection at a plane mirror** and **refraction at a boundary** with angles labeled.\n\nIf you’d like any changes—different colors, thicker lines, or additional cases (e.g., object between (F) and the lens)—say the word and I’ll regenerate it.\n",
+    "generated_image": "GPT-thinking/textbook/266.png",
+    "gemini_evaluation": {
+      "Question": "What is a ray in optics and what are the main types of rays used in ray diagrams? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The definition of a ray is accurate, and the descriptions of the different types of rays for lenses and mirrors are standard and correct. The ray diagrams in the image accurately depict the principles of geometric optics for all cases shown."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text explains principal rays for converging/diverging lenses and concave/convex mirrors, as well as reflection and refraction. The image provides a clear visual diagram for each of these cases, with labels that correspond directly to the terms used in the text (e.g., P ray, F ray)."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the text and the image is excellent. The text is well-structured, clear, and uses appropriate terminology. The image is a high-quality, professional-looking diagram that is easy to read and understand. The use of different colors and clear labels enhances its educational value."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is a clear, comprehensive, and accurate educational answer. The format is easy to follow, and the content is safe and helpful. A user asking this question would likely find this response to be exceptionally useful."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It not only defines what a ray is but also provides a comprehensive overview of the main types of rays used in diagrams, covering both lenses and mirrors, and even basic reflection and refraction. It is more complete than the reference answer."
+        ],
+        "Content Richness": [
+          5,
+          "The response is rich in content. The text covers multiple concepts, from the fundamental definition to specific applications. The image is a composite of six different diagrams, illustrating a wide range of common scenarios in introductory optics, which is far richer than the single diagram in the reference."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What is a ray in optics and what are the main types of rays used in ray diagrams? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The definition of a ray is accurate, and the descriptions of the different types of rays for lenses and mirrors are standard and correct. The ray diagrams in the image accurately depict the principles of geometric optics for all cases shown.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text explains principal rays for converging/diverging lenses and concave/convex mirrors, as well as reflection and refraction. The image provides a clear visual diagram for each of these cases, with labels that correspond directly to the terms used in the text (e.g., P ray, F ray).\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the text and the image is excellent. The text is well-structured, clear, and uses appropriate terminology. The image is a high-quality, professional-looking diagram that is easy to read and understand. The use of different colors and clear labels enhances its educational value.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is a clear, comprehensive, and accurate educational answer. The format is easy to follow, and the content is safe and helpful. A user asking this question would likely find this response to be exceptionally useful.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It not only defines what a ray is but also provides a comprehensive overview of the main types of rays used in diagrams, covering both lenses and mirrors, and even basic reflection and refraction. It is more complete than the reference answer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in content. The text covers multiple concepts, from the fundamental definition to specific applications. The image is a composite of six different diagrams, illustrating a wide range of common scenarios in introductory optics, which is far richer than the single diagram in the reference.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0083",
+    "domain": "textbook",
+    "question": "What are greenhouse gases, and why is the greenhouse effect important for life on Earth? Explain with an image.",
+    "reference_text": "Greenhouse gases like carbon dioxide and water vapor absorb heat in the atmosphere. This keeps Earth warm enough to support life. Without them, Earth would be too cold. The diagram shows how this process works.",
+    "reference_images": [
+      "data/textbook/greenhouse_effect_6940.png"
+    ],
+    "generated_text": "Here’s the **text** (separate from the image):\n\n# What are greenhouse gases?\n\nGreenhouse gases are components of Earth’s atmosphere that **absorb and re-emit infrared (heat) radiation**. Because of their molecular vibration modes, they interact strongly with the wavelengths of heat the surface gives off after being warmed by sunlight.\n\n**Main greenhouse gases:**\n\n* **Water vapor (H₂O)** — most abundant, highly variable\n* **Carbon dioxide (CO₂)**\n* **Methane (CH₄)**\n* **Nitrous oxide (N₂O)**\n* **Ozone (O₃)**\n* **Halocarbons** (e.g., CFCs, HFCs) in small amounts\n\n(For contrast: **nitrogen (N₂)**, **oxygen (O₂)**, and **argon (Ar)** make up most of the air but are *not* effective greenhouse gases because they don’t absorb infrared efficiently.)\n\n# Why the greenhouse effect matters for life\n\n1. **Sunlight (shortwave)** passes through the atmosphere; some is reflected by clouds and bright surfaces like ice.\n2. **Earth’s surface absorbs** the rest and **re-emits** energy upward as **infrared (longwave)** heat.\n3. **Greenhouse gases absorb and re-emit** some of that heat in all directions, including back toward the surface.\n4. This slows the escape of heat to space and **warms the lower atmosphere and surface** until a balance is reached between incoming sunlight and outgoing infrared.\n\n**Without the natural greenhouse effect,** Earth’s average surface temperature would be about **−18 °C (0 °F)**.\n**With it,** the average is about **+15 °C (59 °F)** — warm enough for **liquid water, stable climates, and the ecosystems and agriculture** life depends on.\n\n> Note: Adding extra greenhouse gases (e.g., rising CO₂ and CH₄) **enhances** the effect, shifting the balance and driving **modern climate change**.\n\n---\n\n**Image:** A labeled infographic illustrating the steps above (Sunlight in, reflection, surface warming, infrared out, greenhouse gases re-emitting heat, and the −18 °C vs +15 °C note).",
+    "generated_image": "GPT-thinking/textbook/83.png",
+    "gemini_evaluation": {
+      "Question": "What are greenhouse gases, and why is the greenhouse effect important for life on Earth? Explain with an image.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The text and the image are both factually correct and scientifically accurate. The explanation of the greenhouse effect, the list of gases, and the temperature data are all valid."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image is a perfect visual representation of the detailed text explanation. It illustrates the key steps mentioned in the text, such as incoming shortwave radiation, outgoing infrared radiation, and the re-emission of heat by greenhouse gases. The specific temperature figures (-18°C vs +15°C) mentioned in the text are also clearly labeled in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The text is exceptionally well-written, structured, and easy to understand. It uses clear headings, bullet points, and bold text effectively. The image is a high-quality, clear, and well-labeled infographic that effectively communicates the scientific concept."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and entirely appropriate for an educational question. The infographic is aesthetically pleasing and well-designed."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers all parts of the question. It defines greenhouse gases, explains the importance of the greenhouse effect for life, and provides a corresponding explanatory image."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail, going far beyond the basic reference answer. The text provides a list of specific gases, contrasts them with non-greenhouse gases, explains the physics (shortwave vs. longwave radiation), quantifies the temperature effect, and adds a relevant note on climate change. The image is similarly detailed."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are greenhouse gases, and why is the greenhouse effect important for life on Earth? Explain with an image.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The text and the image are both factually correct and scientifically accurate. The explanation of the greenhouse effect, the list of gases, and the temperature data are all valid.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image is a perfect visual representation of the detailed text explanation. It illustrates the key steps mentioned in the text, such as incoming shortwave radiation, outgoing infrared radiation, and the re-emission of heat by greenhouse gases. The specific temperature figures (-18°C vs +15°C) mentioned in the text are also clearly labeled in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The text is exceptionally well-written, structured, and easy to understand. It uses clear headings, bullet points, and bold text effectively. The image is a high-quality, clear, and well-labeled infographic that effectively communicates the scientific concept.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and entirely appropriate for an educational question. The infographic is aesthetically pleasing and well-designed.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers all parts of the question. It defines greenhouse gases, explains the importance of the greenhouse effect for life, and provides a corresponding explanatory image.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail, going far beyond the basic reference answer. The text provides a list of specific gases, contrasts them with non-greenhouse gases, explains the physics (shortwave vs. longwave radiation), quantifies the temperature effect, and adds a relevant note on climate change. The image is similarly detailed.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0118",
+    "domain": "textbook",
+    "question": "What are flatworms and roundworms, and how do they differ? Use the diagram to help explain.",
+    "reference_text": "Flatworms are simple invertebrates with bilateral symmetry. Roundworms have a body cavity and complete digestive system. Both can be free-living or parasitic.",
+    "reference_images": [
+      "data/textbook/parts_worm_7321.png"
+    ],
+    "generated_text": "# Text explanation (separate from the image)\n\n**What they are**\n\n* **Flatworms (Phylum Platyhelminthes)**: Soft-bodied, dorsoventrally flattened animals. Many are free-living (e.g., planarians), and many are parasitic (flukes, tapeworms).\n* **Roundworms (Phylum Nematoda)**: Unsegmented, cylindrical worms found everywhere—especially in soil and aquatic habitats—with many free-living and parasitic species (e.g., pinworms, hookworms, *C. elegans*).\n\n**Key differences (matching the diagram)**\n\n* **Body cavity**\n\n  * Flatworms: **Acoelomate** (no internal body cavity; solid tissue between gut and body wall).\n  * Roundworms: **Pseudocoelomate** (fluid-filled cavity acts as a hydrostatic skeleton).\n\n* **Digestive system**\n\n  * Flatworms: Usually **incomplete gut** (one opening); tapeworms have **no gut** and absorb nutrients through their surface.\n  * Roundworms: **Complete gut** with **mouth → pharynx → intestine → anus**.\n\n* **Body covering**\n\n  * Flatworms: Free-living forms have a **ciliated epidermis** for gliding; parasitic forms have a protective **tegument**.\n  * Roundworms: A tough, flexible **collagen cuticle** that they **molt** as they grow.\n\n* **Muscles & movement**\n\n  * Flatworms: **Circular, longitudinal, and dorsoventral muscles**; glide using cilia and muscle undulations.\n  * Roundworms: **Longitudinal muscles only**; move with characteristic **thrashing** due to the hydrostatic pseudocoelom.\n\n* **Excretion/osmoregulation**\n\n  * Flatworms: **Protonephridia (“flame cells”)** with cilia that drive fluid through tubules.\n  * Roundworms: **Excretory canals/renette cells** along the body.\n\n* **Nervous system**\n\n  * Flatworms: **Anterior ganglia (“brain”)** with **ladder-like** transverse connections between longitudinal nerve cords.\n  * Roundworms: **Nerve ring** around the pharynx with prominent **dorsal and ventral nerve cords**.\n\n* **Reproduction**\n\n  * Flatworms: Often **hermaphroditic**; many can **regenerate** lost parts (notably planarians).\n  * Roundworms: Usually **dioecious** (separate sexes) with **sexual dimorphism**.\n\n* **Shared traits**\n\n  * Both are **bilaterally symmetrical**, **triploblastic** (three tissue layers), and **lack specialized circulatory/respiratory organs**—gas exchange occurs by diffusion.\n\n**Quick summary**\n\n| Trait                | Flatworms (Platyhelminthes)            | Roundworms (Nematoda)               |\n| -------------------- | -------------------------------------- | ----------------------------------- |\n| Shape                | Flattened                              | Cylindrical, round in cross-section |\n| Body cavity          | None (**acoelomate**)                  | **Pseudocoelomate**                 |\n| Gut                  | Incomplete or absent                   | Complete (mouth → anus)             |\n| Covering             | Ciliated epidermis/tegument            | Thick molted cuticle                |\n| Muscles              | Circular + longitudinal + dorsoventral | Longitudinal only                   |\n| Movement             | Glide + smooth undulations             | Thrashing                           |\n| Excretion            | Flame cells (protonephridia)           | Excretory canals/renette            |\n| Nervous system       | Ladder-like cords                      | Nerve ring + cords                  |\n| Typical reproduction | Hermaphroditic; regeneration common    | Separate sexes                      |\n\nIf you want any changes to the diagram (different labels, colors, or a simpler version for younger students), tell me and I’ll regenerate it.\n",
+    "generated_image": "GPT-thinking/textbook/118.png",
+    "gemini_evaluation": {
+      "Question": "What are flatworms and roundworms, and how do they differ? Use the diagram to help explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct and accurately represent the biological differences between flatworms (Platyhelminthes) and roundworms (Nematoda)."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text and image are perfectly coherent. The text explicitly references the features shown in the diagram (e.g., body cavity, digestive system, nervous system), and the diagram provides a clear visual representation of the concepts explained in the text."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-structured, using headings, bullet points, and a summary table to present the information clearly and effectively. The grammar and writing style are excellent."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference for a clear, accurate, and educational explanation. The format is easy to read and digest, and there is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the question. It defines both types of worms, details their differences, and uses the diagram to support the explanation, as requested. It is far more complete than the reference answer."
+        ],
+        "Content Richness": [
+          5,
+          "The response is extremely rich in content. The diagram is much more detailed than the reference, showing both cross-sections and overall body plans. The text provides a comprehensive comparison across multiple biological systems, includes examples, and even offers a summary table, far exceeding the detail of the reference text."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are flatworms and roundworms, and how do they differ? Use the diagram to help explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct and accurately represent the biological differences between flatworms (Platyhelminthes) and roundworms (Nematoda).\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text and image are perfectly coherent. The text explicitly references the features shown in the diagram (e.g., body cavity, digestive system, nervous system), and the diagram provides a clear visual representation of the concepts explained in the text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-structured, using headings, bullet points, and a summary table to present the information clearly and effectively. The grammar and writing style are excellent.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference for a clear, accurate, and educational explanation. The format is easy to read and digest, and there is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the question. It defines both types of worms, details their differences, and uses the diagram to support the explanation, as requested. It is far more complete than the reference answer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is extremely rich in content. The diagram is much more detailed than the reference, showing both cross-sections and overall body plans. The text provides a comprehensive comparison across multiple biological systems, includes examples, and even offers a summary table, far exceeding the detail of the reference text.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0084",
+    "domain": "textbook",
+    "question": "What happens during alpha decay? Can you explain using the diagram?",
+    "reference_text": "Alpha decay is when a heavy atom like Radium loses an alpha particle (2 protons and 2 neutrons), forming a new, lighter atom like Radon. The diagram shows how the mass and atomic number change.",
+    "reference_images": [
+      "data/textbook/radioactive_decay_8173.png"
+    ],
+    "generated_text": "# Text explanation (paired with the diagram above)\n\nAlpha decay is when a heavy, unstable nucleus ejects an **alpha particle**—a tightly bound cluster of **2 protons + 2 neutrons** (a (^{4}_{2}\\mathrm{He}) nucleus). This turns the original (parent) nucleus into a new (daughter) element.\n\n**What the diagram shows:**\n\n1. **Alpha cluster inside the parent.**\n   For brief moments, a (2p+2n) cluster exists inside the nucleus.\n\n2. **Quantum tunneling through the barrier.**\n   The alpha is trapped by the strong nuclear force but pushed outward by Coulomb repulsion from the other protons. Its energy is **below** the top of the barrier, yet it can still escape by *tunneling* (inset potential curve).\n\n3. **Transformation (notation).**\n   [\n   ^A_Z X ;\\rightarrow; ^{A-4}_{Z-2} Y ;+; ^4_2\\mathrm{He} ;+; Q\n   ]\n\n   * **Mass number (A)** drops by 4.\n   * **Atomic number (Z)** drops by 2 (element changes).\n   * (Q) is the released energy from the small mass difference.\n\n4. **Energy and momentum sharing.**\n   The (Q)-value appears mainly as the **kinetic energy of the alpha**, with a smaller **recoil** of the daughter nucleus; momenta are equal and opposite.\n\n5. **Takeaway.**\n   Alpha decay reduces a heavy nucleus to a slightly lighter one, emitting a helium-4 nucleus and energy; the escape happens via **quantum tunneling**, not by climbing over the barrier.\n\nIf you’d like, I can generate a second version of the diagram with a specific real example (e.g., (^{238}\\mathrm{U}\\rightarrow{}^{234}\\mathrm{Th}+\\alpha)) and labeled numbers that match these steps exactly.",
+    "generated_image": "GPT-thinking/textbook/84.png",
+    "gemini_evaluation": {
+      "Question": "What happens during alpha decay? Can you explain using the diagram?",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both scientifically correct. The explanation of alpha decay, including the concept of quantum tunneling, the change in atomic and mass numbers, and the conservation of momentum, is accurate."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text is explicitly structured to explain the different parts of the diagram. Each numbered point in the text corresponds directly to a visual element in the image, creating a perfect and seamless connection between the two."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-labeled scientific diagram. The text is well-written, grammatically correct, and effectively breaks down a complex topic into understandable segments using formatting like bolding and lists."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. It's a helpful, safe, and well-presented educational explanation. The diagram is aesthetically pleasing and informative."
+        ],
+        "Completeness": [
+          5,
+          "The response provides a very complete explanation of alpha decay, going beyond the simple definition in the reference. It covers the what, how, and why of the process, fully answering the user's question."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is significantly richer than the reference. The diagram incorporates multiple concepts (quantum tunneling, conservation of momentum, nuclear notation), and the text explains each of these in detail, providing a much deeper and more comprehensive understanding of the topic."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What happens during alpha decay? Can you explain using the diagram?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both scientifically correct. The explanation of alpha decay, including the concept of quantum tunneling, the change in atomic and mass numbers, and the conservation of momentum, is accurate.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text is explicitly structured to explain the different parts of the diagram. Each numbered point in the text corresponds directly to a visual element in the image, creating a perfect and seamless connection between the two.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-labeled scientific diagram. The text is well-written, grammatically correct, and effectively breaks down a complex topic into understandable segments using formatting like bolding and lists.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. It's a helpful, safe, and well-presented educational explanation. The diagram is aesthetically pleasing and informative.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response provides a very complete explanation of alpha decay, going beyond the simple definition in the reference. It covers the what, how, and why of the process, fully answering the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is significantly richer than the reference. The diagram incorporates multiple concepts (quantum tunneling, conservation of momentum, nuclear notation), and the text explains each of these in detail, providing a much deeper and more comprehensive understanding of the topic.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0028",
+    "domain": "textbook",
+    "question": "I don’t fully get how carbon from plants ends up in fossil fuels or the atmosphere. Can you diagram the full carbon cycle and explain each step? Provide an image and explain.",
+    "reference_text": "This diagram shows the carbon cycle. Here are examples of how carbon moves through human, animal, and plant activity. All living things contain carbon, as do the ocean, air, rocks, and underground fossil fuels, which are made in a process that takes millions of years. Plants take in sunlight and carbon dioxide, and create energy through photosynthesis. When they decay, and are buried underground, plants and other organisms turn into fossil fuel. When we burn fossil fuels, carbon dioxide is quickly released into the air. Plants can also release carbon dioxide just like animals do, through respiration.",
+    "reference_images": [
+      "data/textbook/cycle_carbon_5008.png"
+    ],
+    "generated_text": "# Image — Full Carbon Cycle\n\n*(See the generated diagram above.)*\n\n# Explanation — How carbon moves, and how plant carbon ends up in fossil fuels or the air\n\n**Big picture:** Carbon moves through two intertwined loops.\n\n* The **fast (biological) cycle** shuttles carbon among the atmosphere, living things, soils, and the upper ocean (timescales: days to centuries).\n* The **slow (geologic) cycle** locks carbon into rocks and fossil fuels and returns it via tectonics and volcanoes (millennia to millions of years).\n  Human activities overlay both, rapidly moving long-stored carbon back to the air.\n\n## 1) Atmosphere ↔ Land (plants, animals, soils)\n\n1. **Photosynthesis (atmosphere → plants):** Plants take in CO₂ and build sugars/biomass.\n2. **Respiration (plants & animals → atmosphere):** Almost everything that burns those sugars releases CO₂ back.\n3. **Herbivory & food webs:** Plant carbon moves to animals; their respiration returns CO₂.\n4. **Death & detritus (plants/animals → soils):** Litter and carcasses enter soils.\n5. **Decomposition:**\n\n   * **With oxygen (oxic):** Microbes break biomass down, releasing **CO₂**.\n   * **Low-oxygen/anaerobic (wetlands, bogs, sediments):** Microbes produce **CH₄ (methane)**, which later oxidizes in the air to CO₂.\n6. **Fire:** Wildfires rapidly convert biomass to CO₂ (and some CH₄/black carbon); regrowth can re-absorb CO₂ over years to decades.\n7. **Soil storage:** Some carbon becomes stable **soil organic matter** (humus), persisting from years to centuries unless disturbed (e.g., tillage, warming, drought).\n\n## 2) Atmosphere ↔ Ocean\n\n1. **Gas exchange:** CO₂ dissolves into and out of the **surface ocean** depending on temperature, winds, and concentration gradients.\n2. **Carbonate chemistry:** In seawater, CO₂ forms **carbonic acid ↔ bicarbonate (HCO₃⁻) ↔ carbonate (CO₃²⁻)**. Most ocean carbon is stored as bicarbonate/carbonate, buffering the atmosphere.\n3. **Biological pump:** Phytoplankton photosynthesize; part of their organic matter and the **CaCO₃ shells** from calcifying organisms sink, carrying carbon to the **deep ocean**. Much is respired at depth (CO₂ stored for decades–centuries) and later **upwells** back to the surface and air.\n\n## 3) Route from plant carbon → **fossil fuels** (slow cycle)\n\nOnly a tiny fraction of plant carbon escapes decomposition and fire:\n\n1. **Rapid burial in anoxic settings:** In swamps, peatlands, deltas, or marine muds, dead plant/algal matter is buried faster than it decays. Low oxygen slows microbes.\n2. **Diagenesis & maturation (heat + pressure + time):**\n\n   * **Terrestrial plants → peat → lignite → coal.**\n   * **Marine algae/zooplankton → organic-rich muds → kerogen → oil & natural gas.**\n3. **Geologic storage:** These hydrocarbons remain trapped in rocks for millions of years unless exposed, uplifted, or extracted.\n\n## 4) Weathering, rocks, and volcanoes (slow geologic loop)\n\n1. **Silicate weathering (atmosphere → rivers → ocean):** CO₂ in rainwater forms weak acid that weathers rocks; dissolved bicarbonate flows to the ocean.\n2. **Carbonate formation:** Marine organisms and chemistry turn bicarbonate into **limestone/dolomite (CaCO₃/MgCO₃)** that gets buried as rock.\n3. **Subduction & degassing:** Tectonics carry carbonates and organic sediments into the mantle; **volcanoes** and metamorphism return CO₂ to the atmosphere.\n\n## 5) Human accelerators\n\n* **Fossil fuel extraction & combustion → atmosphere:** Moves carbon from the slow reservoir (coal/oil/gas) to the fast one as CO₂.\n* **Cement production:** Releases CO₂ when limestone is calcined.\n* **Deforestation & land-use change:** Reduces photosynthetic uptake and releases stored biomass/soil carbon.\n* **Methane leaks & agriculture:** Add CH₄, which later becomes CO₂.\n* **Permafrost thaw/peatland drainage:** Frees long-stored organic carbon as CO₂/CH₄.\n* **Ocean uptake & acidification:** Extra atmospheric CO₂ drives more dissolution, shifting seawater chemistry and affecting calcifiers.\n\n## 6) Direct answers to your two “where does plant carbon go?” questions\n\n* **Into the atmosphere:** through plant/animal **respiration**, **microbial decay** (CO₂/CH₄), **fires**, and **human burning** of biomass or extracted fossil fuels.\n* **Into fossil fuels:** when dead plant (or algal) material is **rapidly buried in oxygen-poor sediments**, then **cooked by heat and pressure** for **geologic timescales**, transforming into **coal (mainly land plants)** or **oil/gas (mainly marine algae/zooplankton)**.\n\nIf you’d like, I can tailor a simpler “student cheat-sheet” version or add typical timescales and example environments for each arrow.\n",
+    "generated_image": "GPT-thinking/textbook/28.png",
+    "gemini_evaluation": {
+      "Question": "I don’t fully get how carbon from plants ends up in fossil fuels or the atmosphere. Can you diagram the full carbon cycle and explain each step? Provide an image and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct and provide a comprehensive, accurate overview of the carbon cycle."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text perfectly explains every component and pathway shown in the generated diagram. The structure of the text follows the different loops and reservoirs depicted in the image, making them very coherent."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-written, structured logically with headings and bullet points, making a complex topic easy to understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. It is safe, helpful, and provides a highly educational and well-formatted answer that is significantly better than the reference. The final section, which directly answers the user's specific questions, is a great touch."
+        ],
+        "Completeness": [
+          5,
+          "The response is extremely complete. It provides both a detailed diagram and a thorough, step-by-step explanation of the full carbon cycle, including the slow geologic cycle and human impacts, which the reference omits. It fully addresses every part of the user's question."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is far richer than the reference. It includes crucial aspects of the carbon cycle like the fast vs. slow cycles, the ocean's role (biological pump, carbonate chemistry), and the geologic loop (weathering, volcanoes). The text provides a level of detail and scientific nuance that is vastly superior to the simple reference text."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I don’t fully get how carbon from plants ends up in fossil fuels or the atmosphere. Can you diagram the full carbon cycle and explain each step? Provide an image and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct and provide a comprehensive, accurate overview of the carbon cycle.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly explains every component and pathway shown in the generated diagram. The structure of the text follows the different loops and reservoirs depicted in the image, making them very coherent.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-written, structured logically with headings and bullet points, making a complex topic easy to understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. It is safe, helpful, and provides a highly educational and well-formatted answer that is significantly better than the reference. The final section, which directly answers the user's specific questions, is a great touch.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is extremely complete. It provides both a detailed diagram and a thorough, step-by-step explanation of the full carbon cycle, including the slow geologic cycle and human impacts, which the reference omits. It fully addresses every part of the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is far richer than the reference. It includes crucial aspects of the carbon cycle like the fast vs. slow cycles, the ocean's role (biological pump, carbonate chemistry), and the geologic loop (weathering, volcanoes). The text provides a level of detail and scientific nuance that is vastly superior to the simple reference text.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0151",
+    "domain": "textbook",
+    "question": "I don't understand how the respiratory system removes dust and particles. Can you show me what happens inside the lungs? Provide a diagram and explain.",
+    "reference_text": "The diagram shows the parts of the respiratory system. The human respiratory system is a series of organs responsible for taking in oxygen and expelling carbon dioxide. As we breathe, oxygen enters the nose or mouth and passes the sinuses, which are hollow spaces in the skull. Sinuses help regulate the temperature and humidity of the air we breathe. The trachea, also called the windpipe, filters the air that is inhaled, according to the American Lung Association. It branches into the bronchi, which are two tubes that carry air into each lung. The bronchial tubes are lined with tiny hairs called cilia. Cilia move back and forth, carrying mucus up and out. Mucus, a sticky fluid, collects dust, germs and other matter that has invaded the lungs. We expel mucus when we sneeze, cough, spit or swallow.",
+    "reference_images": [
+      "data/textbook/human_system_respiratory_3601.png"
+    ],
+    "generated_text": "Here’s the **text explanation** (kept separate from the diagram):\n\n# How your lungs clear dust & particles\n\n**1) Filters at the entrance (nose & throat).**\n\n* Nasal hairs and the twists/turns of the nasal passages slow air and catch big bits of dust.\n* Sticky **mucus** lines the surfaces and traps particles before they reach the lungs.\n\n**2) The mucus trap + cilia conveyor.**\n\n* The airways (trachea and bronchi) are carpeted with tiny hair-like **cilia** sitting in a thin watery layer.\n* Above them is a sticky **mucus gel** where dust, pollen, and microbes get stuck.\n* Cilia beat in coordinated waves, pushing the mucus blanket **upward toward the throat**. This is the **mucociliary escalator**.\n\n**3) What happens to the trapped stuff.**\n\n* When the mucus reaches the throat, you **swallow** it. Stomach acid and enzymes break down most contaminants.\n* If there’s a lot of irritation, sensors trigger a **cough or sneeze**, which blasts mucus and particles out.\n\n**4) Deep areas without cilia: the alveoli.**\n\n* The tiny air sacs (alveoli) handle gas exchange and **don’t have cilia**.\n* Here, roaming **alveolar macrophages** (patrolling immune cells) **eat** fine particles and microbes.\n* What they collect is carried away via the mucociliary escalator (after they crawl to ciliated regions) or through **lymphatic drainage**.\n\n**5) Size matters (where particles tend to land).**\n\n* **Large** (> ~10 μm): mostly stopped in the **nose/throat**.\n* **Medium** (~2.5–10 μm): settle in the **trachea/bronchi**, cleared by cilia.\n* **Fine** (< ~2.5 μm): can reach the **alveoli**, handled by macrophages.\n* **Gases/ultrafine** may be absorbed or exhaled.\n\n**6) When the system struggles.**\n\n* **Dry air, dehydration, smoking, or pollutants** can thicken or paralyze mucus/cilia.\n* Certain conditions (e.g., **asthma**, **chronic bronchitis**, **cystic fibrosis**, or **primary ciliary dyskinesia**) reduce clearance, so particles linger and infections are more likely.\n\n**Quick recap:** your airways trap particles in mucus, **cilia sweep** that mucus upward, and **cough/sneeze or swallowing** removes it; deep in the lungs, **macrophages** finish the cleanup.\n\nIf you’d like, I can add labels or callouts to the diagram tailored to a specific class level (middle school vs. college).\n",
+    "generated_image": "GPT-thinking/textbook/151.png",
+    "gemini_evaluation": {
+      "Question": "I don't understand how the respiratory system removes dust and particles. Can you show me what happens inside the lungs? Provide a diagram and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately depicts the mucociliary escalator, and the text provides a comprehensive and accurate explanation of the various mechanisms the respiratory system uses to clear particles."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image is an excellent illustration of the core mechanism described in section 2 of the text, the 'mucus trap + cilia conveyor.' The labels on the diagram directly correspond to the key terms (cilia, mucus, dust) used in the explanation, making the entire response cohesive and easy to understand."
+        ],
+        "Content Quality": [
+          5,
+          "The quality is exceptional. The diagram is clear, well-labeled, and visually effective. The text is outstandingly well-structured, using headings, bullet points, and bold text to break down a complex topic into digestible parts. The writing is clear, professional, and grammatically perfect."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with user intent. It is helpful, informative, safe, and avoids any undesirable content. The diagram is a clean, scientific illustration appropriate for the topic."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the user's request by providing both a diagram and a detailed explanation. It covers all the essential aspects of the question and more."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. It not only explains the primary cilia/mucus mechanism but also includes details about initial filtering in the nose, the role of macrophages in the alveoli, the importance of particle size, and conditions that can impair the system. This provides a much more comprehensive and educational answer."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I don't understand how the respiratory system removes dust and particles. Can you show me what happens inside the lungs? Provide a diagram and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately depicts the mucociliary escalator, and the text provides a comprehensive and accurate explanation of the various mechanisms the respiratory system uses to clear particles.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image is an excellent illustration of the core mechanism described in section 2 of the text, the 'mucus trap + cilia conveyor.' The labels on the diagram directly correspond to the key terms (cilia, mucus, dust) used in the explanation, making the entire response cohesive and easy to understand.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality is exceptional. The diagram is clear, well-labeled, and visually effective. The text is outstandingly well-structured, using headings, bullet points, and bold text to break down a complex topic into digestible parts. The writing is clear, professional, and grammatically perfect.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with user intent. It is helpful, informative, safe, and avoids any undesirable content. The diagram is a clean, scientific illustration appropriate for the topic.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the user's request by providing both a diagram and a detailed explanation. It covers all the essential aspects of the question and more.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. It not only explains the primary cilia/mucus mechanism but also includes details about initial filtering in the nose, the role of macrophages in the alveoli, the importance of particle size, and conditions that can impair the system. This provides a much more comprehensive and educational answer.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0098",
+    "domain": "textbook",
+    "question": "How do you use a compound light microscope properly? Use the diagram to help explain.",
+    "reference_text": "A compound microscope has parts like eyepiece, objective lenses, stage, and coarse/fine focus knobs. Always carry it by the arm and base. Use focus knobs and lenses to adjust image clarity.",
+    "reference_images": [
+      "data/textbook/parts_microscope_7193.png"
+    ],
+    "generated_text": "Here’s the image and the explanation kept separate, just like you asked.\n\n# 1) Diagram (labeled parts)\n\n*(See the image above.)*\nThe figure shows a compound light microscope with the light path and numbered callouts for each component.\n\n---\n\n# 2) How a compound microscope works (with parts explained)\n\n## Big picture\n\nA compound microscope uses **two lens systems**—the **objective** near the specimen and the **eyepiece (ocular)** near your eye—to create **high total magnification**. Light from the **illuminator** is focused through the specimen by the **condenser**. The **objective** forms a **real, inverted intermediate image** inside the tube; the **eyepiece** then magnifies that into the **virtual image** you see.\n\n**Total magnification = (eyepiece power) × (objective power).**\n**Resolution** (smallest detail you can separate) improves with higher **NA** of the objective/condenser and with shorter wavelengths of light.\n\n## What each numbered part does (match to the image)\n\n1. **Eyepiece (ocular)** – Magnifies the intermediate image made by the objective; often 10×. Some models include a **diopter** ring to match focus between your eyes.\n\n2. **Head / Body tube** – Holds the optics at fixed spacing so the objective image forms at the correct plane for the eyepiece.\n\n3. **Revolving nosepiece (turret)** – Clicks different **objective lenses** into the light path quickly.\n\n4. **Objectives (4×, 10×, 40×, 100× oil)** – The primary magnifiers; also the main drivers of **resolution** and **working distance**.\n\n   * **4× (scanning):** wide field, easy to find the specimen.\n   * **10× (low):** more detail, still forgiving.\n   * **40× (high dry):** fine detail; use **fine focus only**.\n   * **100× oil:** highest detail; requires immersion oil to boost NA and resolution.\n\n5. **Stage** – Platform that holds the slide. Often a **mechanical stage** with **X–Y controls** for precise movement.\n\n6. **Slide & stage clips** – Secure the specimen directly over the light path.\n\n7. **Coarse focus knob** – Moves the stage quickly to find focus at low power.\n\n8. **Fine focus knob** – Small, precise motion for sharp focus, especially at 40×/100×.\n\n9. **Condenser** – A lens system that concentrates light onto the specimen; usually raised close to the underside of the slide for brightfield.\n\n10. **Iris diaphragm (substage)** – Adjustable aperture beneath the condenser. **Open** for brightness and resolution; **close** for more contrast (but less resolution). Use together with the condenser height.\n\n11. **Field diaphragm (if present)** – Controls the illuminated field size; helps set Köhler illumination and reduce stray light.\n\n12. **Illuminator / LED** – The light source. Often paired with a **brightness control** on the base.\n\n13. **On/Off & brightness control** – Powers the lamp and sets intensity to a comfortable, non-glary level.\n\n14. **Arm** – Structural support; the safe handle when carrying the scope (other hand under the base).\n\n15. **Base & power connector** – House the lamp and electronics; provides stability.\n\n### What’s happening to the image?\n\n* **Illuminator → condenser → specimen:** Light is focused into a cone that passes through the specimen. Transparent/colored areas transmit or absorb light differently, creating contrast.\n* **Specimen → objective:** The objective produces a **real, inverted** magnified image inside the tube.\n* **Objective image → eyepiece:** The eyepiece acts like a magnifier, creating a **virtual image** your eye focuses on.\n* **Result:** High magnification with limited depth of field; tiny focus adjustments and proper illumination are crucial.\n\nIf you want, I can make a printable one-page “How it works + parts” handout using this same diagram.\n",
+    "generated_image": "GPT-thinking/textbook/98.png",
+    "gemini_evaluation": {
+      "Question": "How do you use a compound light microscope properly? Use the diagram to help explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The diagram accurately labels the parts of a compound light microscope, and the text provides a scientifically accurate explanation of each part's function and the overall optical principles."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text is perfectly coherent with the image. It uses a numbered list that directly corresponds to the numbered labels on the diagram, making it very easy to follow and understand which part is being described."
+        ],
+        "Content Quality": [
+          5,
+          "The quality is excellent. The image is a clear, professional-looking diagram. The text is well-written, grammatically correct, well-structured with headings and bullet points, and uses precise scientific terminology correctly."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. It's educational, well-organized, and presents complex information in an accessible way. The tone is helpful and appropriate."
+        ],
+        "Completeness": [
+          4,
+          "The response provides an exhaustive explanation of the parts of the microscope and how it works, which is essential for understanding its use. However, it does not provide a direct, step-by-step procedural guide on *how to use it* (e.g., '1. Place the slide on the stage... 2. Start with the lowest power objective...'), which was the explicit question. It provides the 'why' but not the 'how-to' in a simple list format."
+        ],
+        "Content Richness": [
+          5,
+          "The response is exceptionally rich. It goes far beyond the simple reference answer by explaining magnification formulas, resolution, the function of different objective lenses, the role of the condenser and diaphragms, and the optical path. This level of detail is highly valuable for a comprehensive understanding."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How do you use a compound light microscope properly? Use the diagram to help explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The diagram accurately labels the parts of a compound light microscope, and the text provides a scientifically accurate explanation of each part's function and the overall optical principles.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text is perfectly coherent with the image. It uses a numbered list that directly corresponds to the numbered labels on the diagram, making it very easy to follow and understand which part is being described.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality is excellent. The image is a clear, professional-looking diagram. The text is well-written, grammatically correct, well-structured with headings and bullet points, and uses precise scientific terminology correctly.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. It's educational, well-organized, and presents complex information in an accessible way. The tone is helpful and appropriate.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response provides an exhaustive explanation of the parts of the microscope and how it works, which is essential for understanding its use. However, it does not provide a direct, step-by-step procedural guide on *how to use it* (e.g., '1. Place the slide on the stage... 2. Start with the lowest power objective...'), which was the explicit question. It provides the 'why' but not the 'how-to' in a simple list format.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is exceptionally rich. It goes far beyond the simple reference answer by explaining magnification formulas, resolution, the function of different objective lenses, the role of the condenser and diaphragms, and the optical path. This level of detail is highly valuable for a comprehensive understanding.\"\n        ]\n    }\n}\n```"
+  }
+]

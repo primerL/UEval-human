@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEval Human Evaluation Portal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 42px;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border-left: 5px solid #667eea;
+        }
+
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .info-box ul {
+            margin-left: 25px;
+            line-height: 2;
+            font-size: 16px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 28px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            border-color: #667eea;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .card h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .card .stats {
+            color: #666;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .card .domain-list {
+            margin: 12px 0;
+            font-size: 13px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .card a {
+            display: inline-block;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .card a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #667eea;
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .full-dataset-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 35px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .full-dataset-card a {
+            display: inline-block;
+            padding: 16px 40px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .instructions {
+            background: #fff3cd;
+            border: 2px solid #ffeaa7;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 UEval Human Evaluation Portal</h1>
+        <p class="subtitle">Choose your evaluation task and start assessing AI-generated content</p>
+
+        <div class="info-box">
+            <h3>📊 About This Evaluation</h3>
+            <ul>
+                <li><strong>Total Samples:</strong> 55 AI-generated multimodal outputs (images + text)</li>
+                <li><strong>Evaluation Criteria:</strong> 6 dimensions (Correctness, Image-Text Coherency, Content Quality, Human Preference, Completeness, Content Richness)</li>
+                <li><strong>Rating Scale:</strong> 0-5 (5 is best)</li>
+                <li><strong>Your Progress:</strong> Automatically saved in browser</li>
+            </ul>
+        </div>
+
+        <div class="full-dataset-card">
+            <h2>📚 Evaluate Complete Dataset</h2>
+            <p>Evaluate all 55 samples across every domain</p>
+            <a href="evaluate.html?data=evaluation_results.json">Start Full Evaluation →</a>
+        </div>
+
+        
+        <div class="section">
+            <h2>Split Among 3 Evaluators</h2>
+            <p style="margin-bottom: 25px; color: #666; font-size: 16px;">Evenly balanced for three reviewers.</p>
+            <div class="cards-grid">
+                
+                <div class="card">
+                    <h3><span class="badge">1</span> Evaluator 1</h3>
+                    <div class="stats">34 samples to evaluate</div>
+                    <div class="domain-list">art(4), diagram(4), exercise(4), life(4), paper(4), space(4), tech(4), textbook(6)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator/evaluation_evaluator1.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">2</span> Evaluator 2</h3>
+                    <div class="stats">33 samples to evaluate</div>
+                    <div class="domain-list">art(4), diagram(4), exercise(4), life(4), paper(4), space(3), tech(4), textbook(6)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator/evaluation_evaluator2.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">3</span> Evaluator 3</h3>
+                    <div class="stats">33 samples to evaluate</div>
+                    <div class="domain-list">art(4), diagram(4), exercise(4), life(4), paper(4), space(3), tech(4), textbook(6)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator/evaluation_evaluator3.json">Start Evaluation →</a>
+                </div>
+        
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>Split Into 4 Parts (shareable buttons)</h2>
+            <p style="margin-bottom: 25px; color: #666; font-size: 16px;">Assign Parts 1–4 to different people and send them the matching button below.</p>
+            <div class="cards-grid">
+                
+                <div class="card">
+                    <h3><span class="badge">1</span> Part 1</h3>
+                    <div class="stats">25 samples to evaluate</div>
+                    <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(3), tech(3), textbook(4)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator1.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">2</span> Part 2</h3>
+                    <div class="stats">25 samples to evaluate</div>
+                    <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(3), tech(3), textbook(4)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator2.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">3</span> Part 3</h3>
+                    <div class="stats">25 samples to evaluate</div>
+                    <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(2), tech(3), textbook(5)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator3.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">4</span> Part 4</h3>
+                    <div class="stats">25 samples to evaluate</div>
+                    <div class="domain-list">art(3), diagram(3), exercise(3), life(3), paper(3), space(2), tech(3), textbook(5)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_4/evaluation_evaluator4.json">Start Evaluation →</a>
+                </div>
+        
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>Split Among 5 Evaluators</h2>
+            <p style="margin-bottom: 25px; color: #666; font-size: 16px;">Smaller batches so five reviewers can work in parallel.</p>
+            <div class="cards-grid">
+                
+                <div class="card">
+                    <h3><span class="badge">1</span> Evaluator 1</h3>
+                    <div class="stats">20 samples to evaluate</div>
+                    <div class="domain-list">art(3), diagram(2), exercise(3), life(2), paper(2), space(2), tech(2), textbook(4)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_5/evaluation_evaluator1.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">2</span> Evaluator 2</h3>
+                    <div class="stats">20 samples to evaluate</div>
+                    <div class="domain-list">art(3), diagram(3), exercise(2), life(2), paper(3), space(2), tech(2), textbook(3)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_5/evaluation_evaluator2.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">3</span> Evaluator 3</h3>
+                    <div class="stats">20 samples to evaluate</div>
+                    <div class="domain-list">art(2), diagram(3), exercise(2), life(3), paper(3), space(2), tech(2), textbook(3)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_5/evaluation_evaluator3.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">4</span> Evaluator 4</h3>
+                    <div class="stats">20 samples to evaluate</div>
+                    <div class="domain-list">art(2), diagram(2), exercise(2), life(3), paper(2), space(2), tech(3), textbook(4)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_5/evaluation_evaluator4.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3><span class="badge">5</span> Evaluator 5</h3>
+                    <div class="stats">20 samples to evaluate</div>
+                    <div class="domain-list">art(2), diagram(2), exercise(3), life(2), paper(2), space(2), tech(3), textbook(4)</div>
+                    <a href="evaluate.html?data=splits/by_evaluator_5/evaluation_evaluator5.json">Start Evaluation →</a>
+                </div>
+        
+            </div>
+        </div>
+    
+
+        
+        <div class="section">
+            <h2>📂 Split by Domain</h2>
+            <p style="margin-bottom: 25px; color: #666; font-size: 16px;">Focus on a single domain if you have specific expertise.</p>
+            <div class="cards-grid">
+                
+                <div class="card">
+                    <h3>🎨 Art Domain</h3>
+                    <div class="stats">12 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_art.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3>📊 Diagram Domain</h3>
+                    <div class="stats">12 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_diagram.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3>💪 Exercise Domain</h3>
+                    <div class="stats">12 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_exercise.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3>🌱 Life Domain</h3>
+                    <div class="stats">12 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_life.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3>📄 Paper Domain</h3>
+                    <div class="stats">12 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_paper.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3>🚀 Space Domain</h3>
+                    <div class="stats">10 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_space.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3>💻 Tech Domain</h3>
+                    <div class="stats">12 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_tech.json">Start Evaluation →</a>
+                </div>
+        
+                <div class="card">
+                    <h3>📚 Textbook Domain</h3>
+                    <div class="stats">18 samples</div>
+                    
+                    <a href="evaluate.html?data=splits/by_domain/evaluation_textbook.json">Start Evaluation →</a>
+                </div>
+        
+            </div>
+        </div>
+    
+
+        <div class="instructions">
+            <h3>📝 How to Complete Evaluation</h3>
+            <ol>
+                <li>Click on your assigned evaluation set above</li>
+                <li>Compare the reference content (left) with AI-generated content (right)</li>
+                <li>Rate all 6 criteria on a 0-5 scale and give concise reasoning</li>
+                <li>Click “Save Evaluation” for each sample (progress auto-saves)</li>
+                <li>Use arrow keys (← →) or navigation buttons to move between samples</li>
+                <li>When finished, click “Download All Evaluations” to export your JSON file</li>
+                <li>Send the downloaded JSON back to the coordinator</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

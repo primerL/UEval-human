@@ -1,0 +1,900 @@
+[
+  {
+    "id": 95,
+    "domain": "art",
+    "question": "How to Draw Boxing Gloves? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Begin by drawing an oval. This will help you to sketch the first glove. 2. 2. Use a curved line to enclose a rounded rectangular shape on top of the oval. This forms the wrist of the glove. 3. 3. Erase the oval from the wrist. Then, enclose a rectangle across the wrist. 4. 4. Erase one side of the oval. Use overlapping curved lines to form the glove's thumb and mitten. Use short curved lines to draw a starburst pattern at the point where the two lines meet. 5. 5. Draw a second oval overlapping the first glove. Erase as necessary. 6. 6. Erase the top of the oval and sketch in a rectangular shape with rounded corners. It should overlap the first glove, so erase as necessary. This forms the wrist of the glove. Then, enclose another rectangular shape within the first. Draw curved lines across the base of the glove to indicate the curvature of the material. 7. 7. Erase the side of the oval. Outline the thumb and mitten of the glove using two overlapping curved lines. Use shorter curved lines to draw a starburst pattern at the point where the two lines meet. Then, draw a curved line from the wrist to this junction, indicating a seam. 8. 8. Draw a circle above the gloves. This will form the hook from which the gloves hang. Draw a \"U\" shaped line above it. Below it, extend two curved lines and double them back upon themselves. Then, draw pairs of lines from the hook to each glove. This represents the string used to hang the gloves. 9. 9. Detail the glove. Draw curved lines across the wrist and side of the glove to indicate wrinkles and seams. 10. Color your boxing gloves. They are typically red.",
+    "reference_images": [
+      "data/art/95_1.png",
+      "data/art/95_2.png",
+      "data/art/95_3.png",
+      "data/art/95_4.png",
+      "data/art/95_5.png",
+      "data/art/95_6.png",
+      "data/art/95_7.png",
+      "data/art/95_8.png",
+      "data/art/95_9.png",
+      "data/art/95_10.png"
+    ],
+    "generated_text": "Here are the **text steps** (separate from the visual):\n\n1. Shapes & pose\n   Lightly sketch two tall ovals for the glove bodies, tilted slightly toward each other. Add a short horizontal line beneath each for the wrist opening.\n\n2. Cuffs\n   Turn each wrist line into a short “cuff cylinder”: draw a thin rectangle wrapping the base of each oval.\n\n3. Knuckle dome\n   Round the top of each oval into a smooth dome. Add a soft, shallow curve near the top front to suggest the knuckle ridge.\n\n4. Thumbs\n   On the inner side of each glove, attach a teardrop/bean shape for the thumb pad. Its tip points toward the knuckle ridge; its base connects near the cuff.\n\n5. Palm panel\n   Inside each glove, sketch a curved panel that starts under the thumb, swoops across the palm, and meets the cuff—this is the padded palm section.\n\n6. Clean silhouette\n   Trace a single confident outline around each glove (dome → front knuckle → thumb → palm → cuff). Erase construction lines.\n\n7. Details & seams\n   Add short dashed or stitched lines along the knuckle ridge, around the thumb base, and near the cuff edge. If you prefer laces, sketch a narrow opening on the front of one glove with an “X-X-X” lace pattern; otherwise add a simple strap rectangle.\n\n8. Overlap & depth\n   Decide which glove sits slightly forward. Thicken that glove’s outer contour a bit more and let it overlap the other to create depth.\n\n9. Shading\n   Pick a light source (e.g., top-left). Lightly shade the underside of the knuckle dome, the inner thumb curve, and the gap between gloves. Darken the cuff underside. Keep the top planes lighter.\n\n10. Highlights\n    Leave slim unshaded arcs along the upper knuckle and thumb to suggest glossy padding.\n\n11. Final linework\n    Go over the main contour with a steady, slightly thicker line; keep stitching and fold lines thinner so they read as surface detail.\n\n12. Color (optional)\n    Fill the gloves with a base color (classic red works well). Add a darker tone along the shaded edges and a lighter tint on top planes. Keep cuffs a touch darker than the glove body.\n\nWant the steps as a printable handout or in a different style (cartoon, realistic, vintage)? I can format that too.\n",
+    "generated_image": "GPT-thinking/art/95.png",
+    "gemini_evaluation": {
+      "Question": "How to Draw Boxing Gloves? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          1,
+          "The user asked for visual steps, but the generated response only provided a single final image. While the text steps are valid instructions for drawing, the failure to provide the visual component makes the overall response incorrect."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "There is a severe lack of coherency. The text describes a multi-step drawing process, but the single image only shows the final product. The text does not correspond to a sequence of images, and the image does not illustrate any of the steps mentioned in the text."
+        ],
+        "Content Quality": [
+          4,
+          "The quality of the single generated image is high; it is a well-rendered, colored drawing. The text is also of high quality, with clear, well-written, and detailed steps."
+        ],
+        "Human Preference Alignment": [
+          2,
+          "While the generated image is aesthetically pleasing and the text is helpful, the response fails to meet the user's primary request for visual steps. A user would likely be disappointed by this omission."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It omits the core requirement of the prompt: providing visual steps for the drawing process. Only the textual steps are provided in a step-by-step format."
+        ],
+        "Content Richness": [
+          2,
+          "The text is very rich and detailed, offering more nuanced instructions than the reference. However, the visual component is extremely poor in richness, providing only one final image instead of a series of steps."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw Boxing Gloves? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The user asked for visual steps, but the generated response only provided a single final image. While the text steps are valid instructions for drawing, the failure to provide the visual component makes the overall response incorrect.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a severe lack of coherency. The text describes a multi-step drawing process, but the single image only shows the final product. The text does not correspond to a sequence of images, and the image does not illustrate any of the steps mentioned in the text.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The quality of the single generated image is high; it is a well-rendered, colored drawing. The text is also of high quality, with clear, well-written, and detailed steps.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"While the generated image is aesthetically pleasing and the text is helpful, the response fails to meet the user's primary request for visual steps. A user would likely be disappointed by this omission.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It omits the core requirement of the prompt: providing visual steps for the drawing process. Only the textual steps are provided in a step-by-step format.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is very rich and detailed, offering more nuanced instructions than the reference. However, the visual component is extremely poor in richness, providing only one final image instead of a series of steps.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 14,
+    "domain": "art",
+    "question": "How to draw a rocket ship? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Begin by drawing a curved line. This will form one side of the rocket ship. 2. 2. Draw another curved line mirroring the first. They should meet in a gentle curve on the top end, but they should not connect on the bottom end. This outlines the body, or fuselage, of the rocket. 3. 3. Enclose the open end of the rocket using a pair of straight lines. 4. 4. Band the nose cone with two pairs of curved parallel lines. 5. 5. Draw portholes, or small windows, along the side of the rocket. To do so, draw several circles of different sizes. 6. 6. Draw the rocket's fin. First, draw a straight line from the tail of the rocket to its middle. Then, draw curved lines downward from each end of the straight line. Allow the curved lines to meet at a gentle point. 7. 7. Erase guide lines from the fin. 8. 8. Draw the rocket's second fin. To do so, extend two curved lines from the top side of the rocket - one emerging from the middle of the ship, the other from its base. Allow the lines to meet at a gentle point. 9. 9. Draw the flames, called exhaust, coming from the rocket's nozzle, or base. Use a series of short curved lines that meet in jagged points to draw a rounded triangular shape. Then, use another series of lines to draw a second layer. Finally, draw the third layer of the exhaust, allowing it to end at a point. 10. Color your rocket. Rockets such as the one in this drawing guide were popular illustrations during the 1950s and 1960s. Some were silver in color, while others had bright red, blue, or other colored markings.",
+    "reference_images": [
+      "data/art/14_1.png",
+      "data/art/14_2.png",
+      "data/art/14_3.png",
+      "data/art/14_4.png",
+      "data/art/14_5.png",
+      "data/art/14_6.png",
+      "data/art/14_7.png",
+      "data/art/14_8.png",
+      "data/art/14_9.png",
+      "data/art/14_10.png"
+    ],
+    "generated_text": "Here are the **text steps** (the image above shows them visually):\n\n1. Outline the body\n   Draw a tall capsule: a rounded rectangle with a pointy cone on top. Keep it about 3× taller than it is wide.\n\n2. Add guide & base\n   Lightly sketch a vertical centerline and a short trapezoid at the bottom—this will become the engine/nozzle.\n\n3. Sketch the fins\n   On both sides, add curved triangles that start ~⅓ up the body and flare outward, then taper to points.\n\n4. Window/porthole\n   Near the top, draw a circle. Add a smaller inner circle for glass depth (or a ring around it).\n\n5. Panel bands\n   Add one or two horizontal bands across the lower body for seams. Keep them slightly curved to match the rocket’s form.\n\n6. Clean outline\n   Trace your best lines with a darker stroke. Erase the centerline and any construction marks.\n\n7. Fire & smoke\n   From the nozzle, draw layered flame shapes (long inner teardrop, wider outer). Add puffy smoke clouds below if you like.\n\n8. Details & color\n   Optional bolts (small dots along seams), little stars around it. Color idea: red fins/nose, gray/white body, blue window, yellow-orange flames.\n\n**Proportions & tips**\n\n* Body height ≈ 5 body-widths; fins start around the lower third.\n* Mirror the fins by measuring their base and top points from the centerline.\n* Keep line weight consistent; save thicker lines for the outer silhouette.\n\nIf you want a printable worksheet or different styles (cute/chibi, realistic, isometric), tell me the vibe and I’ll make another visual.\n",
+    "generated_image": "GPT-thinking/art/14.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a rocket ship? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response is correct. It provides a valid and logical set of instructions, both visually and textually, for drawing a rocket ship."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text steps perfectly correspond to the numbered visual steps in the generated image. Each textual instruction accurately describes the action shown in the corresponding image panel."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is high-quality, clear, and well-organized into a step-by-step grid. The text is well-written, easy to understand, and grammatically correct. The overall presentation is very professional and effective as a tutorial."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with user preference. It's helpful, safe, and aesthetically pleasing. The instructional format is clear and encouraging."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete. It provides both the visual steps and the text steps as requested, covering the process from initial outline to final details and coloring."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The single image that contains all the steps is an efficient and effective format. The text is richer than the reference, as it includes a separate section for 'Proportions & tips', adding extra value for the user."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a rocket ship? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response is correct. It provides a valid and logical set of instructions, both visually and textually, for drawing a rocket ship.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text steps perfectly correspond to the numbered visual steps in the generated image. Each textual instruction accurately describes the action shown in the corresponding image panel.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is high-quality, clear, and well-organized into a step-by-step grid. The text is well-written, easy to understand, and grammatically correct. The overall presentation is very professional and effective as a tutorial.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with user preference. It's helpful, safe, and aesthetically pleasing. The instructional format is clear and encouraging.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It provides both the visual steps and the text steps as requested, covering the process from initial outline to final details and coloring.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The single image that contains all the steps is an efficient and effective format. The text is richer than the reference, as it includes a separate section for 'Proportions & tips', adding extra value for the user.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 76,
+    "domain": "life",
+    "question": "How to make brownies? Provide illustrated steps and text the steps.",
+    "reference_text": "1. Preheat your oven to 375ºF (190ºC). 2. Grease and line a 9×9 in. (23 x 23 cm.) baking tray about an inch deep. You can also line the pan with aluminum foil, if you like. If you don't have anything to line the tray with, grease the tray with butter and add a light layer of flour over. 3. Melt the butter or margarine in a small pan over low heat. While this is melting, complete the next two steps. It should take about a minute or two for the butter to melt. It'll melt faster if you start off with it at room temperature. 4. Mix the caster sugar and eggs in a separate bowl. Pour the sugar and eggs into a medium-sized bowl and stir the ingredients together until they're fully incorporated. This should take about a minute. You can use a wooden spoon, a whisk, or even an electric mixer to stir the ingredients together. 5. Mix the flour and chocolate powder together in a separate bowl. Now, pour these ingredients into a separate bowl and stir them until they are fully incorporated. 6. Pour the melted butter into the sugar and egg mixture. Then, stir until the butter is well mixed in. This will make a nice, light yellow, creamy mixture. 7. Sift in the cocoa mixture into the egg mixture a little at a time. Just pour the ingredients into a sieve and gently shake it to let the air in while the cocoa mixture falls down into the egg mixture. You can even lightly scrape a fork along the bottom of the sieve to help sift the cocoa mixture. 8. Add the chocolate chips into the mixture. Now, you can mix in the chocolate chips into the rest of the ingredients. You can use regular chocolate chips, or cute mini chips if you prefer that. If you're feeling adventurous and want to mix things up, you can also go for the white chocolate chips. [ citation needed ] 9. Pour the mixture into the baking tray. Now that the tray is greased, it should be all ready for you to pour in the mixture. Use a flat plastic mixer or knife to even out the mixture. It doesn't have to be perfectly even, but try to distribute it around the pan as evenly as you can so that the brownies are of even height throughout. [ citation needed ] 10. Insert the tray on the middle shelf of the oven and bake for 30 minutes. After 25 minutes, keep checking on the brownies to make sure they don't burn. You can even clean up while you're waiting for your brownies to cook. If you hang around the kitchen while the brownies begin to harden, you'll be craving this sweet treat even more! 11. Remove the brownies from the oven and let them cool. Wait at least five minutes for the brownies to cool. This will also give them time to harden a bit. If you cut into them when they're still cooling, it'll be harder to cut them cleanly. 12. Cut the brownies into bite-size chunks. You can cut tiny pieces, so you can devour them in one bite each. You can also cut larger brownies, so each portion is nice and hearty. It's up to you -- if you're making them for a large event, then the smaller, the better. But if you're just cooking for yourself and a few friends or family members, why not cut them to be a little bigger? You can even top them with confectioner's sugar for an extra sweet taste.",
+    "reference_images": [
+      "data/life/76_1.jpg",
+      "data/life/76_2.jpg",
+      "data/life/76_3.jpg",
+      "data/life/76_4.jpg",
+      "data/life/76_5.jpg",
+      "data/life/76_6.jpg",
+      "data/life/76_7.jpg",
+      "data/life/76_8.jpg",
+      "data/life/76_9.jpg",
+      "data/life/76_10.jpg",
+      "data/life/76_11.jpg",
+      "data/life/76_12.jpg"
+    ],
+    "generated_text": "Here are your illustrated steps and the text, provided separately.\n\n# Illustrated steps (image)\n\nI created a simple 8-panel infographic that shows each stage, from prep to slicing.\n\n*(Use/download the image above titled “Classic Brownies – Step by Step.”)*\n\n# Text steps\n\n## Ingredients (8-inch / 20 cm square pan; ~16 pieces)\n\n* ½ cup (115 g) unsalted butter\n* 1 cup (200 g) granulated sugar\n* 2 large eggs\n* 1 tsp vanilla extract\n* ⅓ cup (35–40 g) unsweetened cocoa powder\n* ½ cup (65 g) all-purpose flour\n* ¼ tsp salt\n* Optional: ¼ tsp baking powder (for cakier brownies)\n* Optional mix-ins: ½ cup (85 g) chocolate chips or chopped nuts\n\n## Equipment\n\n8-inch square pan, parchment, medium saucepan,\n    2 bowls, whisk, spatula.\n\n## Steps\n\n1. Prep\n   Heat oven to **350°F / 175°C**. Line pan with parchment, leaving overhang.\n\n2. Melt\n   In a saucepan over low heat, melt **butter**. Stir in **sugar** until glossy and warm (about 1–2 min). Remove from heat; cool 2–3 min until just warm.\n\n3. Whisk wet\n   Whisk in **eggs** one at a time until smooth and shiny, then whisk in **vanilla**.\n\n4. Combine dry\n   In a bowl, whisk **flour, cocoa, salt** (and baking powder if using).\n\n5. Make batter\n   Stir dry ingredients into the warm butter-egg mixture just until no dry spots remain. Fold in **chocolate chips/nuts** if using. Batter will be thick.\n\n6. Pan\n   Scrape batter into the lined pan and smooth the top.\n\n7. Bake\n   Bake **20–25 min** (fudgy) until the edges are set and a toothpick in the center comes out with a few moist crumbs (not wet batter).\n\n8. Cool & slice\n   Cool in the pan on a rack **at least 20–30 min**. Lift out with parchment and slice into squares.\n\n## Tips\n\n* For extra fudgy: bake toward **20–22 min**, skip baking powder.\n* For cakier: bake to **25–28 min** and include baking powder.\n* Shiny top trick: make sure the sugar fully dissolves into the warm butter and whisk the eggs well.\n* Storage: airtight at room temp **3–4 days**, or freeze up to **2 months** (wrap tightly).\n\nWant a gluten-free or vegan variant? I can lay those out too.\n",
+    "generated_image": "GPT-thinking/life/76.png",
+    "gemini_evaluation": {
+      "Question": "How to make brownies? Provide illustrated steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text provides a valid and correct recipe for brownies. The generated image is a clear infographic that correctly illustrates the steps for making brownies."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The 8 panels in the infographic image correspond perfectly to the 8 steps outlined in the generated text. Each visual representation accurately reflects the action described in the accompanying text step."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the image and text is excellent. The text is well-structured, easy to read, and grammatically correct. The image is a high-quality, clear, and aesthetically pleasing infographic that effectively communicates the steps."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It's helpful, safe, and presented in a very user-friendly and visually appealing format. The infographic style is an excellent choice for a recipe guide."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested text steps and illustrated steps, covering the entire process from gathering ingredients to slicing the final product."
+        ],
+        "Content Richness": [
+          5,
+          "The content is very rich. The text goes beyond simple steps to include specific ingredient quantities, an equipment list, optional additions, and helpful tips for variations and storage. The infographic, while a single image, contains 8 distinct illustrations, providing a rich visual summary of the process."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to make brownies? Provide illustrated steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text provides a valid and correct recipe for brownies. The generated image is a clear infographic that correctly illustrates the steps for making brownies.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The 8 panels in the infographic image correspond perfectly to the 8 steps outlined in the generated text. Each visual representation accurately reflects the action described in the accompanying text step.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is excellent. The text is well-structured, easy to read, and grammatically correct. The image is a high-quality, clear, and aesthetically pleasing infographic that effectively communicates the steps.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It's helpful, safe, and presented in a very user-friendly and visually appealing format. The infographic style is an excellent choice for a recipe guide.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested text steps and illustrated steps, covering the entire process from gathering ingredients to slicing the final product.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The content is very rich. The text goes beyond simple steps to include specific ingredient quantities, an equipment list, optional additions, and helpful tips for variations and storage. The infographic, while a single image, contains 8 distinct illustrations, providing a rich visual summary of the process.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 30,
+    "domain": "life",
+    "question": "How to change a flat tire safely on the roadside? Provide a visual guide and text the steps. ",
+    "reference_text": "1. Find a safe area where traffic won’t be a risk. If you are near a road, park as far from traffic as possible and turn on your emergency hazard lights. Don’t park on an incline to keep your vehicle from rolling away, and stay off of soft soil or grass. If you have to drive slowly for a block or two to get to a safe, flat area, then so be it.Examples of safe areas are as follows: The shoulder of the highway, a public parking lot, or a large space with no pedestrian activity. Apply the parking brake once you’re parked to ensure the vehicle doesn’t move. For added peace of mind, place heavy rocks or blocks around each tire you aren’t changing to keep the vehicle from rolling. 2. The spare will likely be underneath a cover in the trunk. Every make and model will be a little bit different, but your spare should be under the cloth or plastic cover at the bottom of your trunk. Retrieve the wheel from the trunk. Also, remove the jack and the tire iron you need to remove the lug nuts. The tools for completing the change - including the jack, and lug wrench - will be located near the spare tire. On most vehicles, the tire iron is part of the jack. You’ll use it to turn the bolt on the end of the jack to raise or lower it, and also to remove the lug nuts on the tire. If you drive a Jeep or a large SUV, the spare tire may be on the outside or underneath the vehicle. If you don’t have a spare, your vehicle may have a sealant kit to temporarily patch your flat tire . If you don’t have that either, call a tow truck. 3. Move around your vehicle and check for any damaged components or wheels. This article focuses on replacing damaged tires - be sure to contact roadside services in the event you are experiencing any issues you cannot safely handle yourself either due to lack of experience, tools, replacement parts, or severity of the damage. 4. Provided you have the tools necessary, find a solid point on the frame of your vehicle to elevate the portion of the car near the wheel you need to replace. Remember to place the jack in a position that won't be hit by yourself or others, risking the vehicle being dropped from the jack. Elevate the vehicle until the tire is no longer touching the ground (recommended 1-2 inches) Place the jack on a part of the frame that will not damage or warp components of your vehicle, causing more damage. Begin to lift the vehicle by pressing down on the floor jack or by turning the floor jack handle slowly. You will begin to see the tires lift from the ground. To have enough room to dismount the tire, you want to make sure that the tire is at least lifted 3-6 inches from off the ground. Grab your jack stands. These are used as a safety precaution so that the vehicle doesn't fall to the ground in case your floor jacks break or slip. The owner's manual will show you where to place them. To engage the jack stands, use the lever that is attached to them and line it up with the jack stand point (Usually indicated by an arrow engraved into the car) but only raise the stand to about an inch or two away from the jack stand point which is usually the frame of the car. CAREFULLY release the pressure from your floor jack so that the vehicle falls into place with the jack stands 5. Remove the hubcap and loosen the nuts part-way. Start with the lowest bolt and avoid causing damage to the undamaged bolts/lug nuts. Pry the hubcap off using the flat end of your tire iron or a flathead screwdriver. Do not remove the lug nuts entirely. Just use the end of the tire iron to loosen the nuts by turning them counterclockwise so that there’s no longer any resistance. You should be able to spin the nuts by hand, but they shouldn’t be so loose that they spin freely. By keeping the wheel on the ground when you first loosen the nuts, you'll make sure that you're turning the nuts instead of the wheel. Your tire iron may have different sizes of openings on each end. The correct end for the nut will slip easily onto it, but it won’t be so loose that it rattles. If your vehicle doesn’t have a hub cap, don’t worry about that part. If it does, your hub cap may have a center cap that needs to be unscrewed first. On some newer vehicles you need a special “key” to unlock one of the lug nuts as a theft prevention strategy. Look in your glove box and trunk for a special tool that’ll remove that unique lug nut. These lug nuts will have a unique groove inside of them. Use the key to remove the locking lug nut. Keep all bolts as you will be using them to connect your spare tire to your car. 6. Place the divot in the jack directly under the metal rim of the frame. Get on the ground and use the flashlight on your phone to take a closer look. Touch the area directly behind the metal body of your exterior to feel and look for a thin, metal length. This is your frame. Set the jack underneath the frame right next to the tire you’re replacing. Many cars have molded plastic along the bottom. If you don't place the jack in the right spot, it will crack the plastic when you start lifting. If you're not sure about the right place to put the jack, read your owner's manual. There may be a small notch or mark just behind the front wheel wells, or in front of the rear wheel wells where the jack is intended to be placed. 7. Use the jack to raise your tire 4–6 inches (10–15 cm) off of the ground. Turn the handle of the jack clockwise to begin raising the platform up. Once the platform on the jack makes contact with the vehicle, take a look at the point where the jack meets the frame to confirm it’s on your frame. If it isn’t, loosen the jack and reposition it. If it is, continue to lift your vehicle off the ground . The vast majority of jacks are scissor jacks. You use the tire iron or a rod to twist the nut on the side and hoist the vehicle. You might have a pump-assisted jack, though. With a pump jack, you repeatedly move the handle up and down to raise the vehicle hydraulically. This can be kind of freaky the first time you do it. You might think your jack is going to snap or your car is going to tilt over. Don’t worry! Your jack and vehicle are designed to handle this. It can take a few minutes and a lot of elbow grease to get that vehicle up, so feel free to take breaks if you need to. It’s worth double-checking to make sure the jack is on the frame. You really don’t want to damage your vehicle with the jack. Make sure the vehicle is secure in the air by pressing down on the side of the vehicle that is jacked up in the air. Next, you need to add some wheel chalks to the opposite side wheels of the vehicle. If you have the car jacked from the front left side of the vehicle, then you would want to place two wheel-chocks under the rear tires to prevent the vehicle from rolling. 8. Pop the nuts off by hand and pull the tire off. You already loosened the nuts, so removing them should be fairly easy. Use the tire iron and brace the tire with your non-dominant hand if you need to. With all of the lug nuts removed, slide your busted wheel off of the axle and set it aside. Flip your hubcap upside down to turn it into a small bowl and set your lug nuts inside so that you don’t lose them. Use the proper body mechanics when dismounting a tire. Mounting and dismounting a tire is very tiresome and heavy on your back so you always want to make sure you squat using your legs with your back straight. Never place your legs under the vehicle while it's lifted up because that's a safety hazard. If you can, grab a small mechanics chair as this will help secure your back. 9. The side of the spare with the valve stem on it faces out. Line the lug nut bolts up with the openings on the spare and slide the spare on to the axle - holding the tires at the positions of 4 and 8, lifting the tire slightly and pulling the tire out. The valve stem is the little rubber pipe that sticks out where you add air to the tire. If it’s pointed inward towards the body of the vehicle, the tire is backwards. Fun fact, the spare tire is also known as a “donut.” Take one of the bolts you removed from the old tire, take your spare tire, and align the sockets on the tire rim with the sockets on the tire mount, then place the tire on the mount. Insert the bolt into the topmost socket and rotate the bolt into its socket enough to ensure the tire will not fall off the mount, but not too tightly as to fully insert the bolt into the socket. Grab the tire using proper body mechanics (this is important for your physical health) by getting down on one knee and rolling the tire onto your foot. Carefully lift with your arms and foot to align the tire with the hub. Align the tire with the wheel hub. Press the tire and wheel against the hub so that it sits completely flushed and symmetrical with the hub bearing (this is important for tightening reasons). Keep your foot pressed onto the tire to secure it. Begin screwing the lug nuts back on. First, you want to make sure that you're hub cap is securely placed back on. Start with one lug nut and thread it all the way down on the wheel stud to help hold the tire on the hub. 10. Don’t tighten the nuts using the tire iron just yet. Gently slide each over the bolt and tighten it by hand to partially lock them in place. You will tighten the lug nuts again once the car is down and there is no risk of it falling. Just to clarify, use the same lug nuts that were previously on your wheel. You don’t need special lug nuts for the spare. 11. With the wheel on the axle, lower the jack and remove it. Turn the handle or bolt on the jack counterclockwise to begin lowering the vehicle. Continue lowering the vehicle until the tire is comfortably back on the ground. Then, carefully remove the jack from underneath and set it back in your trunk. [8] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source Keep your entire body out from underneath the vehicle. If the jack slips your vehicle gets closer to the ground, you don’t want your body underneath it. 12. Completely tighten the nuts until they won’t turn any further. Using the tire iron, tighten each nuts 3-4 times and then move on to the lug nut on the opposite side. Work in a star pattern to ensure the nuts are secured in an even pattern. Continue tightening the nuts in a cycle until all of the lug nuts are completely secure. [9] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source After you’ve tightened each nut, try to tighten each nut one more time to ensure they’re as tight as they can possibly get. Put your busted tire in the trunk alongside the jack and tire iron. 13. Remove and release all of the jacks from the car. Start off by lifting the vehicle up from the jack stands by using the floor jacks. Do this to make sure you are able to remove the jack stands. Remove the jack stands from under the vehicle. Remove the old tire and wheel assembly. Release the pressure from the floor jack by slowly turning the lever to the left and you will start to see the vehicle slowly fall to the ground. Once the vehicle is fully on the ground. Remove the floor jack. Remove wheel chocks. 14. Keep your speed under 50 miles per hour (80 km/h) and don't go further than 50 miles (80 km). If your spare is a full-size tire (rather than a donut), you can drive the same way you normally would. Check your tire pressure and fill your spare with air as needed. This is especially important if the spare has been in your trunk for a while, since it may have leaked a little in storage. [10] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source Head to an auto shop as soon as you can. Small punctures can usually be repaired for $15-100. If the tire is not repairable, you may need to buy a replacement tire.",
+    "reference_images": [
+      "data/life/30_1.jpg",
+      "data/life/30_2.jpg",
+      "data/life/30_5.jpg",
+      "data/life/30_6.jpg",
+      "data/life/30_7.jpg",
+      "data/life/30_8.jpg",
+      "data/life/30_9.jpg",
+      "data/life/30_10.jpg",
+      "data/life/30_11.jpg",
+      "data/life/30_12.jpg",
+      "data/life/30_14.jpg"
+    ],
+    "generated_text": "Here’s your **visual guide** (image generated above) and the **separate text instructions** you asked for.\n\n# Text: How to change a flat tire safely on the roadside\n\n## Before you start (safety first)\n\n* Pull well off the road onto flat, solid ground. If you can’t get fully out of traffic or it’s a blind curve, bridge, or narrow shoulder, **call roadside assistance** instead.\n* Turn on **hazard lights**. Put on a **reflective vest** if you have one.\n* Set the **parking brake** (and put the car in Park; manual: 1st gear or Reverse).\n* Place **wheel chocks**/big stones **on both sides** of a tire opposite the flat (e.g., if front-left is flat, chock the right-rear).\n* Get people and pets away from the traffic side. Never crawl under the vehicle.\n\n## Tools you’ll need\n\n* Spare tire (compact “donut” or full-size)\n* Jack and **owner’s-manual jack point locations**\n* Lug wrench (and locking-lug key if you have one)\n* Wheel chocks, gloves, flashlight, and warning triangle/cones (if available)\n\n## Step-by-step\n\n1. **Prep the area**\n   Place a warning triangle 100–200 ft (30–60 m) behind the car if safe to do so.\n\n2. **Expose the lugs**\n   Remove the hubcap/wheel cover if present.\n\n3. **Break the lug nuts loose**\n   With the wheel **still on the ground**, use the lug wrench to loosen each nut about ½–1 turn. Push down with your foot if needed; don’t fully remove them yet.\n\n4. **Position the jack at the correct jack point**\n   Check your manual for the reinforced spot near the flat tire. Never jack on plastic trim or thin metal.\n\n5. **Lift the vehicle**\n   Raise until the flat tire just clears the ground by an inch or two (2–5 cm). Keep your body and limbs out from under the car.\n\n6. **Remove the flat wheel**\n   Spin off the loosened lug nuts and set them in a safe spot (a hubcap works). Pull the wheel straight off the hub.\n\n7. **Mount the spare**\n   Line up the holes with the studs; slide the wheel fully onto the hub. Thread the lug nuts **by hand** until snug.\n\n8. **Initial tighten in a star pattern**\n   Using the wrench, snug the nuts in a **star/ criss-cross** sequence—do not fully torque yet.\n\n9. **Lower the vehicle and final tighten**\n   Lower the car until the tire just contacts the ground and the jack is free. Now fully tighten the nuts in the **same star pattern** until firmly secure. (Later, torque to your vehicle’s spec.)\n\n10. **Stow and check**\n    Put the flat and tools away, remove chocks/triangle, and check the spare’s pressure. For compact spares, **observe the sidewall limits** (often around 50 mph / 80 km/h and short distances). Drive to a tire shop for repair or replacement **as soon as possible**.\n\n## Extra tips\n\n* If a nut won’t budge, apply steady pressure rather than jerky motions; a short pipe over the wrench handle can help (carefully).\n* If the jack sinks on soft ground, place a solid board under it.\n* After 5–10 miles (8–16 km), **re-check lug nut tightness**.\n* If you have **TPMS**, the warning light may stay on until the repaired tire is back on.\n\n---\n\nIf you want, I can also turn these steps into a printable one-page checklist or add car-specific jack points based on your make/model.\n",
+    "generated_image": "GPT-thinking/life/30.png",
+    "gemini_evaluation": {
+      "Question": "How to change a flat tire safely on the roadside? Provide a visual guide and text the steps. ",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated text provides accurate and safe instructions for changing a tire. The image is a correct depiction of the overall process, but it's a single infographic rather than a multi-image visual guide, which slightly misses the user's intent for a step-by-step visual."
+        ],
+        "Image-Text Coherency": [
+          4,
+          "The image serves as a good overview that corresponds to the general process described in the text. However, the numbered steps in the image (1-6) do not directly map to the numbered steps in the text (1-10), making it a complementary summary rather than a direct visual translation of the text."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-labeled illustration. The text is exceptionally well-written: it is clear, concise, well-structured with headings and bullet points, and grammatically perfect."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is extremely helpful, safe, and well-organized. The clear formatting and professional-looking illustration make for a highly user-friendly and aesthetically pleasing answer."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both a visual element and detailed text instructions as requested. It covers all the necessary stages from safety preparations to post-change checks."
+        ],
+        "Content Richness": [
+          4,
+          "The text is very rich, including sections on safety, required tools, step-by-step instructions, and extra tips. The single-panel image, while effective as a summary, is less rich in detail compared to the multi-image step-by-step guide provided in the reference."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to change a flat tire safely on the roadside? Provide a visual guide and text the steps. \",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated text provides accurate and safe instructions for changing a tire. The image is a correct depiction of the overall process, but it's a single infographic rather than a multi-image visual guide, which slightly misses the user's intent for a step-by-step visual.\"\n        ],\n        \"Image-Text Coherency\": [\n            4,\n            \"The image serves as a good overview that corresponds to the general process described in the text. However, the numbered steps in the image (1-6) do not directly map to the numbered steps in the text (1-10), making it a complementary summary rather than a direct visual translation of the text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-labeled illustration. The text is exceptionally well-written: it is clear, concise, well-structured with headings and bullet points, and grammatically perfect.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is extremely helpful, safe, and well-organized. The clear formatting and professional-looking illustration make for a highly user-friendly and aesthetically pleasing answer.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both a visual element and detailed text instructions as requested. It covers all the necessary stages from safety preparations to post-change checks.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich, including sections on safety, required tools, step-by-step instructions, and extra tips. The single-panel image, while effective as a summary, is less rich in detail compared to the multi-image step-by-step guide provided in the reference.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 92,
+    "domain": "life",
+    "question": "How to clean a coffee maker? Provide illustrated steps and text the steps.",
+    "reference_text": "1. Disassemble the coffee maker. Remove any parts that come off, such as the pot, the brew basket, and any other removable parts. These part should be cleaned separately from the rest of the coffee maker. 2. Wash the removable parts. Submerge the removable parts in warm, soapy water, and wash them using a dish rag. You can wash removable parts of your coffee maker the same way you would wash dishes. Glass pots can be very breakable. When washing your coffee maker's pot, treat the glass gingerly. Some coffee makers may have parts that can be washed in a dishwasher. Check the instructions manual, if you still have it. If you're unsure if your coffee maker can be washed in the dishwasher, err on the side of caution and hand wash it. 3. Wipe down the outside of the machine. Take a wet, soapy rag and give the outside of the machine a good wipe down. Wipe down the sides and remove any coffee grinds from the warming plate. When you're down, wipe off any soap suds with a clean, damp rag. 4. Reassemble your machine. After all the parts are dry, you can put your coffee machine back together. It is ready to use again. Make a habit of cleaning your coffee maker like this after each use. 5. Add a vinegar and water solution to your coffee maker. [4] X Expert Source Jonathan Tavarez Cleaning Specialist Expert Interview Make a mixture using 2 parts warm water and 1 part white vinegar. [5] X Expert Source Marcus Shields House Cleaning Professional Expert Interview The precise amounts will vary depending on the size of your coffee maker, but make roughly enough to fill the reservoir. Pour the mixture into the reservoir like you normally would with water when making coffee. 6. Let the coffee machine run half a brew cycle. [7] X Expert Source Jonathan Tavarez Cleaning Specialist Expert Interview Turn the coffee machine on. Keep an eye on it as it brews. Once about half the pot is full with the filtered vinegar/water mixture, turn the pot off. 7. Let the coffee maker sit for an hour. Set a timer for an hour. Let the coffee pot sit for this time frame. This will give the vinegar time to sit in the machine and clean out any mold. 8. Complete the brew cycle. After letting the coffee maker sit for an hour, turn the machine back on. Let it run the rest of the brew cycle. [10] X Expert Source Jonathan Tavarez Cleaning Specialist Expert Interview When done, all the vinegar/water mixture should be filtered into the pot. You can pour this mixture down the sink. 9. Run three brew cycles with plain water. Fill your coffee pot with clean water. Pour this into the reservoir and run a complete brew cycle. [12] X Expert Source Jonathan Tavarez Cleaning Specialist Expert Interview When it's done, pour the water out and run two more brew cycles with clean water. This should clean any vinegar out of your coffee maker. 10. Wipe down the coffee maker. After disinfecting the coffee maker, take a clean, damp rag. Wipe down the exterior of the machine to remove any dirt and debris. You should also make sure to remove coffee grinds from the warming plate. 11. Read your instruction's manual. If you still have the instructions manual, read it before cleaning your coffee maker. Most coffee makers can safely be cleaned with a vinegar/water mixture, but it's always a good idea to check first. [15] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source If you don't have the instructions manual, try looking up your model online. You may be able to find an instructions manual on the Internet. 12. Leave the reservoir lid open. Many people keep the reservoir lid closed. However, it's a good idea to leave it open when not in use. This will help dry out the machine, preventing mold and bacteria from growing in a moist environment. 13. Rinse the brew basket in the sink regularly. The brew basket is very susceptible to mold as it gets wet during the brewing process. Make sure you rinse out the brew basket after each use and make a habit of cleaning it each time you do dishes. This will keep your coffee maker mold and germ free. [16] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source",
+    "reference_images": [
+      "data/life/92_1.jpg",
+      "data/life/92_2.jpg",
+      "data/life/92_3.jpg",
+      "data/life/92_4.jpg",
+      "data/life/92_5.jpg",
+      "data/life/92_6.jpg",
+      "data/life/92_7.jpg",
+      "data/life/92_8.jpg",
+      "data/life/92_9.jpg",
+      "data/life/92_10.jpg",
+      "data/life/92_11.jpg",
+      "data/life/92_12.jpg",
+      "data/life/92_13.jpg"
+    ],
+    "generated_text": "# Text-only steps (for a standard drip coffee maker)\n\n## Before you start\n\n* Unplug the machine and let it cool.\n* Check your manual; some brands discourage vinegar—use citric acid instead if so.\n* Remove any charcoal/water filter from the reservoir (replace after cleaning).\n\n## Quick clean (after each brew)\n\n1. Discard grounds and the paper filter.\n2. Wash the carafe, brew basket, lid, and reusable mesh filter in warm, soapy water; rinse and air-dry.\n3. Wipe the exterior and warming plate with a damp cloth; leave the lid open to dry.\n\n## Deep clean & descale (every 1–3 months, or ~every 40 brews)\n\n1. **Empty & prep:** Reassemble the empty basket; place the empty carafe on the plate.\n2. **Mix descaler:**\n\n   * Option A: Fill the reservoir with a **1:1 mix of white vinegar and water**.\n   * Option B (vinegar-free): **1–2 tsp citric acid per cup (250 mL) of warm water**, stir to dissolve, then fill the reservoir.\n3. **Start brew & soak:** Run a brew cycle until the carafe is **about halfway** full, then **pause** the machine for **30 minutes** to dissolve mineral buildup.\n4. **Finish brew:** Resume and complete the cycle; discard the hot solution carefully.\n5. **Rinse cycles:** Fill the reservoir with plain water and run **2–3 full cycles**, discarding each carafe, until there’s **no vinegar/citric smell**.\n6. **Detail clean:**\n\n   * Wipe the showerhead/spray arm and the area under the brew basket; use a soft brush or toothpick to clear clogged holes.\n   * Clean the carafe stains with a paste of **baking soda + a few drops of water**; rinse thoroughly.\n7. **Reinstall filter:** If you use a charcoal water filter, install a fresh one.\n\n## Safety & tips\n\n* **Never use bleach** or abrasive scrubbers inside the machine.\n* Hard water? Descale **monthly**; soft water can go **every 2–3 months**.\n* For **single-serve pod machines**, run a “brew” with no pod using the same descaling mix, then 2–3 water-only brews; also clean the pod needle with the manufacturer’s tool or a paperclip.\n\nIf you’d like, I can also generate a second illustration specifically for single-serve machines or espresso makers.\n",
+    "generated_image": "GPT-thinking/life/92.png",
+    "gemini_evaluation": {
+      "Question": "How to clean a coffee maker? Provide illustrated steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image both provide correct and safe instructions for cleaning a standard drip coffee maker. The steps are logical and factually accurate."
+        ],
+        "Image-Text Coherency": [
+          3,
+          "The single generated image is a composite infographic that illustrates four key actions described in the text (washing, descaling, brewing, wiping). While the image is coherent with the overall process, it does not provide a step-by-step visual guide that aligns with the detailed, numbered steps in the text. The request was for 'illustrated steps' (plural), which implies a series of images."
+        ],
+        "Content Quality": [
+          5,
+          "The generated text is exceptionally well-structured, clear, and easy to follow, with excellent grammar. The image is a high-quality, clear, and aesthetically pleasing illustration."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is very helpful, safe, and well-presented. It directly answers the user's question in a professional and user-friendly manner."
+        ],
+        "Completeness": [
+          3,
+          "The response is incomplete because the user asked for 'illustrated steps,' which implies multiple images corresponding to the steps. The model only provided a single composite image. While the text is very complete, the visual component does not fully meet the request."
+        ],
+        "Content Richness": [
+          4,
+          "The text is very rich, providing options (vinegar vs. citric acid), different cleaning schedules (quick vs. deep clean), and additional tips for different water types and machine types. The image component is not rich, as it is only a single illustration."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to clean a coffee maker? Provide illustrated steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image both provide correct and safe instructions for cleaning a standard drip coffee maker. The steps are logical and factually accurate.\"\n        ],\n        \"Image-Text Coherency\": [\n            3,\n            \"The single generated image is a composite infographic that illustrates four key actions described in the text (washing, descaling, brewing, wiping). While the image is coherent with the overall process, it does not provide a step-by-step visual guide that aligns with the detailed, numbered steps in the text. The request was for 'illustrated steps' (plural), which implies a series of images.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated text is exceptionally well-structured, clear, and easy to follow, with excellent grammar. The image is a high-quality, clear, and aesthetically pleasing illustration.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is very helpful, safe, and well-presented. It directly answers the user's question in a professional and user-friendly manner.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The response is incomplete because the user asked for 'illustrated steps,' which implies multiple images corresponding to the steps. The model only provided a single composite image. While the text is very complete, the visual component does not fully meet the request.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich, providing options (vinegar vs. citric acid), different cleaning schedules (quick vs. deep clean), and additional tips for different water types and machine types. The image component is not rich, as it is only a single illustration.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 29,
+    "domain": "space",
+    "question": "If not using the bridge, how else can people reach Mont Saint-Michel? Provide a photo and explain.",
+    "reference_text": "At low tide, visitors can cross the bay on foot along the traditional pilgrims’ route. Because of fast-moving tides, shifting channels, and areas of quicksand, crossings should be done with a certified local guide for safety.",
+    "reference_images": [
+      "data/space/mont_saint_michel_bay_crossing_walk.jpg"
+    ],
+    "generated_text": "**Image (photo):**\n*A guided low-tide walk across the bay toward Mont Saint-Michel.*\n\n**Text (explanation):**\nWhen the tide is low, vast sand and mudflats emerge around Mont Saint-Michel. Licensed guides lead groups on foot across these tidal flats along safe routes that weave between shallow channels and avoid pockets of fluid sand. This guided crossing lets people reach the mount without using the bridge—timed carefully so everyone arrives and returns before the fast-rising tide. For safety, go only with an official guide, follow their route, and use suitable footwear.\n",
+    "generated_image": "GPT-thinking/space/29.png",
+    "gemini_evaluation": {
+      "Question": "If not using the bridge, how else can people reach Mont Saint-Michel? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct and accurately answer the question. The explanation correctly identifies walking across the bay at low tide as the alternative and correctly mentions the necessity of a guide for safety."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image perfectly illustrates the text. It shows a guided group of people walking across the tidal flats towards Mont Saint-Michel, which is exactly what the explanation describes."
+        ],
+        "Content Quality": [
+          5,
+          "The image is of high quality—clear, realistic, and well-composed, looking like a real photograph. The text is well-written, grammatically correct, and provides a clear, concise explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is helpful, safe, and appropriate. The image is aesthetically pleasing and the text is informative."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both a high-quality photo and a thorough explanation as requested by the prompt."
+        ],
+        "Content Richness": [
+          5,
+          "The explanation is detailed and rich, elaborating on the dangers (channels, fluid sand) and the role of the guide, which adds value beyond a basic answer. The image is also rich in detail and effectively conveys the experience."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"If not using the bridge, how else can people reach Mont Saint-Michel? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct and accurately answer the question. The explanation correctly identifies walking across the bay at low tide as the alternative and correctly mentions the necessity of a guide for safety.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the text. It shows a guided group of people walking across the tidal flats towards Mont Saint-Michel, which is exactly what the explanation describes.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is of high quality—clear, realistic, and well-composed, looking like a real photograph. The text is well-written, grammatically correct, and provides a clear, concise explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is helpful, safe, and appropriate. The image is aesthetically pleasing and the text is informative.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both a high-quality photo and a thorough explanation as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The explanation is detailed and rich, elaborating on the dangers (channels, fluid sand) and the role of the guide, which adds value beyond a basic answer. The image is also rich in detail and effectively conveys the experience.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 98,
+    "domain": "space",
+    "question": "How can cars drive through a giant redwood tree at the Chandelier Tree in California? Provide a photo and explain.",
+    "reference_text": "A large opening was carved through the base of the living Coast Redwood tree in the 1930s. While this was a popular tourist attraction, the practice of tunneling through giant trees is no longer done as it severely damages and weakens them.",
+    "reference_images": [
+      "data/space/chandelier_drive-thru_tree.jpg"
+    ],
+    "generated_text": "Here’s the explanation (text), separate from the image above:\n\nCars can drive through the Chandelier Tree because a man-made tunnel was carved through the base of this very large coast redwood decades ago as a roadside attraction. The opening removes only a central portion of the trunk, leaving thick “legs” of wood on both sides. Like a stone arch, those side walls carry most of the compressive load down to the roots, so the trunk can still support itself.\n\nBiologically, coast redwoods are unusually resilient: most water and nutrient transport happens in a thin, living layer just under the bark (the cambium and outer sapwood). Even though the tunnel removes wood and bark at the opening, continuous living tissue remains around the sides and back of the trunk, so flow up and down the tree can continue. Redwood heartwood is rot-resistant and the species can compartmentalize wounds, helping the tree survive long term.\n\nTo protect it, the attraction limits traffic to small vehicles, one at a time and at very low speed, minimizing vibration and impact. Modern arborists would not create new “drive-through” trees today, but this one remains as a historic curiosity—surviving thanks to the combination of clever arch-like shaping and the redwood’s natural toughness.\n",
+    "generated_image": "GPT-thinking/space/98.png",
+    "gemini_evaluation": {
+      "Question": "How can cars drive through a giant redwood tree at the Chandelier Tree in California? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image correctly depicts a car driving through a tunnel carved into a giant redwood tree. The text is factually accurate, explaining that the tunnel was man-made and providing correct biological and structural reasons for the tree's survival."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image perfectly illustrates the subject of the text. The text explains the phenomenon shown in the picture—a car driving through a living tree."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear, easy-to-understand explanation of a complex topic."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The image is aesthetically pleasing and safe. The text is informative, helpful, and free of any undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both a photo and a detailed text explanation as requested by the prompt."
+        ],
+        "Content Richness": [
+          5,
+          "The text explanation is exceptionally rich. It goes beyond the simple fact that a hole was cut, delving into the structural mechanics (arch-like support) and the specific biological resilience of coast redwoods (cambium layer, rot-resistant heartwood). This level of detail is excellent."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How can cars drive through a giant redwood tree at the Chandelier Tree in California? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image correctly depicts a car driving through a tunnel carved into a giant redwood tree. The text is factually accurate, explaining that the tunnel was man-made and providing correct biological and structural reasons for the tree's survival.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the subject of the text. The text explains the phenomenon shown in the picture—a car driving through a living tree.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear, easy-to-understand explanation of a complex topic.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The image is aesthetically pleasing and safe. The text is informative, helpful, and free of any undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both a photo and a detailed text explanation as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text explanation is exceptionally rich. It goes beyond the simple fact that a hole was cut, delving into the structural mechanics (arch-like support) and the specific biological resilience of coast redwoods (cambium layer, rot-resistant heartwood). This level of detail is excellent.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 44,
+    "domain": "exercise",
+    "question": "How to do bridge pose in yoga? Provide visual steps and text the steps.",
+    "reference_text": "1. Start by lying on your back. Place your feet flat on the floor, shoulder-width apart, and keep your knees bent. 2. Put your hands down at your sides, palms down on the floor. 3. Inhale and push your hips up towards the ceiling. Ensure your head, neck, and shoulders remain flat on the floor. 4. While holding the pose, there are a few options for your hands. You can keep your palms flat on the ground. 5. Breathe deeply, holding your position for a few moments. Then, move your arms back down to the floor, exhaling while you lower your hips back to the ground.",
+    "reference_images": [
+      "data/exercise/44_1.png",
+      "data/exercise/44_2.png",
+      "data/exercise/44_3.png",
+      "data/exercise/44_4.png",
+      "data/exercise/44_5.png"
+    ],
+    "generated_text": "Here are the **text steps** for Bridge Pose (Setu Bandhasana). The visuals are provided separately above.\n\n1. Set up\n\n* Lie on your back. Bend knees, feet hip-width and parallel, heels under (or slightly in front of) knees.\n* Arms alongside your body, palms down. Lengthen the back of your neck; gaze straight up.\n\n2. Engage + prepare\n\n* Root evenly through all four corners of each foot.\n* Lightly hug thighs toward the midline (imagine holding a block between knees).\n* On a steady inhale, lengthen your tailbone toward your knees to avoid crunching the low back.\n\n3. Lift\n\n* Press feet and upper arms down, then lift hips until thighs are roughly parallel to the floor and shins vertical.\n* Keep knees tracking over ankles (don’t let them splay). Keep neck neutral—don’t turn your head.\n\n4. Deepen (optional)\n\n* Roll shoulders slightly underneath you and interlace fingers, or keep palms pressing into the mat.\n* Broaden collarbones and lift the sternum toward the chin without jamming the throat.\n* Keep tailbone long and ribs gently down to maintain length in the lower back.\n\n5. Hold\n\n* Breathe slowly for 5–10 breaths. Keep glutes active but not clenched; most of the lift comes from legs and back body.\n\n6. Exit\n\n* Release the hands, if interlaced.\n* On an exhale, slowly roll the spine down—upper back, mid back, then low back.\n* Bring knees together or hug them in for a breath or two.\n\nModifications & props\n\n* **Supported Bridge:** Place a yoga block (lowest or middle height) under the sacrum and relax your weight onto it.\n* **Shoulder comfort:** Keep hands by your sides instead of interlacing.\n* **Knee tracking:** Squeeze a block or folded towel between thighs to prevent knees from splaying.\n\nCommon checks\n\n* Shins vertical, knees over ankles.\n* Neck neutral; weight is on shoulders/upper arms, not the head.\n* Low ribs soften toward pelvis; tailbone reaches toward knees.\n\nContraindications & cautions\n\n* Avoid if you have acute neck/spine injury unless cleared by a professional.\n* If pregnant or with uncontrolled high blood pressure, practice **supported bridge** and come up/down gently.\n* Never turn your head while in the pose.\n\nWant a variant next (wheel, one-leg bridge, or sequencing it into a flow)?",
+    "generated_image": "GPT-thinking/exercise/44.png",
+    "gemini_evaluation": {
+      "Question": "How to do bridge pose in yoga? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "Both the generated text and images are factually correct and accurately describe/depict how to perform a bridge pose in yoga."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The images align perfectly with the text steps. Image 1 shows the 'Set up'. Images 2 and 3 show the 'Lift'. Image 4 shows the optional 'Deepen' step where the fingers are interlaced, as described in the text. The visual progression matches the textual instructions."
+        ],
+        "Content Quality": [
+          5,
+          "The images are of high, photorealistic quality, with a clear subject and good lighting. The text is well-structured, clearly written, and uses proper formatting (bolding, bullet points) to improve readability."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and appropriate. The images are professional and aesthetically pleasing. The text is encouraging and provides important safety information (contraindications)."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It provides both visual and text steps as requested. The instructions cover the entire process from setup to holding the pose and exiting it, which is more complete than the reference text."
+        ],
+        "Content Richness": [
+          5,
+          "The response is extremely rich in content. The text goes beyond basic steps to include detailed alignment cues, modifications, common checks for proper form, and safety contraindications. The images also show not just the basic pose but also a common variation (interlaced hands), adding to the richness."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to do bridge pose in yoga? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"Both the generated text and images are factually correct and accurately describe/depict how to perform a bridge pose in yoga.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The images align perfectly with the text steps. Image 1 shows the 'Set up'. Images 2 and 3 show the 'Lift'. Image 4 shows the optional 'Deepen' step where the fingers are interlaced, as described in the text. The visual progression matches the textual instructions.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The images are of high, photorealistic quality, with a clear subject and good lighting. The text is well-structured, clearly written, and uses proper formatting (bolding, bullet points) to improve readability.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and appropriate. The images are professional and aesthetically pleasing. The text is encouraging and provides important safety information (contraindications).\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It provides both visual and text steps as requested. The instructions cover the entire process from setup to holding the pose and exiting it, which is more complete than the reference text.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is extremely rich in content. The text goes beyond basic steps to include detailed alignment cues, modifications, common checks for proper form, and safety contraindications. The images also show not just the basic pose but also a common variation (interlaced hands), adding to the richness.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 14,
+    "domain": "exercise",
+    "question": "How to perform a deadlift with proper form? Provide visual steps and text the steps.",
+    "reference_text": "1. Prepare the barbell. Place the barbell on the ground in front of you and add plates according to your strength and fitness level. If it is your first time performing the deadlift, start lighter. It is always easy to add weight later. You want to perfect your form before you test your physical limits. Secure the plates tightly onto the barbell with clips to keep them from slipping around. Beginners usually start lifting just the barbell, since a typical barbell weighs between 25 and 45 pounds on its own. In this case, you'll want to prop the bar up so it's as high on your shins as it would be if it had plates (approximately 6-8 inches). Otherwise, you'll be bending too far down to pull the barbell right off the floor and could injure yourself. When you prop the barbell, be carefully that it can't easily roll off. 2. Set your stance. Step up to the bar so that your feet are approximately shoulder width apart, your toes are pointing forward or slightly outward, and the barbell is at the midpoint of your foot (as if it's dividing the front and the back of your feet in half). 3. Sit back. Pretend there's a short stool behind you; bend your knees and hips and sit back as if you were going to sit on that stool, while you reach down to grab onto the barbell (hands shoulder-width apart). Actively push your knees out; don't let them collapse in. Keep your back straight so your spine is in a neutral position parallel to the floor. Hinge forward from your hips instead of bending from the waist. [1] X Expert Source Melody Sayers, MS, RD, NASM-CPT Registered Dietician & Personal Trainer Expert Interview Bend your knees and hips just enough to reach and grab onto the bar. This is the starting position for the deadlift. Your shins should be pretty vertical and touching the bar. This is a hard position to stay in. As you figure out your form and check all these criteria, sometimes you'll straighten your legs and allow your back to curve to take a little break from this position. If you watch people deadlift, you'll see them do this between deadlifts. Just make sure you get back into this position before you actually lift. 4. Check your grip. Grasp the barbell with your hands slightly more than shoulder width apart, just outside of your legs. Keep your arms straight. Your palms should face your body, and be equally far from the ends of the barbell. It's not uncommon for people to use a mixed grip as they move onto heavier weights, as it affords a stronger grip, but it's generally better to keep things simple as a beginner. For Olympic lifting, some people use the hook grip, which is more secure but is painful at first. It is similar to the overhand grip, except that instead of the thumb over the remaining fingers, it is hooked underneath them. The underhand grip alone is not recommended because it can lead to the rupture of bicep muscle and connecting tendons, especially in people who do not have full flexibility in the elbow joint. 5. Set your starting position. \"Setting\" here means creating tension in your body while you're in the starting position so you use your muscles when you pull the bar up. It's a bit like clenching your body; you don't want to be like a wet noodle at all because then you might pull a muscle or hurt a joint. Always make sure your back is completely flat and straight. Keep your head, shoulders, and back in alignment. [2] X Expert Source Melody Sayers, MS, RD, NASM-CPT Registered Dietician & Personal Trainer Expert Interview If there is any kind of bend in your back, you need to do some flexibility work before deadlifting. If you have someone record you in starting position, you'll be able to see whether your back is straight or not. Your hips should be above your knees and your shoulders should be above the hips while slightly over the bar. Engage your core and keep your weight heavy in your heels. [3] X Expert Source Melody Sayers, MS, RD, NASM-CPT Registered Dietician & Personal Trainer Expert Interview Make sure you are looking at the ground in front of you (about 45 degrees) to avoid strain on your neck when performing the lifting portion of the deadlift. 6. Stand up and bring the bar up with you. Raise your hips and shoulders at the same rate while maintaining a flat back. Keep your abs tight during the whole lift. Begin the movement by lifting the slack out of the bar. This is done by pulling the bar slightly up until you feel resistance. If you are using metal plates, you will hear a slight clanging noise. This engages all of the muscles prior to committing to the lift. Next, lift the weight while pushing through the middle of your foot, straightening your knees while pulling your shoulders and head back, and pushing your hips forward after the bar has reached just below the knee. The bar should drag along your shins on the way up--that's why a lot of people who deadlift wear pants or knee-high socks, and if they don't, they often have bruises or scrapes to show for it. Come to a standing position with upright posture and your shoulders pulled back (don't let your shoulders cave forward, think of always pinching your shoulders back together and sticking your chest up and out). Don't bend backwards at all, just stand up straight. Engage (squeeze) your hamstrings and glutes to pull the bar up. Avoid locking your knees. [4] X Expert Source Melody Sayers, MS, RD, NASM-CPT Registered Dietician & Personal Trainer Expert Interview 7. Lower the bar. Keeping your back straight, return the bar to the starting position in a controlled manner. Push your butt out as if you are going to sit down in a chair. Do not arch your back or curl your tailbone under. [5] X Expert Source Melody Sayers, MS, RD, NASM-CPT Registered Dietician & Personal Trainer Expert Interview Release the weight after it is on the ground. 8. Place two dumbbells on either side of your body. The dumbbells should be slightly in front of your feet. Make sure that the weight of your dumbbells is appropriate for your strength. 9. Position yourself properly. Your feet should be spread slightly wider than your shoulders. Point your toes forward. You could also point them slightly outward; the result will be the same. 10. Squat down and grasp the dumbbells. You should squat with a flat, neutral back. Make sure that your shoulders are pulled away from your ears. Keep your head in line with your spine, though if it more comfortable you can tilt your chin up slightly. Make sure that your gaze remains straight ahead (if your eyes wander, so will your head, which will in turn shift your spine.) Make sure that your chest is lifted. Make sure that your heels stay firmly on the floor, and that your shoulders are slightly in front of the balls of your feet. 11. Keep your core strong while you stand up. Your abs help stabilize your spine when you begin to lift the dumbbells. Straighten your knees and then your hips before coming to a fully upright position. Your elbows should be straight and the dumbbells should rest by your sides against your thighs. Your hips and shoulders should rise up and straighten at the same time. You should try to keep the dumbbells as close to your body as possible while you straighten up. 12. Hinge at the knees to lower the dumbbells back down. Your hips should move backwards and down as you begin to squat back down to the ground. Try to avoid bending your knees so that they are far ahead of your toes. Keep your back straight and avoid curling your tailbone in or arching your back. Make sure to keep your abs strong and engaged while you lower back down. Keep your shoulders back and lowered while you do this lift and squat.",
+    "reference_images": [
+      "data/exercise/14_1.jpg",
+      "data/exercise/14_2.jpg",
+      "data/exercise/14_3.jpg",
+      "data/exercise/14_4.jpg",
+      "data/exercise/14_5.jpg",
+      "data/exercise/14_6.jpg",
+      "data/exercise/14_7.jpg",
+      "data/exercise/14_8.jpg",
+      "data/exercise/14_9.jpg",
+      "data/exercise/14_10.jpg",
+      "data/exercise/14_11.jpg",
+      "data/exercise/14_12.jpg"
+    ],
+    "generated_text": "## Text steps: Conventional Deadlift (proper form)\n\n1. Setup\n\n* Feet hip-width, toes slightly out.\n* Barbell starts centered over your **midfoot** (roughly over your shoelaces), shins ~1–2 in (3–5 cm) away.\n* Hands just outside legs; arms straight.\n\n2. Hinge to the bar & grip\n\n* Push hips back to reach the bar while keeping your back neutral.\n* Then bend knees until shins lightly touch the bar (bar stays over midfoot).\n* Grip: double-overhand to start; use hook or mixed grip only when the weight gets heavy.\n\n3. Set your back & brace\n\n* “Chest up, lats tight” (pull shoulder blades down toward your back pockets).\n* Take a deep belly breath and brace your core as if preparing for a gentle punch.\n* Hips slightly above knees; shoulders just in front of the bar; neck neutral.\n\n4. Drive the floor away\n\n* Push through midfoot/heels to break the bar from the floor.\n* **Hips and chest rise together**; keep the bar close—dragging up shins and thighs.\n\n5. Finish (lockout)\n\n* As the bar passes the knees, drive hips forward and squeeze glutes to stand tall.\n* Knees and hips fully extended, ribs down. **Do not lean back** or shrug.\n\n6. Lower & reset\n\n* Hinge first (hips back) to slide the bar down your thighs to knee level.\n* Then bend knees to return the bar to the floor over midfoot.\n* Release breath, re-brace, and repeat each rep from a dead stop.\n\n### Quick cues\n\n* “Midfoot, lats tight, big breath, push the floor, keep bar close.”\n\n### Common mistakes to avoid\n\n* Rounding the lower back; hips shooting up first; bar drifting forward; bouncing reps; hyperextending at lockout.\n\n### Safety & loading\n\n* Start light and master the pattern: 3–5 sets of 3–5 reps with 1–3 reps in reserve.\n* If anything hurts (sharp/pinching pain), stop and consult a qualified coach or clinician.\n",
+    "generated_image": "GPT-thinking/exercise/14.png",
+    "gemini_evaluation": {
+      "Question": "How to perform a deadlift with proper form? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text provides a factually correct and safe explanation of how to perform a conventional deadlift. The image also depicts the correct starting posture for the lift."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "The question explicitly asks for 'visual steps' and 'text steps'. The text provides a multi-step breakdown of the exercise, but the image only shows a single moment (the starting position). There is a major disconnect, as the single image does not illustrate the multiple steps described in the text."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, realistic photograph. The text is extremely well-written, clear, and well-structured with headings, bullet points, and bolding, making it very easy to follow."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and well-presented. It includes important safety cues and information on common mistakes, which is highly desirable for an exercise tutorial."
+        ],
+        "Completeness": [
+          2,
+          "The response is incomplete because it fails to provide the requested 'visual steps'. It provides only a single image for a multi-step process. While the text explanation for the barbell deadlift is complete, it omits the dumbbell deadlift variation included in the reference material."
+        ],
+        "Content Richness": [
+          3,
+          "The text is very rich, including not just the steps but also quick cues, common mistakes to avoid, and safety/loading recommendations. However, there is no variety in the images (only one is provided), and the content is less rich than the reference, which covers two different types of deadlifts (barbell and dumbbell)."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to perform a deadlift with proper form? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text provides a factually correct and safe explanation of how to perform a conventional deadlift. The image also depicts the correct starting posture for the lift.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"The question explicitly asks for 'visual steps' and 'text steps'. The text provides a multi-step breakdown of the exercise, but the image only shows a single moment (the starting position). There is a major disconnect, as the single image does not illustrate the multiple steps described in the text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, realistic photograph. The text is extremely well-written, clear, and well-structured with headings, bullet points, and bolding, making it very easy to follow.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and well-presented. It includes important safety cues and information on common mistakes, which is highly desirable for an exercise tutorial.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The response is incomplete because it fails to provide the requested 'visual steps'. It provides only a single image for a multi-step process. While the text explanation for the barbell deadlift is complete, it omits the dumbbell deadlift variation included in the reference material.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The text is very rich, including not just the steps but also quick cues, common mistakes to avoid, and safety/loading recommendations. However, there is no variety in the images (only one is provided), and the content is less rich than the reference, which covers two different types of deadlifts (barbell and dumbbell).\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 109,
+    "domain": "diagram",
+    "question": "I am preparing a figure for my paper to illustrate the following framework:\nAnnaAgent is an emotional and cognitive dynamic agent system designed for realistic seeker simulation in psychological counseling. It addresses two key challenges: (1) Dynamic Evolution, which models seekers’ fluctuating emotions and chief complaints within a single session using an emotion inferencer, perturber, and complaint elicitor; (2) Multi-session Memory, which schedules real-time, short-term, and long-term memories across sessions using a tertiary memory mechanism. The framework integrates modules such as emotion modulation, complaint chain generation, and memory scheduling to simulate realistic seeker behaviors over multiple counseling sessions.\nPlease generate:\n\t1.\tA system diagram showing the interaction between dynamic evolution agents (emotion modulation, complaint elicitation) and multi-session memory agents (real-time, short-term, long-term memory).\n\t2.\tA separate caption summarizing the key idea of the figure. Please provide the image and caption separately.",
+    "reference_text": "Figure 2: The overall structure of AnnaAgent. Two groups of agents are used to control dynamic evolution and schedule multi-session memories. The upper part simulates emotional and complaint evolution, while the lower part coordinates real-time, short-term, and long-term memory across sessions for realistic seeker simulation.",
+    "reference_images": [
+      "data/diagram/AnnaAgent-framework.png"
+    ],
+    "generated_text": "# Figure caption\n\n**Figure X. AnnaAgent framework.** The system couples a turn-level **Dynamic Evolution** process—where counselor input and memory context drive **emotion modulation** (via an inferencer and perturber) and **complaint elicitation** (yielding a complaint chain and updated seeker state)—with a **tertiary Multi-session Memory** composed of **real-time**, **short-term**, and **long-term** stores governed by a memory scheduler. Reads/writes condition each next turn and persist across sessions, producing realistic within-session emotional trajectories and cross-session continuity.\n",
+    "generated_image": "GPT-thinking/diagram/109.png",
+    "gemini_evaluation": {
+      "Question": "I am preparing a figure for my paper to illustrate the following framework:\nAnnaAgent is an emotional and cognitive dynamic agent system designed for realistic seeker simulation in psychological counseling. It addresses two key challenges: (1) Dynamic Evolution, which models seekers’ fluctuating emotions and chief complaints within a single session using an emotion inferencer, perturber, and complaint elicitor; (2) Multi-session Memory, which schedules real-time, short-term, and long-term memories across sessions using a tertiary memory mechanism. The framework integrates modules such as emotion modulation, complaint chain generation, and memory scheduling to simulate realistic seeker behaviors over multiple counseling sessions.\nPlease generate:\n\t1.\tA system diagram showing the interaction between dynamic evolution agents (emotion modulation, complaint elicitation) and multi-session memory agents (real-time, short-term, long-term memory).\n\t2.\tA separate caption summarizing the key idea of the figure. Please provide the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both highly accurate. The diagram correctly identifies and places all the key components mentioned in the prompt (Dynamic Evolution, Multi-session Memory, emotion inferencer/perturber, complaint elicitor, memory types, scheduler) and shows their interactions logically. The text caption accurately summarizes the entire framework shown in the diagram."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text caption perfectly describes the generated image. Every key term and process mentioned in the text (e.g., Dynamic Evolution, emotion modulation, complaint elicitation, tertiary memory, read/writes) is clearly depicted in the diagram, creating a strong and cohesive explanation."
+        ],
+        "Content Quality": [
+          5,
+          "The quality is excellent. The image is a clear, professional, and well-organized system diagram that is easy to understand. The text is well-written, concise, grammatically correct, and uses appropriate technical language, making it suitable for a research paper."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with the user's request. It provides a professional-looking technical diagram and a suitable caption, with no undesirable or inappropriate content. The aesthetic of the diagram is clean and effective."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It successfully delivered both of the requested items: a system diagram and a separate caption."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail. The diagram not only includes all the required components but also adds informative labels like 'Turn-level', 'Read', and 'Write' that clarify the system's operation. The text caption is dense with information, effectively summarizing the complex interactions within the framework in a single, coherent paragraph."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I am preparing a figure for my paper to illustrate the following framework:\\nAnnaAgent is an emotional and cognitive dynamic agent system designed for realistic seeker simulation in psychological counseling. It addresses two key challenges: (1) Dynamic Evolution, which models seekers’ fluctuating emotions and chief complaints within a single session using an emotion inferencer, perturber, and complaint elicitor; (2) Multi-session Memory, which schedules real-time, short-term, and long-term memories across sessions using a tertiary memory mechanism. The framework integrates modules such as emotion modulation, complaint chain generation, and memory scheduling to simulate realistic seeker behaviors over multiple counseling sessions.\\nPlease generate:\\n\\t1.\\tA system diagram showing the interaction between dynamic evolution agents (emotion modulation, complaint elicitation) and multi-session memory agents (real-time, short-term, long-term memory).\\n\\t2.\\tA separate caption summarizing the key idea of the figure. Please provide the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both highly accurate. The diagram correctly identifies and places all the key components mentioned in the prompt (Dynamic Evolution, Multi-session Memory, emotion inferencer/perturber, complaint elicitor, memory types, scheduler) and shows their interactions logically. The text caption accurately summarizes the entire framework shown in the diagram.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text caption perfectly describes the generated image. Every key term and process mentioned in the text (e.g., Dynamic Evolution, emotion modulation, complaint elicitation, tertiary memory, read/writes) is clearly depicted in the diagram, creating a strong and cohesive explanation.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality is excellent. The image is a clear, professional, and well-organized system diagram that is easy to understand. The text is well-written, concise, grammatically correct, and uses appropriate technical language, making it suitable for a research paper.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with the user's request. It provides a professional-looking technical diagram and a suitable caption, with no undesirable or inappropriate content. The aesthetic of the diagram is clean and effective.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It successfully delivered both of the requested items: a system diagram and a separate caption.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail. The diagram not only includes all the required components but also adds informative labels like 'Turn-level', 'Read', and 'Write' that clarify the system's operation. The text caption is dense with information, effectively summarizing the complex interactions within the framework in a single, coherent paragraph.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 6,
+    "domain": "diagram",
+    "question": "I am preparing a figure for my paper to illustrate the following framework:\nDiagramAgent is a multi-agent framework proposed for text-to-diagram generation and editing. It decomposes the process into modular stages that simulate how humans might approach diagram construction. The framework handles three types of tasks: Diagram Generation: A user provides a natural language instruction describing a diagram to be created from scratch. Diagram Coding: The system reverse-engineers structured code from a given diagram image. Diagram Editing: A user modifies an existing diagram by providing revision instructions. The process begins when the Plan Agent receives a user query. It parses the instruction and expands it into a more explicit query detailing the required visual components (e.g., input/output nodes, layer types, layout constraints). This planning phase utilizes an LLM to assign sub-tasks. The expanded query is routed to either the Code Agent, which generates diagram code from the detailed instruction, or to the Diagram-to-Code Agent, which reconstructs code from visual inputs. The Check Agent performs code verification, debugging, and feedback. The agent ensures the output is valid and interpretable, and facilitates iteration when errors occur. The entire system supports end-to-end generation from instruction to rendered diagram, including code-based feedback and visual output comparison.\nPlease generate:\n\t1.\tA visual diagram showing how these components interact.\n\t2.\tA separate caption summarizing the key idea of the figure. Please provide the image and caption separately.",
+    "reference_text": "DiagramAgent architecture for structured visual generation. The framework supports diagram creation, coding, and editing by coordinating a Plan Agent (task decomposition), Code and Diagram-to-Code Agents (code synthesis or recovery), and a Check Agent (verification and debugging). Together, the agents enable an iterative, controllable pipeline from textual instructions to structured diagrams.",
+    "reference_images": [
+      "data/diagram/2411.11916v1.png"
+    ],
+    "generated_text": "DiagramAgent is a modular, multi-agent pipeline for text-to-diagram generation and editing: a Plan Agent expands user intent into explicit visual requirements and routes work either to a Code Agent (produce diagram code from text) or a Diagram-to-Code Agent (reconstruct code from an image). A Check Agent validates and debugs the code, compares rendered outputs against the specification, and drives an iterative feedback loop—supporting end-to-end Diagram Generation, Diagram Coding, and Diagram Editing.",
+    "generated_image": "GPT-thinking/diagram/6.png",
+    "gemini_evaluation": {
+      "Question": "I am preparing a figure for my paper to illustrate the following framework:\nDiagramAgent is a multi-agent framework proposed for text-to-diagram generation and editing. It decomposes the process into modular stages that simulate how humans might approach diagram construction. The framework handles three types of tasks: Diagram Generation: A user provides a natural language instruction describing a diagram to be created from scratch. Diagram Coding: The system reverse-engineers structured code from a given diagram image. Diagram Editing: A user modifies an existing diagram by providing revision instructions. The process begins when the Plan Agent receives a user query. It parses the instruction and expands it into a more explicit query detailing the required visual components (e.g., input/output nodes, layer types, layout constraints). This planning phase utilizes an LLM to assign sub-tasks. The expanded query is routed to either the Code Agent, which generates diagram code from the detailed instruction, or to the Diagram-to-Code Agent, which reconstructs code from visual inputs. The Check Agent performs code verification, debugging, and feedback. The agent ensures the output is valid and interpretable, and facilitates iteration when errors occur. The entire system supports end-to-end generation from instruction to rendered diagram, including code-based feedback and visual output comparison.\nPlease generate:\n\t1.\tA visual diagram showing how these components interact.\n\t2.\tA separate caption summarizing the key idea of the figure. Please provide the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct and accurately represent the framework described in the user's prompt. All agents, tasks, and their interactions are correctly depicted and described."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text serves as a perfect caption for the generated image. Every component mentioned in the text (Plan Agent, Code Agent, etc.) is clearly visualized in the diagram, and the flow described in the text matches the arrows and structure of the image."
+        ],
+        "Content Quality": [
+          5,
+          "The image is of high quality: it is clear, well-organized, and uses a professional and easy-to-read style suitable for a publication. The text is well-written, concise, and grammatically flawless."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. The diagram is aesthetically pleasing and professional, and the text is clear and informative. It fully meets the user's request without any undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both of the requested outputs: a visual diagram and a separate text caption. All key elements from the prompt are included."
+        ],
+        "Content Richness": [
+          4,
+          "The response is quite rich and detailed, successfully capturing the complexity of the framework. The diagram includes the main agents, their functions, and the overall workflow. It could be slightly richer by explicitly visualizing the different *inputs* for each task (e.g., text vs. image input), as the reference image does, but this is a minor omission."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I am preparing a figure for my paper to illustrate the following framework:\\nDiagramAgent is a multi-agent framework proposed for text-to-diagram generation and editing. It decomposes the process into modular stages that simulate how humans might approach diagram construction. The framework handles three types of tasks: Diagram Generation: A user provides a natural language instruction describing a diagram to be created from scratch. Diagram Coding: The system reverse-engineers structured code from a given diagram image. Diagram Editing: A user modifies an existing diagram by providing revision instructions. The process begins when the Plan Agent receives a user query. It parses the instruction and expands it into a more explicit query detailing the required visual components (e.g., input/output nodes, layer types, layout constraints). This planning phase utilizes an LLM to assign sub-tasks. The expanded query is routed to either the Code Agent, which generates diagram code from the detailed instruction, or to the Diagram-to-Code Agent, which reconstructs code from visual inputs. The Check Agent performs code verification, debugging, and feedback. The agent ensures the output is valid and interpretable, and facilitates iteration when errors occur. The entire system supports end-to-end generation from instruction to rendered diagram, including code-based feedback and visual output comparison.\\nPlease generate:\\n\\t1.\\tA visual diagram showing how these components interact.\\n\\t2.\\tA separate caption summarizing the key idea of the figure. Please provide the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct and accurately represent the framework described in the user's prompt. All agents, tasks, and their interactions are correctly depicted and described.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text serves as a perfect caption for the generated image. Every component mentioned in the text (Plan Agent, Code Agent, etc.) is clearly visualized in the diagram, and the flow described in the text matches the arrows and structure of the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is of high quality: it is clear, well-organized, and uses a professional and easy-to-read style suitable for a publication. The text is well-written, concise, and grammatically flawless.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. The diagram is aesthetically pleasing and professional, and the text is clear and informative. It fully meets the user's request without any undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both of the requested outputs: a visual diagram and a separate text caption. All key elements from the prompt are included.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is quite rich and detailed, successfully capturing the complexity of the framework. The diagram includes the main agents, their functions, and the overall workflow. It could be slightly richer by explicitly visualizing the different *inputs* for each task (e.g., text vs. image input), as the reference image does, but this is a minor omission.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0150",
+    "domain": "textbook",
+    "question": "Can you explain how breathing works using a labeled diagram? I want to know how air gets to the lungs and how it leaves. Provide a diagram and explain.",
+    "reference_text": "This image shows the parts of the human respiratory system. Respiration involves taking in air filled with oxygen into the human body or lungs and releasing carbon dioxide from the body. Respiration involves breathing through the nose/nasal cavity. The air then travels down into the lungs through the pharynx, followed by the larynx and finally through the trachea. The lungs are located in the chest cavity or thoracic cavity along with the heart. The chest cavity are covered by ribs on the outside. The pleura lines the thoracic cavity and envelopes the lungs. The trachea is subdivided into two bronchi before it enters the lungs. The bronchi are further divided into tiny bronchioles inside the lungs. The bronchioles have a tree like structure. The lungs are separated from the abdominal cavity by the diaphragm. The diaphragm contracts while breathing in and relaxes when breathing out. The process of respiration is controlled by the respiratory centers located in the brain.",
+    "reference_images": [
+      "data/textbook/human_system_respiratory_1327.png"
+    ],
+    "generated_text": "# Text explanation (separate from the image)\n\nHere’s the path air takes in and out of your lungs, step by step:\n\n1. Inhalation (breathing in)\n\n* The diaphragm contracts and moves downward while the external intercostal muscles lift the ribs.\n* This expands the chest cavity, lowering the pressure inside the lungs below outside air pressure.\n* Air flows in through the **nose or mouth** → **pharynx** (throat) → **larynx** (voice box) → **trachea** (windpipe) → splits into **right and left bronchi** → smaller **bronchioles** → tiny air sacs called **alveoli**.\n\n2. Gas exchange in the alveoli\n\n* Each alveolus is wrapped in a web of capillaries.\n* **Oxygen (O₂)** diffuses from the air in the alveoli into the blood (where it binds to hemoglobin).\n* **Carbon dioxide (CO₂)** diffuses from the blood into the alveoli to be exhaled.\n\n3. Exhalation (breathing out)\n\n* The diaphragm relaxes and moves upward; the rib cage falls.\n* Chest volume decreases, pressure inside the lungs rises above outside air pressure.\n* Air flows out along the same path in reverse: **alveoli → bronchioles → bronchi → trachea → larynx → pharynx → nose/mouth**.\n* At rest this is mostly passive; during hard breathing, abdominal and internal intercostal muscles actively squeeze air out.\n\n4. Built-in protections & helpers\n\n* **Nasal hairs, mucus, and cilia** trap dust and pathogens and sweep them upward to be swallowed or coughed out.\n* The **epiglottis** guides food away from the airway when you swallow.\n* **C-shaped cartilage rings** in the trachea keep it open.\n\n5. Quick glossary\n\n* **Diaphragm:** dome-shaped muscle under the lungs that powers breathing.\n* **Alveoli:** tiny air sacs where gas exchange happens.\n* **Bronchi/bronchioles:** branching airways that distribute air within the lungs.\n\nIf you’d like, I can add callouts for common issues (like asthma narrowing the bronchioles) or show how exercise changes breathing mechanics.\n\n*(The labeled diagram image is provided separately above.)*\n",
+    "generated_image": "GPT-thinking/textbook/150.png",
+    "gemini_evaluation": {
+      "Question": "Can you explain how breathing works using a labeled diagram? I want to know how air gets to the lungs and how it leaves. Provide a diagram and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image is an anatomically correct diagram of the respiratory system, and the labels are accurate. The text explanation correctly describes the process of inhalation, exhalation, and gas exchange."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text explanation perfectly complements the diagram. All the major structures labeled in the image (Nasal cavity, Pharynx, Larynx, Trachea, Bronchi, Lungs, Diaphragm) are mentioned in the text as part of the air pathway. The diagram's depiction of diaphragm movement directly supports the textual explanation of inhalation and exhalation."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and easy-to-understand diagram. The text is exceptionally well-written and structured, using headings, bullet points, and bolded terms to enhance readability and comprehension."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. It's safe, appropriate, and provides a very clear and helpful educational answer. The formatting of the text is exemplary and makes the complex process easy to follow."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the user's question. It provides both the requested labeled diagram and a detailed explanation of how air gets to the lungs and how it leaves, covering both inhalation and exhalation."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is very rich in detail, much more so than the reference. It not only describes the path of air but also explains the mechanics of breathing (diaphragm and intercostal muscle movement, pressure changes), the process of gas exchange at the alveolar level, and built-in protective mechanisms. The glossary is a valuable addition."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Can you explain how breathing works using a labeled diagram? I want to know how air gets to the lungs and how it leaves. Provide a diagram and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image is an anatomically correct diagram of the respiratory system, and the labels are accurate. The text explanation correctly describes the process of inhalation, exhalation, and gas exchange.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explanation perfectly complements the diagram. All the major structures labeled in the image (Nasal cavity, Pharynx, Larynx, Trachea, Bronchi, Lungs, Diaphragm) are mentioned in the text as part of the air pathway. The diagram's depiction of diaphragm movement directly supports the textual explanation of inhalation and exhalation.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and easy-to-understand diagram. The text is exceptionally well-written and structured, using headings, bullet points, and bolded terms to enhance readability and comprehension.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. It's safe, appropriate, and provides a very clear and helpful educational answer. The formatting of the text is exemplary and makes the complex process easy to follow.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the user's question. It provides both the requested labeled diagram and a detailed explanation of how air gets to the lungs and how it leaves, covering both inhalation and exhalation.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is very rich in detail, much more so than the reference. It not only describes the path of air but also explains the mechanics of breathing (diaphragm and intercostal muscle movement, pressure changes), the process of gas exchange at the alveolar level, and built-in protective mechanisms. The glossary is a valuable addition.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0255",
+    "domain": "textbook",
+    "question": "What is an ionic bond and how does it form in lithium fluoride (LiF)? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows the ionic bonds in lithium fluoride molecule. An ionic bond is the force of attraction that holds together positive and negative ions. The lithium fluorine molecule consists of one lithium atom and one fluorine atom with the chemical formula of LiF. The lithium ion has one more proton than the number of electrons thus has the charge of +1. The fluorine ion has one more electron than the number of protons thus has the charge of -1. The lithium ion and fluorine ion have equal but opposite charges so they attract each other. By the attracting force, they form a lithium fluoride molecule.",
+    "reference_images": [
+      "data/textbook/chemical_bonding_ionic_9071.png"
+    ],
+    "generated_text": "# Written explanation\n\n**What is an ionic bond?**\nAn ionic bond is the electrostatic attraction between positively and negatively charged ions that forms after one atom transfers one or more electrons to another. It’s not a “shared pair” (like in a covalent bond); it’s a non-directional Coulombic attraction between opposite charges.\n\n**How it forms in lithium fluoride (LiF):**\n\n1. **Start with neutral atoms**\n\n* Lithium (Li): 1s² 2s¹ → one valence electron.\n* Fluorine (F): 1s² 2s² 2p⁵ → seven valence electrons.\n\n2. **Electron transfer**\n\n* Lithium loses its single 2s valence electron:\n  Li → Li⁺ + e⁻\n* Fluorine gains that electron to complete an octet:\n  F + e⁻ → F⁻\n\n3. **Ionic attraction and crystal**\n\n* The resulting ions attract strongly: Li⁺ + F⁻ → **LiF(s)**.\n* In the solid, countless Li⁺ and F⁻ ions pack into a rock-salt lattice, where each Li⁺ is surrounded by six F⁻ (and vice versa). This **lattice energy** makes LiF very stable, hard, and high-melting.\n\n**Why it happens**\nLithium easily gives up its loosely held valence electron (low ionization of the outer electron), while fluorine strongly attracts an extra electron (high electron affinity). The large electronegativity difference drives electron transfer; the lattice’s electrostatic stabilization locks the ions into the solid.\n\n---\n\n*Image is shown above. (You asked for image and text separately, so the picture is separate from this explanation.)*",
+    "generated_image": "GPT-thinking/textbook/255.png",
+    "gemini_evaluation": {
+      "Question": "What is an ionic bond and how does it form in lithium fluoride (LiF)? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "Both the generated image and text are factually correct. The image accurately depicts the Bohr models for lithium and fluorine, the transfer of an electron, and the resulting ions. The text provides a correct and detailed explanation of ionic bonding using LiF as an example."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the process of a lithium atom losing an electron and a fluorine atom gaining it, which is precisely what the diagram illustrates. Every step mentioned in the text is visually represented in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, well-labeled, and professional-looking scientific diagram. The text is exceptionally well-structured, using headings and bullet points to present information clearly. The language is precise and grammatically correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for a clear, educational, and safe answer. The image is aesthetically pleasing for a diagram, and the text is helpful and easy to read."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It answers both parts of the question (what an ionic bond is and how it forms in LiF) and provides both the requested image and a written explanation."
+        ],
+        "Content Richness": [
+          5,
+          "The generated content is significantly richer than the reference. The text goes into greater depth, explaining the underlying principles like electron configurations, ionization energy, electron affinity, and the formation of a crystal lattice, which provides a more comprehensive understanding of the topic."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What is an ionic bond and how does it form in lithium fluoride (LiF)? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"Both the generated image and text are factually correct. The image accurately depicts the Bohr models for lithium and fluorine, the transfer of an electron, and the resulting ions. The text provides a correct and detailed explanation of ionic bonding using LiF as an example.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the process of a lithium atom losing an electron and a fluorine atom gaining it, which is precisely what the diagram illustrates. Every step mentioned in the text is visually represented in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, well-labeled, and professional-looking scientific diagram. The text is exceptionally well-structured, using headings and bullet points to present information clearly. The language is precise and grammatically correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for a clear, educational, and safe answer. The image is aesthetically pleasing for a diagram, and the text is helpful and easy to read.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It answers both parts of the question (what an ionic bond is and how it forms in LiF) and provides both the requested image and a written explanation.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated content is significantly richer than the reference. The text goes into greater depth, explaining the underlying principles like electron configurations, ionization energy, electron affinity, and the formation of a crystal lattice, which provides a more comprehensive understanding of the topic.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0012",
+    "domain": "textbook",
+    "question": "What are the main zones of the ocean and their characteristics? Provide an image and brief explanation.",
+    "reference_text": "The ocean has pelagic and benthic realms. The pelagic includes epipelagic to hadopelagic zones. The habitat zones include Abyssal, Bathyal, Hadal, Neritic, and Oceanic, each with distinct light, pressure, and life conditions.",
+    "reference_images": [
+      "data/textbook/ocean_zones_7130.png"
+    ],
+    "generated_text": "# Text (brief explanation)\n\n**By depth/light (pelagic zones):**\n\n* **Epipelagic (Sunlight, 0–200 m):** Bright light; photosynthesis; warm, well-mixed, oxygen-rich; most plankton and many fish.\n* **Mesopelagic (Twilight, 200–1,000 m):** Dim light; no photosynthesis; strong temperature drop (thermocline) and an oxygen-minimum zone; daily vertical-migrating animals common.\n* **Bathypelagic (Midnight, 1,000–4,000 m):** Total darkness; ~4 °C; high pressure; slow metabolisms; bioluminescence widespread (e.g., lanternfish, anglerfish).\n* **Abyssopelagic (4,000–6,000 m):** Near-freezing; very high pressure; sparse, slow-growing life feeding on “marine snow.”\n* **Hadalpelagic (6,000–11,000 m; trenches):** Isolated trench ecosystems; extreme pressure; specialized fauna (e.g., giant amphipods, snailfish).\n\n**By distance from shore (horizontal):**\n\n* **Intertidal/Littoral:** Shoreline area alternately exposed and submerged by tides; highly variable; barnacles, mussels, crabs, seaweeds.\n* **Neritic (over continental shelf to ~200 m):** Well-lit, nutrient-rich, very productive; coral reefs, kelp forests; major fisheries.\n* **Oceanic (beyond shelf):** Open-ocean waters; generally lower nutrients at the surface except where upwelling occurs; large pelagic species roam.\n\n**Seafloor (benthic) counterparts:**\n\n* **Sublittoral (Shelf seafloor, to ~200 m):** Seagrass beds, corals, diverse invertebrates.\n* **Bathyal (200–4,000 m):** Continental slope; dark, cooler; soft sediments and canyon habitats.\n* **Abyssal (4,000–6,000 m):** Vast plains; fine sediments; hydrothermal vents and cold seeps host chemosynthetic communities.\n* **Hadal (6,000–11,000 m):** Trench floors and walls; scarce food, highly adapted species.\n\n---\n\n# Image\n\nI created an infographic diagram showing these zones from shore to open ocean, with depth labels, light/temperature/pressure cues, and typical organisms.\n\n**Download the image:** [Ocean Zones Diagram](sandbox:/mnt/data/A_didactic_educational_illustration_titled_%22OCEAN_.png)\n",
+    "generated_image": "GPT-thinking/textbook/12.png",
+    "gemini_evaluation": {
+      "Question": "What are the main zones of the ocean and their characteristics? Provide an image and brief explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are factually correct. The classification of ocean zones by depth, distance from shore, and the seafloor is accurate, and the characteristics described for each zone are scientifically sound."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image is an excellent visual representation of the text. All the zones mentioned in the text (e.g., Epipelagic, Neritic, Abyssal) are clearly labeled in the diagram. The characteristics described in the text, such as light penetration, temperature, pressure, and example organisms, are also visually depicted in the image, creating a strong and cohesive explanation."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is exceptional. The text is well-structured, clear, and easy to understand, using bullet points effectively. The image is a high-quality, professional-looking infographic that is both informative and aesthetically pleasing."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for an educational query. It is helpful, safe, and provides a clear, well-designed answer. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the question. It provides a detailed breakdown of the main ocean zones, explains their characteristics, and includes a comprehensive image, as requested. It is far more complete than the brief reference text."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in content. The text goes into significant detail, categorizing the zones in three different ways (pelagic, horizontal, benthic) and providing multiple characteristics for each. The image is also information-dense, incorporating depth, light levels, temperature, pressure, and examples of fauna."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are the main zones of the ocean and their characteristics? Provide an image and brief explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are factually correct. The classification of ocean zones by depth, distance from shore, and the seafloor is accurate, and the characteristics described for each zone are scientifically sound.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image is an excellent visual representation of the text. All the zones mentioned in the text (e.g., Epipelagic, Neritic, Abyssal) are clearly labeled in the diagram. The characteristics described in the text, such as light penetration, temperature, pressure, and example organisms, are also visually depicted in the image, creating a strong and cohesive explanation.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is exceptional. The text is well-structured, clear, and easy to understand, using bullet points effectively. The image is a high-quality, professional-looking infographic that is both informative and aesthetically pleasing.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for an educational query. It is helpful, safe, and provides a clear, well-designed answer. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the question. It provides a detailed breakdown of the main ocean zones, explains their characteristics, and includes a comprehensive image, as requested. It is far more complete than the brief reference text.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. The text goes into significant detail, categorizing the zones in three different ways (pelagic, horizontal, benthic) and providing multiple characteristics for each. The image is also information-dense, incorporating depth, light levels, temperature, pressure, and examples of fauna.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0028",
+    "domain": "textbook",
+    "question": "I don’t fully get how carbon from plants ends up in fossil fuels or the atmosphere. Can you diagram the full carbon cycle and explain each step? Provide an image and explain.",
+    "reference_text": "This diagram shows the carbon cycle. Here are examples of how carbon moves through human, animal, and plant activity. All living things contain carbon, as do the ocean, air, rocks, and underground fossil fuels, which are made in a process that takes millions of years. Plants take in sunlight and carbon dioxide, and create energy through photosynthesis. When they decay, and are buried underground, plants and other organisms turn into fossil fuel. When we burn fossil fuels, carbon dioxide is quickly released into the air. Plants can also release carbon dioxide just like animals do, through respiration.",
+    "reference_images": [
+      "data/textbook/cycle_carbon_5008.png"
+    ],
+    "generated_text": "# Image — Full Carbon Cycle\n\n*(See the generated diagram above.)*\n\n# Explanation — How carbon moves, and how plant carbon ends up in fossil fuels or the air\n\n**Big picture:** Carbon moves through two intertwined loops.\n\n* The **fast (biological) cycle** shuttles carbon among the atmosphere, living things, soils, and the upper ocean (timescales: days to centuries).\n* The **slow (geologic) cycle** locks carbon into rocks and fossil fuels and returns it via tectonics and volcanoes (millennia to millions of years).\n  Human activities overlay both, rapidly moving long-stored carbon back to the air.\n\n## 1) Atmosphere ↔ Land (plants, animals, soils)\n\n1. **Photosynthesis (atmosphere → plants):** Plants take in CO₂ and build sugars/biomass.\n2. **Respiration (plants & animals → atmosphere):** Almost everything that burns those sugars releases CO₂ back.\n3. **Herbivory & food webs:** Plant carbon moves to animals; their respiration returns CO₂.\n4. **Death & detritus (plants/animals → soils):** Litter and carcasses enter soils.\n5. **Decomposition:**\n\n   * **With oxygen (oxic):** Microbes break biomass down, releasing **CO₂**.\n   * **Low-oxygen/anaerobic (wetlands, bogs, sediments):** Microbes produce **CH₄ (methane)**, which later oxidizes in the air to CO₂.\n6. **Fire:** Wildfires rapidly convert biomass to CO₂ (and some CH₄/black carbon); regrowth can re-absorb CO₂ over years to decades.\n7. **Soil storage:** Some carbon becomes stable **soil organic matter** (humus), persisting from years to centuries unless disturbed (e.g., tillage, warming, drought).\n\n## 2) Atmosphere ↔ Ocean\n\n1. **Gas exchange:** CO₂ dissolves into and out of the **surface ocean** depending on temperature, winds, and concentration gradients.\n2. **Carbonate chemistry:** In seawater, CO₂ forms **carbonic acid ↔ bicarbonate (HCO₃⁻) ↔ carbonate (CO₃²⁻)**. Most ocean carbon is stored as bicarbonate/carbonate, buffering the atmosphere.\n3. **Biological pump:** Phytoplankton photosynthesize; part of their organic matter and the **CaCO₃ shells** from calcifying organisms sink, carrying carbon to the **deep ocean**. Much is respired at depth (CO₂ stored for decades–centuries) and later **upwells** back to the surface and air.\n\n## 3) Route from plant carbon → **fossil fuels** (slow cycle)\n\nOnly a tiny fraction of plant carbon escapes decomposition and fire:\n\n1. **Rapid burial in anoxic settings:** In swamps, peatlands, deltas, or marine muds, dead plant/algal matter is buried faster than it decays. Low oxygen slows microbes.\n2. **Diagenesis & maturation (heat + pressure + time):**\n\n   * **Terrestrial plants → peat → lignite → coal.**\n   * **Marine algae/zooplankton → organic-rich muds → kerogen → oil & natural gas.**\n3. **Geologic storage:** These hydrocarbons remain trapped in rocks for millions of years unless exposed, uplifted, or extracted.\n\n## 4) Weathering, rocks, and volcanoes (slow geologic loop)\n\n1. **Silicate weathering (atmosphere → rivers → ocean):** CO₂ in rainwater forms weak acid that weathers rocks; dissolved bicarbonate flows to the ocean.\n2. **Carbonate formation:** Marine organisms and chemistry turn bicarbonate into **limestone/dolomite (CaCO₃/MgCO₃)** that gets buried as rock.\n3. **Subduction & degassing:** Tectonics carry carbonates and organic sediments into the mantle; **volcanoes** and metamorphism return CO₂ to the atmosphere.\n\n## 5) Human accelerators\n\n* **Fossil fuel extraction & combustion → atmosphere:** Moves carbon from the slow reservoir (coal/oil/gas) to the fast one as CO₂.\n* **Cement production:** Releases CO₂ when limestone is calcined.\n* **Deforestation & land-use change:** Reduces photosynthetic uptake and releases stored biomass/soil carbon.\n* **Methane leaks & agriculture:** Add CH₄, which later becomes CO₂.\n* **Permafrost thaw/peatland drainage:** Frees long-stored organic carbon as CO₂/CH₄.\n* **Ocean uptake & acidification:** Extra atmospheric CO₂ drives more dissolution, shifting seawater chemistry and affecting calcifiers.\n\n## 6) Direct answers to your two “where does plant carbon go?” questions\n\n* **Into the atmosphere:** through plant/animal **respiration**, **microbial decay** (CO₂/CH₄), **fires**, and **human burning** of biomass or extracted fossil fuels.\n* **Into fossil fuels:** when dead plant (or algal) material is **rapidly buried in oxygen-poor sediments**, then **cooked by heat and pressure** for **geologic timescales**, transforming into **coal (mainly land plants)** or **oil/gas (mainly marine algae/zooplankton)**.\n\nIf you’d like, I can tailor a simpler “student cheat-sheet” version or add typical timescales and example environments for each arrow.\n",
+    "generated_image": "GPT-thinking/textbook/28.png",
+    "gemini_evaluation": {
+      "Question": "I don’t fully get how carbon from plants ends up in fossil fuels or the atmosphere. Can you diagram the full carbon cycle and explain each step? Provide an image and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct and provide a comprehensive, accurate overview of the carbon cycle."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text perfectly explains every component and pathway shown in the generated diagram. The structure of the text follows the different loops and reservoirs depicted in the image, making them very coherent."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-written, structured logically with headings and bullet points, making a complex topic easy to understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. It is safe, helpful, and provides a highly educational and well-formatted answer that is significantly better than the reference. The final section, which directly answers the user's specific questions, is a great touch."
+        ],
+        "Completeness": [
+          5,
+          "The response is extremely complete. It provides both a detailed diagram and a thorough, step-by-step explanation of the full carbon cycle, including the slow geologic cycle and human impacts, which the reference omits. It fully addresses every part of the user's question."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is far richer than the reference. It includes crucial aspects of the carbon cycle like the fast vs. slow cycles, the ocean's role (biological pump, carbonate chemistry), and the geologic loop (weathering, volcanoes). The text provides a level of detail and scientific nuance that is vastly superior to the simple reference text."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I don’t fully get how carbon from plants ends up in fossil fuels or the atmosphere. Can you diagram the full carbon cycle and explain each step? Provide an image and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct and provide a comprehensive, accurate overview of the carbon cycle.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly explains every component and pathway shown in the generated diagram. The structure of the text follows the different loops and reservoirs depicted in the image, making them very coherent.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-written, structured logically with headings and bullet points, making a complex topic easy to understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. It is safe, helpful, and provides a highly educational and well-formatted answer that is significantly better than the reference. The final section, which directly answers the user's specific questions, is a great touch.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is extremely complete. It provides both a detailed diagram and a thorough, step-by-step explanation of the full carbon cycle, including the slow geologic cycle and human impacts, which the reference omits. It fully addresses every part of the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is far richer than the reference. It includes crucial aspects of the carbon cycle like the fast vs. slow cycles, the ocean's role (biological pump, carbonate chemistry), and the geologic loop (weathering, volcanoes). The text provides a level of detail and scientific nuance that is vastly superior to the simple reference text.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 107,
+    "domain": "paper",
+    "question": "I'm studying Sequential Adapter in neural networks. Can you explain how it works with an image?",
+    "reference_text": "A sequential adapter network is a mechanism inserted between the layers of the transformer. It consists of two adapter networks—one before the feed-forward layer and one after it. The adapter network performs a down-projection to reduce dimensionality, followed by a nonlinear activation, and then an up-projection to return to the original dimensionality. This allows for task-specific adaptations while maintaining the transformer’s architecture. The diagram depicts how the adapter network works in a sequential setup.",
+    "reference_images": [
+      "data/paper/sequential_adapter.png"
+    ],
+    "generated_text": "Here’s the image that explains the Sequential Adapter in neural networks. The text below further elaborates its functionality:\n\nA Sequential Adapter works by introducing adapter layers between the base model layers. These adapter layers are designed to modify the data flow from the base model, allowing for the adaptation of the model without needing to modify the base layers extensively. This is done by inserting small, trainable parameters into a frozen model, enabling efficient fine-tuning on specific tasks.\n",
+    "generated_image": "GPT-thinking/paper/107.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying Sequential Adapter in neural networks. Can you explain how it works with an image?",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The generated response is only partially correct. It correctly identifies the internal structure of a single adapter module (down-project, activation, up-project). However, it completely fails to illustrate or explain the key characteristic of a *Sequential Adapter*, which is the placement of two such modules sequentially, one before and one after the feed-forward network in a transformer block. It provides a generic explanation for adapters, not the specific architecture requested."
+        ],
+        "Image-Text Coherency": [
+          2,
+          "The image and text are loosely coherent in that they both discuss adapters. However, they don't align well on specifics. The image shows the internal structure of an adapter, but the text doesn't describe this structure. The text describes the high-level purpose of adapters (efficient fine-tuning), which the diagram doesn't convey. The text doesn't explain the diagram, and the diagram doesn't illustrate the key concept from the question."
+        ],
+        "Content Quality": [
+          3,
+          "The generated image is a clear and well-structured diagram. The text is grammatically correct and well-written. However, the quality of the information itself is low because it is too generic and misses the crucial details required to answer the question accurately."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The image and text are appropriate, safe, and presented in a clear, aesthetically pleasing manner. There are no issues with human preference."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It omits the most critical piece of information that defines a Sequential Adapter: the presence of two adapter modules and their specific placement around the feed-forward network. It answers a much more general question about what an adapter is, not the specific type requested."
+        ],
+        "Content Richness": [
+          1,
+          "The response lacks detail and richness. The image is a simplistic representation of a single adapter and lacks the context of the larger transformer architecture. The text is very high-level and omits all the specific details provided in the reference, such as the down/up projection, non-linearity, and the 'before and after the feed-forward layer' placement."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying Sequential Adapter in neural networks. Can you explain how it works with an image?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated response is only partially correct. It correctly identifies the internal structure of a single adapter module (down-project, activation, up-project). However, it completely fails to illustrate or explain the key characteristic of a *Sequential Adapter*, which is the placement of two such modules sequentially, one before and one after the feed-forward network in a transformer block. It provides a generic explanation for adapters, not the specific architecture requested.\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"The image and text are loosely coherent in that they both discuss adapters. However, they don't align well on specifics. The image shows the internal structure of an adapter, but the text doesn't describe this structure. The text describes the high-level purpose of adapters (efficient fine-tuning), which the diagram doesn't convey. The text doesn't explain the diagram, and the diagram doesn't illustrate the key concept from the question.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The generated image is a clear and well-structured diagram. The text is grammatically correct and well-written. However, the quality of the information itself is low because it is too generic and misses the crucial details required to answer the question accurately.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The image and text are appropriate, safe, and presented in a clear, aesthetically pleasing manner. There are no issues with human preference.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It omits the most critical piece of information that defines a Sequential Adapter: the presence of two adapter modules and their specific placement around the feed-forward network. It answers a much more general question about what an adapter is, not the specific type requested.\"\n        ],\n        \"Content Richness\": [\n            1,\n            \"The response lacks detail and richness. The image is a simplistic representation of a single adapter and lacks the context of the larger transformer architecture. The text is very high-level and omits all the specific details provided in the reference, such as the down/up projection, non-linearity, and the 'before and after the feed-forward layer' placement.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 27,
+    "domain": "paper",
+    "question": "I'm learning about self-supervised learning. How does SimSiam work without using negative pairs or momentum encoders? Please explain the architecture and training strategy with an image and short description.",
+    "reference_text": "SimSiam is a minimalist self-supervised learning method that avoids both negative sample mining and momentum encoders. It uses two augmented views of the same image, processed by a shared encoder. One view passes through an additional predictor MLP, while the other applies stop-gradient to avoid representation collapse. The model maximizes similarity between the outputs without contrastive loss, relying only on architectural asymmetry to learn meaningful representations.",
+    "reference_images": [
+      "data/paper/simsiam_diagram.png"
+    ],
+    "generated_text": "SimSiam is a self-supervised learning method that avoids using negative pairs or momentum encoders by relying on a simple architecture with two augmented views of the same image. The key idea is to use a Siamese network structure, where both augmented views are passed through separate encoders. The encoders produce representations of the images, which are then passed to a predictor (a small MLP) to generate predictions.\n\nThe critical component here is the \"stop-gradient\" operation applied to one of the branches, which prevents the gradients from propagating through it during backpropagation. This allows the model to learn by comparing the predictions of the two augmented views, pushing them to match without relying on negative samples.\n\nIn the training process, the model uses a loss function (usually cosine similarity) that minimizes the distance between the predictions from the two views.\n",
+    "generated_image": "GPT-thinking/paper/27.png",
+    "gemini_evaluation": {
+      "Question": "I'm learning about self-supervised learning. How does SimSiam work without using negative pairs or momentum encoders? Please explain the architecture and training strategy with an image and short description.",
+      "Evaluation": {
+        "Correctness": [
+          1,
+          "The generated text and image are fundamentally incorrect. The text states that SimSiam uses 'separate encoders', and the image depicts this. This is the most critical error, as the core idea of SimSiam is to use a single, weight-shared encoder for both augmented views. Additionally, the diagram incorrectly places a predictor in both branches and calculates the loss between the two predictor outputs, whereas the loss should be between the predictor of one branch and the (stop-gradient) representation from the other."
+        ],
+        "Image-Text Coherency": [
+          4,
+          "The generated image and text are highly coherent with each other. The text's incorrect claim of 'separate encoders' is accurately depicted in the image, which shows two distinct encoder blocks. However, both the image and text are factually incorrect regarding the SimSiam architecture."
+        ],
+        "Content Quality": [
+          2,
+          "The image is clean and easy to read, and the text is grammatically correct. However, the quality is severely diminished by the significant factual inaccuracies in both the diagram and the explanation. A clear presentation of incorrect information is of low quality."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is appropriate, safe, and presented in a neutral, informative tone. There are no issues with human preference alignment."
+        ],
+        "Completeness": [
+          3,
+          "The answer attempts to address all parts of the question, mentioning the key components like augmented views, encoders, a predictor, and the stop-gradient operation. However, its description of how these components interact is wrong, making it an incomplete and misleading explanation of the actual mechanism."
+        ],
+        "Content Richness": [
+          2,
+          "The generated content is very basic. The image is a simple block diagram, and the text provides a high-level overview without much detail. It lacks the specificity of the reference image (e.g., showing the symmetric loss calculation and using standard notation like 'f' for encoder and 'h' for predictor)."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm learning about self-supervised learning. How does SimSiam work without using negative pairs or momentum encoders? Please explain the architecture and training strategy with an image and short description.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The generated text and image are fundamentally incorrect. The text states that SimSiam uses 'separate encoders', and the image depicts this. This is the most critical error, as the core idea of SimSiam is to use a single, weight-shared encoder for both augmented views. Additionally, the diagram incorrectly places a predictor in both branches and calculates the loss between the two predictor outputs, whereas the loss should be between the predictor of one branch and the (stop-gradient) representation from the other.\"\n        ],\n        \"Image-Text Coherency\": [\n            4,\n            \"The generated image and text are highly coherent with each other. The text's incorrect claim of 'separate encoders' is accurately depicted in the image, which shows two distinct encoder blocks. However, both the image and text are factually incorrect regarding the SimSiam architecture.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The image is clean and easy to read, and the text is grammatically correct. However, the quality is severely diminished by the significant factual inaccuracies in both the diagram and the explanation. A clear presentation of incorrect information is of low quality.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is appropriate, safe, and presented in a neutral, informative tone. There are no issues with human preference alignment.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The answer attempts to address all parts of the question, mentioning the key components like augmented views, encoders, a predictor, and the stop-gradient operation. However, its description of how these components interact is wrong, making it an incomplete and misleading explanation of the actual mechanism.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The generated content is very basic. The image is a simple block diagram, and the text provides a high-level overview without much detail. It lacks the specificity of the reference image (e.g., showing the symmetric loss calculation and using standard notation like 'f' for encoder and 'h' for predictor).\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 82,
+    "domain": "tech",
+    "question": "How to Change Your Profile Picture on Facebook? Provide visual steps and text the steps.",
+    "reference_text": "1. Open Facebook. Tap the Facebook app icon, which resembles a white \"f\" on a dark-blue background. This will open your Facebook News Feed if you're logged in. If you aren't logged in, enter your email address and password before proceeding. 2. Tap the \"Profile\" icon. It's a person-shaped icon at the bottom of the screen. Doing so opens your profile page. If you don't see this icon, you can instead tap ☰ in the bottom-right corner of the screen and then tap your name at the top of the resulting menu. 3. Tap your profile picture. You'll find it at the top of the profile page. Tapping it prompts a pop-up menu. 4. Tap Select Profile Picture . It's in the pop-up menu. 5. Take a new profile photo. Tap the camera icon in the top-right corner of the screen, then take a picture of yourself by tapping the \"Capture\" button at the bottom of the screen. If you want to select an existing photo for your profile picture, scroll down until you find the album from which you want to select a photo, tap More in the top-right corner of the album's section if necessary, and tap the photo you want to use. 6. Tap Save . This option is in the top-right corner of the screen. Doing so changes your profile picture to your newly selected one. If you want to edit your profile picture, tap Edit below the profile picture and then edit your photo as needed. You can add a themed frame to your profile image by tapping ADD FRAME and then selecting the frame you want to use.",
+    "reference_images": [
+      "data/tech/82_1.jpg",
+      "data/tech/82_2.jpg",
+      "data/tech/82_3.jpg",
+      "data/tech/82_4.jpg",
+      "data/tech/82_5.jpg",
+      "data/tech/82_6.jpg"
+    ],
+    "generated_text": "Here are the **text steps** (the visuals are above):\n\n# On the Facebook app (iPhone/Android)\n\n1. Open the Facebook app and go to **your Profile** (tap your profile picture/name from the home screen).\n2. Tap your **current profile picture**.\n3. Choose **Update/Select profile picture or video**.\n4. Pick a photo: **Upload/Choose from library** or **Take photo**.\n5. **Adjust**: pinch to zoom, drag to reposition, and (optional) **Add frame** or **Make Temporary**.\n6. (Optional) Turn off **Share to Feed** if you don’t want an announcement.\n7. Tap **Save/Done**.\n\n# On a computer (facebook.com)\n\n1. Go to **facebook.com** and open **your profile** (click your name/profile photo).\n2. Hover your profile picture and click the **camera icon** (**Update profile picture**).\n3. Select **Upload Photo** or **Select Photo** from your albums.\n4. **Crop/zoom/reposition**; (optional) **Add frame** or **Make Temporary**.\n5. (Optional) Uncheck **Share your update to Feed**.\n6. Click **Save**.\n\n## Tips\n\n* Use a **square** image with your face centered; a minimum of **400×400 px** looks crisp.\n* Your profile picture is generally **public**; changing it doesn’t alter past posts.\n* You can revert anytime from your **Profile Pictures** album.\n\",",
+    "generated_image": "GPT-thinking/tech/82.png",
+    "gemini_evaluation": {
+      "Question": "How to Change Your Profile Picture on Facebook? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The text steps provided for both the mobile app and the computer are factually correct and accurately describe the process. The generated image, while stylized, correctly depicts the key stages of the process on the mobile app."
+        ],
+        "Image-Text Coherency": [
+          3,
+          "The generated image provides a high-level visual summary of the process, but it does not correspond one-to-one with the detailed text steps. The text lists 7 steps for the mobile app, but the image only shows 4 key moments, skipping intermediate steps like choosing the photo source and making adjustments."
+        ],
+        "Content Quality": [
+          3,
+          "The text is of high quality: well-structured, clear, and grammatically correct. The generated image, however, is of lower quality. It is an AI illustration rather than an actual screenshot, which is less helpful for a UI-based tutorial. Furthermore, some text within the image is garbled (e.g., 'Select Prfi Piue oVdeo'), which detracts from its clarity and professionalism."
+        ],
+        "Human Preference Alignment": [
+          4,
+          "The content is helpful and safe. However, for a technical 'how-to' guide, real screenshots are strongly preferred over AI-generated illustrations because they show the user exactly what the interface looks like. The generated image is less authentic and therefore less helpful than a real screenshot."
+        ],
+        "Completeness": [
+          3,
+          "The response is incomplete visually. While the text covers both mobile and desktop, it only provides a single composite image for the mobile process and no visuals for the desktop version. The question asks for 'visual steps', implying a more comprehensive visual guide than what was provided."
+        ],
+        "Content Richness": [
+          4,
+          "The text is very rich, going beyond the reference by providing instructions for both mobile and desktop versions of Facebook, as well as including a helpful 'Tips' section. However, the visual content is not rich, consisting of only one composite image, whereas the reference provided a full set of step-by-step screenshots."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Change Your Profile Picture on Facebook? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The text steps provided for both the mobile app and the computer are factually correct and accurately describe the process. The generated image, while stylized, correctly depicts the key stages of the process on the mobile app.\"\n        ],\n        \"Image-Text Coherency\": [\n            3,\n            \"The generated image provides a high-level visual summary of the process, but it does not correspond one-to-one with the detailed text steps. The text lists 7 steps for the mobile app, but the image only shows 4 key moments, skipping intermediate steps like choosing the photo source and making adjustments.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text is of high quality: well-structured, clear, and grammatically correct. The generated image, however, is of lower quality. It is an AI illustration rather than an actual screenshot, which is less helpful for a UI-based tutorial. Furthermore, some text within the image is garbled (e.g., 'Select Prfi Piue oVdeo'), which detracts from its clarity and professionalism.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The content is helpful and safe. However, for a technical 'how-to' guide, real screenshots are strongly preferred over AI-generated illustrations because they show the user exactly what the interface looks like. The generated image is less authentic and therefore less helpful than a real screenshot.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The response is incomplete visually. While the text covers both mobile and desktop, it only provides a single composite image for the mobile process and no visuals for the desktop version. The question asks for 'visual steps', implying a more comprehensive visual guide than what was provided.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich, going beyond the reference by providing instructions for both mobile and desktop versions of Facebook, as well as including a helpful 'Tips' section. However, the visual content is not rich, consisting of only one composite image, whereas the reference provided a full set of step-by-step screenshots.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 32,
+    "domain": "tech",
+    "question": "How to block a phone number on Android? Show screenshot steps and text the steps.",
+    "reference_text": "1. Open your Android's Phone app. This phone-shaped app should be on your Android's Home Screen. If you're not on a Samsung, jump ahead to our methods for Pixel or Nexus phones , LG phones , or HTC phones . 2. Tap ⋮ . This three-dot icon is in the top-right corner of the Phone screen. Doing so prompts a drop-down menu. [1] X Expert Source Mitch Harris Consumer Technology Expert Expert Interview 3. Tap Settings . This option is at the bottom of the drop-down menu. 4. Tap Block numbers . It's below the \"CALL SETTINGS\" heading near the middle of the screen. 5. Enter a number. Tap the text field below the \"Add phone number\" heading, then type in the number you want to block. 6. Tap Done . This button is in the keypad at the bottom of the screen. Doing so will save the number to your Samsung's block list and your phone will not ring when that number tries to call you. To unblock numbers, return to this page and tap the trashcan icon next to the number you want to unblock. Some Samsung models and only a few carriers support Smart Call, which is a Caller ID feature that lets you block unknown calls that aren't in your Contacts. To enable this, go to ⋮ > Settings and enable the switch next to \"Caller ID and spam protection.\" With this enabled, you'll be able to block calls as they are incoming by tapping the Block button at the bottom of your screen. [6] X Expert Source Mitch Harris Consumer Technology Expert Expert Interview",
+    "reference_images": [
+      "data/tech/32_1.jpg",
+      "data/tech/32_2.jpg",
+      "data/tech/32_3.jpg",
+      "data/tech/32_4.jpg",
+      "data/tech/32_5.jpg",
+      "data/tech/32_6.jpg"
+    ],
+    "generated_text": "# Text steps (Android)\n\n> Works on most Android phones. Names can vary a little by brand (e.g., **Pixel/Google Phone** vs **Samsung One UI**).\n\n## A) Fastest way — from Recents\n\n1. Open the **Phone** app.\n2. Tap **Recents** (or **Call history**).\n3. Tap the number (or the **ⓘ / Details** icon).\n4. Choose **Block/report spam** (Samsung: **Block** or **Block number**).\n5. (Optional) Check **Report as spam**, then tap **Block** to confirm.\n\n## B) Add a number manually (no recent call)\n\n* **Pixel / Google Phone:** Phone app → **⋮** (top-right) → **Settings** → **Blocked numbers** → **Add a number** → enter it → **Block**.\n* **Samsung:** Phone app → **⋮** → **Settings** → **Block numbers** → **Add phone number** (or toggle **Block unknown/private numbers**) → **+**/**Add**.\n\n## C) Block a saved contact\n\n1. Open the **Contacts** (or in Phone → **Contacts** tab).\n2. Open the contact → **⋮** → **Block numbers**/**Block contact** → **Block**.\n\n## D) Block texts from Messages (optional)\n\n* **Google Messages:** Open the conversation → **⋮** → **Details** → **Block & report spam** → **Block**.\n* **Samsung Messages:** Open the thread → **⋮** → **Block number** → **Block**.\n\n## Unblock later\n\n* Go back to **Phone app → Settings → Blocked numbers** (Samsung: **Block numbers**) and remove the entry, or open the contact and tap **Unblock**.\n\n---\n\n# Screenshots (generated)\n\nSee the images above: they illustrate the quick block from **Recents**, the **Block/report spam** menu, the **Block number?** confirmation, and the **Blocked numbers** settings page.\n\",",
+    "generated_image": "GPT-thinking/tech/32.png",
+    "gemini_evaluation": {
+      "Question": "How to block a phone number on Android? Show screenshot steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text provides accurate and valid instructions for several different methods of blocking a phone number on Android. The images are also realistic and correctly depict the process described."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The images perfectly illustrate the first and most common method described in the text (Method A: Fastest way — from Recents). The final text block explicitly calls out what the screenshots are showing, and it matches the images exactly."
+        ],
+        "Content Quality": [
+          5,
+          "The images are clear, realistic, and look like genuine screenshots. The text is very well-structured with clear headings, bolding, and bullet points, making it exceptionally easy to read and follow. The grammar and language are perfect."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with user intent. It's a clear, helpful, and safe tutorial. The structured format is much more user-friendly than the reference's single block of text."
+        ],
+        "Completeness": [
+          5,
+          "The generated answer is very complete. It provides both screenshot steps and text steps as requested. It covers the primary method with images and then provides text-only steps for several other relevant methods, which is a comprehensive way to answer the question."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is significantly richer than the reference. It provides multiple methods for blocking a number (from recents, manually, from contacts, from messages), includes variations for different Android versions (Pixel vs. Samsung), and also explains how to unblock a number. This is far more detailed and helpful than the single method provided in the reference."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to block a phone number on Android? Show screenshot steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text provides accurate and valid instructions for several different methods of blocking a phone number on Android. The images are also realistic and correctly depict the process described.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The images perfectly illustrate the first and most common method described in the text (Method A: Fastest way — from Recents). The final text block explicitly calls out what the screenshots are showing, and it matches the images exactly.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The images are clear, realistic, and look like genuine screenshots. The text is very well-structured with clear headings, bolding, and bullet points, making it exceptionally easy to read and follow. The grammar and language are perfect.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with user intent. It's a clear, helpful, and safe tutorial. The structured format is much more user-friendly than the reference's single block of text.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated answer is very complete. It provides both screenshot steps and text steps as requested. It covers the primary method with images and then provides text-only steps for several other relevant methods, which is a comprehensive way to answer the question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is significantly richer than the reference. It provides multiple methods for blocking a number (from recents, manually, from contacts, from messages), includes variations for different Android versions (Pixel vs. Samsung), and also explains how to unblock a number. This is far more detailed and helpful than the single method provided in the reference.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 115,
+    "domain": "tech",
+    "question": "How to Use Emojis on a Mac? Provide illustrated steps and text the steps.",
+    "reference_text": "1. Click the Edit menu. Select “Special Characters” from the context menu. Note: Not all applications will support special characters. Alternatively, you can press Ctrl + ⌘ Command + Space on your keyboard to open the Special Characters pane, but you will need to repeat this process to insert more emojis. Click the icon in the top right corner of the pane to open the Special Characters window, which will allow you to insert multiple emojis at a time. 2. Click Emoji . You can find it in the left pane of the Special Characters window. 3. Drag and drop the Emoji icon of your choice into your text. If the program supports it, the emoji will appear where you place it.",
+    "reference_images": [
+      "data/tech/115_1.jpg",
+      "data/tech/115_2.jpg",
+      "data/tech/115_3.jpg"
+    ],
+    "generated_text": "# Illustrated Steps (image)\n\nI made a clean one-page infographic that shows each step.\n\n[Download the infographic](sandbox:/mnt/data/A_step-by-step_instructional_infographic_titled_%22U.png)\n\n---\n\n# Text Steps (for Mac)\n\n1. Put your cursor where you want the emoji\n   Click into any text field (Notes, Mail, Messages, browser, etc.). The emoji will insert at the cursor.\n\n2. Open the Emoji Picker (fastest)\n   Press **Control (⌃) + Command (⌘) + Space**. The Emoji & Symbols panel pops up.\n\n3. Browse or search\n   Use the left sidebar to switch categories, or type in the **Search** bar (e.g., “heart”, “party”, “cat”).\n\n4. Insert the emoji\n   Click an emoji to insert it. It appears immediately where your cursor is.\n\n5. Choose skin tone (when available)\n   On people/hand emojis, **click and hold** (or right-click) to pick a preferred skin tone. Your Mac remembers recent tones.\n\n6. Alternate ways to open the picker\n\n* **Menu bar:** **Edit → Emoji & Symbols** in most apps.\n* **Fn/Globe key:** On many Macs, press the **Fn (🌐) key** to show Emoji & Symbols.\n\n  * To customize: **System Settings → Keyboard → “Press Fn key to:” → Show Emoji & Symbols**.\n\n7. Quick tips\n\n* The picker shows a **Frequently Used** section for speed.\n* You can also insert **symbols** (arrows, math, currency) from the same panel.\n* If the panel is too small, click the tiny **expand** icon to open the full Character Viewer.\n\nThat’s it—happy 🌟 typing!\n\",",
+    "generated_image": "GPT-thinking/tech/115.png",
+    "gemini_evaluation": {
+      "Question": "How to Use Emojis on a Mac? Provide illustrated steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct and provide accurate instructions for using emojis on a Mac. The methods described, especially the keyboard shortcut, are the most common and up-to-date ways to perform this action."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is a clear infographic that visually represents the primary method described in the text (the keyboard shortcut). The text explicitly refers to the image as an illustrated guide, and the steps in the infographic directly correspond to the core steps detailed in the text section."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The infographic is well-designed, clean, and easy to understand. The text is well-structured, clearly written, and uses formatting (bolding, lists) effectively to improve readability."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. The infographic format is more engaging and easier to digest at a glance than a series of screenshots. The text is helpful, friendly, and provides useful tips, creating a very positive user experience."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is more complete than the reference. It not only covers the primary keyboard shortcut method in detail but also includes two alternate methods (Menu bar and Fn/Globe key) and additional tips like selecting skin tones and using the full Character Viewer."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The infographic is a content-rich visual aid. The text provides a wealth of information beyond the basic steps, including customization options, quick tips, and alternate methods, making it a comprehensive guide on the topic."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Use Emojis on a Mac? Provide illustrated steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct and provide accurate instructions for using emojis on a Mac. The methods described, especially the keyboard shortcut, are the most common and up-to-date ways to perform this action.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is a clear infographic that visually represents the primary method described in the text (the keyboard shortcut). The text explicitly refers to the image as an illustrated guide, and the steps in the infographic directly correspond to the core steps detailed in the text section.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The infographic is well-designed, clean, and easy to understand. The text is well-structured, clearly written, and uses formatting (bolding, lists) effectively to improve readability.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. The infographic format is more engaging and easier to digest at a glance than a series of screenshots. The text is helpful, friendly, and provides useful tips, creating a very positive user experience.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is more complete than the reference. It not only covers the primary keyboard shortcut method in detail but also includes two alternate methods (Menu bar and Fn/Globe key) and additional tips like selecting skin tones and using the full Character Viewer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The infographic is a content-rich visual aid. The text provides a wealth of information beyond the basic steps, including customization options, quick tips, and alternate methods, making it a comprehensive guide on the topic.\"\n        ]\n    }\n}\n```"
+  }
+]

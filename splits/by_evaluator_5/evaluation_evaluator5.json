@@ -1,0 +1,899 @@
+[
+  {
+    "id": 36,
+    "domain": "art",
+    "question": "How to draw a cartoon elephant? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Draw a long curved line to form the top of the head and the front of the trunk. Outline the triangular shape of the eye using curved lines, then shade the round pupil inside. Detail the skin above and below the eye with curved lines. 2. 2. Use overlapping curved lines to sketch the trunk, mouth, and jaw. Notice the tusk overlapping the trunk. To draw the tusk, extend a curved line from just in front of the mouth and double it back upon itself. 3. 3. Complete the trunk using a long curved line. Note the “C” shape of the prehensile tip of the trunk. Then, enclose the ear using a long curved line. 4. 4. Enclose the remaining ear and trunk, using a curved line for each. Detail the ears with curved lines, and use another curved line to begin sketching the elephant’s chest. 5. 5. Draw the foreleg. Use a pair of roughly parallel curved lines that form a loose zigzag shape. Connect them at the bottom with a curved line. Use “U” shaped lines to indicate the toenails. 6. 6. Draw the rear leg. Again, use a pair of curved lines and connect them at the bottom. Detail the toes with “U” shaped lines. Connect the tops of each leg with a curved line, forming the belly. 7. 7. Draw the remaining foreleg. Use curved lines and connect them at the bottom. Then, extend a long curved line from the ear to the top of the rear leg to enclose the body. Detail the shoulder and hip with curved lines. 8. 8. Use a curved line to enclose the remaining rear leg, partially hidden behind the first. Draw the toenails on both the front and rear legs. Extend two curved lines from the back of the body and allow them to meet at a point, forming the tail. 9. 9. Use curved lines that meet at jagged points to enclose a tuft of hair at the tip. 10. Color your cartoon elephant. Elephants are usually brown or grey.",
+    "reference_images": [
+      "data/art/36_1.png",
+      "data/art/36_2.png",
+      "data/art/36_3.png",
+      "data/art/36_4.png",
+      "data/art/36_5.png",
+      "data/art/36_6.png",
+      "data/art/36_7.png",
+      "data/art/36_8.png",
+      "data/art/36_9.png",
+      "data/art/36_10.png"
+    ],
+    "generated_text": "Here are the **text steps** (separate from the visual):\n\n1. Head & body guides\n   Draw a big circle for the head. Add a smaller oval under it for the body. Lightly sketch a ground line.\n\n2. Ear & trunk guides\n   Attach two large teardrop shapes on the sides of the head for ears. From the center of the face, curve an “S” line outward for the trunk path. Add a light vertical guideline down the head and a horizontal one for eye placement.\n\n3. Block in features\n   Loosely outline the head, following the circle. Shape the trunk along your guide with a rounded tip. Mark a tiny smile line and two small ovals for cheeks.\n\n4. Define the ears\n   Trace clean, thick, rounded outlines over the ear guides. Add a second inner line to suggest the inner ear.\n\n5. Body & legs\n   Neck: a short curve from head to body. Draw two front leg stubs, then a back leg peeking from behind. Add a curved belly line.\n\n6. Details\n   Add two big oval eyes with small highlights, a tiny tail curl, and short toe splits. Optional: tiny tusks peeking beside the trunk.\n\n7. Clean-up\n   Erase construction lines. Smooth any wobbly edges so the silhouette reads clearly.\n\n8. Finish\n   Flat color: soft gray body, pink inner ears/cheeks; black eyes. Add the lightest ground shadow under the feet.\n\nQuick tips\n• Keep the head larger than the body for cuteness.\n• Place eyes low on the head and spaced widely.\n• Trunk overlaps the cheek—use that overlap to show depth.\n• If it looks stiff, slightly tilt the head and vary ear sizes a touch.\n\nIf you want any changes to the style (cuter/chibi, more realistic, side view, etc.), tell me and I’ll regenerate a new visual step sheet to match!\n",
+    "generated_image": "GPT-thinking/art/36.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a cartoon elephant? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon elephant, including both images and text as requested."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text explanation for each step perfectly matches the corresponding image. The instructions are clear and accurately describe the visual progression."
+        ],
+        "Content Quality": [
+          5,
+          "The images are clear, aesthetically pleasing, and easy to follow. The tutorial uses a common and effective drawing method (starting with basic shapes). The text is well-written, grammatically correct, and provides clear instructions."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. The chosen cartoon style is cute and appealing, and the tutorial is very user-friendly. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete. It provides a full set of visual steps and corresponding text explanations, from initial construction lines to the final colored drawing, as requested by the prompt."
+        ],
+        "Content Richness": [
+          5,
+          "The response is rich in content. In addition to the core tutorial, it provides extra 'Quick tips' for drawing and an offer to regenerate the tutorial in a different style, which adds significant value for the user."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon elephant? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon elephant, including both images and text as requested.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explanation for each step perfectly matches the corresponding image. The instructions are clear and accurately describe the visual progression.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The images are clear, aesthetically pleasing, and easy to follow. The tutorial uses a common and effective drawing method (starting with basic shapes). The text is well-written, grammatically correct, and provides clear instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. The chosen cartoon style is cute and appealing, and the tutorial is very user-friendly. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It provides a full set of visual steps and corresponding text explanations, from initial construction lines to the final colored drawing, as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in content. In addition to the core tutorial, it provides extra 'Quick tips' for drawing and an offer to regenerate the tutorial in a different style, which adds significant value for the user.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 87,
+    "domain": "art",
+    "question": "How to Draw a Fish Tank? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Begin the fish tank outline by drawing a large rectangle. This indicates the front glass of the aquarium. On top of it, draw a long, narrow trapezoid. This forms the top of the aquarium and gives it a three-dimensional appearance. 2. 2. Begin creating the underwater scene . Draw small, round, irregular shapes in one corner to indicate a pile of pebbles. Then, draw a wavy curved line along the bottom of the tank, forming the ground or sediment. From the back corners of the trapezoid, extend vertical straight lines. These indicate the back corners of the aquarium. Notice that they don't go all the way down; the empty spaces will soon be filled with other objects. 3. 3. Draw the base of the aquarium. Use straight lines to draw the tops of the sides and the sides and bottom of the front. Then, draw a straight, horizontal line across the top of the base. 4. 4. Next, draw a castle for the fish to hide in. For the turret or tower, start with the triangle-shaped roof. Then, use curved lines for the sides, midsection, and the \"U\" shaped windows. Use curved lines to draw the central section of the castle, noting the large \"U\" shaped door. Texture the castle with full and partial rectangles, simulating bricks. 5. 5. Draw a watchtower at the top of the castle. Use small trapezoids to create the raised sections of the parapet. Connect them with curved lines, fully enclosing the castle. Then, begin drawing coral. Use curved lines to enclose the branching, tree-like shape. Finally, sketch sand along the side of the aquarium using a curved line. 6. 6. Complete the coral, using curved lines. Texture it with small \"C\" shaped lines. Then, draw the sediment at the back and side of the fish tank using a long curved line. 7. 7. Draw a plant or seaweed. For each leaf, extend two curved lines upward from the sediment. Allow them to cross back and forth over one another, enclosing several segments, before they finally meet at a point. Use curved lines to enclose and texture a seashell , as well as texturing the sand. 8. 8. Introduce the fish into their new home! Use curved lines to sketch the fish's mouth, eye, pectoral fin, body, tail, and dorsal fin. Texture the fins with curved lines. Then, draw a few circular bubbles so that the fish has plenty of air to breathe. 9. 9. Complete your fish tank outline by drawing the final fish. Follow the same steps as with the previous fish. Enclose a few more bubbles, then use wavy lines to sketch a rectangular shape at the top of the tank. This is the waterline. 10. Color your cartoon aquarium. We've shaded the aquatic residents orange to indicate that they are goldfish .",
+    "reference_images": [
+      "data/art/87_1.png",
+      "data/art/87_2.png",
+      "data/art/87_3.png",
+      "data/art/87_4.png",
+      "data/art/87_5.png",
+      "data/art/87_6.png",
+      "data/art/87_7.png",
+      "data/art/87_8.png",
+      "data/art/87_9.png",
+      "data/art/87_10.png"
+    ],
+    "generated_text": "# Text Steps — How to Draw a Fish Tank\n\n1. Draw the box\n\n* Lightly sketch a rectangle for the front.\n* Add a slightly offset rectangle behind it.\n* Connect the corners to make a clear, 3-D tank.\n\n2. Define glass edges\n\n* Darken the outer edges you want visible.\n* Keep the far back edges lighter or dashed so it still reads as glass.\n\n3. Add the waterline\n\n* Draw a horizontal line a bit below the top rim, slightly wavy for realism.\n* Show the line on the side planes too so it wraps around in 3-D.\n\n4. Pour in substrate\n\n* From the bottom back corner, sketch a gentle mound toward the front.\n* Keep edges soft; it’s sand or gravel.\n\n5. Place hardscape\n\n* Add a few smooth rocks (ovals) and a piece of driftwood (bent cylinder).\n* Overlap shapes to create depth.\n\n6. Plant it\n\n* Draw simple leaf clusters: long tapered leaves for vallisneria; bushy ovals for small plants.\n* Vary heights and angles.\n\n7. Add a fish\n\n* Start with an almond/teardrop body, triangle tail, small dorsal and pelvic fins.\n* Place one fish near the middle so it’s easy to see. Add a tiny circle eye and a small mouth.\n\n8. Equipment & bubbles\n\n* Sketch a heater or filter as a slim rectangle on a back corner.\n* Add a few bubbles rising from the substrate or filter.\n\n9. Clean-up & line weight\n\n* Erase construction lines that pass through the fish and foreground objects.\n* Thicken the front rim and foreground objects slightly; keep far edges thin.\n\n10. Shine & texture (optional color)\n\n* Add a thin highlight along the front glass edge and a couple of soft vertical streaks.\n* Dot the gravel, add light shading under rocks/plants, and, if coloring, keep water pale blue and glass mostly white with subtle reflections.\n\nWant another version (cartoony, realistic, or top-view aquascape)? I can generate a different visual set too.\n",
+    "generated_image": "GPT-thinking/art/87.png",
+    "gemini_evaluation": {
+      "Question": "How to Draw a Fish Tank? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response is correct. It provides a valid set of visual and textual instructions for drawing a fish tank."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image and text are perfectly coherent. The single image visually demonstrates all the steps described in the text, using corresponding numbers to link the visual element to the textual instruction."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is very high. The image is a clear, well-structured, and aesthetically pleasing instructional diagram. The text is well-written, clear, and provides excellent, easy-to-follow instructions using appropriate terminology."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. It's a helpful, well-designed tutorial that is both visually appealing and easy to understand. The style is clean and modern. The offer to generate different versions at the end is a nice touch."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete. It provides both the requested visual steps (compiled into one image) and the text steps, covering the entire process from start to finish."
+        ],
+        "Content Richness": [
+          4,
+          "The text is very rich, offering more technical and detailed advice than the reference (e.g., discussing substrate, hardscape, line weight). However, it only provides a single composite image, whereas the reference provides a sequence of images. While the single image is information-dense, a series of images would have been richer."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw a Fish Tank? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response is correct. It provides a valid set of visual and textual instructions for drawing a fish tank.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The single image visually demonstrates all the steps described in the text, using corresponding numbers to link the visual element to the textual instruction.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is very high. The image is a clear, well-structured, and aesthetically pleasing instructional diagram. The text is well-written, clear, and provides excellent, easy-to-follow instructions using appropriate terminology.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. It's a helpful, well-designed tutorial that is both visually appealing and easy to understand. The style is clean and modern. The offer to generate different versions at the end is a nice touch.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It provides both the requested visual steps (compiled into one image) and the text steps, covering the entire process from start to finish.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich, offering more technical and detailed advice than the reference (e.g., discussing substrate, hardscape, line weight). However, it only provides a single composite image, whereas the reference provides a sequence of images. While the single image is information-dense, a series of images would have been richer.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 55,
+    "domain": "life",
+    "question": "How to bake cookies from scratch? Provide a visual guide and text the steps.",
+    "reference_text": "1. Keep everything cold. If you are using butter in your cookies (and even, to a certain degree, if you aren't) you will want to keep your ingredients refrigerator-cold. This will make your cookies much more firm and keep them from spreading out in the oven. This means that you'll have to warm up the butter enough to work with it by placing it on the counter, rather than in the microwave. Absolutely never melt it in order to mix it into the dough. A great practice is to cool your dough in the fridge for an hour before rolling it out. 2. Always cream butter and sugar. If your recipe calls for butter and doesn't specifically prohibit this practice, you should always \"cream\" the butter and the sugar first. This is a process by which you mix the two until a sort of paste is formed. 3. Try to use salted butter. Sweet cream butter tends to make cookies taste too sweet. The salt will balance out the sweetness of the cookie just enough to make it taste much better over all. You won't be able to properly taste the salt, but believe us, you'll notice the difference. 4. Change the recipe to alter the final product. If you find a recipe that you love the taste of but want a different texture, it is totally possible to alter the recipe just a bit in order to get exactly what you want! Experiment, or try these tricks: Use cake flour instead of regular flour, shortening instead of butter (or for part of the butter), or about 2 teaspoons of cornstarch along with 4 teaspoons less flour in order to get fluffy, cakey, and softer cookies. Use 2 tablespoons of milk, an extra tablespoon or two of butter, or switch your white sugar for brown to get a crispy cookie. Use melted butter to mix dough and then chill it before baking (undercook a minute or two) to get a chewy cookie. You can also use only yolks, instead of whites. Using a rubber spatula often helps speed up the mixing process if you are not using a machine. 5. Weigh your ingredients. If you find that you still struggle with getting your recipe to turn out right, bake like the pros (and Europeans!) do and weigh your ingredients. Get a good electronic kitchen scale and do your recipe based on weight. This will help ensure the perfect cookie. 6. Use an ice cream scoop to make cookies even. If you want to make sure that every cookie in a batch turns out looking the same, use an ice cream scoop to get perfectly equal balls of dough. 7. Use parchment paper. Skip the Silpat in favor of parchment paper. Silpat can make it difficult for cookies to cook evenly and it also keeps the bottoms from developing that perfect crispness. Parchment paper turns out a much better cookie. 8. Bake on the bottom of your cookie sheet. If you notice that the cookies at the edge of your sheet are prone to getting over cooked, use an Round or oval pan. If you don't have one, improvise and flip the pan over to use the bottom! 9. Know your oven. Every oven is different and it is important for you to know how yours behaves. If you know what to expect, then you can find ways to work around the expected problems. For example, if you notice that cookies on one corner or side bake faster than in another, make sure you turn the pan part-way through the baking process. 10. Start with a cold pan. Put your baking sheet in the fridge to cool before you put each set of cookies on. If you want to save time, you can scoop the dough onto parchment paper and store them in the fridge until they are ready to go out on a cooled pan. This means cooling the pan between each set of 12 too! 11. Don't overbake your cookies. If anything it's better to under-bake them. For the first batch carefully watch them and time for when they get the first hint of brown at the edges. Edge browning usually means you've gone too far, though these cookies are still perfectly good (especially if you like yours crispy!). Once you know how long it takes to reach that point, pull them out maybe 30 seconds before they brown for perfectly soft cookies. If you are using white chocolate chips in your cookies, be careful, as they can burn particularly easily. 12. Let cookies sit on the pan. Let your cookies sit on the pan for a few minutes before taking them off. This will let them firm up on the bottom, making them much easier to remove.",
+    "reference_images": [
+      "data/life/55_1.jpg",
+      "data/life/55_2.jpg",
+      "data/life/55_3.jpg",
+      "data/life/55_4.jpg",
+      "data/life/55_5.jpg",
+      "data/life/55_6.jpg",
+      "data/life/55_7.jpg",
+      "data/life/55_8.jpg",
+      "data/life/55_9.jpg",
+      "data/life/55_10.jpg",
+      "data/life/55_11.jpg",
+      "data/life/55_12.jpg"
+    ],
+    "generated_text": "Here’s your complete text guide. I’ll generate the visual as a separate image right after this.\n\n# Chewy Chocolate Chip Cookies (from scratch)\n\n**Yield:** ~18 cookies (40–45g each)\n**Time:** 20 min prep + 10–12 min bake (per tray)\n\n## Ingredients\n\n* 225 g (1¾ cups) all-purpose flour\n* ½ tsp baking soda\n* ½ tsp fine salt\n* 170 g (¾ cup) unsalted butter, softened (cool room temp)\n* 150 g (¾ cup, packed) light brown sugar\n* 100 g (½ cup) granulated sugar\n* 1 large egg **+** 1 extra yolk (for extra chew)\n* 2 tsp vanilla extract\n* 200–225 g (1¼–1½ cups) chocolate chips or chopped chocolate\n\n## Equipment\n\n2 mixing bowls, whisk, hand/stand mixer (or sturdy spoon), rubber spatula, cookie scoop or spoons, baking sheet, parchment.\n\n## Steps\n\n1. **Prep oven & pans**\n   Preheat to **350°F / 175°C**. Line a baking sheet with parchment.\n\n2. **Dry mix**\n   Whisk **flour, baking soda, and salt** in a bowl; set aside.\n\n3. **Cream**\n   In a separate bowl, beat **butter + both sugars** on medium until **pale and fluffy (1–2 min)**.\n\n4. **Eggs & vanilla**\n   Beat in **egg, then yolk, then vanilla** just until smooth.\n\n5. **Combine**\n   Add dry ingredients. Mix on low or fold until **just combined** (no dry streaks; avoid overmixing).\n\n6. **Chocolate**\n   Fold in chocolate.\n\n7. **Scoop & (optional) chill**\n   Scoop **2 Tbsp (40–45g)** mounds, well-spaced. For thicker cookies, **chill 15–30 min**.\n\n8. **Bake**\n   Bake **10–12 min** until **edges are set and lightly golden** and **centers still look soft/puffy**.\n\n9. **Set & cool**\n   Cool on the sheet **5 min**, then transfer to a rack. They’ll finish setting as they cool.\n\n## Doneness Cues\n\n* Edges: lightly golden;\n* Centers: soft, a touch pale;\n* Surface: faint cracks with glossy melted chocolate.\n\n## Pro Tips\n\n* **Temperature matters:** butter should be soft but cool (no oily sheen).\n* **Thickness control:** Chill longer for thicker cookies; bake right away for thinner, chewier edges.\n* **Wrinkly tops:** Halfway through baking, **rap** the pan once on the rack.\n\n## Variations\n\n* **Browned-Butter:** Brown 170 g butter; cool till just fluid, then proceed. Adds a nutty note (cookies spread a bit more).\n* **Nutty Crunch:** Add ½ cup toasted chopped pecans or walnuts.\n* **Salted:** Finish with a **pinch of flaky salt** after baking.\n* **Oat-Choc Chip:** Swap 50 g (½ cup) of flour for quick oats.\n\n## Troubleshooting\n\n* **Too flat:** Butter too warm; dough under-chilled; oven too cool.\n* **Too cakey/dry:** Over-measured flour; overbaked; overmixed.\n* **Greasy edges:** Butter too warm; try chilling 30–60 min.\n\n## Storage & Make-Ahead\n\n* **Baked:** Airtight at room temp **3–4 days**.\n* **Dough balls:** Freeze on a tray, then bag; bake from frozen **12–14 min** at 350°F.\n\n——\n\nI’ll now generate a separate step-by-step visual guide that matches this recipe. 😊\n\n\nIf you’d like the visual saved as a printable PDF or with different colors/sizes, tell me your preference and I’ll regenerate it to match.",
+    "generated_image": "GPT-thinking/life/55.png",
+    "gemini_evaluation": {
+      "Question": "How to bake cookies from scratch? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text provides a valid and detailed recipe for chocolate chip cookies, and the image correctly illustrates the steps of that recipe. Both components are factually accurate and logically coherent for baking cookies."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is a perfect visual representation of the generated text. Each of the 9 illustrated steps in the image corresponds directly to the 9 steps outlined in the text recipe, with matching labels and actions."
+        ],
+        "Content Quality": [
+          5,
+          "Both the text and the image are of very high quality. The text is well-structured, clearly written, and formatted for easy reading. The image is a clean, aesthetically pleasing, and easy-to-understand infographic."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with user preference. It provides a clear, actionable, and visually appealing guide that directly answers the user's request. The format is much more user-friendly than the reference's list of tips and collection of disparate photos."
+        ],
+        "Completeness": [
+          5,
+          "The response is extremely complete. It provides both the requested text steps and a visual guide. The text goes beyond the basic steps to include ingredients, equipment, yield, pro-tips, variations, and storage instructions, making it a comprehensive guide."
+        ],
+        "Content Richness": [
+          5,
+          "The content is very rich. The text is highly detailed with precise measurements, timings, and a wealth of supplementary information. The single infographic image is also rich, containing 9 distinct and informative illustrations that cover the entire process."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to bake cookies from scratch? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text provides a valid and detailed recipe for chocolate chip cookies, and the image correctly illustrates the steps of that recipe. Both components are factually accurate and logically coherent for baking cookies.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is a perfect visual representation of the generated text. Each of the 9 illustrated steps in the image corresponds directly to the 9 steps outlined in the text recipe, with matching labels and actions.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"Both the text and the image are of very high quality. The text is well-structured, clearly written, and formatted for easy reading. The image is a clean, aesthetically pleasing, and easy-to-understand infographic.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with user preference. It provides a clear, actionable, and visually appealing guide that directly answers the user's request. The format is much more user-friendly than the reference's list of tips and collection of disparate photos.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is extremely complete. It provides both the requested text steps and a visual guide. The text goes beyond the basic steps to include ingredients, equipment, yield, pro-tips, variations, and storage instructions, making it a comprehensive guide.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The content is very rich. The text is highly detailed with precise measurements, timings, and a wealth of supplementary information. The single infographic image is also rich, containing 9 distinct and informative illustrations that cover the entire process.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 65,
+    "domain": "life",
+    "question": "How to organize your closet? Provide illustrated steps and text the steps.",
+    "reference_text": "1. Remove all of the clothes from your closet. Take all of your clothes off their hangers and out of any bins or drawers in your closet. Fold them in piles on the floor or on your bed. This includes your shoes as well. It may also include other accessories such as belts, scarves, purses, or ties. 2. Decide which clothes you will keep. You may have the urge to keep everything, or toss everything. But go through systematically and piece by piece to really scrutinize your clothing. What you want in your closet are clothes that you wear on a regular basis, that fit you and are functional, and fit in the space available. Does the item fit? Clothing in the closet should fit you properly, neither too loose nor too tight. It typically means it is comfortable, not pinching, clothing can button easily, and no red marks left on the skin. It may also mean letting go of items no longer in fashion, such as skin tight skirts you really should not wear to your professional job. It is usually best to let go of \"inspirational items\" such as the jeans you hope to someday fit back into; trends being what they are the item may well be out of fashion when you do lose the weight. One pair of \"fat pants\" may be OK to remind you of your weight loss accomplishment. If your weight is fluctuating up or down (such as in growing young adults, pregnant women, or dieters) this may be tricky. Still, get rid or store items that clearly do not fit you. Do I wear this? Have you worn the item in the last year? How often do you wear it: once a week or only once this year? If you have not worn the item in a long time, that may well indicate it is time to let go. Special use items may be OK to keep even if used only periodically. You might have a Christmas sweater, or interview outfit, or formal dress that isn't used often but still worth having available. Do I like this? If you really don't like an item, do not keep it. In general, do not hang onto items out of guilt--such as that shirt your father bought you but you just do not like. Do I have multiples of this? Work or school uniforms are one thing. But if you have seven black almost identical t-shirts, that might be a sign to let go of a few. Make a \"Keep\" pile for the clothes that you will keep and wear on a regular basis. 3. Decide which clothes you will store. You should store the clothes that you won't be wearing for a while because they aren't seasonally appropriate. If it's the middle of summer, you can store your winter sweaters and scarves, and if it's the dead of winter, you can store your tank tops and summer dresses. You can also store clothes that may have sentimental value for you, such as a shirt your grandmother knitted for you, or an old t-shirt from your high school tennis team that no longer fits. Try to keep the sentimental value clothes to a minimum, though. Clothes are meant to be worn, after all. Consider displaying beloved clothing instead of keeping them in your closet. Consider framing your prized concert T-shirt, or creating a shadow box of your Boy Scout uniform and awards, or make a T-shirt quilt of your old marathon shirts. When you're done sorting through the clothes you will store, put them in a plastic bin or a clear bag marked keep. You can either store them in the back of your closet, under your bed, or in a storage unit or a different part of your home if you have the room. 4. Decide which clothes you will donate or throw out. This is the hardest step, and the most important. If you want to have a truly organized closet, then your goal should be to get rid of as many items of clothing as possible. This doesn't mean you should throw out your favorite things - however, it does mean that you should take a long hard look to ask yourself which clothes you will actually ever wear again. If you haven't worn something in over a year and it has no sentimental value, it's time to donate it. If you have an item that is so worn, covered in moth holes, or faded that you and anyone else will never wear it again, then it's time to throw it out. If you have a few items of clothing that are just way too small, stop waiting for the day that they will fit and donate them. Donate all of the clothes you don't need that are in good condition, or give them to a sibling or friend. 5. Clean the inside of the closet. You should do this before you put back your clothes. Vacuum or sweep the floor, wipe the walls down with all-purpose cleaner, and sweep away any cobwebs that may have accumulated there. If you want to make any changes, such as painting the inside a different color or adding and removing some shelves, do it now. 6. Hang up your clothes and organize them. Try to hang up as many of your clothes as you can. This will make it easier for you to find your clothes and to conserve space. You should not only hang up your clothes, but you should also organize them in a particular way so you can easily find them whenever you need to. Here are some ways to organize the clothes you hang up: Organize your clothes by season. If you've stored away some of your seasonal clothes, organize your clothes by season just for half the year. If it's summer, hang up your summer clothes first, followed by your fall clothes. Organize your clothes by type. You can separate your tank tops, shirts, pants, skirts, and dresses. Organize your work and casual clothes. Separate your work clothes from your casual clothes so you can easily get dressed for work in the morning. Organize your clothes by how often you wear them. You can choose any method of organization, but hang up a few key items, like your favorite hoodie or the pair of jeans you wear all the time, in the most accessible place. If you really want to step it up a notch, you can use differently colored hangers to mark a different type of clothing. For example, you can hang your tops on pink hangers, or your work clothes on green hangers. Colour code your clothes. example in rainbow colours You can also think about installing another pole to hang up your additional clothes. 7. Put additional clothes in other parts of your closet. Once you've hung up all of the clothes fit on your pole, you should find other parts of the closet to store the rest of your clothes. The clothes that you put in the bins should be used less frequently than the clothes you hang up, or they should be clothes that don't need to be hung up, like your workout clothes. Here are a few ideas: Don't waste the space under your hanging clothes. Put a few plastic bins of clothes under the hanging clothing. If you have room for a dresser, consider putting one in your closet. It will save you time and space. Consider installing a closet organizer to find a more efficient way to store your remaining clothes . If you have overhead space, make the most of it. Use it to store bulky sweaters, sweats, and other items that are thick and easy to spot. 8. Organize your shoes. Your shoes may take up a lot of the space in your closet, so once you've chosen which shoes you will keep, it's important to make the most of your space by storing them in the most organized and efficient manner. Here are some ways to organize the shoes in your closet: Organize them by type. Separate your dress shoes, sandals, and boots. Organize them by how often you wear them. Keep your favorite pair of boots, flip-flops, or sneakers in the place with the easiest access. Invest in a shoe rack to place on the floor of your closet. This will make it much easier to find the pair of shoes you want. Try storing your shoes in your overhead space. This is another easy way to save space. If your closet has a door that opens instead of a sliding door, consider getting a hanging shoe rack. If you have a front hall closet, consider putting the shoes you wear the most often there instead to save space in your personal closet. 9. Organize any boxes in your closet. If your closet is big enough, then it's likely that you've stored things other than clothes in it, such as big boxes filled with mementos, old photo albums, and CDs you haven't seen for ten years. To finish organizing your closet, you should go through these old boxes to see what you should keep and what you should toss. Here's how to do it: Get rid of any papers or items you've kept for over a year that have no sentimental value. Consolidate the boxes to save closet space. If your closet is already cramped, consider putting some of the items in a different place, such as putting your old high school yearbooks on the bottom of your bookshelf. If you've been using cardboard boxes, trade them up for plastic bins. They will last longer and will be more visually appealing. Label the boxes or bins so you know what's in them next time you move or organize your things again. 10. Organize any additional items in your closet. Take the time to go through any additional items in your closet to make sure that you still need them and that the closet is really the best place for them. Here are some examples: If you find any towels, sheets, or blankets, put them in your linen closet. If you've had an old lawn chair or another piece of furniture you don't really need hanging out back there, it's time to throw it out. If you've had to pick up an item and spend at least fifteen seconds trying to figure out what the heck it is or why you would need it, it's time to throw it out. Make sure that all of the other items you find belong in the closet and not another part of your home. For example, if you find a box of light bulbs, a box of comic books, or a box of chocolate, ask yourself if those items wouldn't be more logically organized elsewhere. 11. Make your closet more visually appealing. Turn your creativity loose and think of ways to add pleasure to the routine of getting dressed and looking through your closet every day. If you spend more time making your closet look nice, then you will be less likely to let it get messy in the future. Paint your closet a soft pretty color. Add mirrors for sparkle. Hang jewelry and scarves where you can see them -- as long as they don't get in your way. Hang up a small poster or painting that makes you smile every time you open your closet. 12. Enjoy your newly organized closet. Take a step back and admire your hard work! Hopefully, your closet is organized now so that all of its contents are easy to find and its overall appearance is to your liking. If not, take a few more minutes to make any minor changes that still need to be made. From this point forward, try to keep your closet organized as you add to it, or remove and return its current contents. Doing so will prevent you from needing to do another large overhaul on your closet in the future.",
+    "reference_images": [
+      "data/life/65_1.jpg",
+      "data/life/65_2.jpg",
+      "data/life/65_3.jpg",
+      "data/life/65_4.jpg",
+      "data/life/65_5.jpg",
+      "data/life/65_6.jpg",
+      "data/life/65_7.jpg",
+      "data/life/65_8.jpg",
+      "data/life/65_9.jpg",
+      "data/life/65_10.jpg",
+      "data/life/65_11.jpg",
+      "data/life/65_12.jpg"
+    ],
+    "generated_text": "# Closet Organization — Step-by-Step Guide (Text)\n\n## Supplies\n\n* Matching slim hangers (all the same style)\n* 3–5 sorting bins/bags (Keep, Donate, Tailor/Fix, Trash, Seasonal)\n* Clear bins with lids, shelf dividers, labels, shoe rack or boxes\n* Tape measure, sticky notes, marker\n\n## The 8 Steps\n\n1. **Empty & Sort**\n   Pull everything out. As you go, drop items into: Keep / Donate / Tailor-Fix / Trash / Seasonal. Keep sentimental items in a separate small box.\n\n2. **Declutter Fast**\n   For each item ask: *Do I wear it? Does it fit? Do I love it?* If it fails 2+ questions, let it go. Put donations straight into your car or schedule a pickup.\n\n3. **Measure & Plan Zones**\n   Measure width, height to shelf, and depth. Sketch zones: **Long hang**, **Short hang (double rod if possible)**, **Shelves/Drawers**, **Shoes**, **Accessories**.\n\n4. **Choose the Right Tools**\n\n   * Hangers: one style for tops/bottoms, sturdy for coats.\n   * Shelves: add dividers for stacks.\n   * Bins: clear or labeled for accessories and off-season.\n   * Over-the-door/side-wall hooks for bags, hats, scarves.\n\n5. **Group by Category**\n   Tops → Bottoms → Dresses → Outerwear → Activewear → Accessories → Shoes. Keep sets (suit pieces) together.\n\n6. **Arrange Smart**\n\n   * **Frequency:** everyday items at eye/hand level; occasion or off-season up high.\n   * **Color order (light → dark)** within each category.\n   * Face items the same way; one item per hanger. File-fold tees in drawers.\n\n7. **Use Vertical Space**\n   Add a second rod for short items, under-shelf baskets, and stackable boxes on the top shelf. Use floor space for a shoe rack; store rarely used items highest.\n\n8. **Label & Maintain**\n   Label shelves and bins (e.g., “Sweaters,” “Gym,” “Bags”). Do a 5-minute tidy each week; do a seasonal swap twice a year.\n\n## Quick Layout Tips\n\n* **Tiny reach-in:** Double-rod 2/3 of the width; one narrow long-hang section; over-door hooks; under-bed box for off-season.\n* **Standard reach-in:** One long-hang, one double-hang, one shelf stack with dividers; 2–3 clear bins up top.\n* **Walk-in:** U-shape: long-hang on the shortest wall, double-hang on others; drawers/shelves in the center; island only if walk path remains ≥ 36\".\n\n## Maintenance Mini-Routine (10 minutes)\n\n* Return strays, re-fold one stack, re-set hangers to face forward, toss one item you won’t wear, and empty donation bag when it fills.\n\n---\n\n**Image:** I’ve generated an illustrated “Closet Organization in 8 Steps” poster separately for you to use alongside these instructions.",
+    "generated_image": "GPT-thinking/life/65.png",
+    "gemini_evaluation": {
+      "Question": "How to organize your closet? Provide illustrated steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image provide a correct and logical set of instructions for organizing a closet. The steps are practical and follow a well-established method for decluttering and organizing."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is an infographic that perfectly summarizes the 8 steps outlined in the generated text. Each numbered point in the image directly corresponds to the numbered step in the text, with icons that visually represent the action described."
+        ],
+        "Content Quality": [
+          5,
+          "Both the image and text are of very high quality. The image is a well-designed, clear, and aesthetically pleasing infographic. The text is exceptionally well-structured with headings, subheadings, and bullet points, making it easy to read and follow. The language is clear and concise."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. The infographic format is a modern and effective way to present instructions. The text is helpful, well-organized, and provides actionable tips. The overall presentation is excellent and user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response provides both illustrated steps (in a single infographic) and detailed text for those steps, fulfilling the prompt's request. While it has fewer steps than the reference (8 vs. 12), it covers all the essential stages of the process from preparation to maintenance in a more consolidated and efficient manner."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is very rich. The text goes beyond the basic steps to include a list of supplies, specific layout tips for different types of closets, and a maintenance routine. The infographic image condenses multiple illustrations into one comprehensive and informative visual aid, which is richer than providing a series of simple, separate images."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to organize your closet? Provide illustrated steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image provide a correct and logical set of instructions for organizing a closet. The steps are practical and follow a well-established method for decluttering and organizing.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is an infographic that perfectly summarizes the 8 steps outlined in the generated text. Each numbered point in the image directly corresponds to the numbered step in the text, with icons that visually represent the action described.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"Both the image and text are of very high quality. The image is a well-designed, clear, and aesthetically pleasing infographic. The text is exceptionally well-structured with headings, subheadings, and bullet points, making it easy to read and follow. The language is clear and concise.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. The infographic format is a modern and effective way to present instructions. The text is helpful, well-organized, and provides actionable tips. The overall presentation is excellent and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response provides both illustrated steps (in a single infographic) and detailed text for those steps, fulfilling the prompt's request. While it has fewer steps than the reference (8 vs. 12), it covers all the essential stages of the process from preparation to maintenance in a more consolidated and efficient manner.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is very rich. The text goes beyond the basic steps to include a list of supplies, specific layout tips for different types of closets, and a maintenance routine. The infographic image condenses multiple illustrations into one comprehensive and informative visual aid, which is richer than providing a series of simple, separate images.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 84,
+    "domain": "space",
+    "question": "Why can people climb the Story Bridge Adventure Climb in Brisbane? Provide a photo and explain.",
+    "reference_text": "The Story Bridge Adventure Climb uses engineered stairs, catwalks and platforms mounted on the bridge’s superstructure. Each participant wears a full-body harness that stays tethered via lanyard to a static safety cable for the entire route, under the supervision of trained guides. With guardrails, anti-slip decking, weather protocols, and controlled group sizes, the public can safely complete an almost 1-km return route to summit platforms about 80 m above the Brisbane River.",
+    "reference_images": [
+      "data/space/story_bridge_adventure_climb.jpg"
+    ],
+    "generated_text": "# Photo\n\n*(Generated image above.)*\n\n# Explanation\n\nPeople can climb the Story Bridge because it’s run as a **licensed, guided experience** that makes the bridge safe and accessible to the public without impacting traffic or the structure. In practical terms:\n\n* **Purpose-built infrastructure:** Catwalks, handrails, and grated steps were added to sections of the steel arch, along with a **continuous safety line** so climbers can stay clipped in the entire time.\n* **Professional supervision:** Trained climb leaders run small groups, give a pre-climb briefing, fit harnesses and lanyards, and manage radio comms and pacing on the route.\n* **Risk controls:** Full-body harnesses, checks for health/fitness and sobriety, strict weather protocols, and rules limiting loose items (so nothing can drop onto the roadway) keep the activity controlled.\n* **Bridge suitability:** The Story Bridge’s robust steel design and existing maintenance access points make it feasible to adapt for tourism while respecting the bridge’s heritage and daily use.\n* **Tourism & education value:** The climb offers panoramic views over the Brisbane River and CBD and includes local history commentary—so the city permits it as a regulated attraction.\n\n(Details like age/height/health requirements and session times vary; the operator specifies them during booking.)\n",
+    "generated_image": "GPT-thinking/space/84.png",
+    "gemini_evaluation": {
+      "Question": "Why can people climb the Story Bridge Adventure Climb in Brisbane? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text is factually correct, aligning with the reference by explaining the safety measures, purpose-built infrastructure, and guided nature of the climb. The image accurately depicts the Story Bridge climb experience."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image perfectly illustrates the concepts described in the text. It shows climbers on the purpose-built catwalks, wearing harnesses and clipped in, which directly corresponds to the explanation of the safety infrastructure and procedures."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of high quality—clear, realistic, and well-composed. The text is well-structured, using bullet points for clarity, and is grammatically correct and easy to read."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and appropriate for the topic. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response fully addresses the prompt by providing both a relevant photo and a comprehensive explanation. It covers all the key reasons why the climb is possible."
+        ],
+        "Content Richness": [
+          5,
+          "The text is richer than the reference, providing a more detailed breakdown of the reasons into categories like 'Risk controls', 'Bridge suitability', and 'Tourism & education value'. This adds valuable context and depth to the answer."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people climb the Story Bridge Adventure Climb in Brisbane? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text is factually correct, aligning with the reference by explaining the safety measures, purpose-built infrastructure, and guided nature of the climb. The image accurately depicts the Story Bridge climb experience.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the concepts described in the text. It shows climbers on the purpose-built catwalks, wearing harnesses and clipped in, which directly corresponds to the explanation of the safety infrastructure and procedures.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality—clear, realistic, and well-composed. The text is well-structured, using bullet points for clarity, and is grammatically correct and easy to read.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and appropriate for the topic. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully addresses the prompt by providing both a relevant photo and a comprehensive explanation. It covers all the key reasons why the climb is possible.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text is richer than the reference, providing a more detailed breakdown of the reasons into categories like 'Risk controls', 'Bridge suitability', and 'Tourism & education value'. This adds valuable context and depth to the answer.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 58,
+    "domain": "space",
+    "question": "Why can people shop and walk on the Rialto Bridge in Venice? Provide a photo and explain the structural design.",
+    "reference_text": "The Rialto Bridge is the oldest stone bridge across the Grand Canal in Venice. Its central arch supports a covered walkway lined with shops. The strong stone arch distributes weight evenly, allowing both commercial activity and pedestrian traffic on top while boats pass underneath.",
+    "reference_images": [
+      "data/space/rialto_bridge_shops.jpg"
+    ],
+    "generated_text": "# Explanation (separate from the image)\n\nPeople can shop and walk on the Rialto Bridge because it was conceived not just as a crossing, but as a **marketplace built into a bridge**:\n\n* **Single-span stone arch:** The bridge is a massive masonry arch that works entirely in **compression**. Its curved profile channels the weight of crowds and the shop structures down into the arch and out toward the banks, where the thrust is resisted by very large abutments. Stone excels at compression, so it can safely carry heavy, steady loads like shops plus pedestrian traffic.\n\n* **No piers in the canal:** Because it’s a single span, there’s **no intermediate pier** in the Grand Canal. That keeps the waterway open for boats while concentrating the structure’s strength in the arch and abutments—freeing the deck to host shops and walkways.\n\n* **Three walkways with shops between:** The bridge carries **two rows of small shops** along its length. Those shop walls act like **spandrel walls**, transferring loads down to the arch. Between and beside the shops are **three pedestrian passages**—a central stairway and two outer side walks—so people can browse and pass through at the same time.\n\n* **Deep foundations and stout abutments:** As with many Venetian structures, the abutments are set on **dense fields of timber piles** driven into the lagoon’s sediments, which become very durable in waterlogged, low-oxygen conditions. This spreads the arch thrust over a large area and keeps settlement small.\n\n* **Durable materials and detailing:** The outer shell uses hard, water-resistant **Istrian stone** with brick and stone within, plus a crowned profile and steps that manage the slope. The permanent “dead load” of the shops actually helps **pre-compress** the arch, improving stability against crowds and wind.\n\n* **Designed for commerce from the start:** Built in the **late 16th century** (1588–1591) under **Antonio da Ponte**, it replaced earlier wooden trading bridges. Integrating stalls into the superstructure formalized the Rialto area’s role as Venice’s commercial heart—so the bridge has always been both a thoroughfare **and** a shopping street.\n\nIn short: the Rialto’s **masonry arch + robust foundations + integrated spandrel/shop walls** create a stiff, compression-only structure that easily carries the weight of shops and dense pedestrian traffic, while leaving the canal completely clear below.\n",
+    "generated_image": "GPT-thinking/space/58.png",
+    "gemini_evaluation": {
+      "Question": "Why can people shop and walk on the Rialto Bridge in Venice? Provide a photo and explain the structural design.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image is an accurate photo of the Rialto Bridge. The text explanation is factually correct, providing accurate details about the bridge's structural design, materials, and history."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image shows the Rialto Bridge, and the text explains its structure in detail. The text's points about the single arch, the shops, and the walkways are all visible in the provided photograph, creating perfect alignment."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear photograph. The text is exceptionally well-written, organized with bullet points for clarity, and uses precise architectural and engineering terminology correctly to provide a sophisticated explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and provides a visually appealing and informative answer. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the question by providing both a relevant photo and a comprehensive explanation of the bridge's structural design, addressing why it can support shops and pedestrians."
+        ],
+        "Content Richness": [
+          5,
+          "The text is extremely rich in detail, going far beyond the reference text. It includes information on the structural principles (compression), specific materials (Istrian stone, timber piles), historical context (architect, dates), and the functional design (three walkways, spandrel walls), providing a thorough and multi-faceted explanation."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people shop and walk on the Rialto Bridge in Venice? Provide a photo and explain the structural design.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image is an accurate photo of the Rialto Bridge. The text explanation is factually correct, providing accurate details about the bridge's structural design, materials, and history.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image shows the Rialto Bridge, and the text explains its structure in detail. The text's points about the single arch, the shops, and the walkways are all visible in the provided photograph, creating perfect alignment.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear photograph. The text is exceptionally well-written, organized with bullet points for clarity, and uses precise architectural and engineering terminology correctly to provide a sophisticated explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and provides a visually appealing and informative answer. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the question by providing both a relevant photo and a comprehensive explanation of the bridge's structural design, addressing why it can support shops and pedestrians.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text is extremely rich in detail, going far beyond the reference text. It includes information on the structural principles (compression), specific materials (Istrian stone, timber piles), historical context (architect, dates), and the functional design (three walkways, spandrel walls), providing a thorough and multi-faceted explanation.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 104,
+    "domain": "exercise",
+    "question": "How to Do Free Squats? Provide visual steps and text the steps.",
+    "reference_text": "1. Bend your knees. In essence, \"squatting\" simply means to bend your knees, bringing your backside closer to the floor. For best results, try bending your knees to a 90-degree angle, then standing back up. [1] X Expert Source Dean Theriot Personal Trainer Expert Interview 2. Keep your knees behind your toes. This protects your knees and back and helps you achieve maximum results. When you move into a squat, bend your knees so that they move directly over your feet, without going further than your toes. [3] X Expert Source Dean Theriot Personal Trainer Expert Interview 3. Keep your feet shoulder-width apart. For a standard free squat, start by keeping your feet under your shoulders. This help to avoid stress on your knees. 4. Angle your feet for plié squats. A plié squat is a free squat done with a wide stance. For these, it is important to angle your feet out and to bend your knees so they move directly over your feet. Begin by doing these at only a half-range of motion, and work up to getting your knee bends to 90 degrees. 5. Stop at the bottom. After you build up some leg strength, you may begin to \"break 90,\" or allow your squat to deepen more than a 90-degree bend in your knees. However, it is important to stop when your thighs lightly come into contact with your calves. Going beyond this can place unnecessary stress on your knees.",
+    "reference_images": [
+      "data/exercise/104_1.jpg",
+      "data/exercise/104_2.jpg",
+      "data/exercise/104_3.jpg",
+      "data/exercise/104_4.jpg",
+      "data/exercise/104_5.jpg"
+    ],
+    "generated_text": "# Free (Bodyweight) Squat — Text Guide\n\nFollow these clear, safe steps. If anything hurts (sharp pain), stop and adjust range or seek a pro.\n\n## 1) Set Your Stance\n\n* Feet about shoulder-width apart (a little wider or narrower based on comfort).\n* Toes turned slightly out (≈5–20°) so knees can track over them.\n* Distribute weight through the whole foot (heel + big toe + little toe). Look ahead.\n\n## 2) Brace\n\n* Take a deep breath “360°” into your belly and sides.\n* Gently lock ribs down as if prepping for a cough; keep spine neutral.\n* Set shoulders down/back. Lightly squeeze glutes.\n\n## 3) Initiate: Hips Back, Knees Out\n\n* Start the squat by sending the hips slightly back, then let the knees bend.\n* Let knees track in line with the toes (don’t cave inward).\n* Reach your arms forward a bit for balance if helpful.\n\n## 4) Descend Under Control\n\n* Lower smoothly; keep chest proud and back neutral.\n* Keep heels flat; stay balanced over mid-foot.\n* Go as low as **your** mobility allows—aim for thighs parallel to the floor or lower without losing your brace.\n\n## 5) Check the Bottom Position\n\n* Knees track over toes; don’t collapse inward.\n* Weight balanced (not on toes only; heels stay down).\n* Avoid excessive pelvis tuck (“butt wink”). If it appears, stop just above that range.\n\n## 6) Drive Up\n\n* Push the floor away through mid-foot/heels.\n* Stand up by extending hips and knees together (no shooting hips up first).\n* Keep knees tracking over toes; exhale through the sticking point.\n\n## 7) Finish Tall\n\n* Stand tall with hips and knees fully extended.\n* Reset your breath/bracing before the next rep.\n\n---\n\n## Breathing Cue (Simple)\n\n* **Inhale & brace** before you descend → **exhale** as you drive up.\n* For heavier sets, you can hold a gentle brace until you pass the hardest point, then exhale.\n\n## Common Mistakes → Quick Fixes\n\n* **Heels lift:** Widen stance slightly; slow down; work ankle mobility; try a small heel lift (5–10 mm).\n* **Knees cave in:** Think “spread the floor” or “push knees toward pinky toes.”\n* **Back rounds:** Re-brace; keep chest proud; shorten depth slightly; include core work.\n* **Leaning too far forward:** Bring heels under hips; use counterbalance arms; keep gaze forward.\n* **Bouncing/relaxing at bottom:** Pause briefly; keep tension.\n\n## Regressions (Easier)\n\n* **Box/Chair Squat:** Tap a box/chair behind you for depth control.\n* **Supported Squat:** Hold a doorframe/TRX for assistance.\n* **Heel-elevated Squat:** Place thin plates under heels to ease ankle demand.\n\n## Helpful Progressions (Harder)\n\n* **Goblet Squat (light weight)** for counterbalance and torso position.\n* **Tempo Squat:** 3-sec lower, no bounce, smooth up.\n* **Pause Squat:** 1–2 sec hold at the bottom with tension.\n* **Split Squat / Pistol to Box** for single-leg control.\n\n## Suggested Sets & Reps\n\n* Beginners: **3 × 8–10 reps**, rest 60–90 s.\n* Warm-up: 5 min light cardio + 2–3 easy ramp-up sets.\n\n> Goal: Smooth, controlled reps with consistent depth and balance. Quality first; load later.\n",
+    "generated_image": "GPT-thinking/exercise/104.png",
+    "gemini_evaluation": {
+      "Question": "How to Do Free Squats? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          1,
+          "The generated response failed to provide any images, which was a core part of the user's request for \"visual steps\". While the text provided is factually correct and of high quality, the complete omission of the visual component makes the answer incorrect in the context of the prompt."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "No images were generated, so there is no coherency between image and text to evaluate. This is a complete failure of this criterion."
+        ],
+        "Content Quality": [
+          2,
+          "The text quality is excellent; it is well-structured, clear, and provides a safe, comprehensive guide. However, the complete absence of the requested images results in a very low overall content quality score."
+        ],
+        "Human Preference Alignment": [
+          2,
+          "A user asking for visual steps for an exercise would be very disappointed with a text-only answer. While the text itself is helpful, the failure to meet the modality requirement of the prompt makes it poorly aligned with user preference."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It provides the text steps but completely omits the visual steps, which was an explicit and equal part of the request."
+        ],
+        "Content Richness": [
+          2,
+          "The text is significantly richer than the reference, including details on breathing, common mistakes, regressions, and progressions. However, the total lack of any visual content means there is zero richness or diversity in the image modality, severely limiting the overall richness of the response."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Do Free Squats? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The generated response failed to provide any images, which was a core part of the user's request for \\\"visual steps\\\". While the text provided is factually correct and of high quality, the complete omission of the visual component makes the answer incorrect in the context of the prompt.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"No images were generated, so there is no coherency between image and text to evaluate. This is a complete failure of this criterion.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The text quality is excellent; it is well-structured, clear, and provides a safe, comprehensive guide. However, the complete absence of the requested images results in a very low overall content quality score.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"A user asking for visual steps for an exercise would be very disappointed with a text-only answer. While the text itself is helpful, the failure to meet the modality requirement of the prompt makes it poorly aligned with user preference.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It provides the text steps but completely omits the visual steps, which was an explicit and equal part of the request.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is significantly richer than the reference, including details on breathing, common mistakes, regressions, and progressions. However, the total lack of any visual content means there is zero richness or diversity in the image modality, severely limiting the overall richness of the response.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 36,
+    "domain": "exercise",
+    "question": "How to do a back extension on a bench? Show visual steps and text the steps.",
+    "reference_text": "1. Start in a squatting position. Bend your knees and come close to the floor, almost as though you are going to sit. Hover just above the ground, with your thighs hugging close to your calves. As you get more comfortable with this move, you can start from a standing squat. Eventually you will start from a completely standing position. 2. Round your back. Bend your elbows close to your body so that your hands are by your ears. Tuck your head between your arms and curl your back forwards. As you get more comfortable with the position, you can start with your hands extended out in front of you. 3. Roll backwards. When your head hits the mat, tuck your chin and push the ground with your hands. Think about pushing your body away from the mat with your hands. Be sure to keep your shoulders and arms strong and close to your head. They are your point of strength. 4. Swing your legs over your head. Using the momentum of your legs and the strength of your arms, bring your legs over your head and your feet to the mat. You may have to use your core strength as well. Kick your legs to gain momentum, but squeeze your abs to pull your feet to the mat. 5. Stand up. Once your feet hit the mat, press against the mat with your hands, pushing your upper body up to follow your feet. You will be in a squat with your hands on the mat. Stand up from there, with your arms up. In order to practice for your back extension, you can practice ending in a pushup position instead of a standing position. When your feet hit the mat, press against the mat with your hands and use your ab muscles to straighten out into a plank position. Hold that position to build strength.",
+    "reference_images": [
+      "data/exercise/36_1.jpg",
+      "data/exercise/36_2.jpg",
+      "data/exercise/36_3.jpg",
+      "data/exercise/36_4.jpg",
+      "data/exercise/36_5.jpg"
+    ],
+    "generated_text": "Here are the **text steps** (separate from the image):\n\n1. **Set up the bench**\n\n   * Use a Roman-chair/hyperextension bench.\n   * Adjust the hip/thigh pad so the top edge sits just below your hip bones (ASIS). Your torso should hinge freely at the hips.\n   * Lock your ankles under the pads with feet flat on the plate, legs straight but knees soft.\n\n2. **Starting position**\n\n   * Body in a straight line from head to heels; ribs stacked over pelvis.\n   * Cross arms over your chest (easiest). Keep neck neutral (gaze ~1–2 m ahead of the floor).\n\n3. **Brace**\n\n   * Inhale through the nose; lightly brace your abs and squeeze your glutes to set a neutral spine.\n\n4. **Lower (the hinge)**\n\n   * Hinge at the hips and **control** the descent. Let the torso tip forward while keeping your back neutral (don’t round).\n   * Stop when you feel a hamstring stretch or when your torso is slightly below parallel. Tempo idea: ~2–3 seconds down.\n\n5. **Pause**\n\n   * Brief 1-second pause at the bottom while staying tight; keep shoulders away from ears.\n\n6. **Raise**\n\n   * Drive your hips into the pad, squeeze glutes/hamstrings, and lift the torso until it’s **in line** with your legs.\n   * Exhale as you come up. Do **not** hyperextend or arch past straight.\n\n7. **Finish & repeat**\n\n   * Hold the top for half a second in neutral, then repeat for 8–12 smooth reps.\n\n**Progressions & variations**\n\n* Easier: hands on hips → arms across chest.\n* Harder: hands behind head → hold a light plate/dumbbell tight to chest.\n* Tempo challenge: 3–4 sec down, 2-sec pause at bottom, 1 sec up.\n* Range: only as deep as you can keep a neutral spine.\n\n**Common mistakes to avoid**\n\n* Rounding the lower back on the way down.\n* Throwing the torso/swinging to get up.\n* Hyperextending at the top (arching past a straight line).\n* Pad set too high (blocks the hips) or too low (digs into thighs).\n* Craning the neck up; keep it neutral.\n\n**Safety tips**\n\n* If you feel sharp pain (especially in the lower back), stop.\n* Keep motion at the **hips**, not by bending the spine.\n* Start with bodyweight and perfect control before adding load.\n\nIf you want, I can also give steps for a **flat-bench alternative** (no Roman chair) or tailor reps/sets to your program.\n",
+    "generated_image": "GPT-thinking/exercise/36.png",
+    "gemini_evaluation": {
+      "Question": "How to do a back extension on a bench? Show visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response correctly identifies and explains the exercise known as a 'back extension on a bench' (using a hyperextension bench/Roman chair). The reference answer is completely incorrect, as it shows and describes a backward roll on a floor mat, which is a different exercise entirely and does not involve a bench."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image, with its four panels showing setup, lowering, pausing, and raising, directly corresponds to the detailed text steps. The visual and textual explanations are perfectly aligned."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is clear, realistic, and well-labeled, effectively demonstrating the exercise form. The text is exceptionally well-written, structured logically with clear headings and bullet points, and is grammatically perfect."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and professionally presented. The content is perfectly appropriate for a fitness instruction query."
+        ],
+        "Completeness": [
+          5,
+          "The generated response fully answers the prompt by providing both visual steps (in a multi-panel image) and comprehensive text steps."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The text goes far beyond the basic steps, including progressions, variations, common mistakes to avoid, and safety tips. This level of detail is extremely helpful for someone learning the exercise."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to do a back extension on a bench? Show visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly identifies and explains the exercise known as a 'back extension on a bench' (using a hyperextension bench/Roman chair). The reference answer is completely incorrect, as it shows and describes a backward roll on a floor mat, which is a different exercise entirely and does not involve a bench.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image, with its four panels showing setup, lowering, pausing, and raising, directly corresponds to the detailed text steps. The visual and textual explanations are perfectly aligned.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is clear, realistic, and well-labeled, effectively demonstrating the exercise form. The text is exceptionally well-written, structured logically with clear headings and bullet points, and is grammatically perfect.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and professionally presented. The content is perfectly appropriate for a fitness instruction query.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response fully answers the prompt by providing both visual steps (in a multi-panel image) and comprehensive text steps.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The text goes far beyond the basic steps, including progressions, variations, common mistakes to avoid, and safety tips. This level of detail is extremely helpful for someone learning the exercise.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 12,
+    "domain": "exercise",
+    "question": "How to do a side plank? Show visual steps for alignment.",
+    "reference_text": "1. Lie on your right side on a yoga mat. You’ll be putting your weight on your feet and your elbow, so you’ll want something soft beneath you. Spread out so you’re lying on your right side on the floor. If you don’t have a yoga mat, try to do this exercise on carpet or a rug so you have a little bit of cushion beneath you. 2. Put your left foot on top of your right foot. Stick your legs straight out so they’re in line with your glutes, then stack your feet on top of each other. This will help you keep your body straight, so it’s super important! Your feet will be anchoring you to the ground, so it’s really important they stay steady throughout this exercise. 3. Push your right elbow underneath your right armpit. Spread your palm out wide to keep your balance. Your arm will be taking most of your weight, so really dig it into the floor to keep your balance. Make sure your right arm stays at a 90-degree angle from your torso the entire time. 4. Engage your core to lift your hips off the ground. To get into the plank position, squeeze your abs and your glutes tight. Lift your hips up off the ground until your body creates a slanted line from your head down to your feet. If you’re having trouble keeping your balance, place your left hand on your hip. Otherwise, keep it flat along your left side. Keep your hips in a straight line with the rest of your body—don't lift them up or let them sink down. [5] X Expert Source Laila Ajani Fitness Trainer Expert Interview 5. Hold the pose for 6 seconds, then lower your hips. When you’re first starting out, this pose might be tough to hold. Try to go for at least 6 seconds, then slowly lower your hips back to the floor. As you get better, you can try holding your side plank for up to 30 seconds at a time. If you’re having trouble, try exhaling as you lift your hips up and inhaling as you lower down. This will help you engage the right muscles so you can hold the pose for longer. 6. Repeat that 3 to 5 times, then switch to your left side. As you practice this more, you’ll be able to do more reps. When you first start out, try to do the pose 3 to 5 times, then roll over onto your left side and repeat. If you don’t feel exhausted by these reps, you can try doing a few more. On the left side, your left arm and left foot will be underneath your body. 7. Bend your knees if you’re a beginner. If you find the normal side plank to be a little too tough, get into a side plank position, but bend your knees to stick your feet out behind you. Engage your glutes to lift your hips off the floor, and use your knees instead of your feet to keep your balance. [9] X Trustworthy Source Mayo Clinic Educational website from one of the world's leading hospitals Go to source This is a good way to practice the side plank if you’re having trouble keeping your back straight. 8. Do leg raises to engage your obliques. Get into a normal side plank position. Keeping your spine straight, lift your top leg up toward the ceiling, taking it a little bit higher than hip height. Quickly lower your leg back down to complete one repetition. If you’re having trouble keeping your balance, place your outside hand on your hip to keep yourself steady. To really challenge yourself, try holding a dumbbell in your upper hand as you do your leg lifts. Try doing leg lifts 10 to 15 times on each side. 9. Try hip dips to strengthen your lower obliques. Get into a side plank position, then place your left hand on your hip. Slowly lower your hips down toward the floor, stopping just before they touch the ground. Quickly engage your abs to lift your hips back up again for one repetition. You’ll feel this in your abs, your glutes, and your obliques. It’s important to raise back up into a classic side plank position with your spine straight. That way, you won’t lose your posture throughout the exercise. If you’re having trouble with this exercise, do a side plank on your knees and try hip dips that way. Try doing hip dips for 15 to 30 seconds on each side. 10. Do a side plank crunch to work on your abs. Get into a side plank position and lift your hips up off the ground. Pull your upper leg and upper arm in towards your torso to do a crunch on that side of your body. Extend your arm and leg outwards to get out of the crunch and complete one repetition. If you feel yourself starting to rock back and forth, engage your glutes to hold yourself steady. Picture this like you’re doing a classic crunch, except now you’re on your side. Start out by doing crunches for 15 to 30 seconds on each side. 11. Work on your balance with an oblique twist. Lie on your side in a side plank position. Lift your hips off the ground, then put your outer hand up by your ear. Slowly turn in toward the floor, stopping yourself when you’re looking directly at your lower forearm. Twist back around to get into your side plank position. These twists engage your entire body, so they’re a great overall workout. Twist 10 to 15 times on each side. 12. Try a side plank slide to challenge yourself. Get into a side plank position. Slowly slide your feet outwards, keeping your spine straight and your weight on your elbow. Tilt your arm so it’s at an angle to work your obliques, then hold the pose for a few seconds. Engage your obliques to slide back upwards into a normal side plank. This move can be a little tough on your elbow, so put a pillow or a foam mat underneath your arm if you need to. Try to keep your spine straight the entire time to get the most out of this workout. Work up to doing slides for 15 to 30 seconds on each side.",
+    "reference_images": [
+      "data/exercise/12_1.jpg",
+      "data/exercise/12_2.jpg",
+      "data/exercise/12_3.jpg",
+      "data/exercise/12_4.jpg",
+      "data/exercise/12_5.jpg",
+      "data/exercise/12_6.jpg",
+      "data/exercise/12_7.jpg",
+      "data/exercise/12_8.jpg",
+      "data/exercise/12_9.jpg",
+      "data/exercise/12_10.jpg",
+      "data/exercise/12_11.jpg",
+      "data/exercise/12_12.jpg"
+    ],
+    "generated_text": "Here are the **text steps** to pair with the visual:\n\n# Quick safety setup\n\n* Clear the staircase, wear grippy shoes, and use a railing if you need balance.\n* Pick a step height you can control—no wobbling or pushing through pain.\n\n# 8-Step Stair Workout (about 20 minutes)\n\n1. **Warm-Up (2 minutes)**\n   March in place at the base of the stairs, roll shoulders, and do 20–30 heel-to-toe rocks on the bottom step to wake up ankles.\n\n2. **Alternating Step-Ups — 2 sets of 10–12/side**\n\n   * Step fully onto the first/second step, press through the whole foot, stand tall, then step down under control.\n   * **Make it easier:** use the bottom step or hold the railing.\n   * **Harder:** add a knee drive at the top or hold light weights.\n\n3. **Side Step-Ups — 2 sets of 8–10/side**\n\n   * Stand sideways to the step. Lead with the inside foot up, drive hips back slightly, then bring the trail foot up. Step down the way you came.\n   * **Easier:** use the lowest step.\n   * **Harder:** pause for 1 second balanced at the top.\n\n4. **Incline Push-Ups — 2 sets of 8–12**\n\n   * Hands on a step (higher step = easier). Body in a straight line, elbows at ~45°. Lower chest toward the step; press back.\n   * **Easier:** move hands to a higher step.\n   * **Harder:** move to a lower step.\n\n5. **Incline Plank Step Taps — 2 sets of 20 alternating taps**\n\n   * Hands on a step in a strong plank. Lift one hand to tap the next higher step, place it back, then switch. Keep hips steady.\n   * **Easier:** widen your stance.\n   * **Harder:** slower tempo or tap two steps up.\n\n6. **Calf Raises — 2 sets of 12–15**\n\n   * Stand on the edge of a step holding the railing lightly. Drop heels slightly below the step, then rise onto the balls of your feet and pause.\n   * **Easier:** both feet.\n   * **Harder:** single-leg.\n\n7. **Toe Taps (Cardio) — 3 rounds of 30–45 sec, 15 sec rest**\n\n   * Rapidly tap the bottom step with alternating feet. Stay light and upright.\n   * **Easier:** slower pace.\n   * **Harder:** pump arms or extend to 60 sec.\n\n8. **Cool-Down (2–3 minutes)**\n\n   * **Calf stretch:** hands on rail, heel down on bottom step, 20–30 sec/side.\n   * **Quad stretch:** stand tall, hold the rail, pull heel to glute, 20–30 sec/side.\n   * **Hamstring stretch:** heel on step, hip hinge with flat back, 20–30 sec/side. Breathe slowly.\n\n# How to structure it\n\n* Do steps **2–7** as a circuit; rest **30–45 sec** between moves.\n* Complete **2–3 circuits** depending on time/fitness.\n\n# Form cues to remember\n\n* Tall chest, ribs down, and brace your core before stepping.\n* Knee tracks roughly over the second/third toe.\n* Move quietly—control down as much as up.\n* Stop if you feel sharp pain or dizziness; consult a pro if you have heart, balance, or joint concerns.\n\nIf you want, tell me your space (number/height of steps and any equipment) and I can tailor reps, progressions, and a weekly plan.\n",
+    "generated_image": "GPT-thinking/exercise/12.png",
+    "gemini_evaluation": {
+      "Question": "How to do a side plank? Show visual steps for alignment.",
+      "Evaluation": {
+        "Correctness": [
+          0,
+          "The generated answer is completely incorrect. The question asks how to do a side plank, but the generated text provides instructions for an '8-Step Stair Workout'. No image was generated."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "No image was generated, so there can be no coherency between the image and text."
+        ],
+        "Content Quality": [
+          1,
+          "No image was generated. The text is well-structured and grammatically correct, but it describes a completely different exercise, making its content quality very low in the context of the user's question."
+        ],
+        "Human Preference Alignment": [
+          0,
+          "The response is entirely unhelpful and irrelevant to the user's request. This is a very poor user experience."
+        ],
+        "Completeness": [
+          0,
+          "The response is completely incomplete. It fails to provide instructions for a side plank and fails to provide any visual steps as requested."
+        ],
+        "Content Richness": [
+          0,
+          "The response provides zero information or visuals related to the requested topic of side planks. While the provided text is detailed about a different topic, it is not rich in the context of the actual question."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to do a side plank? Show visual steps for alignment.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            0,\n            \"The generated answer is completely incorrect. The question asks how to do a side plank, but the generated text provides instructions for an '8-Step Stair Workout'. No image was generated.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"No image was generated, so there can be no coherency between the image and text.\"\n        ],\n        \"Content Quality\": [\n            1,\n            \"No image was generated. The text is well-structured and grammatically correct, but it describes a completely different exercise, making its content quality very low in the context of the user's question.\"\n        ],\n        \"Human Preference Alignment\": [\n            0,\n            \"The response is entirely unhelpful and irrelevant to the user's request. This is a very poor user experience.\"\n        ],\n        \"Completeness\": [\n            0,\n            \"The response is completely incomplete. It fails to provide instructions for a side plank and fails to provide any visual steps as requested.\"\n        ],\n        \"Content Richness\": [\n            0,\n            \"The response provides zero information or visuals related to the requested topic of side planks. While the provided text is detailed about a different topic, it is not rich in the context of the actual question.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 45,
+    "domain": "diagram",
+    "question": "I'm creating a figure for my paper to illustrate how the OmniDocBench dataset was constructed.\nThe figure should show two main processes:\n1. **Data Acquisition**: 200k PDFs are sourced from the web and internal repositories. From this, 6k visually diverse pages are sampled using feature clustering, and ~1k pages are selected with attribute labels via manual balancing.\n2. **Data Annotation**: A 3-stage annotation pipeline is used. In stage 1, state-of-the-art vision models automatically annotate selected pages. In stage 2, human annotators verify and correct the annotations. In stage 3, PhD-level experts inspect and refine the results. Annotations include layout detection (bbox, attributes, reading order, affiliations) and content recognition (text, formulas, tables).\nPlease provide:\n 1. A clear diagram showing both processes.\n 2. A figure caption describing the figure. Output the image and caption separately.",
+    "reference_text": "Figure 3. Overview of the OmniDocBench dataset construction.",
+    "reference_images": [
+      "data/diagram/OmniDocBench-Construction.png"
+    ],
+    "generated_text": "# Figure Caption (text only)**Figure X. OmniDocBench construction pipeline.** The figure summarizes two processes. **Data Acquisition (left):** ~200k PDFs are collected from the web and internal repositories. Using feature-based clustering to promote visual diversity, a **6k-page** subset is sampled, from which **~1k pages** with attribute labels are chosen via manual balancing for annotation. **Data Annotation (right):** a 3-stage pipeline—(**Stage 1**) automatic annotations by state-of-the-art vision models; (**Stage 2**) human verification and correction; (**Stage 3**) PhD-level expert review and refinement. Final labels cover **layout detection** (bounding boxes, attributes, reading order, affiliations) and **content recognition** (text, mathematical formulas, tables).",
+    "generated_image": "GPT-thinking/diagram/45.png",
+    "gemini_evaluation": {
+      "Question": "I'm creating a figure for my paper to illustrate how the OmniDocBench dataset was constructed.\nThe figure should show two main processes:\n1. **Data Acquisition**: 200k PDFs are sourced from the web and internal repositories. From this, 6k visually diverse pages are sampled using feature clustering, and ~1k pages are selected with attribute labels via manual balancing.\n2. **Data Annotation**: A 3-stage annotation pipeline is used. In stage 1, state-of-the-art vision models automatically annotate selected pages. In stage 2, human annotators verify and correct the annotations. In stage 3, PhD-level experts inspect and refine the results. Annotations include layout detection (bbox, attributes, reading order, affiliations) and content recognition (text, formulas, tables).\nPlease provide:\n\t1. A clear diagram showing both processes.\n\t2. A figure caption describing the figure. Output the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated text and the overall structure of the image are correct and accurately reflect the prompt. However, the image contains several spelling errors (e.g., 'Boundir box' instead of 'Bounding box', 'affilistion' instead of 'affiliation'), which slightly reduces its correctness."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text caption perfectly describes every component and step shown in the generated image. There is a strong and accurate correspondence between the visual elements and the textual explanation."
+        ],
+        "Content Quality": [
+          3,
+          "The text caption is well-written and clear. The image, while structurally correct, has a lower quality. The layout is somewhat cluttered, the icons are generic, and most importantly, it contains multiple spelling mistakes within the diagram's labels, which is a significant quality issue for a figure intended for a paper."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and directly addresses the user's request. The diagrammatic format is appropriate for the task."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both the requested diagram and a separate figure caption. All information from the prompt has been included."
+        ],
+        "Content Richness": [
+          4,
+          "The response is quite rich. The diagram effectively visualizes the complex process with icons and flow arrows. The text caption is detailed and provides a comprehensive summary of the figure, arguably more so than the reference caption."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm creating a figure for my paper to illustrate how the OmniDocBench dataset was constructed.\\nThe figure should show two main processes:\\n1. **Data Acquisition**: 200k PDFs are sourced from the web and internal repositories. From this, 6k visually diverse pages are sampled using feature clustering, and ~1k pages are selected with attribute labels via manual balancing.\\n2. **Data Annotation**: A 3-stage annotation pipeline is used. In stage 1, state-of-the-art vision models automatically annotate selected pages. In stage 2, human annotators verify and correct the annotations. In stage 3, PhD-level experts inspect and refine the results. Annotations include layout detection (bbox, attributes, reading order, affiliations) and content recognition (text, formulas, tables).\\nPlease provide:\\n\\t1. A clear diagram showing both processes.\\n\\t2. A figure caption describing the figure. Output the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated text and the overall structure of the image are correct and accurately reflect the prompt. However, the image contains several spelling errors (e.g., 'Boundir box' instead of 'Bounding box', 'affilistion' instead of 'affiliation'), which slightly reduces its correctness.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text caption perfectly describes every component and step shown in the generated image. There is a strong and accurate correspondence between the visual elements and the textual explanation.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text caption is well-written and clear. The image, while structurally correct, has a lower quality. The layout is somewhat cluttered, the icons are generic, and most importantly, it contains multiple spelling mistakes within the diagram's labels, which is a significant quality issue for a figure intended for a paper.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly addresses the user's request. The diagrammatic format is appropriate for the task.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both the requested diagram and a separate figure caption. All information from the prompt has been included.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is quite rich. The diagram effectively visualizes the complex process with icons and flow arrows. The text caption is detailed and provides a comprehensive summary of the figure, arguably more so than the reference caption.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 94,
+    "domain": "diagram",
+    "question": "I'm working on visual reasoning dataset construction and want to visualize a data pipeline that handles both cold-start and training data. My method includes:\n\n1. A **Cold-start Reasoning Data** pipeline using distilled text-only reasoning data to train annotators for visual reasoning understanding.\n2. A **Visual Reasoning Annotator** that takes raw instruction data (image, question, answer) and generates visual reasoning examples.\n3. A **Reject Sampling & Rewriting** module for verifying and refining outputs (format, correctness, visual grounding, answer).\n4. The pipeline outputs verified **Visual Reasoning Training Data**, which are high-quality, grounded examples suitable for training VQA models.\n\nPlease design:\n 1. A figure that clearly illustrates the data construction framework, with both cold-start (annotator training) and visual reasoning training pipelines.\n 2. A short, publication-ready caption for the figure. Output image path and caption separately.",
+    "reference_text": "Figure 2: Overview framework of our data pipeline. The blue arrow line indicates the cold-start data curation pipeline for the annotator and the green line indicates the data pipeline for training data.",
+    "reference_images": [
+      "data/diagram/Visual-Reasoning-Data-Pipeline.png"
+    ],
+    "generated_text": "Data construction framework with two coordinated tracks. Left (cold-start): distilled text-only reasoning corpora → curriculum/examples → annotator training to instill visual-reasoning formats and schemas. Right (training): the trained Visual Reasoning Annotator converts raw instruction data (image, question, answer) into candidate reasoning examples. A Reject Sampling & Rewriting gate checks format, correctness, visual grounding, and final answer; accepted items become verified Visual Reasoning Training Data for VQA model training.",
+    "generated_image": "GPT-thinking/diagram/94.png",
+    "gemini_evaluation": {
+      "Question": "I'm working on visual reasoning dataset construction and want to visualize a data pipeline that handles both cold-start and training data. My method includes:\n\n1. A **Cold-start Reasoning Data** pipeline using distilled text-only reasoning data to train annotators for visual reasoning understanding.\n2. A **Visual Reasoning Annotator** that takes raw instruction data (image, question, answer) and generates visual reasoning examples.\n3. A **Reject Sampling & Rewriting** module for verifying and refining outputs (format, correctness, visual grounding, answer).\n4. The pipeline outputs verified **Visual Reasoning Training Data**, which are high-quality, grounded examples suitable for training VQA models.\n\nPlease design:\n 1. A figure that clearly illustrates the data construction framework, with both cold-start (annotator training) and visual reasoning training pipelines.\n 2. A short, publication-ready caption for the figure. Output image path and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated image and text correctly represent the two main pipelines described in the prompt. However, the generated image fails to explicitly connect the output of the 'Annotator Training' (the trained annotator) to the 'Visual Reasoning Annotator' module in the main pipeline. The reference image does a better job of showing this connection, making the overall flow clearer."
+        ],
+        "Image-Text Coherency": [
+          4,
+          "The text and image are mostly coherent. The text describes a 'trained Visual Reasoning Annotator', which implies the connection from the cold-start pipeline. The image, however, does not visually represent this connection, creating a slight disconnect. The text essentially has to fill in a logical gap left by the diagram."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of high quality, with a clean, professional design, clear labels, and effective use of icons and color to distinguish the two pipelines. The text is also high-quality, being well-written, concise, and perfectly suited for a publication caption. It is significantly more descriptive and polished than the reference text."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent from a human preference standpoint. The diagram is aesthetically pleasing and easy to interpret, and the text is formal and informative. The content is perfectly appropriate for the requested academic/technical context."
+        ],
+        "Completeness": [
+          4,
+          "The response provides both the requested image and the caption. It's slightly incomplete because the diagram misses the crucial visual link between the two pipelines, which is a key part of the overall framework described in the prompt. The reference image is more complete in this regard."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is very rich. The image uses icons and a more modern design than the simple boxes of the reference. The text caption is far more detailed and descriptive than the reference, providing a comprehensive overview of the entire process, which adds significant value and clarity."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm working on visual reasoning dataset construction and want to visualize a data pipeline that handles both cold-start and training data. My method includes:\\n\\n1. A **Cold-start Reasoning Data** pipeline using distilled text-only reasoning data to train annotators for visual reasoning understanding.\\n2. A **Visual Reasoning Annotator** that takes raw instruction data (image, question, answer) and generates visual reasoning examples.\\n3. A **Reject Sampling & Rewriting** module for verifying and refining outputs (format, correctness, visual grounding, answer).\\n4. The pipeline outputs verified **Visual Reasoning Training Data**, which are high-quality, grounded examples suitable for training VQA models.\\n\\nPlease design:\\n 1. A figure that clearly illustrates the data construction framework, with both cold-start (annotator training) and visual reasoning training pipelines.\\n 2. A short, publication-ready caption for the figure. Output image path and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated image and text correctly represent the two main pipelines described in the prompt. However, the generated image fails to explicitly connect the output of the 'Annotator Training' (the trained annotator) to the 'Visual Reasoning Annotator' module in the main pipeline. The reference image does a better job of showing this connection, making the overall flow clearer.\"\n        ],\n        \"Image-Text Coherency\": [\n            4,\n            \"The text and image are mostly coherent. The text describes a 'trained Visual Reasoning Annotator', which implies the connection from the cold-start pipeline. The image, however, does not visually represent this connection, creating a slight disconnect. The text essentially has to fill in a logical gap left by the diagram.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality, with a clean, professional design, clear labels, and effective use of icons and color to distinguish the two pipelines. The text is also high-quality, being well-written, concise, and perfectly suited for a publication caption. It is significantly more descriptive and polished than the reference text.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent from a human preference standpoint. The diagram is aesthetically pleasing and easy to interpret, and the text is formal and informative. The content is perfectly appropriate for the requested academic/technical context.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response provides both the requested image and the caption. It's slightly incomplete because the diagram misses the crucial visual link between the two pipelines, which is a key part of the overall framework described in the prompt. The reference image is more complete in this regard.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is very rich. The image uses icons and a more modern design than the simple boxes of the reference. The text caption is far more detailed and descriptive than the reference, providing a comprehensive overview of the entire process, which adds significant value and clarity.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0021",
+    "domain": "textbook",
+    "question": "I keep mixing up the layers of Earth's atmosphere. Can you walk me through them and show how they change with altitude? Provide an image and explain.",
+    "reference_text": "The Earth has five different layers in its atmosphere. The atmosphere layers vary by temperature. As the altitude in the atmosphere increases, the air temperature changes. The lowest layer is the troposphere, it gets some of its heat from the sun. However, it gets most of its heat from the Earth's surface. The troposphere is also the shortest layer of the atmosphere. It holds 75 percent of all the gas molecules in the atmosphere. The air is densest in this layer.",
+    "reference_images": [
+      "data/textbook/layers_of_atmosphere_7066.png"
+    ],
+    "generated_text": "# Text (explanation)\nHere’s a quick walkthrough of each atmospheric layer, from the ground up, and how temperature changes with height. (Use the diagram above as the visual.)\n\n**1) Troposphere (\\~0–8 km at poles; \\~0–18 km at tropics)**\n\n* **What it is:** The weather layer—clouds, storms, and most water vapor.\n* **Temperature trend:** **Decreases** with altitude (air expands and cools).\n* **Top boundary:** **Tropopause** (often around −50 to −60 °C); its height varies with latitude and season.\n\n**2) Stratosphere (\\~10–50 km)**\n\n* **What it is:** Home of the **ozone layer**; commercial jets often cruise in the lower stratosphere (smooth, stable air).\n* **Temperature trend:** **Increases** with altitude because ozone absorbs UV sunlight and warms this layer.\n* **Top boundary:** **Stratopause** (temperature peaks near 0 °C).\n\n**3) Mesosphere (\\~50–85 km)**\n\n* **What it is:** Where many **meteors burn up**; very thin, cold air.\n* **Temperature trend:** **Decreases** with altitude (little ozone heating, strong radiative cooling).\n* **Top boundary:** **Mesopause**—the **coldest** part of the atmosphere (often \\~−90 °C).\n\n**4) Thermosphere (\\~85–600+ km)**\n\n* **What it is:** Very thin gas that’s strongly affected by the Sun; overlaps the **ionosphere**, where **auroras** occur and radio signals refract.\n* **Temperature trend:** **Increases sharply** with altitude (atoms absorb energetic solar radiation); kinetic temperatures can be very high, though the air is too thin to feel “hot.”\n\n**5) Exosphere (\\~600–10,000 km)**\n\n* **What it is:** The outer fringe where atoms can escape to space; satellites orbit here (and in the upper thermosphere).\n* **Temperature trend:** Stays **high** in kinetic terms, but particle density is extremely low.\n\n---\n\n## How key properties change with altitude\n\n* **Pressure & density:** Drop off **exponentially**—half the atmosphere’s mass is below \\~5–6 km; \\~99% is below \\~30 km.\n* **Temperature profile:** Alternates with altitude due to different **heating mechanisms**\n\n * Cooling in the **troposphere** (expansion) → warming in the **stratosphere** (ozone UV absorption) → cooling in the **mesosphere** → warming in the **thermosphere** (solar extreme-UV absorption).\n* **Composition:** Below \\~80–100 km is the **homosphere** (well-mixed composition). Above that, lighter gases become more common (start of the **heterosphere**).\n* **Ionosphere:** Not a separate “layer” by altitude alone; it **overlaps** the mesosphere/thermosphere (\\~60–1,000 km) and is defined by ionization from solar radiation (important for auroras and radio).\n\nIf you’d like, I can add typical Celsius/°F scale values on the temperature curve or include example altitudes for planes, balloons, meteors, the ISS, and GPS satellites.\n",
+    "generated_image": "GPT-thinking/textbook/21.png",
+    "gemini_evaluation": {
+      "Question": "I keep mixing up the layers of Earth's atmosphere. Can you walk me through them and show how they change with altitude? Provide an image and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The layers of the atmosphere are listed in the correct order, the temperature trends are described accurately, and the key features of each layer (ozone, meteors, aurora) are correctly placed and explained."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text explicitly refers to the diagram, and every concept explained in the text (the five layers, the temperature curve, the location of planes, meteors, satellites) is visually represented in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, professional-looking infographic that is easy to understand. The text is well-structured with headings, bullet points, and bold text, making the information highly digestible. The language is clear and grammatically correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is safe, helpful, and provides a clear, educational answer to the user's question. The visual and textual presentation is aesthetically pleasing and user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It addresses all parts of the user's question, providing a walkthrough of the atmospheric layers, explaining how temperature changes with altitude, and including a supporting image. It covers all five standard layers of the atmosphere."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail. Beyond just listing the layers, it explains the reasons for the temperature changes (e.g., ozone absorption), mentions the boundary regions (tropopause, etc.), and provides extra context on pressure, density, and the ionosphere. The image is also rich, including icons, altitude in both km and miles, and a clear temperature graph."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I keep mixing up the layers of Earth's atmosphere. Can you walk me through them and show how they change with altitude? Provide an image and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The layers of the atmosphere are listed in the correct order, the temperature trends are described accurately, and the key features of each layer (ozone, meteors, aurora) are correctly placed and explained.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text explicitly refers to the diagram, and every concept explained in the text (the five layers, the temperature curve, the location of planes, meteors, satellites) is visually represented in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, professional-looking infographic that is easy to understand. The text is well-structured with headings, bullet points, and bold text, making the information highly digestible. The language is clear and grammatically correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is safe, helpful, and provides a clear, educational answer to the user's question. The visual and textual presentation is aesthetically pleasing and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It addresses all parts of the user's question, providing a walkthrough of the atmospheric layers, explaining how temperature changes with altitude, and including a supporting image. It covers all five standard layers of the atmosphere.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail. Beyond just listing the layers, it explains the reasons for the temperature changes (e.g., ozone absorption), mentions the boundary regions (tropopause, etc.), and provides extra context on pressure, density, and the ionosphere. The image is also rich, including icons, altitude in both km and miles, and a clear temperature graph.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0146",
+    "domain": "textbook",
+    "question": "Can you explain how the heart pumps blood through the body? I often mix up the atria and ventricles. Provide a diagram and explain.",
+    "reference_text": "The diagram shows the different components that make up the heart. The heart is the key organ in the circulatory system. As a hollow, muscular pump, its main function is to propel blood throughout the body. The septum is the wall of muscle divides it down the middle, into a left half and a right half. There are 4 chambers in the heart: top chamber is called atrium; bottom chambers are called ventricles. Blood can flow from the atrium to ventricle because of openings called valves. Valves open in one direction like trapdoors to let the blood pass through, then they close, so the blood cannot flow backwards into the atria. There are also valves at the bottom of the large arteries that carry blood away from the heart: the aorta and the pulmonary artery. These valves keep the blood from flowing backward into the heart once it has been pumped out. Blood vessels of the body carry blood in a circle: moving away from the heart in arteries, traveling to various parts of the body in capillaries, and going back to the heart in veins. All the blood from the body is eventually collected into the two largest veins: the superior vena cava, which receives blood from the upper body, and the inferior vena cava, which receives blood from the lower body region.",
+    "reference_images": [
+      "data/textbook/human_system_circulatory_6068.png"
+    ],
+    "generated_text": "Here’s the plain-English explanation to go with the diagram.\n\n# How the heart pumps blood (and how to tell atria vs. ventricles)\n\n## Quick orientation\n\n* **Atria = receive** blood (upper chambers, thinner walls).\n* **Ventricles = pump** blood out (lower chambers, thicker walls).\n\n  * **Left ventricle** is the thickest—it powers blood to the whole body.\n\n## The loop (right side → lungs → left side → body)\n\n1. **Body → Right Atrium (RA):** “Used” (low-oxygen, blue) blood returns via the **superior & inferior venae cavae**.\n2. **RA → Right Ventricle (RV):** Through the **tricuspid valve** (a door that only swings forward).\n3. **RV → Lungs:** RV squeezes; the **pulmonary valve** opens; blood goes through the **pulmonary arteries** to the lungs to pick up oxygen.\n4. **Lungs → Left Atrium (LA):** Now oxygen-rich (red) blood comes back through the **pulmonary veins**.\n5. **LA → Left Ventricle (LV):** Through the **mitral (bicuspid) valve**.\n6. **LV → Body:** LV contracts; the **aortic valve** opens; blood enters the **aorta** and out to all tissues.\n\n## What the valves do (why flow is one-way)\n\n* Valves open/close from **pressure differences**, not muscles.\n* When ventricles **contract (systole):** AV valves (tricuspid/mitral) **close** to stop backflow; semilunar valves (pulmonary/aortic) **open** to let blood out.\n* When ventricles **relax (diastole):** Semilunar **close**; AV **open** so the ventricles can refill.\n\n## Atria vs. ventricles—never mix them up again\n\n* **Alphabet trick:** *A*tria before *V*entricles—blood always passes A → V.\n* **Job titles:** Atria are the **waiting rooms** (collecting blood); ventricles are the **engine rooms** (do the heavy pumping).\n* **Valve names as clues:** **TRI**cuspid is on the **R**ight (both have an “R”); **MI**tral is on the **L**eft (think “MIT—Left”).\n* **Wall thickness check:** Thin = atrium; **bulky = ventricle** (especially LV).\n\n## Two quick cycles to picture\n\n* **Diastole (filling):** Atria and ventricles relaxed; AV valves open; most filling happens now (+ a small “atrial kick”).\n* **Systole (pumping):** Ventricles contract; semilunar valves open; blood exits to lungs/body.\n\n## Oxygen color key\n\n* **Blue path:** to lungs (low O₂).\n* **Red path:** to body (high O₂).\n\nThat’s it—follow the arrows A→V, right side sends to lungs, left side sends to body, and valves keep everything moving forward.\n",
+    "generated_image": "GPT-thinking/textbook/146.png",
+    "gemini_evaluation": {
+      "Question": "Can you explain how the heart pumps blood through the body? I often mix up the atria and ventricles. Provide a diagram and explain.",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The generated text is factually correct and provides an accurate, detailed explanation of blood flow through the heart. However, the user explicitly requested a diagram, and none was provided. This is a major failure to meet the prompt's requirements."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "There is no generated image. The text explicitly refers to a diagram ('Here’s the plain-English explanation to go with the diagram.'), but no diagram exists, resulting in a complete lack of coherency."
+        ],
+        "Content Quality": [
+          2,
+          "The text quality is excellent—it is clear, well-structured, easy to understand, and uses helpful mnemonics. However, the failure to generate the requested image, which is a critical component for explaining this topic, severely lowers the overall quality of the response."
+        ],
+        "Human Preference Alignment": [
+          3,
+          "The text is highly preferable due to its clarity and directness in addressing the user's specific confusion. However, the missing diagram is a significant drawback, as a visual aid is almost essential for this type of explanation and was explicitly requested."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It provides the text explanation but completely omits the diagram, which was one of the two main components requested by the user."
+        ],
+        "Content Richness": [
+          3,
+          "The text is very rich, offering more detail and helpful learning aids (mnemonics, definitions of systole/diastole) than the reference text. However, the total response lacks richness because it is missing the visual component (the diagram), which would have greatly enhanced the explanation."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Can you explain how the heart pumps blood through the body? I often mix up the atria and ventricles. Provide a diagram and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated text is factually correct and provides an accurate, detailed explanation of blood flow through the heart. However, the user explicitly requested a diagram, and none was provided. This is a major failure to meet the prompt's requirements.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is no generated image. The text explicitly refers to a diagram ('Here’s the plain-English explanation to go with the diagram.'), but no diagram exists, resulting in a complete lack of coherency.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The text quality is excellent—it is clear, well-structured, easy to understand, and uses helpful mnemonics. However, the failure to generate the requested image, which is a critical component for explaining this topic, severely lowers the overall quality of the response.\"\n        ],\n        \"Human Preference Alignment\": [\n            3,\n            \"The text is highly preferable due to its clarity and directness in addressing the user's specific confusion. However, the missing diagram is a significant drawback, as a visual aid is almost essential for this type of explanation and was explicitly requested.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It provides the text explanation but completely omits the diagram, which was one of the two main components requested by the user.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The text is very rich, offering more detail and helpful learning aids (mnemonics, definitions of systole/diastole) than the reference text. However, the total response lacks richness because it is missing the visual component (the diagram), which would have greatly enhanced the explanation.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0266",
+    "domain": "textbook",
+    "question": "What is a ray in optics and what are the main types of rays used in ray diagrams? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows Ray (optics). In optics, a ray is an idealized model of light, obtained by choosing a line that is perpendicular to the wave fronts of the actual light, and that points in the direction of energy flow. Rays are used to model the propagation of light through an optical system by dividing the real light field up into discrete rays that can be computationally propagated through the system by the techniques of ray tracing. All three rays should meet at the same point. The Principal Ray or Chief Ray in an optical system is the meridional ray that starts at the edge of the object and passes through the center of the aperture stop. This ray crosses the optical axis at the locations of the pupils. The Central Ray is perpendicular to infrared radiation. The Focal Ray is drawn from the tip of the object through (or towards) the focal point, reflecting off the mirror parallel to the principal axis.",
+    "reference_images": [
+      "data/textbook/optics_ray_diagrams_9167.png"
+    ],
+    "generated_text": "# Written explanation\n\n**What is a ray (in optics)?**\nA ray is an idealized line that shows the direction light energy travels. In geometric optics we treat light as straight-line rays that are perpendicular to wavefronts and that obey the rules of **reflection** (angle in = angle out) and **refraction** (Snell’s law) at boundaries.\n\n**Main types of rays you see in ray diagrams**\n\n1. **Incident ray** – the incoming ray that strikes a surface or boundary.\n2. **Reflected ray** – the ray that bounces off a mirror; its angle to the normal equals the incident angle.\n3. **Refracted (transmitted) ray** – the ray that passes into a new medium and bends according to Snell’s law.\n4. **Principal rays** – standard, easy-to-trace rays used to locate images with thin lenses and spherical mirrors:\n\n* **For thin lenses**\n\n  * **Parallel (P) ray:** parallel to the principal axis; after the lens it passes through the focal point (F) (converging lens) or appears to come from (F) (diverging lens).\n  * **Focal (F) ray:** aimed toward the focal point before the lens; emerges parallel to the axis (roles swap for diverging lenses).\n  * **Central/Chief (O) ray:** passes through the optical center and continues essentially undeviated.\n\n* **For spherical mirrors**\n\n  * **Parallel (P) ray:** parallel to the axis; reflects through (F) (concave) or appears to come from (F) behind the mirror (convex).\n  * **Focal (F) ray:** goes through (F); reflects parallel to the axis.\n  * **Center-of-curvature (C) ray:** goes through the center of curvature; reflects back on itself.\n\nIn diagrams, **solid lines** usually show real rays; **dashed extensions** show virtual rays that appear to originate from a point.\n\n---\n\n# Image\n\nI’ve generated a labeled teaching diagram that shows:\n\n* Principal rays for a **converging lens**, **diverging lens**, **concave mirror**, and **convex mirror** (with objects and images).\n* Small insets for **reflection at a plane mirror** and **refraction at a boundary** with angles labeled.\n\nIf you’d like any changes—different colors, thicker lines, or additional cases (e.g., object between (F) and the lens)—say the word and I’ll regenerate it.\n",
+    "generated_image": "GPT-thinking/textbook/266.png",
+    "gemini_evaluation": {
+      "Question": "What is a ray in optics and what are the main types of rays used in ray diagrams? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The definition of a ray is accurate, and the descriptions of the different types of rays for lenses and mirrors are standard and correct. The ray diagrams in the image accurately depict the principles of geometric optics for all cases shown."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text explains principal rays for converging/diverging lenses and concave/convex mirrors, as well as reflection and refraction. The image provides a clear visual diagram for each of these cases, with labels that correspond directly to the terms used in the text (e.g., P ray, F ray)."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the text and the image is excellent. The text is well-structured, clear, and uses appropriate terminology. The image is a high-quality, professional-looking diagram that is easy to read and understand. The use of different colors and clear labels enhances its educational value."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is a clear, comprehensive, and accurate educational answer. The format is easy to follow, and the content is safe and helpful. A user asking this question would likely find this response to be exceptionally useful."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It not only defines what a ray is but also provides a comprehensive overview of the main types of rays used in diagrams, covering both lenses and mirrors, and even basic reflection and refraction. It is more complete than the reference answer."
+        ],
+        "Content Richness": [
+          5,
+          "The response is rich in content. The text covers multiple concepts, from the fundamental definition to specific applications. The image is a composite of six different diagrams, illustrating a wide range of common scenarios in introductory optics, which is far richer than the single diagram in the reference."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What is a ray in optics and what are the main types of rays used in ray diagrams? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The definition of a ray is accurate, and the descriptions of the different types of rays for lenses and mirrors are standard and correct. The ray diagrams in the image accurately depict the principles of geometric optics for all cases shown.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text explains principal rays for converging/diverging lenses and concave/convex mirrors, as well as reflection and refraction. The image provides a clear visual diagram for each of these cases, with labels that correspond directly to the terms used in the text (e.g., P ray, F ray).\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the text and the image is excellent. The text is well-structured, clear, and uses appropriate terminology. The image is a high-quality, professional-looking diagram that is easy to read and understand. The use of different colors and clear labels enhances its educational value.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is a clear, comprehensive, and accurate educational answer. The format is easy to follow, and the content is safe and helpful. A user asking this question would likely find this response to be exceptionally useful.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It not only defines what a ray is but also provides a comprehensive overview of the main types of rays used in diagrams, covering both lenses and mirrors, and even basic reflection and refraction. It is more complete than the reference answer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in content. The text covers multiple concepts, from the fundamental definition to specific applications. The image is a composite of six different diagrams, illustrating a wide range of common scenarios in introductory optics, which is far richer than the single diagram in the reference.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0151",
+    "domain": "textbook",
+    "question": "I don't understand how the respiratory system removes dust and particles. Can you show me what happens inside the lungs? Provide a diagram and explain.",
+    "reference_text": "The diagram shows the parts of the respiratory system. The human respiratory system is a series of organs responsible for taking in oxygen and expelling carbon dioxide. As we breathe, oxygen enters the nose or mouth and passes the sinuses, which are hollow spaces in the skull. Sinuses help regulate the temperature and humidity of the air we breathe. The trachea, also called the windpipe, filters the air that is inhaled, according to the American Lung Association. It branches into the bronchi, which are two tubes that carry air into each lung. The bronchial tubes are lined with tiny hairs called cilia. Cilia move back and forth, carrying mucus up and out. Mucus, a sticky fluid, collects dust, germs and other matter that has invaded the lungs. We expel mucus when we sneeze, cough, spit or swallow.",
+    "reference_images": [
+      "data/textbook/human_system_respiratory_3601.png"
+    ],
+    "generated_text": "Here’s the **text explanation** (kept separate from the diagram):\n\n# How your lungs clear dust & particles\n\n**1) Filters at the entrance (nose & throat).**\n\n* Nasal hairs and the twists/turns of the nasal passages slow air and catch big bits of dust.\n* Sticky **mucus** lines the surfaces and traps particles before they reach the lungs.\n\n**2) The mucus trap + cilia conveyor.**\n\n* The airways (trachea and bronchi) are carpeted with tiny hair-like **cilia** sitting in a thin watery layer.\n* Above them is a sticky **mucus gel** where dust, pollen, and microbes get stuck.\n* Cilia beat in coordinated waves, pushing the mucus blanket **upward toward the throat**. This is the **mucociliary escalator**.\n\n**3) What happens to the trapped stuff.**\n\n* When the mucus reaches the throat, you **swallow** it. Stomach acid and enzymes break down most contaminants.\n* If there’s a lot of irritation, sensors trigger a **cough or sneeze**, which blasts mucus and particles out.\n\n**4) Deep areas without cilia: the alveoli.**\n\n* The tiny air sacs (alveoli) handle gas exchange and **don’t have cilia**.\n* Here, roaming **alveolar macrophages** (patrolling immune cells) **eat** fine particles and microbes.\n* What they collect is carried away via the mucociliary escalator (after they crawl to ciliated regions) or through **lymphatic drainage**.\n\n**5) Size matters (where particles tend to land).**\n\n* **Large** (> ~10 μm): mostly stopped in the **nose/throat**.\n* **Medium** (~2.5–10 μm): settle in the **trachea/bronchi**, cleared by cilia.\n* **Fine** (< ~2.5 μm): can reach the **alveoli**, handled by macrophages.\n* **Gases/ultrafine** may be absorbed or exhaled.\n\n**6) When the system struggles.**\n\n* **Dry air, dehydration, smoking, or pollutants** can thicken or paralyze mucus/cilia.\n* Certain conditions (e.g., **asthma**, **chronic bronchitis**, **cystic fibrosis**, or **primary ciliary dyskinesia**) reduce clearance, so particles linger and infections are more likely.\n\n**Quick recap:** your airways trap particles in mucus, **cilia sweep** that mucus upward, and **cough/sneeze or swallowing** removes it; deep in the lungs, **macrophages** finish the cleanup.\n\nIf you’d like, I can add labels or callouts to the diagram tailored to a specific class level (middle school vs. college).\n",
+    "generated_image": "GPT-thinking/textbook/151.png",
+    "gemini_evaluation": {
+      "Question": "I don't understand how the respiratory system removes dust and particles. Can you show me what happens inside the lungs? Provide a diagram and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately depicts the mucociliary escalator, and the text provides a comprehensive and accurate explanation of the various mechanisms the respiratory system uses to clear particles."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image is an excellent illustration of the core mechanism described in section 2 of the text, the 'mucus trap + cilia conveyor.' The labels on the diagram directly correspond to the key terms (cilia, mucus, dust) used in the explanation, making the entire response cohesive and easy to understand."
+        ],
+        "Content Quality": [
+          5,
+          "The quality is exceptional. The diagram is clear, well-labeled, and visually effective. The text is outstandingly well-structured, using headings, bullet points, and bold text to break down a complex topic into digestible parts. The writing is clear, professional, and grammatically perfect."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with user intent. It is helpful, informative, safe, and avoids any undesirable content. The diagram is a clean, scientific illustration appropriate for the topic."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the user's request by providing both a diagram and a detailed explanation. It covers all the essential aspects of the question and more."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. It not only explains the primary cilia/mucus mechanism but also includes details about initial filtering in the nose, the role of macrophages in the alveoli, the importance of particle size, and conditions that can impair the system. This provides a much more comprehensive and educational answer."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I don't understand how the respiratory system removes dust and particles. Can you show me what happens inside the lungs? Provide a diagram and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately depicts the mucociliary escalator, and the text provides a comprehensive and accurate explanation of the various mechanisms the respiratory system uses to clear particles.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image is an excellent illustration of the core mechanism described in section 2 of the text, the 'mucus trap + cilia conveyor.' The labels on the diagram directly correspond to the key terms (cilia, mucus, dust) used in the explanation, making the entire response cohesive and easy to understand.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality is exceptional. The diagram is clear, well-labeled, and visually effective. The text is outstandingly well-structured, using headings, bullet points, and bold text to break down a complex topic into digestible parts. The writing is clear, professional, and grammatically perfect.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with user intent. It is helpful, informative, safe, and avoids any undesirable content. The diagram is a clean, scientific illustration appropriate for the topic.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the user's request by providing both a diagram and a detailed explanation. It covers all the essential aspects of the question and more.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. It not only explains the primary cilia/mucus mechanism but also includes details about initial filtering in the nose, the role of macrophages in the alveoli, the importance of particle size, and conditions that can impair the system. This provides a much more comprehensive and educational answer.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 47,
+    "domain": "paper",
+    "question": "I'm studying BERT and I want to understand how masked language modeling works in its pretraining. Can you generate an image and explain the process?",
+    "reference_text": "Masked Language Modeling (MLM) is one of BERT’s pretraining objectives. During training, some tokens in the input are randomly replaced with a [MASK] token. The model then tries to predict the original identity of the masked tokens using the context of the unmasked tokens. In the diagram, the token 'probably' has been masked, and BERT uses bidirectional attention from both left and right contexts to predict the missing word. The final output at the [MASK] position is passed through a classification layer (typically a feed-forward network with softmax) to compute a probability distribution over the vocabulary.",
+    "reference_images": [
+      "data/paper/bert_masked_lm.png"
+    ],
+    "generated_text": "Here’s an illustration of the masked language modeling process. The model predicts the missing word from the sentence. The input has a word masked, and the model processes the context to fill in that gap. Let me know if you need further clarification!\n",
+    "generated_image": "GPT-thinking/paper/47.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying BERT and I want to understand how masked language modeling works in its pretraining. Can you generate an image and explain the process?",
+      "Evaluation": {
+        "Correctness": [
+          3,
+          "The generated image and text are factually correct at a very high level. They accurately state that a masked token in an input sentence is predicted by the BERT model. However, they omit critical details about the process, making the explanation fundamentally incomplete."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image and text are perfectly coherent. The text describes a simple process of a model predicting a masked word, and the image is a block diagram illustrating exactly that concept."
+        ],
+        "Content Quality": [
+          3,
+          "The text is grammatically correct and clear. The image is a simple, understandable diagram, but the text within the image is slightly blurry and has some rendering artifacts, which reduces its overall quality."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and polite. The image is a standard, inoffensive block diagram."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It fails to explain the key mechanics of how Masked Language Modeling works, such as the use of bidirectional context (a core feature of BERT) and the final classification layer (softmax) that produces a probability distribution over the vocabulary. It only shows the what (predicting a word), not the how."
+        ],
+        "Content Richness": [
+          1,
+          "The response lacks richness and detail. Both the text and the image are minimalistic. The text avoids key terminology like 'pretraining', 'bidirectional context', 'softmax', or 'probability distribution'. The image is a simple block diagram that omits the details shown in the reference, such as the output layer and the probability scores."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying BERT and I want to understand how masked language modeling works in its pretraining. Can you generate an image and explain the process?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            3,\n            \"The generated image and text are factually correct at a very high level. They accurately state that a masked token in an input sentence is predicted by the BERT model. However, they omit critical details about the process, making the explanation fundamentally incomplete.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The text describes a simple process of a model predicting a masked word, and the image is a block diagram illustrating exactly that concept.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text is grammatically correct and clear. The image is a simple, understandable diagram, but the text within the image is slightly blurry and has some rendering artifacts, which reduces its overall quality.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and polite. The image is a standard, inoffensive block diagram.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It fails to explain the key mechanics of how Masked Language Modeling works, such as the use of bidirectional context (a core feature of BERT) and the final classification layer (softmax) that produces a probability distribution over the vocabulary. It only shows the what (predicting a word), not the how.\"\n        ],\n        \"Content Richness\": [\n            1,\n            \"The response lacks richness and detail. Both the text and the image are minimalistic. The text avoids key terminology like 'pretraining', 'bidirectional context', 'softmax', or 'probability distribution'. The image is a simple block diagram that omits the details shown in the reference, such as the output layer and the probability scores.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 86,
+    "domain": "paper",
+    "question": "I'm studying Transformer-XL and would like to understand how the model handles limited context during the evaluation phase. Can you explain this with an image?",
+    "reference_text": "In Transformer-XL, during the evaluation phase, the model processes sequences with limited context. At each step, the model attends only to a limited context window from the previous segment. The context is gradually expanded as the model moves through the sequence. Each segment retains its learned context and is passed forward, allowing the model to leverage previously learned information while maintaining efficient memory usage. This mechanism improves the model's ability to capture long-range dependencies during evaluation.",
+    "reference_images": [
+      "data/paper/transformer_xl_evaluation_context.png"
+    ],
+    "generated_text": "Here’s the image and explanation for how Transformer-XL handles limited context during the evaluation phase:\n\nThe model processes a sequence in segments, each with a limited context. The memory from the previous segments is passed along to the next ones, allowing the model to handle long-range dependencies despite the limited context window during evaluation. The diagram shows this process with memory states and token sequences across three segments.\n",
+    "generated_image": "GPT-thinking/paper/86.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying Transformer-XL and would like to understand how the model handles limited context during the evaluation phase. Can you explain this with an image?",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately represents the segmentation and memory-passing mechanism of Transformer-XL during evaluation, and the text correctly explains this process."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text explicitly refers to the diagram and accurately describes the components shown (segments, memory states, tokens). The image and text are perfectly aligned, with each reinforcing the other."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and professional-looking diagram that effectively illustrates the concept. The text is well-written, grammatically correct, and easy to understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and directly answers the user's technical question. The image is aesthetically pleasing for a diagram, and the text is clear and concise."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the user's question by providing both an image and a text explanation as requested. It successfully explains the core concept."
+        ],
+        "Content Richness": [
+          4,
+          "The response is very good but the text is slightly less detailed than the reference text. It could have elaborated more on concepts like the context window expanding or the benefits of memory efficiency, as the reference did. However, it still provides a solid and meaningful explanation."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying Transformer-XL and would like to understand how the model handles limited context during the evaluation phase. Can you explain this with an image?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately represents the segmentation and memory-passing mechanism of Transformer-XL during evaluation, and the text correctly explains this process.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explicitly refers to the diagram and accurately describes the components shown (segments, memory states, tokens). The image and text are perfectly aligned, with each reinforcing the other.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and professional-looking diagram that effectively illustrates the concept. The text is well-written, grammatically correct, and easy to understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly answers the user's technical question. The image is aesthetically pleasing for a diagram, and the text is clear and concise.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the user's question by providing both an image and a text explanation as requested. It successfully explains the core concept.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is very good but the text is slightly less detailed than the reference text. It could have elaborated more on concepts like the context window expanding or the benefits of memory efficiency, as the reference did. However, it still provides a solid and meaningful explanation.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 15,
+    "domain": "tech",
+    "question": "How to set up a Gmail account? Provide a visual guide and text the steps.",
+    "reference_text": "1. Go to https://accounts.google.com in a browser. This will open the Google Account sign-in page. If you already have a Google account, you’ll need to sign out before you can continue. 2. Click Create account . You’ll find this small blue link near the bottom of the page, next to the Next button. 3. Select your account type from the menu. A menu will pop up with a few options to choose from. Select either For my personal use , For my child , or For work or my business . If you’re trying to create a business account, you might want to consider signing up for a Google Workspace account instead. The process for creating a child’s account is very similar to creating a personal account for yourself. You’ll need to provide information such as your child’s name, birthdate, and desired email address. However, you’ll also need to sign in with your Gmail account to provide parental consent for their account. 4. Enter your first and last name. Type your first name into the \"First name\" text box, then enter your last name in the \"Last name\" box underneath it. You must enter a first name, but the last name is optional. If you're creating a Gmail account for a friend or a child, enter their information in the fields provided. 5. Enter your birth date and gender. On the next page, you’ll be prompted to provide your birthdate (month, day, and year) and gender. If you don’t identify as male or female, select Custom to see additional options. You can also select Rather not say . Click Next when you’re done. Google asks for your birthdate because some Google services have specific age requirements. Google may also use this information to personalize your experience. If you decide to provide your gender, Google will use this information to personalize your account—e.g., by using your preferred pronouns in text that refers to you. 6. Select or create a custom email address. On the next page, you’ll be offered some automatically generated email addresses based on your name. If you don’t want any of those, select Create your own Gmail address and type in your preferred username. You can use a combination of letters, numbers, and periods. This is the text that will appear before “@gmail.com” in your email address. Click Next when you’re done. You must enter a unique username that isn't being used by someone else. If it's taken, you'll see: That username is taken. Try another. If the username you want is taken, add a number at the end or change the spelling. Sometimes Google will reject a username if it’s extremely similar to one that somebody else is using (even if there are slight differences), if someone else had that username in the past and then deleted it, or if Google has reserved the name to prevent abuse or spam. 7. Enter and confirm your new password. Type your preferred password into the \"Password\" text box, then type the same password into the \"Confirm\" box underneath it. Check the Show password box to see what you are typing. Click Next when you’re done. These passwords must match before you can proceed. Make sure to use a strong password to avoid any unauthorized access to your account. 8. Enter a recovery email. Google will contact you at your recovery email address if something goes wrong with your new account—e.g. if you get locked out or Google detects unusual activity from your address. Click Next when you’re done. If you don’t have an alternate email, or if you’d rather set up recovery options later, click Skip . 9. Review your info and select Next . On the next page, you’ll see your new account name and email address. If it looks good, click Next . Otherwise, you can use your browser’s Back button to go back and make changes to the information you entered in the previous steps. 10. Agree to the Terms of Service. On the next page, you’ll be prompted to agree to Google’s terms and privacy policy. Once you’ve reviewed them, click I agree . If you change your mind, click Cancel instead. 11. Confirm your personalization options. A window will pop up asking if you want to agree to Google’s personalization options. Click Confirm to continue, or select More options to change your settings. 12. Customize your account settings. Once you verify your new address, you’ll be taken to the Google Account home page. From here, you can adjust settings such as: Your account recovery information. Add a recovery email here if you didn’t already, or add a phone number so you have two recovery options. Set a home address for a more personalized experience. For example, Google will show you weather reports and map results based on your address. Adjust your privacy and security settings and review privacy recommendations for your account. Add contacts or set up a family group. 13. Go to https://mail.google.com to access your Gmail. You should be automatically logged into your new account. If not, you’ll be prompted to sign in. The first time you visit this page, you’ll see options to customize your inbox, set a profile image, and add or import contacts. To write and send an email, click Compose in the top left corner. To see your emails, click the Inbox tab on the left side of the page. Use the tabs at the top of your inbox on the right to view different categories such as regular emails (in Primary ), marketing related emails (in Promotions ), or email notifications from various social media platforms (in Social ). In the menu on the left, you can also browse your drafts, sent emails, scheduled messages, your spam folder, and more. Adjust your settings by clicking the Settings icon at the top right side of the page. To sign out of your account, tap your initial or profile picture at the top right corner of the page, then select Sign Out .",
+    "reference_images": [
+      "data/tech/15_1.jpg",
+      "data/tech/15_2.jpg",
+      "data/tech/15_3.jpg",
+      "data/tech/15_4.jpg",
+      "data/tech/15_5.jpg",
+      "data/tech/15_6.jpg",
+      "data/tech/15_7.jpg",
+      "data/tech/15_8.jpg",
+      "data/tech/15_9.jpg",
+      "data/tech/15_10.jpg",
+      "data/tech/15_11.jpg",
+      "data/tech/15_12.jpg",
+      "data/tech/15_13.jpg"
+    ],
+    "generated_text": "Here you go—images first, then the written steps (kept separate like you asked).\n\n# Visual guide\n\nI’ve attached a 7-panel visual walkthrough that shows:\n\n1. opening Gmail and choosing **Create account**,\n2. entering your name,\n3. choosing a username,\n4. creating a password,\n5. verifying your phone,\n6. adding recovery email/birthday/gender, and\n7. accepting Privacy & Terms and landing in the inbox.\n\n# Text steps\n\n1. **Open Gmail sign-up**\n\n   * On a computer or phone browser, go to the Gmail sign-in page and click **Create account** → **For my personal use**.\n\n2. **Enter your name**\n\n   * Type your **First name** and **Last name**. Click **Next**.\n\n3. **Choose a Gmail address (username)**\n\n   * Enter a unique username (the part before **@gmail.com**).\n   * If it’s taken, try adding a dot, a middle initial, or a short number.\n   * Click **Next**.\n\n4. **Create a strong password**\n\n   * Make a password that’s at least 12 characters with a mix of letters, numbers, and symbols.\n   * Type it twice to confirm, then click **Next**.\n\n5. **Verify your phone number**\n\n   * Enter your mobile number, choose your country code, and click **Next**.\n   * Enter the SMS code you receive to confirm it’s you.\n\n6. **Add recovery & personal info**\n\n   * (Optional) **Recovery email**: helps you get back in if you forget your password.\n   * Enter your **Birthday** and **Gender** (you can choose rather-not-say).\n   * Click **Next**.\n\n7. **Review Privacy & Terms**\n\n   * Scroll through the key points (data, personalization, etc.).\n   * Click **I agree** (or **Accept**) to create the account.\n\n8. **You’re in!**\n\n   * You’ll land in the Gmail inbox. A short tour may pop up—feel free to follow it.\n\n---\n\n## Optional (recommended): Secure your account\n\n* **Turn on 2-Step Verification:** In your Google Account’s *Security* section, enable 2-Step and choose your preferred method (app prompt, SMS, or authenticator app).\n* **Save backup codes** somewhere safe.\n\n## Optional: Add Gmail on your phone\n\n* **Android:** Settings → **Passwords & accounts** (or **Accounts**) → **Add account** → **Google**, then sign in.\n* **iPhone/iPad:** Install the **Gmail** app, open it, and sign in.\n  (Or use iOS Settings → **Mail** → **Accounts** → **Add Account** → **Google**.)\n\nIf you want, I can also generate separate images focused on the phone setup or the 2-Step Verification flow.\n\",",
+    "generated_image": "GPT-thinking/tech/15.png",
+    "gemini_evaluation": {
+      "Question": "How to set up a Gmail account? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and images accurately describe the steps for setting up a Gmail account. The process shown is logical and factually correct according to Google's current sign-up flow."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "There is excellent coherency between the image and text. The text explicitly lists what each of the 7 panels in the visual guide shows, and the images perfectly match this description. The numbered steps also align with the visual flow."
+        ],
+        "Content Quality": [
+          4,
+          "The text is very well-written, clear, and easy to follow. The images are high quality and look like realistic UI mockups, but there are minor text rendering errors (e.g., 'Creste a Coogle Account' instead of 'Create a Google Account' in one panel), which slightly reduces the quality."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, safe, and provides a clear, aesthetically pleasing guide that is easy for a user to follow."
+        ],
+        "Completeness": [
+          5,
+          "The response provides a complete guide covering all the essential steps from start to finish. While the reference text is more granular, the generated response is more concise and includes important modern steps like phone verification, making it a fully functional and complete guide for a user."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. It provides a multi-panel image that visualizes the entire process, a clear text-based step-by-step guide, and valuable additional sections on securing the account and setting it up on a phone."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to set up a Gmail account? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and images accurately describe the steps for setting up a Gmail account. The process shown is logical and factually correct according to Google's current sign-up flow.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"There is excellent coherency between the image and text. The text explicitly lists what each of the 7 panels in the visual guide shows, and the images perfectly match this description. The numbered steps also align with the visual flow.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text is very well-written, clear, and easy to follow. The images are high quality and look like realistic UI mockups, but there are minor text rendering errors (e.g., 'Creste a Coogle Account' instead of 'Create a Google Account' in one panel), which slightly reduces the quality.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, safe, and provides a clear, aesthetically pleasing guide that is easy for a user to follow.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response provides a complete guide covering all the essential steps from start to finish. While the reference text is more granular, the generated response is more concise and includes important modern steps like phone verification, making it a fully functional and complete guide for a user.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. It provides a multi-panel image that visualizes the entire process, a clear text-based step-by-step guide, and valuable additional sections on securing the account and setting it up on a phone.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 29,
+    "domain": "tech",
+    "question": "How to Adjust Brightness on Windows 10 Using the Keyboard? Provide visual steps and text the steps.",
+    "reference_text": "1. Find the appropriate keys on your keyboard. Windows 10 PCs allow you to adjust your brightness using hotkeys on your keyboard. These hotkeys are represented by two different images of a sun, one for increasing and another for decreasing brightness. Find the keys on your keyboard to get started. These hotkeys will look slightly different on every computer. They are often differentiated by a filled-in sun (decrease) and an empty sun (increase) or a sun with dots for rays (decrease) and a sun with lines for rays (increase). Also be on the lookout for arrows pointing upwards or downwards, indicating an increase or decrease in brightness. These hotkeys will be mapped onto different buttons on different keyboards. Check out your left and right arrow keys, or the function keys (F1, F2, etc.) lining the top of your keyboard. 2. Hold down the \"Fn\" key on your keyboard. The brightness hotkeys are not the primary function of the keys they are mapped onto. You'll therefore needed to hold down the Fn key while you adjust your screen's brightness. 3. Tap the appropriate hotkeys. While holding Fn , tap the corresponding hotkeys to turn your PC's brightness up or down.",
+    "reference_images": [
+      "data/tech/29_1.jpg",
+      "data/tech/29_2.jpg",
+      "data/tech/29_3.jpg"
+    ],
+    "generated_text": "## Visual steps (image)\n\nI made a one-page visual guide showing four keyboard methods.\n\n---\n\n## Text steps\n\n### Method 1 — Laptop brightness keys\n\n1. Find the brightness keys on the top row (usually sun icons).\n2. Press the **increase** or **decrease** brightness key.\n3. If nothing happens, hold **Fn** and press the brightness key.\n4. If your keyboard has **Fn Lock** (often **Fn + Esc**), toggle it and try again.\n\n### Method 2 — Action Center (works on most devices)\n\n1. Press **Win + A** to open Action Center.\n2. Press **Tab** until the **brightness slider** is selected.\n3. Use **Left/Right Arrow** to adjust brightness.\n4. Press **Esc** to close.\n\n### Method 3 — Windows Mobility Center (laptops)\n\n1. Press **Win + R**, type **mblctr**, press **Enter**.\n2. Press **Tab** to focus **Display brightness**.\n3. Use **Left/Right Arrow** to adjust.\n4. Press **Alt + F4** to close.\n\n### Method 4 — Settings via keyboard (fallback)\n\n1. Press **Win + I** to open Settings.\n2. Type **brightness**, press **Enter** to open Display settings.\n3. **Tab** to the **Change brightness** slider and use **Left/Right Arrow**.\n\n#### Notes & tips\n\n* On **desktops/external monitors**, keyboard brightness keys usually won’t work—use the monitor’s buttons or its vendor app.\n* If there’s no brightness slider: update your display driver and ensure your display shows as **Generic PnP Monitor** in Device Manager.\n\",",
+    "generated_image": "GPT-thinking/tech/29.png",
+    "gemini_evaluation": {
+      "Question": "How to Adjust Brightness on Windows 10 Using the Keyboard? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are factually correct. All four methods described are valid ways to adjust screen brightness on Windows 10 using keyboard shortcuts."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is an excellent visual summary of the four methods described in the text. Each quadrant of the image corresponds directly to one of the text-based methods, creating perfect coherency."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and well-designed infographic. The text is well-structured, easy to follow, and grammatically correct. The overall quality is very professional."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with user preference. It's clean, professional, and provides a very helpful and easy-to-understand guide. The infographic format is particularly effective."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It not only answers the primary question (using dedicated brightness keys) but also provides several alternative keyboard-based methods, which is extremely helpful for users whose keyboards might not have dedicated keys."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. It offers four distinct methods compared to the reference's single method. The inclusion of a \"Notes & tips\" section further adds to the richness of the information provided."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Adjust Brightness on Windows 10 Using the Keyboard? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are factually correct. All four methods described are valid ways to adjust screen brightness on Windows 10 using keyboard shortcuts.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is an excellent visual summary of the four methods described in the text. Each quadrant of the image corresponds directly to one of the text-based methods, creating perfect coherency.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-designed infographic. The text is well-structured, easy to follow, and grammatically correct. The overall quality is very professional.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with user preference. It's clean, professional, and provides a very helpful and easy-to-understand guide. The infographic format is particularly effective.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It not only answers the primary question (using dedicated brightness keys) but also provides several alternative keyboard-based methods, which is extremely helpful for users whose keyboards might not have dedicated keys.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. It offers four distinct methods compared to the reference's single method. The inclusion of a \\\"Notes & tips\\\" section further adds to the richness of the information provided.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 70,
+    "domain": "tech",
+    "question": "How to update Apps on an iPad from App Store? Provide steps with images and text the steps.",
+    "reference_text": "1. Connect your iPad to a Wi-Fi network. You'll need to have internet access to check for and download updates. If your iPad has cellular data access, you can use it to download updates, but this will count against your data usage plan. Open the Settings app and tap Wi-Fi to find and connect to a wireless network. 2. Open the App Store . This looks like a white A with a blue background. You can usually find this on your home screen or in the App Library. Be sure to update your iPad to the latest version. If you don't see the App Store on your device, you may have parental controls enabled. If you're the device owner, you can easily turn it off . Otherwise, you'll need to contact the owner. 3. Tap your Apple ID picture. This will be in the top-right corner of the screen. A pop-up menu will open. 4. Scroll down to view apps. You'll see a list of installed apps underneath Upcoming Automatic Updates . By default, automatic updates are turned on. If it isn't you can always enable it . 5. Tap Update . This will be next to the app you need to update. If you want to update all available apps at once, tap Update All above the list of apps. When the app is finished updating, it will disappear from the list.",
+    "reference_images": [
+      "data/tech/70_1.jpg",
+      "data/tech/70_2.jpg",
+      "data/tech/70_3.jpg",
+      "data/tech/70_4.jpg",
+      "data/tech/70_5.jpg"
+    ],
+    "generated_text": "# Text steps (for iPad)\n\n1. Open the **App Store** on your iPad.\n2. Tap your **profile picture** in the top-right corner.\n3. On the **Account** page, **swipe down to refresh** the list of available updates.\n4. Under **Available Updates**, tap **Update All** to update everything, or tap **Update** next to specific apps.\n5. If asked, **authenticate** with Face ID, Touch ID, or your Apple ID password.\n6. Watch the **progress circle** next to each app. When it changes to **Open**, that app is updated.\n7. (Optional) Turn on automatic updates: **Settings → App Store → App Updates** **On**.\n\n*Tip: If you don’t see updates, confirm you’re signed in with the right Apple ID on the Account page and that you have a good internet connection.*\n\",",
+    "generated_image": "GPT-thinking/tech/70.png",
+    "gemini_evaluation": {
+      "Question": "How to update Apps on an iPad from App Store? Provide steps with images and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated text provides accurate and valid steps for updating apps on an iPad. The single image provided is also a correct representation of the App Store's update page. However, the overall answer is not entirely correct for the prompt, as it fails to provide a multi-image, step-by-step guide."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "There is a significant mismatch between the text and the image. The text describes a 7-step process, but only one image is provided, which illustrates parts of steps 1, 2, and 4. The request was for \"steps with images\" (plural), implying a sequence of images corresponding to the text steps, which was not delivered."
+        ],
+        "Content Quality": [
+          4,
+          "The text quality is excellent; it is clear, concise, grammatically correct, and easy to follow. The image is a high-quality, realistic screenshot of the iPad UI. The annotations are simple but effective."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is helpful, safe, and directly addresses the user's question without any undesirable elements. The generated answer is a useful guide, despite its structural flaws."
+        ],
+        "Completeness": [
+          2,
+          "The text portion is very complete and even more detailed than the reference, including steps like refreshing the list and authentication. However, the visual component is severely incomplete. The prompt requested a guide with images (plural) for the steps, but only provided one, failing to illustrate the entire process visually."
+        ],
+        "Content Richness": [
+          2,
+          "The text is rich, offering more detail and useful tips than the reference. Conversely, the image content is very poor. There is only one image, offering no variety and failing to provide the step-by-step visual context that the five images in the reference do."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to update Apps on an iPad from App Store? Provide steps with images and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated text provides accurate and valid steps for updating apps on an iPad. The single image provided is also a correct representation of the App Store's update page. However, the overall answer is not entirely correct for the prompt, as it fails to provide a multi-image, step-by-step guide.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a significant mismatch between the text and the image. The text describes a 7-step process, but only one image is provided, which illustrates parts of steps 1, 2, and 4. The request was for \\\"steps with images\\\" (plural), implying a sequence of images corresponding to the text steps, which was not delivered.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text quality is excellent; it is clear, concise, grammatically correct, and easy to follow. The image is a high-quality, realistic screenshot of the iPad UI. The annotations are simple but effective.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is helpful, safe, and directly addresses the user's question without any undesirable elements. The generated answer is a useful guide, despite its structural flaws.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The text portion is very complete and even more detailed than the reference, including steps like refreshing the list and authentication. However, the visual component is severely incomplete. The prompt requested a guide with images (plural) for the steps, but only provided one, failing to illustrate the entire process visually.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is rich, offering more detail and useful tips than the reference. Conversely, the image content is very poor. There is only one image, offering no variety and failing to provide the step-by-step visual context that the five images in the reference do.\"\n        ]\n    }\n}\n```"
+  }
+]

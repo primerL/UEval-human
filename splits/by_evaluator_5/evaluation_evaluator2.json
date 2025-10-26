@@ -1,0 +1,884 @@
+[
+  {
+    "id": 15,
+    "domain": "art",
+    "question": "How to draw a rainbow with clouds? Show it in simple visual steps and text the steps.",
+    "reference_text": "1. 1. Begin the rainbow for kids outline by drawing the hilly ground. use two long curved lines to sketch the overlapping hills. Then, Use a series of connected curved lines to draw the bushes and trees visible in the distance. 2. 2. Draw more shrubbery on the horizon using a series of connected curved lines. Then, draw a tree towering above the rest. Extend a pair of lines for the trunk, and use a curved line to enclose the tree's crown. 3. 3. Draw more trees on the horizon. Again, extend a pair of lines for the trunk, and use a curved line to enclose the tree's crown. 4. 4. Draw two large \"U\" shaped lines to outline the rainbow. Draw the sun peeking out from behind it. Use a curved line to enclose the partial circle at the center of the sun. Then, use a series of straight lines that meet at points to draw its zig zag-shaped rays. 5. 5. Draw \"U\" shaped lines within the rainbow, parallel to the outer lines, to demarcate the different colors. Then draw a daisy flower growing on the hillside. Start with an oval for the center of the flower, and \"U\" shaped lines for the petals. Draw a line below it to form the stem and a teardrop-shaped leaf on one side. 6. 6. Draw another daisy on the hillside. Again, start with an oval for the center of the flower, and \"U\" shaped lines for the petals. Nearby, draw a tulip using curved lines. Draw a line below each flower to form the stem, and a teardrop-shaped leaf on one side. 7. 7. Draw more tulips and daisies. Again, use an oval and \"U\" shaped lines for the daisy and curved lines for the tulip. Then, draw a line below each flower to form the stem and a teardrop-shaped leaf on one side. 8. 8. Draw another tulip, then some butterflies fluttering about. Use \"U\" shaped lines to form each of the butterflies' four wings. 9. 9. Complete your rainbow for kids outline by drawing clouds in the sky. Use a straight line for the bottom of each cloud and a series of curved lines for the fluffy top. 10. Color your cartoon rainbow for kids. Do you know the order of the rainbow's colors? You can remember them with the made-up name Roy G. Biv. Each letter stands for a color. R ed O range Y ellow G reen B lue I ndigo (dark blue) V iolet (purple)",
+    "reference_images": [
+      "data/art/15_1.png",
+      "data/art/15_2.png",
+      "data/art/15_3.png",
+      "data/art/15_4.png",
+      "data/art/15_5.png",
+      "data/art/15_6.png",
+      "data/art/15_7.png",
+      "data/art/15_8.png",
+      "data/art/15_9.png",
+      "data/art/15_10.png"
+    ],
+    "generated_text": "Here are the **text-only steps** (kept separate from the visual):\n\n1. Draw a big, shallow **U-shaped arc**.\n2. Add **6 more concentric arcs** inside it so you have 7 bands total. Keep spacing even.\n3. Sketch **two fluffy clouds** (3–5 bumps each) at the ends of the rainbow so they overlap the tips.\n4. **Ink** the final outlines: smooth the arcs and cloud bumps; lighten/erase any extra guides.\n5. **Color the bands** from outer to inner: Red, Orange, Yellow, Green, Blue, Indigo, Violet.\n6. **Clean up**: erase lines where the rainbow passes behind the clouds.\n7. Add simple **shading/highlights** to the clouds (light gray on the bottom, small white shine on top).\n8. Optional: tiny **sparkles** or raindrops around the clouds.\n\nTips:\n\n* Keep the rainbow thickness equal by following the first arc closely.\n* If space is tight, use **5 bands** (skip indigo/violet) and keep clouds slightly larger so the picture feels balanced.\n",
+    "generated_image": "GPT-thinking/art/15.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a rainbow with clouds? Show it in simple visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated answer correctly provides a valid method for drawing a rainbow with clouds, both visually and textually."
+        ],
+        "Image-Text Coherency": [
+          2,
+          "The generated response provides a visual guide in a single image and a separate text guide. The text is explicitly labeled as 'text-only steps (kept separate from the visual)'. While they describe a similar drawing process, they are not integrated. The text has 8 steps, while the image has 6 visual stages. Furthermore, the text mentions steps like shading and adding sparkles that are not depicted in the image at all. This creates a significant disconnect between the visual and textual components."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and well-designed infographic that is easy to follow. The text is well-written, grammatically correct, and provides clear, concise instructions."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is appropriate, helpful, and aesthetically pleasing. The infographic style is a very effective and user-friendly way to present a drawing tutorial."
+        ],
+        "Completeness": [
+          3,
+          "The response provides both visual steps and text steps as requested. However, it fails to integrate them into a cohesive tutorial, which is what the prompt implies and what the reference answer demonstrates. It feels like two separate answers to the same question rather than one unified response."
+        ],
+        "Content Richness": [
+          2,
+          "Compared to the reference, the generated answer is very simplistic. The reference teaches how to draw a complete scene with a landscape, sun, flowers, and butterflies in addition to the rainbow and clouds. The generated answer focuses only on the rainbow and clouds, making it significantly less rich in detail and scope."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a rainbow with clouds? Show it in simple visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated answer correctly provides a valid method for drawing a rainbow with clouds, both visually and textually.\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"The generated response provides a visual guide in a single image and a separate text guide. The text is explicitly labeled as 'text-only steps (kept separate from the visual)'. While they describe a similar drawing process, they are not integrated. The text has 8 steps, while the image has 6 visual stages. Furthermore, the text mentions steps like shading and adding sparkles that are not depicted in the image at all. This creates a significant disconnect between the visual and textual components.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-designed infographic that is easy to follow. The text is well-written, grammatically correct, and provides clear, concise instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is appropriate, helpful, and aesthetically pleasing. The infographic style is a very effective and user-friendly way to present a drawing tutorial.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The response provides both visual steps and text steps as requested. However, it fails to integrate them into a cohesive tutorial, which is what the prompt implies and what the reference answer demonstrates. It feels like two separate answers to the same question rather than one unified response.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"Compared to the reference, the generated answer is very simplistic. The reference teaches how to draw a complete scene with a landscape, sun, flowers, and butterflies in addition to the rainbow and clouds. The generated answer focuses only on the rainbow and clouds, making it significantly less rich in detail and scope.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 29,
+    "domain": "art",
+    "question": "How to draw a watermelon slice? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Begin by drawing a circle to outline the shape of the watermelon. 2. 2. Use curved lines to outline a \"T\" shape extending from the top of the watermelon. Erase guide lines as necessary. This forms the watermelon's stem. 3. 3. Draw two sets of wavy lines extending downward from the stem. Allow one to reach the opposite side of the watermelon. For the other pair, allow the lines to meet in a sharp point. These form the first of the watermelon's characteristic stripes. 4. 4. Draw two more stripes. Extend one set of lines down from the stem, the other up from the bottom of the melon. Allow each to end in a sharp point. 5. 5. Draw more stripes across the watermelon, filling the empty spaces. 6. 6. Next, you will draw a slice of cut watermelon. Draw a wide \"U\" shaped line, allowing it to overlap the completed watermelon. Then, connect the ends of the \"U\" using a straight line. 7. 7. Give the slice a three dimensional shape by drawing a curved line from one corner of the shape to the bottom of the shape. 8. 8. Erase the guide lines from behind the watermelon slice. 9. 9. Detail the inside of the slice. Draw a curved line parallel to the original \"U\" shaped line. This separates the green and flavorless rind from the sweet, pink fruit. Then, draw seeds. Use a teardrop shape for each seed. Notice how the seeds are positioned in a circular pattern, with the pointed end of the teardrop toward the center. 10. 10. Color your watermelon. The outside of the watermelon is typically striped in shades of green. The center of the melon is often pink, red, orange, or yellow.",
+    "reference_images": [
+      "data/art/29_1.png",
+      "data/art/29_2.png",
+      "data/art/29_3.png",
+      "data/art/29_4.png",
+      "data/art/29_5.png",
+      "data/art/29_6.png",
+      "data/art/29_7.png",
+      "data/art/29_8.png",
+      "data/art/29_9.png",
+      "data/art/29_10.png"
+    ],
+    "generated_text": "Here are the two parts you asked for—first the **visual**, then the **text-only steps**.\n\n---\n\n## 1) Visual steps\n\n(I’ve generated a clean 8-panel guide that walks through each stage from simple shapes to color, shading, and highlights.)\n\n---\n\n## 2) Text steps\n\n**Step 1 — Base shape**\nDraw a wide semicircle: one long curved arc on top and a straight line for the bottom. This is the overall slice.\n\n**Step 2 — Rind band**\nInside the arc, add a second, smaller arc that follows the first one. Leave a thin gap between them—this gap is the light-green rind.\n\n**Step 3 — Clean the edges**\nRound the two corners where the arc meets the bottom edge so the slice looks soft and juicy.\n\n**Step 4 — First seeds**\nPlace 5–7 small teardrop shapes across the pulp. Point the narrow ends toward the center.\n\n**Step 5 — Seed variety**\nAdd a few tiny dots or smaller seeds between the larger ones to make it feel natural.\n\n**Step 6 — Base colors**\nColor the pulp a bright red/pink. Fill the rind band a light green and the very outer edge a darker green. Color the seeds black.\n\n**Step 7 — Shading**\nDeepen the red slightly near the rind for a subtle gradient. Add a light, soft shadow under the slice so it sits on the page.\n\n**Step 8 — Highlights & finish**\nAdd tiny white glints on a few seeds and along the top curve. Thicken the outer outline a touch for a bold, finished look.\n\n**Optional tweaks**\n\n* Add a small “bite” notch on the top curve and adjust the seeds around it.\n* Sprinkle a couple of pale freckles on the pulp for texture.\n* Turn it into a wedge on a plate by sketching a thin oval and resting the slice on it.\n\nWant a version with fewer or more steps (e.g., a 4-step kid-friendly version)? I can spin that up too.\n",
+    "generated_image": "GPT-thinking/art/29.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a watermelon slice? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response accurately provides both a visual guide and text steps for drawing a watermelon slice, directly answering the user's question. The method shown is a valid and common way to draw this object."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text explanation for each of the 8 steps perfectly corresponds to the visual change shown in the respective panel of the generated image. The instructions are a clear and accurate description of the visual guide."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of high quality: it's clean, stylistically consistent, and aesthetically pleasing. The step-by-step progression is clear and easy to follow. The text is well-written, grammatically correct, and uses clear, concise language."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. It directly addresses the user's request to draw a slice, unlike the reference which spends half the tutorial on a whole watermelon. The visual style is modern and appealing, and the instructions are very clear."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested visual and text components, covering the entire drawing process from the initial shape to the final details like shading and highlights."
+        ],
+        "Content Richness": [
+          5,
+          "The response is rich in detail. It goes beyond basic shapes and colors to include steps for shading and highlights, which adds depth to the final drawing. The inclusion of an 'Optional tweaks' section with further ideas is a fantastic addition that significantly enriches the content."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a watermelon slice? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response accurately provides both a visual guide and text steps for drawing a watermelon slice, directly answering the user's question. The method shown is a valid and common way to draw this object.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explanation for each of the 8 steps perfectly corresponds to the visual change shown in the respective panel of the generated image. The instructions are a clear and accurate description of the visual guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality: it's clean, stylistically consistent, and aesthetically pleasing. The step-by-step progression is clear and easy to follow. The text is well-written, grammatically correct, and uses clear, concise language.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. It directly addresses the user's request to draw a slice, unlike the reference which spends half the tutorial on a whole watermelon. The visual style is modern and appealing, and the instructions are very clear.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested visual and text components, covering the entire drawing process from the initial shape to the final details like shading and highlights.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in detail. It goes beyond basic shapes and colors to include steps for shading and highlights, which adds depth to the final drawing. The inclusion of an 'Optional tweaks' section with further ideas is a fantastic addition that significantly enriches the content.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 70,
+    "domain": "art",
+    "question": "How to draw a cartoon snail? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Begin the cartoon snail outline by drawing the snail's head. First, draw two circles. These will become the snail's eyes. Draw a curved line across each circle. In the lower half of the circle, draw a pie chart or Pacman shape - a circle with a missing triangular slice. What does a Pacman shape look like, exactly? Check out this Pacman pixel art . Below each eye, extend two curved lines. These are the snail's eyestalks. Then, connect the stalks with an overlapping curved line, contouring the snail's face. 2. 2. Continue the line of the face. This line should be long and wavy, outlining the bottom of the sticky, slimy foot. 3. 3. Draw another wavy line roughly parallel to the foot, allowing the lines to meet at a point. Draw two curved lines across the face, forming the smiling mouth and the chin. Place a short curved line at the corner of the mouth. 4. 4. Extend the remaining side of the head with a long curved line. Double the line back on itself at the end to begin constructing the base of the shell. Connect the tip of the foot to the shell with a curved line. 5. 5. Begin the spiral shape of the snail shell by drawing a large \"C\" shaped line. Connect it to the snail's head with a short line. 6. 6. Continue the line of the shell to enclose the circle. Continue the line past the point of completion to begin the spiral pattern. 7. 7. Continue the spiral-shaped line. 8. 8. Enclose partial circles all along the spiral line. Notice that the circles grow smaller near the inside of the spiral. 9. 9. Fill the snail shell with more circular spots. Color your cartoon snail. We've given ours a green and yellow body with a tan and brown spotted snail. 10. Throughout much of the world, garden snails are usually brown in color. But some snails - especially the ocean and marsh-dwelling snails - have vivid black-and-white patterns or unusually bright colors .",
+    "reference_images": [
+      "data/art/70_1.png",
+      "data/art/70_2.png",
+      "data/art/70_3.png",
+      "data/art/70_4.png",
+      "data/art/70_5.png",
+      "data/art/70_6.png",
+      "data/art/70_7.png",
+      "data/art/70_8.png",
+      "data/art/70_9.png",
+      "data/art/70_10.png"
+    ],
+    "generated_text": "Here are the written steps (separate from the image):\n\n# How to draw a cartoon snail (text steps)\n\n1. Shell circle\n   Draw a simple circle. This will be the shell.\n\n2. Spiral\n   Inside the circle, draw a loose spiral that stops before the center. Keep the spacing even.\n\n3. Shell rim\n   Add a curved outline along the outside-left of the circle to give the shell a visible edge.\n\n4. Body & head\n   Under the shell, sketch a soft “bean” shape for the body, with a bump for the head in front.\n\n5. Eyestalks\n   From the head, draw two thin curved stalks. Put small circles on top for eyes.\n\n6. Face & base\n   Add a tiny smile and a closed-eye curve (or dots for pupils). Draw a gently flattened oval under the body for the foot/base.\n\n7. Details\n   Add a couple of small dots on the cheek and a few light dashes or spots on the shell for texture. You can also draw a short ground line.\n\n8. Clean & color\n   Trace final lines darker; erase extra guidelines. Color the body a warm beige or peach, the shell a green or yellow with a slightly darker spiral. Add a small shadow under the snail. Optional: a tiny mushroom or blade of grass for charm.\n\n",
+    "generated_image": "GPT-thinking/art/70.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a cartoon snail? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image both provide a correct and logical method for drawing a cartoon snail."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The numbered steps in the generated text correspond perfectly to the numbered visual steps in the generated image. The descriptions accurately reflect the actions shown."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of high quality: it's clear, well-organized, and the use of red lines to highlight the new additions in each step makes it very easy to follow. The text is well-written, grammatically correct, and provides concise instructions."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and aesthetically pleasing. The cartoon snail is cute and the tutorial format is user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response completely fulfills the prompt by providing both a visual guide and a separate text explanation of the steps to draw a cartoon snail, from start to finish."
+        ],
+        "Content Richness": [
+          4,
+          "The generated response is very good, presenting a complete tutorial in a single, well-designed image. It also adds extra creative tips in the text. However, the reference provides a more granular breakdown with separate images for each step, which could be considered slightly richer in detail."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon snail? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image both provide a correct and logical method for drawing a cartoon snail.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The numbered steps in the generated text correspond perfectly to the numbered visual steps in the generated image. The descriptions accurately reflect the actions shown.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality: it's clear, well-organized, and the use of red lines to highlight the new additions in each step makes it very easy to follow. The text is well-written, grammatically correct, and provides concise instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. The cartoon snail is cute and the tutorial format is user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely fulfills the prompt by providing both a visual guide and a separate text explanation of the steps to draw a cartoon snail, from start to finish.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The generated response is very good, presenting a complete tutorial in a single, well-designed image. It also adds extra creative tips in the text. However, the reference provides a more granular breakdown with separate images for each step, which could be considered slightly richer in detail.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 4,
+    "domain": "life",
+    "question": "How to Exfoliate Your Body for Soft Skin? Provide a visual guide and text the steps.",
+    "reference_text": "1. Have a bath or shower. While not part of the exfoliating process per se, immersing your body in hot water will open up your pores, making your skin much more susceptible to cleaning. It also helps to do this process in the bathroom, as you'll need a ready supply of hot water and somewhere to wash away the dead skin flakes once they've been scrubbed off. Use a skin-friendly, perfume-free detergent for bath and allow at least 15 minutes to soften (macerating) the skin surface. It is good when the skin surface looks a bit \"deformed\". Remove \"dead skin\" by rubbing it away with your hands. It will work well, especially at your feet, toes and heels. 2. Get a textured sponge to wash your skin. Tending to your skin with it will help rub away excess skin flakes, leaving your skin softer and cleaner than before. It is recommended you have a sponge ready for use once you have finished up your shower. It should feel slightly rough on your skin, but if it's abrasive to the point of pain, exfoliating wash cloths are a suitable, gentler alternative. Exfoliating can also be done with a rough washcloth. A natural bristle brush makes for a good alternative, particularly while scrubbing the backs of arms or legs. If you're the do-it-yourself type, you might look into making your own loofah from home. 3. Scrub your body gently with your sponge starting from the ankles upward. Scrub the sponge over your skin in small, circular motions. Make sure to apply some pressure to feel the sponge's rough texture on your skin; that way, it will rub the surface-layer dead skin away. Starting at the ankles is recommended because it helps to encourage positive blood circulation during the exfoliation process. healthglamour.com/how-to-exfoliate-the-body/ If you're exfoliating your entire body, make sure to give extra attention to your heels, elbows, and knees. These are generally considered to be the driest parts of one's skin, and should be given greater attention accordingly. 4. Add wet sand or salt to your full body exfoliation. If you've ever walked along the beach barefoot, you may have noticed your foot callouses soften. Sand granules are a naturally occurring exfoliant, and their grainy texture is well-suited to scraping away your excess skin flakes. Salt scrubs do the same thing. You can find sand and salt exfoliating products at any store that sells beauty and skincare products. Be forewarned: Using sand in the bath can cause a bigger mess than more common exfoliants. Although it is recommended to try it out at least once, it may not be the best course of action if you don't have the added time in your routine available to do a bit of cleaning up afterwards. Getting sand down a drain could completely ruin the plumbing pipes if done often. If using sand, it should be cleaned, even bleached, because getting it from outdoors could introduce bacteria and using that to exfoliate would do more harm than good. Choose sand with small granules, not big, because the smaller granules are more gentle on the skin. Focus on the tougher skin of the arms and legs because sand can be more intense than exfoliating scrubs. 5. Rinse with hot water. Closing up shop with a body rinse is a relaxing and effective way to finish your exfoliation. Although it's recommended you repeat this process at least three times a week, you should notice an immediate softness with your skin. Applying a moisturizer or shea butter following your rinse, even following an otherwise purely 'mechanical' cleanse, will help your skin better retain moisture.",
+    "reference_images": [
+      "data/life/4_1.jpg",
+      "data/life/4_2.jpg",
+      "data/life/4_3.jpg",
+      "data/life/4_4.jpg",
+      "data/life/4_5.jpg"
+    ],
+    "generated_text": "Here’s your **text guide** (image generated separately above).\n\n# How to Exfoliate Your Body for Soft, Smooth Skin\n\n## 1) Pick your method\n\n* **Physical (scrubs/tools):** sugar or oat scrubs (fine, rounded grains), soft washcloth, konjac sponge, or exfoliating mitt. Skip if skin is inflamed.\n* **Chemical (acids/actives):**\n\n  * **AHAs** (lactic, glycolic): dry/dull or uneven texture.\n  * **BHA** (salicylic): body breakouts, clogged pores, ingrowns.\n  * **PHA** (gluconolactone, lactobionic): very sensitive skin.\n  * **Urea** (10–20%): rough bumps/keratosis pilaris (KP).\n\n## 2) Step-by-step routine (shower days)\n\n1. **Soak** in warm (not hot) water for 5–10 min.\n2. **Cleanse** with a gentle, non-stripping body wash.\n3. **Exfoliate**\n\n   * *Physical:* massage with light pressure in small circles for 30–60 sec per area; avoid chest/neck if sensitive.\n   * *Chemical:* apply a thin layer per label. Rinse-off: 1–3 min. Leave-on lotions: use a light, even coat—don’t scrub.\n4. **Rinse & pat dry** (don’t rub).\n5. **Moisturize within 3 minutes.** Look for glycerin, hyaluronic acid, ceramides; for very dry skin, seal with a light oil/occlusive.\n6. **Daytime SPF 30+** on exposed areas (AHAs/BHAs increase sun sensitivity).\n\n## 3) How often?\n\n* **Sensitive:** 1×/week (soft cloth or PHA).\n* **Normal/combination:** 1–2×/week.\n* **Dry/KP-prone:** 2–3×/week (lactic acid or urea, avoid gritty scrubs).\n* **Oily/acne-prone:** 2–3×/week BHA on problem zones (back, chest).\n\n> Signs you’re overdoing it: stinging that lasts, tightness, shiny but fragile skin, more redness or breakouts. Cut back to once weekly.\n\n## 4) Do’s & don’ts\n\n**Do**\n\n* Use gentle pressure; let products do the work.\n* Rinse mitts/cloths after each use; wash weekly; replace loofahs monthly.\n* Exfoliate **before** shaving (same session is OK for gentle physical or mild rinse-off acids).\n* Moisturize every time.\n\n**Don’t**\n\n* Exfoliate on sunburn, open cuts, or active eczema/psoriasis flares.\n* Mix strong actives on the same day (e.g., retinoids + strong acids).\n* Exfoliate right after waxing/laser; wait **48–72 hours**.\n* Use very hot water.\n\n## 5) Targeted tips\n\n* **Ingrown hairs/razor bumps:** Use BHA 0.5–2% the day **before** shaving and again 24–48 h after; shave with slip (gel/cream) in hair-growth direction.\n* **Keratosis pilaris:** Daily urea 10–20% or lactic acid 5–12% lotion; brief gentle physical buffing 2–3×/week; be patient (4–6 weeks).\n* **Feet/elbows/knees:** Can tolerate slightly stronger scrubs—keep separate tools for feet.\n\n## 6) Simple weekly template\n\n* **Mon:** BHA on back/chest after shower → moisturize.\n* **Wed:** Gentle washcloth buff head-to-toe → moisturize.\n* **Fri:** Lactic-acid or urea body lotion (leave-on) at night.\n* **Sun (optional):** Spot-treat rough patches only.\n\n*Friendly reminder:* If you’re pregnant/nursing or on prescription topicals, check product safety first. Stop and consult a professional if you develop a rash, severe burning, or infection.\n",
+    "generated_image": "GPT-thinking/life/4.png",
+    "gemini_evaluation": {
+      "Question": "How to Exfoliate Your Body for Soft Skin? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text provides accurate, safe, and comprehensive information on body exfoliation, covering both physical and chemical methods. The image correctly displays various tools and products used for exfoliation."
+        ],
+        "Image-Text Coherency": [
+          2,
+          "There is a significant mismatch. The question asks for a 'visual guide' with 'steps,' which the reference provides (an image for each step). The generated response provides a single, static image of products and a detailed multi-step text guide. The image does not illustrate the steps described in the text, failing to function as a visual guide."
+        ],
+        "Content Quality": [
+          4,
+          "The text quality is excellent; it is well-structured, easy to read, and professionally written. The image is of lower quality; it appears to be a basic digital render, is somewhat cluttered, and lacks the clear, instructional nature of the reference images."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is highly aligned with user preference for safe and helpful information. It avoids potentially harmful advice (like using unsterilized sand from a beach) and provides nuanced guidance for different skin types and concerns. The tone is responsible and professional."
+        ],
+        "Completeness": [
+          2,
+          "The response is incomplete because it fails to provide a 'visual guide.' It offers only one image, which does not illustrate the process, whereas the prompt and reference both imply a step-by-step visual component. It fully delivers on the text portion but misses a key part of the request."
+        ],
+        "Content Richness": [
+          4,
+          "The text is exceptionally rich and detailed, going far beyond the reference by including chemical exfoliants, skin-type specific advice, do's and don'ts, and a sample routine. However, the visual content is poor, consisting of only a single, non-sequential image, which lacks the richness of the multi-image reference guide."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Exfoliate Your Body for Soft Skin? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text provides accurate, safe, and comprehensive information on body exfoliation, covering both physical and chemical methods. The image correctly displays various tools and products used for exfoliation.\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"There is a significant mismatch. The question asks for a 'visual guide' with 'steps,' which the reference provides (an image for each step). The generated response provides a single, static image of products and a detailed multi-step text guide. The image does not illustrate the steps described in the text, failing to function as a visual guide.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text quality is excellent; it is well-structured, easy to read, and professionally written. The image is of lower quality; it appears to be a basic digital render, is somewhat cluttered, and lacks the clear, instructional nature of the reference images.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is highly aligned with user preference for safe and helpful information. It avoids potentially harmful advice (like using unsterilized sand from a beach) and provides nuanced guidance for different skin types and concerns. The tone is responsible and professional.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The response is incomplete because it fails to provide a 'visual guide.' It offers only one image, which does not illustrate the process, whereas the prompt and reference both imply a step-by-step visual component. It fully delivers on the text portion but misses a key part of the request.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is exceptionally rich and detailed, going far beyond the reference by including chemical exfoliants, skin-type specific advice, do's and don'ts, and a sample routine. However, the visual content is poor, consisting of only a single, non-sequential image, which lacks the richness of the multi-image reference guide.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 72,
+    "domain": "life",
+    "question": "How to wash your face properly? Provide illustrated steps and text the steps.",
+    "reference_text": "1. A mild cleanser cleans skin gently without irritation. No matter what skin type you have, for daily cleansing, pick a face wash that’s fragrance- and alcohol-free. Using cleansers that are too harsh can strip your skin of its natural oils, leading to breakouts and dry skin. [1] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source First, figure out what skin type you have , then check out our cleanser recommendations below: For oily or acne-prone skin: Oil-free cleanser (that won’t clog pores) [2] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source For dry skin: Hydrating cleanser (to moisturize while you wash) For combination or normal skin: Gentle foaming cleanser (to cleanse dirt and grime gently) For sensitive skin: Fragrance-free cleanser (to avoid irritating skin) For aging skin: Gentle cleanser (to cleanse dirt and grime without drying) 2. Take off your makeup to avoid clogged pores. Face cleansers are meant to cleanse your skin, not remove makeup. If you like to wear makeup during the day, use a gentle makeup remover on a cotton pad to take everything off before washing your face. [3] X Trustworthy Source Cleveland Clinic Educational website from one of the world's leading hospitals Go to source If you have acne-prone or oily skin, go for a water-based makeup remover (instead of an oil-based one) to avoid clogged pores. 3. Use lukewarm water to gently wet your skin. Hot water strips your skin of its natural oils, and cold water doesn’t remove dirt and grime effectively. Turn your tap to a temperature that’s just above room temp, then splash your face with water. If you have long hair, pull it back into a bun or ponytail before you start washing your face. This will make it much easier to cleanse your skin. 4. Gently apply face wash to your skin in a circular motion. Pour a coin-sized amount of cleanser onto your hands, then rub your palms together to lather it up. Rub the cleanser all over your face, including your cheeks, nose, forehead, chin, and jawline for about 10 seconds. Using a washcloth or a cleansing device to wash your face might sound like a good idea, but actually, they can be too harsh on your skin. For daily cleansing, just use your hands. Don’t use cleanser around your eyes. The skin there is so delicate that it rarely needs cleansing—just splashing the area with water will do. 5. Be gentle with your skin as you rinse and dry to avoid irritation. Use lukewarm water again, and splash it onto your face to rinse off the cleanser. Grab a clean towel and pat your skin dry, trying not to rub or scrub your face. [6] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source Rubbing your skin with a towel can be irritating, which can lead to dry skin or acne breakouts. Be sure to dry your skin with a clean towel. Using a dirty towel can introduce bacteria into your skin, which can lead to clogged pores. 6. Use toner to tackle red marks or dark spots. Using a toner is totally optional, and not everyone needs one in their skincare routine. However, using a toner can help smooth out your skin tone and complexion. To add a toner to your skincare routine, pour a pea-sized amount onto a cotton swab and gently rub it into your skin right after cleansing. [7] X Trustworthy Source Cleveland Clinic Educational website from one of the world's leading hospitals Go to source For oily or acne-prone skin: Cleansing toner (to prevent breakouts) For dry skin: Hydrating toner (to moisturize throughout the day) For combination or normal skin: Toner with witch hazel and aloe (to smooth skin and close the pores) For sensitive skin: Soothing toner (for hydration without irritation) For aging skin: Toner with vitamin C (to hydrate and plump skin) If you use serums, acne cream, or other products on your skin, now is the time to apply those as well. 7. Apply moisturizer to lock in hydration after cleansing. Washing your face is very drying, and all skin types need some moisture afterward. Find a moisturizer that’s for your skin type, then rub moisturizer all over your skin with your fingertips. [8] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source For oily or acne-prone skin: Hydrating gel [9] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source For dry skin: Thick salve or ointment For combination or normal skin: Moisturizing lotion For sensitive skin: Fragrance-free moisturizer For aging skin: Cream-based moisturizer [10] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source 8. Cleanse your skin in the morning and at night to keep it clean. Experts recommend washing your face 2 times per day, or after you sweat. This will help keep your skin clean and avoid oil-buildup and breakouts. [11] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source Overwashing your face can be just as damaging as not washing it enough. Although it might seem like a good idea to cleanse your skin more often throughout the day, your face needs its natural oils to function. Try to stick to washing once in the morning and once at night for the best results. If you feel like your skin needs a refresh during the day, splash it with lukewarm water and then pat your face dry. This will help wipe away any excess oil or grime on your skin. Don’t feel like you need to include a whole slew of products in order to have a great routine. Try adding in products one at a time to figure out what works best for you! Reader Poll: We asked 871 wikiHow readers about what products make up their daily skincare routine, and 56% of them shared that they use just water and maybe one product . [Take Poll] 9. Exfoliating removes dead skin cells and opens up your pores. Over-exfoliating can be drying and can lead to breakouts, so try to exfoliate instead of washing your face no more than once a week. To exfoliate, wet your skin with lukewarm water, then gently rub a chemical exfoliant or a physical exfoliant onto your skin. Rinse your skin with lukewarm water, pat it dry, then follow up with a moisturizer. [12] X Trustworthy Source American Academy of Dermatology Professional organization made of over 20,000 certified dermatologists Go to source Chemical exfoliants are better for dry or sensitive skin, and physical exfoliants are better for normal or oily skin. Exfoliating is very drying, so always follow up with a moisturizer afterwards. 10. Use sunscreen to prevent dark marks and hyperpigmentation. An important part of your skin care routine is using SPF 30 or higher sunscreen every day. Apply it after your moisturizer and before your makeup (if you wear it) to protect against UV rays when you head outside. Make sure to reapply your sunscreen every 2 hours, or as often as the bottle tells you to. If you have oily skin, look for an oil-free sunscreen to avoid clogged pores or breakouts. For all other skin types, look for a sunscreen that’s formulated for your face. Remember, UV rays are always there, even on cloudy days! Sunscreen will protect your skin even when you can’t see the sun.",
+    "reference_images": [
+      "data/life/72_1.jpg",
+      "data/life/72_2.jpg",
+      "data/life/72_3.jpg",
+      "data/life/72_4.jpg",
+      "data/life/72_5.jpg",
+      "data/life/72_6.jpg",
+      "data/life/72_7.jpg",
+      "data/life/72_8.jpg",
+      "data/life/72_9.jpg",
+      "data/life/72_10.jpg"
+    ],
+    "generated_text": "Here are the two parts, as requested—first the text, then the (separate) illustration above.\n\n# Text: How to wash your face properly\n\n1. Wash your hands\n   Gets dirt and oils off so you don’t rub them onto your face.\n\n2. Remove makeup / heavy sunscreen (PM)\n   Use micellar water or a cleansing balm/oil. Rinse if the product calls for it. If you wore long-wear makeup or water-resistant SPF, do a gentle second cleanse with your regular face cleanser.\n\n3. Wet your face with lukewarm water\n   Not hot (can strip) or icy (can irritate).\n\n4. Apply cleanser (nickel-size)\n   Pick one for your skin type:\n\n* Oily/combination → gel/foaming, non-comedogenic\n* Dry → cream/milk\n* Sensitive/rosacea-prone → fragrance-free, very gentle\n* Acne-prone → salicylic acid (0.5–2%) a few times/week if tolerated\n\n5. Massage 30–60 seconds\n   Use soft circular motions with fingertips. Cover T-zone, along hairline, around nose, and jawline. Don’t scrub or use harsh brushes.\n\n6. Rinse thoroughly\n   Lukewarm water until the slip is gone—residue can cause dryness or breakouts.\n\n7. Pat dry with a clean towel\n   Blot, don’t rub. Reserve a small towel for your face only.\n\n8. Moisturize within 1–2 minutes\n   Seal in moisture while skin is still slightly damp.\n   Morning: finish with broad-spectrum SPF 30+ (last step).\n   Night: use your treatment (e.g., retinoid) before or after moisturizer per product directions.\n\n## Extras & good habits\n\n* Frequency: 2× daily (AM & PM). After sweaty workouts, rinse or do a gentle cleanse.\n* Exfoliation: 1–3×/week max. Prefer gentle chemical exfoliants (AHA/BHA). Avoid daily harsh scrubs.\n* Water temp: lukewarm always.\n* Tools: keep headbands and towels clean; replace frequently.\n* Common mistakes to avoid: over-cleansing, using body soap on face, scrubbing red/irritated skin, skipping SPF in the morning.\n* If you have prescriptions or a diagnosed skin condition, follow your clinician’s plan and slot those products in as directed.\n",
+    "generated_image": "GPT-thinking/life/72.png",
+    "gemini_evaluation": {
+      "Question": "How to wash your face properly? Provide illustrated steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image provide accurate, safe, and standard advice for washing one's face. All the information is factually correct and medically sound."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is a perfect visual representation of the generated text. Each of the 8 steps described in the text is illustrated and labeled in the infographic, creating a seamless and coherent guide."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, well-designed infographic that is easy to follow. The text is exceptionally well-written, concise, and structured logically with headings and bullet points, making it very easy to read and understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, informative, and presents the information in a visually appealing and easy-to-digest format. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It provides both the illustrated steps and the text description as requested. It covers the entire process from pre-cleansing (washing hands, removing makeup) to post-cleansing (moisturizing, SPF) and includes extra tips, fully addressing the user's question."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The single infographic efficiently conveys all the main steps. The text is detailed, providing specifics like the amount of cleanser, duration of massage, and product recommendations for different skin types. The additional section on 'Extras & good habits' adds significant depth and value."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to wash your face properly? Provide illustrated steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image provide accurate, safe, and standard advice for washing one's face. All the information is factually correct and medically sound.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is a perfect visual representation of the generated text. Each of the 8 steps described in the text is illustrated and labeled in the infographic, creating a seamless and coherent guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, well-designed infographic that is easy to follow. The text is exceptionally well-written, concise, and structured logically with headings and bullet points, making it very easy to read and understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, informative, and presents the information in a visually appealing and easy-to-digest format. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It provides both the illustrated steps and the text description as requested. It covers the entire process from pre-cleansing (washing hands, removing makeup) to post-cleansing (moisturizing, SPF) and includes extra tips, fully addressing the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The single infographic efficiently conveys all the main steps. The text is detailed, providing specifics like the amount of cleanser, duration of massage, and product recommendations for different skin types. The additional section on 'Extras & good habits' adds significant depth and value.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 70,
+    "domain": "space",
+    "question": "How can visitors walk inside the Akashi Kaikyō Bridge in Japan? Provide a photo and explain.",
+    "reference_text": "On the Kobe side, enclosed observation corridors (the Maiko Marine Promenade) are built into the bridge structure near the deck, with sections of glass floor. These corridors attach to the stiffening girders and anchorages, letting visitors experience the strait from within the bridge while remaining protected.",
+    "reference_images": [
+      "data/space/akashi_kaikyo_maiko_promenade.jpg"
+    ],
+    "generated_text": "# How visitors can “walk inside” the Akashi Kaikyō Bridge\n\nThere are two ways to go *inside* the bridge structure on the Kobe (Maiko) side:\n\n1. Maiko Marine Promenade (self-guided)\n\n* What it is: An enclosed observatory walkway built within the lower truss of the bridge. Long corridors with windows and a few glass-floor sections let you look straight down at the Akashi Strait—without being out in the wind.\n* How to do it: Enter from Maiko Park at the base of the bridge on the Kobe side, buy a ticket, and take the elevator up to the promenade level. It’s a simple come-and-go visit that most ages can do.\n* Good to know: It’s indoors and weather-sheltered. Expect museum-style exhibits, viewing lounges, and occasional glass-floor panels. Check local notices for opening days/hours and maintenance closures.\n\n2. “Bridge World” guided tour (for the adventurous)\n\n* What it is: A reservation-only tour run by the bridge authority. You gear up, walk along service catwalks inside the superstructure, and—on some itineraries—ride an internal elevator and stairs to the top of a main tower for a panorama over Kobe and Awaji.\n* How to do it: Book ahead, arrive on time for the safety briefing, and wear comfortable, closed-toe shoes. Capacity is limited and tours are weather-dependent.\n* Good to know: Age/health restrictions may apply; bags are often limited. Tours can be canceled for strong winds or rain.\n\nGetting there (quick orientation)\n\n* Aim for **Maiko Park** on the Kobe side of the strait. The nearest rail stops are around the Maiko area; from there it’s a short walk to the promenade entrance and the bridge exhibition facilities.\n\nTip\n\n* If you prefer an easy, family-friendly indoor stroll with big views, pick the **Maiko Marine Promenade**. If you want a behind-the-scenes engineering experience (and heights don’t bother you), try to snag a **Bridge World** tour.\n",
+    "generated_image": "GPT-thinking/space/70.png",
+    "gemini_evaluation": {
+      "Question": "How can visitors walk inside the Akashi Kaikyō Bridge in Japan? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          1,
+          "The generated text is factually correct and detailed. However, it completely fails to provide the requested image, which is a major part of the prompt. Therefore, the overall response is incorrect as it does not fulfill the core requirements."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "There is no generated image to evaluate for coherency with the text."
+        ],
+        "Content Quality": [
+          2,
+          "The text quality is excellent; it's well-structured, clear, and grammatically correct. However, the complete absence of the requested image significantly lowers the overall quality of the response."
+        ],
+        "Human Preference Alignment": [
+          2,
+          "The text is helpful and well-written, but the failure to provide a photo as explicitly requested makes the response undesirable and unhelpful from a user's perspective."
+        ],
+        "Completeness": [
+          1,
+          "The response is incomplete because it omits the image component of the prompt. While the text is thorough, the overall answer fails to provide all the requested parts."
+        ],
+        "Content Richness": [
+          2,
+          "The text is very rich, offering more detail and options than the reference text. However, the complete lack of any visual content makes the overall response poor in richness."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How can visitors walk inside the Akashi Kaikyō Bridge in Japan? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The generated text is factually correct and detailed. However, it completely fails to provide the requested image, which is a major part of the prompt. Therefore, the overall response is incorrect as it does not fulfill the core requirements.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is no generated image to evaluate for coherency with the text.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The text quality is excellent; it's well-structured, clear, and grammatically correct. However, the complete absence of the requested image significantly lowers the overall quality of the response.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"The text is helpful and well-written, but the failure to provide a photo as explicitly requested makes the response undesirable and unhelpful from a user's perspective.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is incomplete because it omits the image component of the prompt. While the text is thorough, the overall answer fails to provide all the requested parts.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is very rich, offering more detail and options than the reference text. However, the complete lack of any visual content makes the overall response poor in richness.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 36,
+    "domain": "space",
+    "question": "Why can people walk on the rooftop of Casa Milà in Barcelona among chimneys? Provide a photo and explain.",
+    "reference_text": "Casa Milà’s rooftop is a sculptural landscape of chimneys and ventilation towers designed by Antoni Gaudí. Instead of hiding them, Gaudí made them architectural features. The rooftop paths weave around these forms, supported by arched ceilings below.",
+    "reference_images": [
+      "data/space/casa_mila_rooftop.jpg"
+    ],
+    "generated_text": "### Explanation (separate from the photo)\n\nPeople can walk among the “chimneys” on Casa Milà’s (La Pedrera’s) roof because Gaudí conceived the rooftop as a **habitable landscape** rather than a hidden service area.\n\n* **Designed to be walked:** The roof is a series of undulating terraces with integrated stair-turrets (badalots) that bring you up to circulation paths. It was always accessible for maintenance and intentionally shaped to be navigable.\n* **Functional sculptures:** The helmet-like “warriors” are chimney stacks and ventilation towers; their sculptural forms also help manage wind and prevent back-drafts and rain ingress—so they’re both art and infrastructure.\n* **Structural logic below:** The varying roof levels follow the catenary-arch attic structure underneath, creating hills and dips that turn the roof into a walkable topography.\n* **Open to visitors today:** Railings, marked routes, and staffed entry make the space safely accessible as part of the La Pedrera museum experience, so visitors can explore the architecture and the city views.\n",
+    "generated_image": "GPT-thinking/space/36.png",
+    "gemini_evaluation": {
+      "Question": "Why can people walk on the rooftop of Casa Milà in Barcelona among chimneys? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image is an accurate photograph of the rooftop of Casa Milà. The text explanation is factually correct, detailing Gaudí's design philosophy, the structural reasons for the roof's shape, and the dual function of the chimneys as both sculpture and utility."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image perfectly illustrates the concepts described in the text. The 'undulating terraces,' 'helmet-like 'warriors' (chimneys),' and 'walkable topography' are all clearly visible in the photo, which also shows people walking on the roof as mentioned."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-composed photograph. The text is very well-written, organized into clear bullet points, and free of grammatical errors. It provides an excellent explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. The image is aesthetically pleasing and the text is informative, interesting, and easy to understand. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both a photo and a detailed explanation as requested by the prompt."
+        ],
+        "Content Richness": [
+          5,
+          "The text explanation is significantly richer than the reference. It delves into more detail, explaining the concept of a 'habitable landscape,' the structural logic of the catenary arches below, and the current status of the rooftop as a safe, accessible tourist attraction."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people walk on the rooftop of Casa Milà in Barcelona among chimneys? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image is an accurate photograph of the rooftop of Casa Milà. The text explanation is factually correct, detailing Gaudí's design philosophy, the structural reasons for the roof's shape, and the dual function of the chimneys as both sculpture and utility.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the concepts described in the text. The 'undulating terraces,' 'helmet-like 'warriors' (chimneys),' and 'walkable topography' are all clearly visible in the photo, which also shows people walking on the roof as mentioned.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-composed photograph. The text is very well-written, organized into clear bullet points, and free of grammatical errors. It provides an excellent explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. The image is aesthetically pleasing and the text is informative, interesting, and easy to understand. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both a photo and a detailed explanation as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text explanation is significantly richer than the reference. It delves into more detail, explaining the concept of a 'habitable landscape,' the structural logic of the catenary arches below, and the current status of the rooftop as a safe, accessible tourist attraction.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 90,
+    "domain": "exercise",
+    "question": "How to Smash in Badminton? Show visual steps and text the steps.",
+    "reference_text": "1. Approach the shuttlecock with a forehand grip . Be on your toes and ready to return the shuttle with a smash at any instant. You never know when a smash-worthy shot will present itself. When the shuttle is hit to your end of the court, get underneath and behind it as quickly as possible. The sooner you reach the spot where the shuttle appears to be incoming, the higher it will be and the more time you’ll have to set up a killer smash. You may hear serious badminton players call this kind of maneuver “injection of pace.” All this means is that you add a boost of speed so you have more time to react. 2. Assume a surefooted stance. If the shuttle comes in hot, you might not have a lot of time to react. In ideal conditions, both of your feet will be pointing to the side of the court. Your feet should be about shoulder width apart, your knees slightly bent, and your eyes tracking the ball. Balance is more important at this point than winding up for your smash. If you’re not well-balanced, it’ll negatively impact your smash. 3. Raise your arms and prepare to strike. Hold your racket upright and as far back as possible while still being comfortable. The arm of your non-racket hand should be bent at the elbow and the hand should be at about chin level. The fingers of your non-racket hand can be positioned however you like. Curling your fingers into a fist is most popular, but you can leave them spread out, too. As you prepare to strike, imagine the angle the shuttle will travel. It should be as steep downward as possible while still making it over the net. Raising your non-racket hand will act as a counterbalance for your racket hand, providing greater stability for your smash. 4. Strike the shuttlecock. Aim to connect with the shuttle at the highest point possible. Inhale deeply before you swing and stretch out your non-racket arm so it's roughly shoulder level. Swing with your full racket-arm and exhale as you do so. As you swing, your racket foot should shuffle forward. Power is important at this point, but even more important is hitting the shuttle with the center of the racket. When you feel the racket come in contact with the shuttle, snap your wrist downward. This will add power and steepness to the stroke. You can increase the power of your smash by contracting your abs at the same time you swing at the shuttle. 5. Follow through with your swing and recover for the next rally. An overhead smash will be much more difficult for your opponent(s) to return. But in the event they manage to get it back over the net, you’ll need to be ready to send it right back.",
+    "reference_images": [
+      "data/exercise/90_1.jpg",
+      "data/exercise/90_2.jpg",
+      "data/exercise/90_3.jpg",
+      "data/exercise/90_4.jpg",
+      "data/exercise/90_5.jpg"
+    ],
+    "generated_text": "Here are the **text steps** (separate from the image):\n\n1. Grip\n   Use a relaxed forehand “handshake” grip (not panhandle). V-shape between thumb and index sits on the bevel. Keep fingers loose so you can tighten at impact.\n\n2. Ready stance + split step\n   Face the net, feet wider than shoulders, knees bent, racket up. As your opponent hits, make a light split step to react.\n\n3. Move back & turn sideways\n   Chassé or scissor-step to the rear court. Turn your body so your non-racket shoulder points toward the net.\n\n4. Load the swing\n   Non-racket arm points up at the shuttle for balance. Elbow high, racket head drops behind you; chest and hips coil.\n\n5. Set your feet\n   Rear foot behind, front foot slightly open. If possible, prepare a scissor jump (rear→front) to transfer weight forward.\n\n6. Start the swing from the body\n   Uncoil hips and shoulders first, then the elbow comes forward. Keep wrist relaxed—don’t “push” with a straight arm.\n\n7. Contact point\n   Reach fully and strike the shuttle **slightly in front** of your body at your highest comfortable point.\n\n8. Pronation & snap\n   At contact, rotate the forearm (pronation) and whip the wrist. Think “throwing” the racket head through the shuttle.\n\n9. Follow-through\n   Let the racket continue across your body naturally; don’t stop it short. This preserves power and protects your shoulder.\n\n10. Land & recover\n    Land in a scissor (rear foot forward), take a small hop, and return to base ready for the next shot.\n\nQuick tips\n\n* Aim steep and fast rather than only flat and hard.\n* Mix in drop shots and clears so opponents can’t camp on your smash.\n* Common mistakes: panhandle grip, contacting too far back, swinging only with the arm, and failing to recover.\n\nIf you’d like, I can also provide a short practice plan (shadow swings → multi-shuttle → target cones) to help you master it.\n",
+    "generated_image": "GPT-thinking/exercise/90.png",
+    "gemini_evaluation": {
+      "Question": "How to Smash in Badminton? Show visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct, providing a technically sound and accurate breakdown of the badminton smash technique. All the steps are logical and follow the correct biomechanics of the shot."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "There is perfect coherence between the image and text. The image is a single infographic with 10 numbered panels, and each panel's title and visual content directly correspond to the numbered steps in the text explanation. For example, step 1 in the text is 'Grip', and the first panel of the image illustrates the correct grip."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The generated image is a clear, well-designed, and easy-to-follow infographic. The text is professionally written, using correct terminology, good grammar, and a clear, logical structure that is easy for a learner to follow."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, safe, and provides a visually appealing and clean instructional guide. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It provides both the requested visual steps and text steps, breaking down the entire smash motion from the initial grip and stance to the final recovery. It comprehensively answers the user's question."
+        ],
+        "Content Richness": [
+          5,
+          "The response is exceptionally rich. The text goes into great detail, covering not just the swing but also footwork, body rotation, and advanced concepts like pronation. The inclusion of 'Quick tips' and 'Common mistakes' adds significant value. The 10-panel image provides a rich and detailed visual guide for the entire sequence."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Smash in Badminton? Show visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct, providing a technically sound and accurate breakdown of the badminton smash technique. All the steps are logical and follow the correct biomechanics of the shot.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"There is perfect coherence between the image and text. The image is a single infographic with 10 numbered panels, and each panel's title and visual content directly correspond to the numbered steps in the text explanation. For example, step 1 in the text is 'Grip', and the first panel of the image illustrates the correct grip.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The generated image is a clear, well-designed, and easy-to-follow infographic. The text is professionally written, using correct terminology, good grammar, and a clear, logical structure that is easy for a learner to follow.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, safe, and provides a visually appealing and clean instructional guide. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It provides both the requested visual steps and text steps, breaking down the entire smash motion from the initial grip and stance to the final recovery. It comprehensively answers the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is exceptionally rich. The text goes into great detail, covering not just the swing but also footwork, body rotation, and advanced concepts like pronation. The inclusion of 'Quick tips' and 'Common mistakes' adds significant value. The 10-panel image provides a rich and detailed visual guide for the entire sequence.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 28,
+    "domain": "exercise",
+    "question": "How to do a bench press? Show visual steps and text the steps.",
+    "reference_text": "1. Begin by lying flat on the bench, with your body in a natural and relaxed position. Make sure that you are not holding your shoulders in an awkward position. Be sure to have a natural spinal curve. You do not want to have your lower back flat on the bench, but you do not want to force it to curve too much either. Instead, opt for a comfortable and natural position. You should have your feet flat on the ground, shoulder-width apart, and your shoulders touching the bench. Do not lift on a \"cushiony bench\" if you are a heavy lifter. When the bar and plates weigh more than 200 pounds plus the weight of your upper body, your shoulders will disappear into the bench and cause neck strain. Choose a proper bench that fits your shoulder width. A narrow bench is unstable and a wide bench prevents the upper arm from bending back. 2. Put your arms straight out to either side of you, and then bend your elbows, bringing your hands up to touch the bar. This is where you should position your hands. They should be about shoulder-width apart. Use the smooth rings in the bar as a reference for even hand placement. Where you position your hands will affect which muscle group you work most. Widen your grip slightly to increase the amount of pectoral muscles involved in this exercise, and bring your grip in slightly to increase your triceps involvement. For a standard bench press, opt for the normal grip. 3. Begin with just the bar weight to warm up before heavy lifting. Lift the bar off the rack and position it directly above the middle of your chest. Inhale as you lower it down, gently touching your chest — the middle of the sternum — with the bar. Do not bounce the bar off your chest, as this can cause serious injury and promotes bad form . Begin to exhale as you push the bar up and away from your body. Extend your arms to just under full extension. Repeat this for eight repetitions as your first set. Lift with a bar that has a little flex but is not \"whippy\". A stiff bar can be uncomfortable to lift with. All bars are made of metal and relatively stiff, but a bar with some flex feels better on the joints. The salesperson at the store will give you the right bar for your bodyweight, based on the formula for bodyweight and bench press. Generally, a beginning or intermediate lifter is not going to lift over his bodyweight plus 50%. Examine your goals when choosing a bar. For setting a personal record or a state record and above, use a bar with a standard diameter of 1 1 ⁄ 16 inches (2.7 cm). If not concerned with records, a thicker bar does not dig into the palms and is more comfortable. A thicker bar increases the distance of the lift and decreases the amount that can be lifted. A 1/8 (or 1/16) inch increase in bar diameter has a noticeable difference in feel and stability. 4. Rack the bar and add weight. Always use weight clips to prevent the weights from sliding off the bar in the event that you lift unevenly, do not lift without them. The bar by itself weighs 45 pounds. You will want to increase by five to ten pounds at a time until you find a comfortable weight. Practice extra caution if tall. Tall lifters with wide grips should use care not to crush their hands when racking the bar. Weight benches were made for someone tall (6 feet tall and not for a lifter 6 feet 8 inches tall). Tall lifters should not use an extra wide grip. An extra wide grip strains the wrist with excessive radial flexion. Close and wide grips can make the wrist more prone to injury. Avoid using the thumbless grip. If the bar slips off your hands, it would be disastrous. When being spotted by spotters and by a spotting device the thumbless grip is not as dangerous, but the spotting device has to be very, very solid. The thumbless grips is easier on the wrist and conducts power to the bar more directly (you can lift more). Use chalk with both grips. There are lifters who will use the thumbless grips despite the possible danger. 5. Be sure to have a spotter to help you whenever you lift a heavy weight. You never want to drop the bar on yourself. You also want to be able to max out and be able to recover when you no longer can lift the bar. A spotter will be able to help you recover from your final press. 6. Lift the bar up, slowly bring it down to just above your sternum, and explode upward for one rep. Pay attention to your form as you add more weight. It's easier to bend your wrists, bounce the weight off your chest, and exhibit other \"no-nos\" when trying to lift big. You'll gain more muscle and strength lifting the right form and lower weight than you will lifting with higher weight and the wrong form. Lifters generally do between 8 and 12 reps (also called \"repetitions\") and 3 to six sets (one set is the maximum numbers of reps you give yourself). 7. Drink plenty of water and take at least two minute breaks between each set. Water will help you stay hydrated and allow your muscles to function at high capacity, giving you an overall better workout. 8. Rest according to how you feel between sets. Some guides say the ideal rest time between sets is 90 to 120 seconds. While this is perhaps a good general guide for increasing muscle mass, it may not be ideal for you as an individual. You probably don't want to overshoot the 2-3 minute range, but you don't want to rush yourself into lifting thin. If your ultimate goal is gaining muscle and mass, you're going to want to shock your body. How you do this is up to you. It can mean cutting down on rest time, increasing poundage on lifts, supersetting, etc. As long as you manage to keep pushing your body physically, you will notice a difference.",
+    "reference_images": [
+      "data/exercise/28_1.jpg",
+      "data/exercise/28_2.jpg",
+      "data/exercise/28_3.jpg",
+      "data/exercise/28_4.jpg",
+      "data/exercise/28_5.jpg",
+      "data/exercise/28_6.jpg",
+      "data/exercise/28_7.jpg",
+      "data/exercise/28_8.jpg"
+    ],
+    "generated_text": "Here are the steps in text (image is above):\n\n# How to perform a forearm plank (step-by-step)\n\n1. Set up\n\n* Kneel on a mat. Place **forearms on the floor**, elbows directly under shoulders. Hands parallel (either palms flat or lightly make fists).\n\n2. Brace before you lift\n\n* Take a small inhale. On the exhale, **brace your core** like you’re about to be lightly poked in the stomach.\n* Squeeze glutes and lightly **tuck the pelvis** (posterior tilt) to keep the low back neutral.\n* Press the floor away so your shoulder blades spread slightly (no shoulder shrug).\n\n3. Step back to plank\n\n* Extend one leg back, then the other so you’re on your toes.\n* Feet hip-width apart (wider is easier for balance).\n\n4. Find your straight line\n\n* Ears-to-ankles in one line: **neck long, gaze down**, ribs stacked over pelvis, hips neither sagging nor piked.\n* Keep quads tight and heels pushing back.\n\n5. Breathe & hold\n\n* Breathe quietly—**3–4 second inhale, 3–5 second exhale**.\n* Hold for **10–30 seconds** with perfect form. Rest, then do 2–4 sets. (Advance toward 30–60 seconds if pain-free and form is solid.)\n\n6. Finish\n\n* Gently **lower your knees** to the mat, then sit back and relax the shoulders.\n\n### Quick checkpoints\n\n* Elbows under shoulders\n* Ribs down, pelvis slightly tucked\n* Hips level with shoulders\n* Head in line with spine\n* Steady breathing\n\n### Common mistakes (avoid)\n\n* Sagging or hiking the hips\n* Letting the low back arch or the head drop\n* Shrugging into the neck or collapsing through the shoulders\n* Holding your breath\n\n### Easier options\n\n* **Knee plank** (knees on the mat, same alignment)\n* **Hands elevated** on a bench or countertop (high plank)\n\n### Harder options (when ready)\n\n* **High plank** on hands\n* **Side plank** (stack feet, elbow under shoulder)\n* **Single-leg or shoulder tap** holds while keeping hips still\n\nIf anything hurts—especially your lower back—stop, reset your alignment, or choose an easier option.",
+    "generated_image": "GPT-thinking/exercise/28.png",
+    "gemini_evaluation": {
+      "Question": "How to do a bench press? Show visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          0,
+          "The generated response is completely incorrect. The question asks how to do a bench press, but the generated image and text explain how to do a forearm plank. This is a complete failure to answer the user's question."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "The generated image and text are coherent with each other, as they both describe the plank exercise. However, they are completely incoherent with the user's question about the bench press."
+        ],
+        "Content Quality": [
+          1,
+          "While the image is clear and the text is well-written and grammatically correct, the content is for the entirely wrong exercise. Therefore, its quality in the context of the user's request is extremely low."
+        ],
+        "Human Preference Alignment": [
+          2,
+          "The content is safe and well-formatted. However, it completely ignores the user's prompt, which is highly undesirable."
+        ],
+        "Completeness": [
+          0,
+          "The response provides zero information about how to do a bench press. It is completely incomplete."
+        ],
+        "Content Richness": [
+          0,
+          "The response lacks any richness related to the requested topic of the bench press. While the provided text on planks is detailed, it is irrelevant to the question."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to do a bench press? Show visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            0,\n            \"The generated response is completely incorrect. The question asks how to do a bench press, but the generated image and text explain how to do a forearm plank. This is a complete failure to answer the user's question.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"The generated image and text are coherent with each other, as they both describe the plank exercise. However, they are completely incoherent with the user's question about the bench press.\"\n        ],\n        \"Content Quality\": [\n            1,\n            \"While the image is clear and the text is well-written and grammatically correct, the content is for the entirely wrong exercise. Therefore, its quality in the context of the user's request is extremely low.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"The content is safe and well-formatted. However, it completely ignores the user's prompt, which is highly undesirable.\"\n        ],\n        \"Completeness\": [\n            0,\n            \"The response provides zero information about how to do a bench press. It is completely incomplete.\"\n        ],\n        \"Content Richness\": [\n            0,\n            \"The response lacks any richness related to the requested topic of the bench press. While the provided text on planks is detailed, it is irrelevant to the question.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 13,
+    "domain": "diagram",
+    "question": "I am preparing a figure for my paper to illustrate the following framework:\nThis figure showcases AutoPresent, a system for generating presentation slides directly from natural language instructions. The system interprets user instructions and produces slides with precise formatting and content, including text, images, backgrounds, and layout.\n\n**Main Components**:\n- **Input**: Natural language command, e.g., \"Present Airbnb's misión with a mission statement and a relevant image, for English and Spanish audience.\"\n- **Code Generation**: A code snippet is auto-generated using a Python `pptx` library. The functions include:\n  - `add_title()` to insert slide titles.\n  - `add_text()` for detailed mission statement content.\n  - `search_image()` and `generate_image()` to insert related visuals.\n  - `set_background_color()` for visual styling.\n- **Slide Output Examples**:\n  - A bilingual mission slide with retrieved image and color styling.\n  - Slides created with titles, diagrams (via `add_shape()`), web snapshots (via `take_snapshot()`), and rich layouts.\n\n**Key Functions Highlighted**: Each visual element is annotated with the corresponding API call that generated it (e.g., `add_title`, `search_image`, `add_shape(box)`), illustrating the full visual design pipeline.\n\nPlease generate:\n 1. A diagram showing how natural language maps to structured presentation components.\n 2. A separate caption summarizing the key visual flow from instruction to layout and content rendering.",
+    "reference_text": "Automatically generating slides from natural language instructions. We propose AutoPresent, a tool-augmented code generation method that follows natural language instructions to design slides from scratch, as shown in the examples. This allows for precise control over all elements, including textual content, images, visual layouts, coloring, and more.",
+    "reference_images": [
+      "data/diagram/AutoPresent-Overview.png"
+    ],
+    "generated_text": "AutoPresent maps a natural-language instruction to structured slide components and renders them as finished slides. The pipeline proceeds left-to-right: (1) **Input** parses the user request and detects targets (e.g., title, mission text, image, bilingual audience). (2) **Interpretation & Planning** expands the request into a slide schema (title, text blocks, image slot, background color, layout grid, language variants). (3) **Code Generation** emits Python `pptx` calls that realize each element—`add_title()` for headings, `add_text()` for mission content, `search_image()`/`generate_image()` for visuals, `set_background_color()` for styling, `add_shape()` for diagrams, and `take_snapshot()` for web snapshots. (4) **Rendering** assembles assets with the pptx renderer and validates formatting. (5) **Slide Outputs** show examples: a bilingual mission slide (EN/ES) with retrieved image and color styling, a diagram slide built via `add_shape()`, and a web-snapshot slide produced by `take_snapshot()`. Each visual element is annotated with the API call that created it, illustrating the full path from instruction to layout and content rendering.",
+    "generated_image": "GPT-thinking/diagram/13.png",
+    "gemini_evaluation": {
+      "Question": "I am preparing a figure for my paper to illustrate the following framework:\nThis figure showcases AutoPresent, a system for generating presentation slides directly from natural language instructions. The system interprets user instructions and produces slides with precise formatting and content, including text, images, backgrounds, and layout.\n\n**Main Components**:\n- **Input**: Natural language command, e.g., \"Present Airbnb's misión with a mission statement and a relevant image, for English and Spanish audience.\"\n- **Code Generation**: A code snippet is auto-generated using a Python `pptx` library. The functions include:\n  - `add_title()` to insert slide titles.\n  - `add_text()` for detailed mission statement content.\n  - `search_image()` and `generate_image()` to insert related visuals.\n  - `set_background_color()` for visual styling.\n- **Slide Output Examples**:\n  - A bilingual mission slide with retrieved image and color styling.\n  - Slides created with titles, diagrams (via `add_shape()`), web snapshots (via `take_snapshot()`), and rich layouts.\n\n**Key Functions Highlighted**: Each visual element is annotated with the corresponding API call that generated it (e.g., `add_title`, `search_image`, `add_shape(box)`), illustrating the full visual design pipeline.\n\nPlease generate:\n\t1. A diagram showing how natural language maps to structured presentation components.\n\t2. A separate caption summarizing the key visual flow from instruction to layout and content rendering.",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated image and text correctly depict the requested framework. The diagram accurately shows the flow from natural language input to slide outputs, and it includes all the specified components and function annotations. The only inaccuracy is that the text within the diagram's example slides and input box is illegible placeholder text, not the actual content described in the prompt (e.g., 'Airbnb's misión')."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text perfectly describes the generated image. It follows the five-step pipeline shown in the diagram, explaining each stage (Input, Interpretation, Code Generation, Rendering, Outputs) in detail. The text accurately references the visual elements and annotations present in the image, creating a very strong and coherent connection between the two."
+        ],
+        "Content Quality": [
+          3,
+          "The text quality is excellent—it is well-written, clear, and professional. However, the image quality is significantly compromised by the use of garbled, unreadable text for all the content examples. While the overall layout and structure of the diagram are good, the placeholder text makes it look unfinished and reduces its utility as a final figure."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The generated response is highly aligned with the user's request for a professional figure for a paper. The style is clean, the diagram is logical, and the caption is informative. It successfully avoids any undesirable content and presents the information in a formal, academic tone."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested diagram and the separate caption. All the components and functions specified in the prompt (input, code generation, specific slide examples, annotations) are included in both the visual and textual explanations."
+        ],
+        "Content Richness": [
+          4,
+          "The response is quite rich, adding logical intermediate steps like 'Interpretation & Planning' and 'Rendering' that were not in the reference, making the pipeline more detailed. The text provides a thorough explanation. The only minor drawback is that the 'Code Generation' step in the image lists functions rather than showing a code snippet, and the examples use placeholder text, which is less rich than showing the actual content."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I am preparing a figure for my paper to illustrate the following framework:\\nThis figure showcases AutoPresent, a system for generating presentation slides directly from natural language instructions. The system interprets user instructions and produces slides with precise formatting and content, including text, images, backgrounds, and layout.\\n\\n**Main Components**:\\n- **Input**: Natural language command, e.g., \\\"Present Airbnb's misión with a mission statement and a relevant image, for English and Spanish audience.\\\"\\n- **Code Generation**: A code snippet is auto-generated using a Python `pptx` library. The functions include:\\n  - `add_title()` to insert slide titles.\\n  - `add_text()` for detailed mission statement content.\\n  - `search_image()` and `generate_image()` to insert related visuals.\\n  - `set_background_color()` for visual styling.\\n- **Slide Output Examples**:\\n  - A bilingual mission slide with retrieved image and color styling.\\n  - Slides created with titles, diagrams (via `add_shape()`), web snapshots (via `take_snapshot()`), and rich layouts.\\n\\n**Key Functions Highlighted**: Each visual element is annotated with the corresponding API call that generated it (e.g., `add_title`, `search_image`, `add_shape(box)`), illustrating the full visual design pipeline.\\n\\nPlease generate:\\n\\t1. A diagram showing how natural language maps to structured presentation components.\\n\\t2. A separate caption summarizing the key visual flow from instruction to layout and content rendering.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated image and text correctly depict the requested framework. The diagram accurately shows the flow from natural language input to slide outputs, and it includes all the specified components and function annotations. The only inaccuracy is that the text within the diagram's example slides and input box is illegible placeholder text, not the actual content described in the prompt (e.g., 'Airbnb's misión').\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly describes the generated image. It follows the five-step pipeline shown in the diagram, explaining each stage (Input, Interpretation, Code Generation, Rendering, Outputs) in detail. The text accurately references the visual elements and annotations present in the image, creating a very strong and coherent connection between the two.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text quality is excellent—it is well-written, clear, and professional. However, the image quality is significantly compromised by the use of garbled, unreadable text for all the content examples. While the overall layout and structure of the diagram are good, the placeholder text makes it look unfinished and reduces its utility as a final figure.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly aligned with the user's request for a professional figure for a paper. The style is clean, the diagram is logical, and the caption is informative. It successfully avoids any undesirable content and presents the information in a formal, academic tone.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested diagram and the separate caption. All the components and functions specified in the prompt (input, code generation, specific slide examples, annotations) are included in both the visual and textual explanations.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is quite rich, adding logical intermediate steps like 'Interpretation & Planning' and 'Rendering' that were not in the reference, making the pipeline more detailed. The text provides a thorough explanation. The only minor drawback is that the 'Code Generation' step in the image lists functions rather than showing a code snippet, and the examples use placeholder text, which is less rich than showing the actual content.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 34,
+    "domain": "diagram",
+    "question": "I am preparing a figure to illustrate different pipelines for video anomaly detection (VAD) using vision-language models (VLMs). The figure should compare three approaches:\n\n1. **Pipeline 1**: A frozen VLM is used for video description and relies on an external LLM for reasoning. The final decision (normal or abnormal) is made using coarse-labeled training data.\n2. **Pipeline 2**: Instruction tuning is applied to the VLM, allowing it to describe and reason jointly. This approach requires training on instruction datasets with frame-level annotations.\n3. **VERA (our method)**: Introduces VAD guiding questions to query a frozen VLM, enabling it to describe and reason without instruction tuning. The guiding questions are learnable and derived from coarsely labeled data.\n\nIn the figure, visually distinguish between frozen modules, learnable modules, inference, and training steps. Show side-by-side comparisons for these three methods, and use example video frames to indicate both test input and training sets.\n\nPlease generate:\n 1. A comparative diagram of the three VAD pipelines with appropriate arrows, color codes, and labels.\n 2. A separate caption summarizing the figure. Provide the image and caption separately.",
+    "reference_text": "Figure 1. VERA renders frozen VLMs to describe and reason with learnable guiding questions learned from coarsely labeled data.",
+    "reference_images": [
+      "data/diagram/VERA_VAD_Pipelines.png"
+    ],
+    "generated_text": "# Figure Caption (separate)\n\n**Figure X: Side-by-side comparison of three VAD pipelines using VLMs.**\n**(Left) Pipeline 1 — Frozen VLM + External LLM:** test video frames are captioned by a **frozen VLM** (blue); an **external LLM** performs reasoning, and a small **decision head** is trained only with **coarse-labeled videos** (dashed training arrows) to output *Normal/Abnormal*.\n**(Middle) Pipeline 2 — Instruction-Tuned VLM:** the VLM becomes **learnable** (orange) and is **instruction-tuned** to *describe + reason* jointly using **instruction datasets with frame-level annotations** (green). The tuned VLM feeds a decision head at inference (solid arrows).\n**(Right) VERA — Our Method:** **learnable VAD guiding questions** are trained from **coarse labels** and used to **query a frozen VLM**, eliciting descriptions and reasoning *without instruction tuning*; only the question module and decision head are learned.\n**Legend:** Frozen modules = blue, learnable modules = orange, datasets = green, **solid** arrows = inference, **dashed** arrows = training.\n",
+    "generated_image": "GPT-thinking/diagram/34.png",
+    "gemini_evaluation": {
+      "Question": "I am preparing a figure to illustrate different pipelines for video anomaly detection (VAD) using vision-language models (VLMs). The figure should compare three approaches:\n\n1. **Pipeline 1**: A frozen VLM is used for video description and relies on an external LLM for reasoning. The final decision (normal or abnormal) is made using coarse-labeled training data.\n2. **Pipeline 2**: Instruction tuning is applied to the VLM, allowing it to describe and reason jointly. This approach requires training on instruction datasets with frame-level annotations.\n3. **VERA (our method)**: Introduces VAD guiding questions to query a frozen VLM, enabling it to describe and reason without instruction tuning. The guiding questions are learnable and derived from coarsely labeled data.\n\nIn the figure, visually distinguish between frozen modules, learnable modules, inference, and training steps. Show side-by-side comparisons for these three methods, and use example video frames to indicate both test input and training sets.\n\nPlease generate:\n 1. A comparative diagram of the three VAD pipelines with appropriate arrows, color codes, and labels.\n 2. A separate caption summarizing the figure. Provide the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both entirely correct. The diagram accurately represents all three specified pipelines, correctly distinguishing between frozen/learnable modules, training/inference steps, and data sources as requested in the prompt. The text caption is a precise and factual description of the diagram."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "There is perfect coherence between the generated image and text. The text caption explicitly describes the visual elements of the diagram, including the color-coding (blue for frozen, orange for learnable), arrow styles (solid for inference, dashed for training), and the components of each of the three pipelines. Every detail mentioned in the caption is accurately depicted in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The diagram is clear, professionally laid out, and easy to interpret, effectively using visual aids like color and icons to convey complex information. The text is well-written, grammatically correct, and structured logically with a clear title, per-pipeline descriptions, and a legend."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for a scientific or technical illustration. It is clear, accurate, and professional. There is no undesirable or inappropriate content."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested comparative diagram and the separate text caption, fulfilling both parts of the prompt. All specified components and details are included."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail. The diagram includes small visual examples for the video inputs/datasets, which adds clarity. The text is detailed and comprehensive, breaking down the explanation for each pipeline and providing a full legend, making the figure self-contained and easy to understand. It successfully captures the same level of detail as the reference."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I am preparing a figure to illustrate different pipelines for video anomaly detection (VAD) using vision-language models (VLMs). The figure should compare three approaches:\\n\\n1. **Pipeline 1**: A frozen VLM is used for video description and relies on an external LLM for reasoning. The final decision (normal or abnormal) is made using coarse-labeled training data.\\n2. **Pipeline 2**: Instruction tuning is applied to the VLM, allowing it to describe and reason jointly. This approach requires training on instruction datasets with frame-level annotations.\\n3. **VERA (our method)**: Introduces VAD guiding questions to query a frozen VLM, enabling it to describe and reason without instruction tuning. The guiding questions are learnable and derived from coarsely labeled data.\\n\\nIn the figure, visually distinguish between frozen modules, learnable modules, inference, and training steps. Show side-by-side comparisons for these three methods, and use example video frames to indicate both test input and training sets.\\n\\nPlease generate:\\n 1. A comparative diagram of the three VAD pipelines with appropriate arrows, color codes, and labels.\\n 2. A separate caption summarizing the figure. Provide the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both entirely correct. The diagram accurately represents all three specified pipelines, correctly distinguishing between frozen/learnable modules, training/inference steps, and data sources as requested in the prompt. The text caption is a precise and factual description of the diagram.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"There is perfect coherence between the generated image and text. The text caption explicitly describes the visual elements of the diagram, including the color-coding (blue for frozen, orange for learnable), arrow styles (solid for inference, dashed for training), and the components of each of the three pipelines. Every detail mentioned in the caption is accurately depicted in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The diagram is clear, professionally laid out, and easy to interpret, effectively using visual aids like color and icons to convey complex information. The text is well-written, grammatically correct, and structured logically with a clear title, per-pipeline descriptions, and a legend.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for a scientific or technical illustration. It is clear, accurate, and professional. There is no undesirable or inappropriate content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested comparative diagram and the separate text caption, fulfilling both parts of the prompt. All specified components and details are included.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail. The diagram includes small visual examples for the video inputs/datasets, which adds clarity. The text is detailed and comprehensive, breaking down the explanation for each pipeline and providing a full legend, making the figure self-contained and easy to understand. It successfully captures the same level of detail as the reference.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 69,
+    "domain": "diagram",
+    "question": "I'm creating a figure to illustrate the architecture of PathWeave, a continual modality learning framework for vision-language models.\nThe figure has two parts:\n1. **Architecture Overview (Left)**: This shows the PathWeave system beginning with multiple modality encoders (image, video, audio, depth, point), feeding into a frozen LLM via a Q-Former with Adapter-in-Adapter (AnA) modules. It includes modality expansion using adapters for cross-modal alignment.\n2. **Training vs. Testing (Right)**: The right part highlights the difference between training and testing on different modalities using uni-modal adapters and a gating mechanism (MoE-based $G^m$).\nPlease provide:\n 1. A clear figure visualizing the PathWeave architecture and modality expansion method.\n 2. A concise figure caption. Output the image and caption separately.",
+    "reference_text": "Figure 2: PathWeave continually expands modality support using frozen LLMs and adapters. Left: modality encoders feed into Q-Former with AnA for cross-modal alignment. Right: Training (bottom) uses trainable adapters and gating; testing (top) uses frozen ones for inference.",
+    "reference_images": [
+      "data/diagram/PathWeave-ContinualModalLearning.png"
+    ],
+    "generated_text": "# Figure Caption — PathWeave\n\n**PathWeave: Continual Modality Learning for VLMs.**\n**(a) Architecture Overview (left):** Image, video, audio, depth, and point encoders feed visual/audio tokens into a **Q-Former** equipped with **Adapter-in-Adapter (AnA)** blocks. **Expansion adapters** enable adding new modalities without touching the backbone; AnA aligns cross-modal features before passing them to a **frozen LLM (❄️)** for reasoning. Trainable modules are marked with 🔥; adapters are highlighted and grouped to show cross-modal alignment and expansion.\n**(b) Training vs. Testing (right):** During **training**, modality-specific tokens pass through **uni-modal adapters** and a **MoE-based gate $G^m$** that routes/weights experts to learn per-modality paths. During **testing**, the same gate selects the appropriate uni-modal adapter(s) for the incoming modality, producing routed tokens for the frozen LLM. Legends distinguish frozen vs. trainable, adapter blocks, and the gating unit.\n",
+    "generated_image": "GPT-thinking/diagram/69.png",
+    "gemini_evaluation": {
+      "Question": "I'm creating a figure to illustrate the architecture of PathWeave, a continual modality learning framework for vision-language models.\nThe figure has two parts:\n1. **Architecture Overview (Left)**: This shows the PathWeave system beginning with multiple modality encoders (image, video, audio, depth, point), feeding into a frozen LLM via a Q-Former with Adapter-in-Adapter (AnA) modules. It includes modality expansion using adapters for cross-modal alignment.\n2. **Training vs. Testing (Right)**: The right part highlights the difference between training and testing on different modalities using uni-modal adapters and a gating mechanism (MoE-based $G^m$).\nPlease provide:\n 1. A clear figure visualizing the PathWeave architecture and modality expansion method.\n 2. A concise figure caption. Output the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text correctly represent all the components of the PathWeave architecture as described in the prompt and the reference. All key elements like multiple encoders, Q-Former, AnA, frozen LLM, and the training/testing distinction with uni-modal adapters and gating are accurately included."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text is an excellent and detailed description of the generated image. It is structured into parts (a) and (b) that directly correspond to the left and right panels of the figure, and it even explains the iconography (🔥, ❄️) and legend used in the image. The alignment is perfect."
+        ],
+        "Content Quality": [
+          4,
+          "The text quality is excellent—it is well-structured, clear, and grammatically correct. The image is conceptually correct and contains all the necessary information, but its visual execution is slightly cluttered and less polished than the reference. Some text labels within the image are small and slightly distorted, which slightly reduces the overall quality."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preferences. The content is safe, relevant, and presents the technical information in a helpful and appropriate manner. The diagram's style is suitable for a technical illustration."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested image and a separate, detailed text caption, fulfilling all aspects of the user's prompt."
+        ],
+        "Content Richness": [
+          5,
+          "The generated content is very rich. The image uses color-coding, icons, and a legend to convey a lot of information effectively. The text caption is significantly more detailed and explanatory than the concise reference caption, providing a much deeper understanding of the architecture, which is a major strength."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm creating a figure to illustrate the architecture of PathWeave, a continual modality learning framework for vision-language models.\\nThe figure has two parts:\\n1. **Architecture Overview (Left)**: This shows the PathWeave system beginning with multiple modality encoders (image, video, audio, depth, point), feeding into a frozen LLM via a Q-Former with Adapter-in-Adapter (AnA) modules. It includes modality expansion using adapters for cross-modal alignment.\\n2. **Training vs. Testing (Right)**: The right part highlights the difference between training and testing on different modalities using uni-modal adapters and a gating mechanism (MoE-based $G^m$).\\nPlease provide:\\n 1. A clear figure visualizing the PathWeave architecture and modality expansion method.\\n 2. A concise figure caption. Output the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text correctly represent all the components of the PathWeave architecture as described in the prompt and the reference. All key elements like multiple encoders, Q-Former, AnA, frozen LLM, and the training/testing distinction with uni-modal adapters and gating are accurately included.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text is an excellent and detailed description of the generated image. It is structured into parts (a) and (b) that directly correspond to the left and right panels of the figure, and it even explains the iconography (🔥, ❄️) and legend used in the image. The alignment is perfect.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text quality is excellent—it is well-structured, clear, and grammatically correct. The image is conceptually correct and contains all the necessary information, but its visual execution is slightly cluttered and less polished than the reference. Some text labels within the image are small and slightly distorted, which slightly reduces the overall quality.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preferences. The content is safe, relevant, and presents the technical information in a helpful and appropriate manner. The diagram's style is suitable for a technical illustration.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested image and a separate, detailed text caption, fulfilling all aspects of the user's prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated content is very rich. The image uses color-coding, icons, and a legend to convey a lot of information effectively. The text caption is significantly more detailed and explanatory than the concise reference caption, providing a much deeper understanding of the architecture, which is a major strength.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0119",
+    "domain": "textbook",
+    "question": "What are the internal parts of an earthworm and how do they function? Use the image to explain.",
+    "reference_text": "Earthworms have a segmented body with a complete digestive system, a brain, ventral nerve cord, and hearts that pump blood. They are hermaphrodites with both reproductive organs.",
+    "reference_images": [
+      "data/textbook/parts_worm_7310.png"
+    ],
+    "generated_text": "Text (what the main parts do):\n1.\tMouth/Prostomium – scoops soil‐organic matter into the mouth.\n2.\tPharynx – muscular “suction pump” that pulls food in and lubricates it with mucus.\n3.\tEsophagus – narrow tube that carries food posteriorly.\n4.\tCrop – thin-walled storage sac; temporarily holds food.\n5.\tGizzard – thick, muscular grinder; uses sand/grit to pulverize food.\n6.\tIntestine – long absorptive tube where enzymes finish digestion and nutrients are absorbed into blood.\n7.\tTyphlosole – inward fold of the intestinal wall that increases surface area for absorption.\n8.\tDorsal blood vessel – main longitudinal vessel that carries blood anteriorly (toward the head).\n9.\tVentral blood vessel – returns blood posteriorly; supplies segmental vessels.\n10.\tAortic arches (“hearts”) – muscular loops that pump blood from dorsal to ventral vessels, maintaining pressure.\n11.\tCerebral ganglion (brain) – small paired nerve center above the pharynx; coordinates movement and behavior.\n12.\tVentral nerve cord & segmental ganglia – the worm’s “spinal cord”; relays signals to/from each segment for coordinated crawling.\n13.\tNephridia – paired coiled tubes in most segments that remove nitrogenous waste and regulate salts/water (excretory system).\n14.\tSeminal vesicles – sacs that store sperm produced by the testes before mating.\n15.\tSeminal receptacles – receive and store sperm from a partner during mating.\n16.\tOvaries/Oviducts – produce eggs and release them to be packaged later in a cocoon.\n17.\tAnus – eliminates indigestible material; castings enrich soil.\n\nHow it all works together (quick flow):\nFood goes mouth → pharynx → esophagus → crop → gizzard → intestine (typhlosole boosts absorption) → anus. The closed circulatory system (dorsal/ventral vessels + aortic arches) distributes oxygen and nutrients. The nervous system (brain + ventral nerve cord) synchronizes peristalsis and bristle (setae) use for locomotion. Nephridia in each segment handle waste and water balance. As hermaphrodites, earthworms exchange sperm; the clitellum (external band, not shown) later secretes a cocoon where eggs and stored sperm unite and develop. ￼",
+    "generated_image": "GPT-thinking/textbook/119.png",
+    "gemini_evaluation": {
+      "Question": "What are the internal parts of an earthworm and how do they function? Use the image to explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately labels the major internal organs of an earthworm, and the text provides a detailed and accurate description of each part's function."
+        ],
+        "Image-Text Coherency": [
+          4,
+          "The image and text are well-aligned. The image provides a visual diagram of the key structures, and all the parts labeled in the image are explained in detail in the text. However, the text is more comprehensive than the image's labels (e.g., it mentions the typhlosole and nephridia, which are not labeled), so the coherency is not perfect."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, easy-to-understand diagram. The text is exceptionally well-written, highly organized with a numbered list and a summary, and uses precise scientific language. It is very high-quality educational content."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference. It is an appropriate, educational, and well-presented answer to a biological question. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is very complete, significantly more so than the reference. It thoroughly answers both parts of the question by identifying numerous internal parts and clearly explaining their functions and how the systems work together."
+        ],
+        "Content Richness": [
+          5,
+          "The generated text is extremely rich in detail, providing a comprehensive breakdown of the digestive, circulatory, nervous, excretory, and reproductive systems. The summary paragraph effectively synthesizes the information, adding significant value and depth to the explanation."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are the internal parts of an earthworm and how do they function? Use the image to explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately labels the major internal organs of an earthworm, and the text provides a detailed and accurate description of each part's function.\"\n        ],\n        \"Image-Text Coherency\": [\n            4,\n            \"The image and text are well-aligned. The image provides a visual diagram of the key structures, and all the parts labeled in the image are explained in detail in the text. However, the text is more comprehensive than the image's labels (e.g., it mentions the typhlosole and nephridia, which are not labeled), so the coherency is not perfect.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, easy-to-understand diagram. The text is exceptionally well-written, highly organized with a numbered list and a summary, and uses precise scientific language. It is very high-quality educational content.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference. It is an appropriate, educational, and well-presented answer to a biological question. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is very complete, significantly more so than the reference. It thoroughly answers both parts of the question by identifying numerous internal parts and clearly explaining their functions and how the systems work together.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated text is extremely rich in detail, providing a comprehensive breakdown of the digestive, circulatory, nervous, excretory, and reproductive systems. The summary paragraph effectively synthesizes the information, adding significant value and depth to the explanation.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0065",
+    "domain": "textbook",
+    "question": "What are faults, and how do they cause earthquakes? an image will help explain.",
+    "reference_text": "Faults are fractures in Earth's crust where blocks of rock move. Movement along faults—like normal, reverse, or strike-slip—can release energy that causes earthquakes. These faults are caused by tectonic forces such as tension, compression, or shear.",
+    "reference_images": [
+      "data/textbook/faults_1747.png"
+    ],
+    "generated_text": "Written explanation\n\nWhat is a fault?\nA fault is a fracture in Earth’s brittle crust where two blocks of rock slide past each other. When tectonic forces push, pull, or shear the crust, stress builds along the fault.\n\nHow faults cause earthquakes (the stick-slip cycle):\n1.\tLocked: Rough fault surfaces “stick” due to friction while plate motion keeps stressing them.\n2.\tStrain builds: Rock around the fault elastically bends and stores energy.\n3.\tRupture: When stress exceeds frictional strength, the fault suddenly slips. The break starts at the hypocenter (focus) at depth and spreads along the fault.\n4.\tSeismic waves: Stored elastic energy radiates as P and S waves that shake the ground. The point on the surface above the focus is the epicenter.\n5.\tAftershocks: The crust adjusts to the new positions, producing smaller quakes on or near the same fault.\n\nMain fault types & the stresses that create them:\n•\tNormal fault (tension/extension): Crust is pulled apart; the hanging wall moves down.\n•\tReverse/thrust fault (compression): Crust is squeezed; the hanging wall moves up (common in subduction zones and mountain belts).\n•\tStrike-slip fault (shear): Blocks slide horizontally past each other (e.g., transform boundaries); motion can be right-lateral or left-lateral.\n\nWhy some places shake more:\nMost large earthquakes occur at plate boundaries where stress accumulates fastest: subduction zones (big thrust quakes), continental collisions (reverse faults), and major transforms (strike-slip).\n\nImage generated separately above: labeled diagram showing a fault plane, the earthquake cycle with hypocenter/epicenter and waves, plus normal/reverse/strike-slip fault insets.",
+    "generated_image": "GPT-thinking/textbook/65.png",
+    "gemini_evaluation": {
+      "Question": "What are faults, and how do they cause earthquakes? an image will help explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "Both the generated text and image are factually correct and accurately represent geological concepts related to faults and earthquakes."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is an excellent visual representation of the concepts explained in the text. It clearly illustrates the fault plane, hypocenter/epicenter, seismic waves, and the three main fault types, all of which are described in the accompanying text."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-labeled educational diagram. The text is exceptionally well-structured, using headings, numbered lists, and bullet points to present complex information in an easy-to-understand manner. The writing is clear and grammatically correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for a clear, educational, and safe explanation. The diagram is aesthetically pleasing and effective."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the question. It defines what a fault is and provides a detailed, step-by-step explanation of how they cause earthquakes, which is more thorough than the reference."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is significantly richer than the reference. The text provides a much more detailed explanation, including the 'stick-slip cycle,' aftershocks, and the relationship with plate boundaries. The image is also richer, combining the earthquake process and the different fault types into one comprehensive diagram."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are faults, and how do they cause earthquakes? an image will help explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"Both the generated text and image are factually correct and accurately represent geological concepts related to faults and earthquakes.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is an excellent visual representation of the concepts explained in the text. It clearly illustrates the fault plane, hypocenter/epicenter, seismic waves, and the three main fault types, all of which are described in the accompanying text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-labeled educational diagram. The text is exceptionally well-structured, using headings, numbered lists, and bullet points to present complex information in an easy-to-understand manner. The writing is clear and grammatically correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for a clear, educational, and safe explanation. The diagram is aesthetically pleasing and effective.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the question. It defines what a fault is and provides a detailed, step-by-step explanation of how they cause earthquakes, which is more thorough than the reference.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is significantly richer than the reference. The text provides a much more detailed explanation, including the 'stick-slip cycle,' aftershocks, and the relationship with plate boundaries. The image is also richer, combining the earthquake process and the different fault types into one comprehensive diagram.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0118",
+    "domain": "textbook",
+    "question": "What are flatworms and roundworms, and how do they differ? Use the diagram to help explain.",
+    "reference_text": "Flatworms are simple invertebrates with bilateral symmetry. Roundworms have a body cavity and complete digestive system. Both can be free-living or parasitic.",
+    "reference_images": [
+      "data/textbook/parts_worm_7321.png"
+    ],
+    "generated_text": "# Text explanation (separate from the image)\n\n**What they are**\n\n* **Flatworms (Phylum Platyhelminthes)**: Soft-bodied, dorsoventrally flattened animals. Many are free-living (e.g., planarians), and many are parasitic (flukes, tapeworms).\n* **Roundworms (Phylum Nematoda)**: Unsegmented, cylindrical worms found everywhere—especially in soil and aquatic habitats—with many free-living and parasitic species (e.g., pinworms, hookworms, *C. elegans*).\n\n**Key differences (matching the diagram)**\n\n* **Body cavity**\n\n  * Flatworms: **Acoelomate** (no internal body cavity; solid tissue between gut and body wall).\n  * Roundworms: **Pseudocoelomate** (fluid-filled cavity acts as a hydrostatic skeleton).\n\n* **Digestive system**\n\n  * Flatworms: Usually **incomplete gut** (one opening); tapeworms have **no gut** and absorb nutrients through their surface.\n  * Roundworms: **Complete gut** with **mouth → pharynx → intestine → anus**.\n\n* **Body covering**\n\n  * Flatworms: Free-living forms have a **ciliated epidermis** for gliding; parasitic forms have a protective **tegument**.\n  * Roundworms: A tough, flexible **collagen cuticle** that they **molt** as they grow.\n\n* **Muscles & movement**\n\n  * Flatworms: **Circular, longitudinal, and dorsoventral muscles**; glide using cilia and muscle undulations.\n  * Roundworms: **Longitudinal muscles only**; move with characteristic **thrashing** due to the hydrostatic pseudocoelom.\n\n* **Excretion/osmoregulation**\n\n  * Flatworms: **Protonephridia (“flame cells”)** with cilia that drive fluid through tubules.\n  * Roundworms: **Excretory canals/renette cells** along the body.\n\n* **Nervous system**\n\n  * Flatworms: **Anterior ganglia (“brain”)** with **ladder-like** transverse connections between longitudinal nerve cords.\n  * Roundworms: **Nerve ring** around the pharynx with prominent **dorsal and ventral nerve cords**.\n\n* **Reproduction**\n\n  * Flatworms: Often **hermaphroditic**; many can **regenerate** lost parts (notably planarians).\n  * Roundworms: Usually **dioecious** (separate sexes) with **sexual dimorphism**.\n\n* **Shared traits**\n\n  * Both are **bilaterally symmetrical**, **triploblastic** (three tissue layers), and **lack specialized circulatory/respiratory organs**—gas exchange occurs by diffusion.\n\n**Quick summary**\n\n| Trait                | Flatworms (Platyhelminthes)            | Roundworms (Nematoda)               |\n| -------------------- | -------------------------------------- | ----------------------------------- |\n| Shape                | Flattened                              | Cylindrical, round in cross-section |\n| Body cavity          | None (**acoelomate**)                  | **Pseudocoelomate**                 |\n| Gut                  | Incomplete or absent                   | Complete (mouth → anus)             |\n| Covering             | Ciliated epidermis/tegument            | Thick molted cuticle                |\n| Muscles              | Circular + longitudinal + dorsoventral | Longitudinal only                   |\n| Movement             | Glide + smooth undulations             | Thrashing                           |\n| Excretion            | Flame cells (protonephridia)           | Excretory canals/renette            |\n| Nervous system       | Ladder-like cords                      | Nerve ring + cords                  |\n| Typical reproduction | Hermaphroditic; regeneration common    | Separate sexes                      |\n\nIf you want any changes to the diagram (different labels, colors, or a simpler version for younger students), tell me and I’ll regenerate it.\n",
+    "generated_image": "GPT-thinking/textbook/118.png",
+    "gemini_evaluation": {
+      "Question": "What are flatworms and roundworms, and how do they differ? Use the diagram to help explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct and accurately represent the biological differences between flatworms (Platyhelminthes) and roundworms (Nematoda)."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text and image are perfectly coherent. The text explicitly references the features shown in the diagram (e.g., body cavity, digestive system, nervous system), and the diagram provides a clear visual representation of the concepts explained in the text."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-structured, using headings, bullet points, and a summary table to present the information clearly and effectively. The grammar and writing style are excellent."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference for a clear, accurate, and educational explanation. The format is easy to read and digest, and there is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the question. It defines both types of worms, details their differences, and uses the diagram to support the explanation, as requested. It is far more complete than the reference answer."
+        ],
+        "Content Richness": [
+          5,
+          "The response is extremely rich in content. The diagram is much more detailed than the reference, showing both cross-sections and overall body plans. The text provides a comprehensive comparison across multiple biological systems, includes examples, and even offers a summary table, far exceeding the detail of the reference text."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are flatworms and roundworms, and how do they differ? Use the diagram to help explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct and accurately represent the biological differences between flatworms (Platyhelminthes) and roundworms (Nematoda).\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text and image are perfectly coherent. The text explicitly references the features shown in the diagram (e.g., body cavity, digestive system, nervous system), and the diagram provides a clear visual representation of the concepts explained in the text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-labeled scientific diagram. The text is exceptionally well-structured, using headings, bullet points, and a summary table to present the information clearly and effectively. The grammar and writing style are excellent.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference for a clear, accurate, and educational explanation. The format is easy to read and digest, and there is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the question. It defines both types of worms, details their differences, and uses the diagram to support the explanation, as requested. It is far more complete than the reference answer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is extremely rich in content. The diagram is much more detailed than the reference, showing both cross-sections and overall body plans. The text provides a comprehensive comparison across multiple biological systems, includes examples, and even offers a summary table, far exceeding the detail of the reference text.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 59,
+    "domain": "paper",
+    "question": "I'm studying MLLMs like BLIP. Can you simply explain the learning framework of BLIP with an image?",
+    "reference_text": "The BLIP (Bootstrapping Language-Image Pre-training) framework has two major stages: **Model Pretraining** and **Dataset Bootstrapping**. In pretraining, a multimodal mixture of encoder-decoder models is trained on a combination of web image-text pairs and human-annotated data. Then, during bootstrapping, the system filters and improves the dataset by generating synthetic captions using a trained captioner and filtering them with an image-grounded text encoder. The result is a high-quality dataset used for fine-tuning image-text contrastive (ITC), image-text matching (ITM), and language modeling (LM) tasks.",
+    "reference_images": [
+      "data/paper/blip_learning_framework.png"
+    ],
+    "generated_text": "Here’s the learning framework of BLIP explained through an image. Let me know if you'd like any further clarifications!\n",
+    "generated_image": "GPT-thinking/paper/59.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying MLLMs like BLIP. Can you simply explain the learning framework of BLIP with an image?",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The generated image contains the key components of the BLIP framework (ITC, ITM, LM, Captioning, Filtering), but it misrepresents the overall process. The flow from 'Pre-training' to 'Captioning and Filtering' is not accurate. The reference correctly shows that the pre-trained model is *used* for bootstrapping, not that there is a direct data flow. The generated text provides no explanation at all, making the answer factually incomplete and partially incorrect."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "The generated text is merely a single introductory sentence that presents the image. It does not explain, describe, or reference any part of the image. There is a complete lack of synergy between the two modalities, as the text adds no value or context to the visual information."
+        ],
+        "Content Quality": [
+          2,
+          "The generated image is a clear, clean, and aesthetically pleasing diagram. However, the generated text is just a placeholder sentence with no informational content. The overall quality is poor because the response fails to provide the requested explanation and the diagram itself is conceptually flawed."
+        ],
+        "Human Preference Alignment": [
+          4,
+          "The response is safe and contains no undesirable content. The image is visually clean and well-structured. It's a polite but unhelpful response."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. The user asked for an explanation with an image, but the generated response provides no textual explanation whatsoever. The image alone is insufficient and confusing, and it omits the clear two-stage structure (Pretraining and Bootstrapping) that is central to the BLIP framework, as shown in the reference."
+        ],
+        "Content Richness": [
+          1,
+          "The response is extremely low in richness. The text is minimal and uninformative. The diagram, while visually present, is a gross oversimplification that lacks the detail of the reference image, such as the explicit model architecture or the cyclical nature of the bootstrapping process."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying MLLMs like BLIP. Can you simply explain the learning framework of BLIP with an image?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated image contains the key components of the BLIP framework (ITC, ITM, LM, Captioning, Filtering), but it misrepresents the overall process. The flow from 'Pre-training' to 'Captioning and Filtering' is not accurate. The reference correctly shows that the pre-trained model is *used* for bootstrapping, not that there is a direct data flow. The generated text provides no explanation at all, making the answer factually incomplete and partially incorrect.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"The generated text is merely a single introductory sentence that presents the image. It does not explain, describe, or reference any part of the image. There is a complete lack of synergy between the two modalities, as the text adds no value or context to the visual information.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The generated image is a clear, clean, and aesthetically pleasing diagram. However, the generated text is just a placeholder sentence with no informational content. The overall quality is poor because the response fails to provide the requested explanation and the diagram itself is conceptually flawed.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The response is safe and contains no undesirable content. The image is visually clean and well-structured. It's a polite but unhelpful response.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. The user asked for an explanation with an image, but the generated response provides no textual explanation whatsoever. The image alone is insufficient and confusing, and it omits the clear two-stage structure (Pretraining and Bootstrapping) that is central to the BLIP framework, as shown in the reference.\"\n        ],\n        \"Content Richness\": [\n            1,\n            \"The response is extremely low in richness. The text is minimal and uninformative. The diagram, while visually present, is a gross oversimplification that lacks the detail of the reference image, such as the explicit model architecture or the cyclical nature of the bootstrapping process.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 48,
+    "domain": "paper",
+    "question": "I'm studying BERT and I'm confused about how its architecture differs from other Transformer models. Can you generate an image and explain its encoder-only structure?",
+    "reference_text": "BERT is based on the Transformer encoder architecture. It uses only the encoder stack (unlike models like GPT, which use only the decoder). Each input token is first converted into a dense vector through embedding, combined with positional encodings to maintain word order. These are passed through multiple layers of multi-head self-attention and feed-forward networks, with layer normalization and residual connections. At the top, a linear layer and softmax are used to produce probabilities for tasks like masked word prediction or classification.",
+    "reference_images": [
+      "data/paper/bert_encoder_only.png"
+    ],
+    "generated_text": "Here’s the image that illustrates BERT’s encoder-only architecture. Now, let me break it down for you.\n\nBERT is built entirely on the encoder stack of the Transformer architecture. Unlike models like GPT, which use a decoder, BERT uses only the encoder part. The structure starts with input embeddings, where the input tokens are first converted into vectors. These embeddings are then passed through a series of encoder layers (12 in the base version of BERT). Each encoder layer consists of multi-head self-attention and feedforward neural networks that allow the model to understand the contextual relationships between words in a sentence.\n\nThis encoder-only setup allows BERT to effectively understand bidirectional context, meaning it can look at the words on both sides of a token during training, unlike traditional unidirectional models. This is what makes BERT so powerful for tasks like question answering and sentence classification.\n",
+    "generated_image": "GPT-thinking/paper/48.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying BERT and I'm confused about how its architecture differs from other Transformer models. Can you generate an image and explain its encoder-only structure?",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The image accurately depicts the encoder-only architecture of BERT, and the text correctly explains its components and the significance of this structure (bidirectional context)."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text perfectly corresponds to the image. It describes the input embeddings, the stack of encoder layers, and the components within each layer (multi-head self-attention, feedforward network), all of which are clearly labeled in the diagram."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a very clear, professional, and easy-to-understand diagram. The text is well-written, concise, and uses correct terminology. The overall quality is excellent."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and directly answers the user's question without any undesirable content. The image is a standard and appropriate technical diagram."
+        ],
+        "Completeness": [
+          3,
+          "The generated response provides a good high-level overview but is less complete than the reference. It omits some important details mentioned in the reference text and shown in the reference image, such as positional encodings, layer normalization, and residual connections, which are key parts of the Transformer encoder's operation."
+        ],
+        "Content Richness": [
+          3,
+          "The answer is good but not particularly rich in detail. The reference provides a more detailed breakdown of the components within an encoder block. The generated response could have been improved by including more specific details about how the encoder layers work, such as mentioning the normalization and residual connection steps."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying BERT and I'm confused about how its architecture differs from other Transformer models. Can you generate an image and explain its encoder-only structure?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The image accurately depicts the encoder-only architecture of BERT, and the text correctly explains its components and the significance of this structure (bidirectional context).\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text perfectly corresponds to the image. It describes the input embeddings, the stack of encoder layers, and the components within each layer (multi-head self-attention, feedforward network), all of which are clearly labeled in the diagram.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a very clear, professional, and easy-to-understand diagram. The text is well-written, concise, and uses correct terminology. The overall quality is excellent.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly answers the user's question without any undesirable content. The image is a standard and appropriate technical diagram.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The generated response provides a good high-level overview but is less complete than the reference. It omits some important details mentioned in the reference text and shown in the reference image, such as positional encodings, layer normalization, and residual connections, which are key parts of the Transformer encoder's operation.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The answer is good but not particularly rich in detail. The reference provides a more detailed breakdown of the components within an encoder block. The generated response could have been improved by including more specific details about how the encoder layers work, such as mentioning the normalization and residual connection steps.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 90,
+    "domain": "paper",
+    "question": "I'm studying machine learning, can you explain the information flow between the score function, regularization and loss function with an image?",
+    "reference_text": "Summary of the information flow. The dataset of pairs of (x,y) is given and fixed. The weights start out as random numbers and can change. During the forward pass the score function computes class scores, stored in vector f. The loss function contains two components: The data loss computes the compatibility between the scores f and the labels y. The regularization loss is only a function of the weights. During Gradient Descent, we compute the gradient on the weights (and optionally on data if we wish) and use them to perform a parameter update during Gradient Descent.",
+    "reference_images": [
+      "data/paper/score_function_regularization_loss_function.png"
+    ],
+    "generated_text": "Here is the image explaining the flow between the score function, regularization, and loss function. Let me know if you need any more details!\n",
+    "generated_image": "GPT-thinking/paper/90.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying machine learning, can you explain the information flow between the score function, regularization and loss function with an image?",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The generated image depicts a generally correct, albeit simplified, flow. However, it's less precise than the reference; for instance, it doesn't explicitly show the weights (W) as an input to the score function along with the data (x). The generated text is factually void; it doesn't provide any explanation as requested, it merely presents the image."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "The text simply states that an image is being provided. It doesn't attempt to explain the concepts within the image, leading to a disconnect between the user's request for an explanation and the provided response. The text does not explain or complement the image's content in any meaningful way."
+        ],
+        "Content Quality": [
+          2,
+          "The image is a clear, simple, and legible diagram. The text, however, is of very poor quality as it contains no informational content and is essentially conversational filler. It is grammatically correct but fails to serve its purpose."
+        ],
+        "Human Preference Alignment": [
+          1,
+          "The response is highly undesirable because it fails to answer the user's core request for an explanation. A user asking this question would be looking for the kind of detail provided in the reference text, not just a diagram with a one-sentence introduction."
+        ],
+        "Completeness": [
+          1,
+          "The response is severely incomplete. The user asked for an explanation with an image. While an image was provided, the crucial textual explanation component is entirely missing."
+        ],
+        "Content Richness": [
+          0,
+          "The response is extremely sparse. The image is a very high-level, simplified diagram that lacks the specific labels and details of the reference (e.g., x, y, W, f, L). The text provides zero detail or richness, consisting of a single, non-informative sentence."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying machine learning, can you explain the information flow between the score function, regularization and loss function with an image?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated image depicts a generally correct, albeit simplified, flow. However, it's less precise than the reference; for instance, it doesn't explicitly show the weights (W) as an input to the score function along with the data (x). The generated text is factually void; it doesn't provide any explanation as requested, it merely presents the image.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"The text simply states that an image is being provided. It doesn't attempt to explain the concepts within the image, leading to a disconnect between the user's request for an explanation and the provided response. The text does not explain or complement the image's content in any meaningful way.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The image is a clear, simple, and legible diagram. The text, however, is of very poor quality as it contains no informational content and is essentially conversational filler. It is grammatically correct but fails to serve its purpose.\"\n        ],\n        \"Human Preference Alignment\": [\n            1,\n            \"The response is highly undesirable because it fails to answer the user's core request for an explanation. A user asking this question would be looking for the kind of detail provided in the reference text, not just a diagram with a one-sentence introduction.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is severely incomplete. The user asked for an explanation with an image. While an image was provided, the crucial textual explanation component is entirely missing.\"\n        ],\n        \"Content Richness\": [\n            0,\n            \"The response is extremely sparse. The image is a very high-level, simplified diagram that lacks the specific labels and details of the reference (e.g., x, y, W, f, L). The text provides zero detail or richness, consisting of a single, non-informative sentence.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 95,
+    "domain": "tech",
+    "question": "How to turn off notifications on Instagram? Show visual steps and text the steps.",
+    "reference_text": "1. Open your iPhone's Settings . Tap the grey app with gears on it. This app is typically found on the Home Screen. 2. Tap Notifications . It's near the top of the menu. Doing so opens a list of all apps that currently support notifications. 3. Scroll down and tap Instagram . Apps here are listed alphabetically, so you'll find Instagram in the \"I\" section. If Instagram is not appearing, you may need to wait until you've received a notification from someone. If Instagram is still not appearing in the list, even after receiving a notification in the app, uninstall the Instagram app, restart your phone, and then install it again. When you launch the reinstalled app, select Allow Notifications when prompted, and Instagram should appear in the Notifications section of the Settings app. 4. Tap the white \"Allow Notifications\" switch . It's at the top of the screen. Tapping it will cause it to turn green , signifying that Instagram will send notifications to your iPhone. If you want to disable Instagram notifications completely, tap the green \"Allow Notifications\" switch and then skip the rest of this method. 5. Enable or disable other notifications. Tap the white switch to the right of each of the following options to enable them, or tap the green switch next to each of them to disable them: Sounds - Turn on or off Instagram sounds. Badge App Icon - Turn on or off Instagram badge icons, which are the numbers that display in the corner of the Instagram app when you have pending notifications. Show on Lock Screen - Turn on or off notifications that appear on your iPhone's Lock Screen. Show in History - Turn on or off notifications history for Instagram. Notifications history can be checked by swiping down from the top of the screen. Show as Banners - Turn on or off banner-style notifications, which display at the top of the screen when your iPhone is unlocked. 6. Select an alert style. Below the \"Show as Banners\" switch, tap either Temporary or Persistent . This option won't display if you have \"Show as Banners\" turned off. \"Temporary\" alerts appear briefly at the top of your iPhone's screen before disappearing, while \"Persistent\" alerts don't disappear until you swipe them away. 7. Set a preview option. This will determine whether or not you can see the content of an Instagram notification without opening it. Scroll down and tap Show Previews , then select one of the following options: Always (Default) - You will always see previews for Instagram notifications (e.g., \"Sarah liked your post\"). When Unlocked - You will see previews for Instagram notifications when your iPhone is unlocked. Never - You will never see previews for Instagram notifications. 8. Tap the \"Back\" button twice. It's in the top-left corner of the screen. This will take you back to the Notifications page, saving your changes in the process. Instagram will now send you notifications.",
+    "reference_images": [
+      "data/tech/95_1.jpg",
+      "data/tech/95_2.jpg",
+      "data/tech/95_3.jpg",
+      "data/tech/95_4.jpg",
+      "data/tech/95_5.jpg",
+      "data/tech/95_6.jpg",
+      "data/tech/95_7.jpg",
+      "data/tech/95_8.jpg"
+    ],
+    "generated_text": "# Visual steps (images)\n\nI’ve provided an 8-step visual guide above.\n\n# Text steps\n\n## Option 1 — Quick “Pause all” (temporary, in-app)\n\n1. Open Instagram → go to your **Profile** (bottom-right avatar).\n2. Tap the **☰** menu (top-right) → **Settings** (may appear as **Settings and activity**).\n3. Tap **Notifications**.\n4. Turn on **Pause all** and choose a duration (e.g., 15 min, 1, 2, 4, or 8 hours).\n   • This silences all push notifications for the time you select.\n\n## Option 2 — Turn off specific Instagram alerts (in-app)\n\n1. Instagram → **Profile** → **☰** → **Settings** → **Notifications**.\n2. Open each category and set to **Off**:\n\n   * **Messages and calls** → toggle **Message requests**, **Messages**, **Group requests**, **Calls**, **Video chats** → **Off**.\n   * **Posts, stories and comments** → set items like **Likes**, **Comments**, **First posts and stories**, **Mentions**, etc. → **Off**.\n   * **Following and followers**, **Live and Reels**, **From Instagram**, etc. → set each to **Off** as desired.\n3. (Optional) Scroll to **Email/SMS** and turn those **Off** if you don’t want emails or texts from Instagram.\n\n## Option 3 — Silence Instagram completely at the phone level (recommended for zero alerts)\n\n### iPhone (iOS)\n\n1. Open **Settings** app → **Notifications** → **Instagram**.\n2. Toggle **Allow Notifications** **Off**.\n\n   * (Optional) Also turn off **Sounds**, **Badges**, and all alert styles.\n\n### Android (steps may vary slightly by device)\n\n1. Open **Settings** → **Apps** (or **Apps & notifications**) → **Instagram** → **Notifications**.\n2. Toggle **Show notifications** **Off**.\n\n   * (Optional) Leave it On and turn individual **Notification categories** Off for fine-grained control.\n\n---\n\n### Tips\n\n* To mute a single chat: open the DM, tap the chat name, toggle **Mute messages** and/or **Mute call notifications**.\n* If you use **Focus/Do Not Disturb** (iPhone) or **Do Not Disturb** (Android), you can silence all apps—including Instagram—during certain times.\n\nIf you’d like, tell me your phone type (iPhone or Android) and I’ll tailor these steps exactly to your model.\n\",",
+    "generated_image": "GPT-thinking/tech/95.png",
+    "gemini_evaluation": {
+      "Question": "How to turn off notifications on Instagram? Show visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and images provide accurate and valid methods for turning off Instagram notifications. It correctly describes three different ways to achieve this on both iOS and Android."
+        ],
+        "Image-Text Coherency": [
+          2,
+          "There is a significant mismatch. The generated images illustrate 'Option 1' (pausing notifications within the app), but the text provides two other, more permanent options without any corresponding visuals. The reference shows the most common method (disabling via phone settings), which the generated text describes in 'Option 3' but fails to show visually."
+        ],
+        "Content Quality": [
+          3,
+          "The text is very well-structured, clear, and grammatically correct. However, the generated images are of low quality; they are blurry with noticeable compression artifacts, making the text and UI elements difficult to read."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable to the reference because it offers multiple solutions to the user's problem, from a temporary pause to a permanent block. It also helpfully includes instructions for both iPhone and Android, making it more universally useful. The structure is clear and user-friendly."
+        ],
+        "Completeness": [
+          3,
+          "While the text is very complete and covers multiple methods and operating systems, the visual component is incomplete. The prompt asks for 'visual steps', but images are only provided for one of the three methods described, leaving the other two (including the most permanent one) as text-only."
+        ],
+        "Content Richness": [
+          4,
+          "The text is significantly richer than the reference, providing three distinct methods, tips, and instructions for both major mobile operating systems. The images, however, only cover a single workflow. The overall richness is high due to the detailed and comprehensive text."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to turn off notifications on Instagram? Show visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and images provide accurate and valid methods for turning off Instagram notifications. It correctly describes three different ways to achieve this on both iOS and Android.\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"There is a significant mismatch. The generated images illustrate 'Option 1' (pausing notifications within the app), but the text provides two other, more permanent options without any corresponding visuals. The reference shows the most common method (disabling via phone settings), which the generated text describes in 'Option 3' but fails to show visually.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text is very well-structured, clear, and grammatically correct. However, the generated images are of low quality; they are blurry with noticeable compression artifacts, making the text and UI elements difficult to read.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable to the reference because it offers multiple solutions to the user's problem, from a temporary pause to a permanent block. It also helpfully includes instructions for both iPhone and Android, making it more universally useful. The structure is clear and user-friendly.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"While the text is very complete and covers multiple methods and operating systems, the visual component is incomplete. The prompt asks for 'visual steps', but images are only provided for one of the three methods described, leaving the other two (including the most permanent one) as text-only.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is significantly richer than the reference, providing three distinct methods, tips, and instructions for both major mobile operating systems. The images, however, only cover a single workflow. The overall richness is high due to the detailed and comprehensive text.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 14,
+    "domain": "tech",
+    "question": "How to turn on dark mode in Windows 10? Provide a visual guide and text the steps.",
+    "reference_text": "1. Open Settings. This app has a settings gear on a colored background. You can also open it by going to the start menu and clicking on the . 2. Click on Personalization . This option is the fifth option in the main menu. 3. Click on Colors . This option is the second option on the left pane. 4. Click on the dropdown menu. This menu is located underneath the theme preview. Light will make the taskbar and start menu light and the apps light. Dark will make the taskbar and start menu dark and the apps dark. Custom will allow you to choose which color you want the taskbar and start menu to be. By default, the taskbar is dark and the apps are light. 5. Choose \"Dark\". This will make apps and Windows dark. Some app modes, such as those for Microsoft Edge and Microsoft Office, need to be configured separately.",
+    "reference_images": [
+      "data/tech/14_1.jpg",
+      "data/tech/14_2.jpg",
+      "data/tech/14_3.jpg",
+      "data/tech/14_4.jpg",
+      "data/tech/14_5.jpg"
+    ],
+    "generated_text": "Here you go!\n\n# Visual Guide\n\n[Download the image guide](sandbox:/mnt/data/A_series_of_six_instructional_screenshots_arranged.png)\n\n# Text Steps (Windows 10 Dark Mode)\n\n1. Open Settings\n\n* Click the **Start** button → select the **⚙️ Settings** gear.\n\n2. Go to Personalization\n\n* In Settings, click **Personalization**.\n\n3. Open Colors\n\n* From the left sidebar, choose **Colors**.\n\n4. Choose Dark (quick method)\n\n* Find **Choose your color** and select **Dark** from the dropdown.\n  — This switches both Windows elements (Start, taskbar) and apps to dark.\n\n5. If you see “Custom” instead\n\n* Set **Choose your default Windows mode** → **Dark** (affects Start/taskbar).\n* Set **Choose your default app mode** → **Dark** (affects apps).\n\n6. (Optional) Make it look nicer\n\n* Scroll down to **Transparency effects** to toggle on/off.\n* Under **Choose your accent color**, pick a color and check **Start, taskbar, and action center** and **Title bars and window borders** if you want color accents with dark mode.\n\nYou’re done! Your taskbar, Start menu, and supported apps should now use dark backgrounds.\n\",",
+    "generated_image": "GPT-thinking/tech/14.png",
+    "gemini_evaluation": {
+      "Question": "How to turn on dark mode in Windows 10? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image both provide a correct and accurate step-by-step guide for turning on dark mode in Windows 10."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image perfectly illustrates the steps described in the generated text. Each panel in the composite image corresponds directly to a step in the textual instructions, creating a highly coherent guide."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality composite of clear, realistic screenshots with helpful annotations. The text is well-structured, grammatically correct, and easy to follow."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with the user's request for a helpful visual guide. The content is safe, clear, and professional."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is more complete than the reference. It not only covers the primary method but also explains the 'Custom' settings and optional aesthetic tweaks, providing a comprehensive answer."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is richer than the reference. The text provides more detail and context (e.g., explaining the difference between Windows mode and app mode). The composite image effectively combines multiple steps into a single, easy-to-follow visual narrative."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to turn on dark mode in Windows 10? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image both provide a correct and accurate step-by-step guide for turning on dark mode in Windows 10.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image perfectly illustrates the steps described in the generated text. Each panel in the composite image corresponds directly to a step in the textual instructions, creating a highly coherent guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality composite of clear, realistic screenshots with helpful annotations. The text is well-structured, grammatically correct, and easy to follow.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with the user's request for a helpful visual guide. The content is safe, clear, and professional.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is more complete than the reference. It not only covers the primary method but also explains the 'Custom' settings and optional aesthetic tweaks, providing a comprehensive answer.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is richer than the reference. The text provides more detail and context (e.g., explaining the difference between Windows mode and app mode). The composite image effectively combines multiple steps into a single, easy-to-follow visual narrative.\"\n        ]\n    }\n}\n```"
+  }
+]
