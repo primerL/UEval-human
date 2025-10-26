@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UEval Human Evaluation Interface</title>
+    <!-- Markdown rendering library -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -395,6 +397,105 @@
                 flex: 0 0 calc(33.333% - 7px);
             }
         }
+
+        /* Markdown rendering styles */
+        .markdown-content {
+            line-height: 1.6;
+        }
+
+        .markdown-content h1,
+        .markdown-content h2,
+        .markdown-content h3,
+        .markdown-content h4,
+        .markdown-content h5,
+        .markdown-content h6 {
+            margin: 1em 0 0.5em 0;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .markdown-content h1 { font-size: 1.5em; }
+        .markdown-content h2 { font-size: 1.3em; }
+        .markdown-content h3 { font-size: 1.2em; }
+        .markdown-content h4 { font-size: 1.1em; }
+
+        .markdown-content p {
+            margin: 0.8em 0;
+        }
+
+        .markdown-content ul,
+        .markdown-content ol {
+            margin: 0.8em 0;
+            padding-left: 1.5em;
+        }
+
+        .markdown-content li {
+            margin: 0.3em 0;
+        }
+
+        .markdown-content code {
+            background: #f4f4f4;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.9em;
+        }
+
+        .markdown-content pre {
+            background: #f4f4f4;
+            padding: 1em;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1em 0;
+        }
+
+        .markdown-content pre code {
+            background: none;
+            padding: 0;
+        }
+
+        .markdown-content blockquote {
+            border-left: 4px solid #667eea;
+            margin: 1em 0;
+            padding-left: 1em;
+            color: #666;
+            font-style: italic;
+        }
+
+        .markdown-content table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 1em 0;
+        }
+
+        .markdown-content th,
+        .markdown-content td {
+            border: 1px solid #ddd;
+            padding: 0.5em;
+            text-align: left;
+        }
+
+        .markdown-content th {
+            background: #f8f9fa;
+            font-weight: 600;
+        }
+
+        .markdown-content strong {
+            font-weight: 600;
+        }
+
+        .markdown-content em {
+            font-style: italic;
+        }
+
+        .markdown-content a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .markdown-content a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -504,6 +605,15 @@
         // Load saved evaluations
         userEvaluations = JSON.parse(localStorage.getItem(storageKey) || '{}');
 
+        // Configure Markdown rendering
+        marked.setOptions({
+            breaks: true,  // Convert line breaks to <br>
+            gfm: true,    // Enable GitHub Flavored Markdown
+            sanitize: false, // Allow HTML (we trust our content)
+            smartLists: true,
+            smartypants: true
+        });
+
         // Load evaluation data
         async function loadData() {
             try {
@@ -531,8 +641,15 @@
             const progress = ((currentIndex + 1) / evaluationData.length) * 100;
             document.getElementById('progressFill').style.width = progress + '%';
 
-            // Update question
-            document.getElementById('questionText').textContent = item.question;
+            // Update question with Markdown rendering
+            const questionElement = document.getElementById('questionText');
+            if (item.question) {
+                questionElement.innerHTML = marked.parse(item.question);
+                questionElement.className = 'question-text markdown-content';
+            } else {
+                questionElement.textContent = 'No question provided';
+                questionElement.className = 'question-text';
+            }
 
             // Update reference images
             const refImagesContainer = document.getElementById('referenceImages');
@@ -548,8 +665,15 @@
                 refImagesContainer.innerHTML = '<p style="padding: 20px; color: #999;">No reference images</p>';
             }
 
-            // Update reference text
-            document.getElementById('referenceText').textContent = item.reference_text;
+            // Update reference text with Markdown rendering
+            const referenceTextElement = document.getElementById('referenceText');
+            if (item.reference_text) {
+                referenceTextElement.innerHTML = marked.parse(item.reference_text);
+                referenceTextElement.className = 'text-content markdown-content';
+            } else {
+                referenceTextElement.textContent = 'No reference text';
+                referenceTextElement.className = 'text-content';
+            }
 
             // Update generated images
             const genImagesContainer = document.getElementById('generatedImages');
@@ -563,8 +687,15 @@
                 genImagesContainer.innerHTML = '<p style="padding: 20px; color: #999;">No generated image</p>';
             }
 
-            // Update generated text
-            document.getElementById('generatedText').textContent = item.generated_text;
+            // Update generated text with Markdown rendering
+            const generatedTextElement = document.getElementById('generatedText');
+            if (item.generated_text) {
+                generatedTextElement.innerHTML = marked.parse(item.generated_text);
+                generatedTextElement.className = 'text-content markdown-content';
+            } else {
+                generatedTextElement.textContent = 'No generated text';
+                generatedTextElement.className = 'text-content';
+            }
 
             // Render rating criteria
             renderCriteria();
