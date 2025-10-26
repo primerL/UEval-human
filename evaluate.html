@@ -540,8 +540,8 @@
             if (item.reference_images && item.reference_images.length > 0) {
                 item.reference_images.forEach(imgPath => {
                     const img = document.createElement('img');
-                    img.src = '../../' + imgPath;
-                    img.onclick = () => openModal('../../' + imgPath);
+                    img.src = imgPath;
+                    img.onclick = () => openModal(imgPath);
                     refImagesContainer.appendChild(img);
                 });
             } else {
@@ -556,8 +556,8 @@
             genImagesContainer.innerHTML = '';
             if (item.generated_image) {
                 const img = document.createElement('img');
-                img.src = '../../' + item.generated_image;
-                img.onclick = () => openModal('../../' + item.generated_image);
+                img.src = item.generated_image;
+                img.onclick = () => openModal(item.generated_image);
                 genImagesContainer.appendChild(img);
             } else {
                 genImagesContainer.innerHTML = '<p style="padding: 20px; color: #999;">No generated image</p>';
