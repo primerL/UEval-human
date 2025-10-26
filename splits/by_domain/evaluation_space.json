@@ -1,44 +1,44 @@
 [
   {
-    "id": 84,
+    "id": 21,
     "domain": "space",
-    "question": "Why can people climb the Story Bridge Adventure Climb in Brisbane? Provide a photo and explain.",
-    "reference_text": "The Story Bridge Adventure Climb uses engineered stairs, catwalks and platforms mounted on the bridge’s superstructure. Each participant wears a full-body harness that stays tethered via lanyard to a static safety cable for the entire route, under the supervision of trained guides. With guardrails, anti-slip decking, weather protocols, and controlled group sizes, the public can safely complete an almost 1-km return route to summit platforms about 80 m above the Brisbane River.",
+    "question": "Why does the Colosseum have holes in its walls? Provide a photo and explain.",
+    "reference_text": "The holes in the Colosseum’s walls are from iron clamps that were once used to hold stone blocks together. Over centuries, the metal was removed for reuse, leaving visible pockmarks.",
     "reference_images": [
-      "data/space/story_bridge_adventure_climb.jpg"
+      "data/space/colosseum_wall_holes.jpeg"
     ],
-    "generated_text": "# Photo\n\n*(Generated image above.)*\n\n# Explanation\n\nPeople can climb the Story Bridge because it’s run as a **licensed, guided experience** that makes the bridge safe and accessible to the public without impacting traffic or the structure. In practical terms:\n\n* **Purpose-built infrastructure:** Catwalks, handrails, and grated steps were added to sections of the steel arch, along with a **continuous safety line** so climbers can stay clipped in the entire time.\n* **Professional supervision:** Trained climb leaders run small groups, give a pre-climb briefing, fit harnesses and lanyards, and manage radio comms and pacing on the route.\n* **Risk controls:** Full-body harnesses, checks for health/fitness and sobriety, strict weather protocols, and rules limiting loose items (so nothing can drop onto the roadway) keep the activity controlled.\n* **Bridge suitability:** The Story Bridge’s robust steel design and existing maintenance access points make it feasible to adapt for tourism while respecting the bridge’s heritage and daily use.\n* **Tourism & education value:** The climb offers panoramic views over the Brisbane River and CBD and includes local history commentary—so the city permits it as a regulated attraction.\n\n(Details like age/height/health requirements and session times vary; the operator specifies them during booking.)\n",
-    "generated_image": "GPT-thinking/space/84.png",
+    "generated_text": "Here’s the explanation (separate from the image):\n\nMost of the “holes” you see in the Colosseum’s travertine walls are scars from metal theft over many centuries:\n\n* Roman builders tied big stone blocks together with iron (and sometimes bronze) clamps and dowels bedded in lead.\n* In the Middle Ages and Renaissance, people pried those clamps out to reuse the valuable metal, leaving behind the little, evenly spaced pockmarks you see today.\n\nOther hole-like damage came from:\n\n* Earthquakes (notably in 1349) that cracked and collapsed parts of the outer ring, exposing the core and leaving rough voids.\n* Stone robbing, when finished blocks were removed for later building projects, exposing the rubble interior.\n* Temporary scaffold/putlog sockets from repairs over the ages (a minor contributor compared to clamp removal).\n\nIn short: the neat rows of small holes = missing metal clamps; the larger ragged gaps = quake damage and later quarrying.\n",
+    "generated_image": "GPT-thinking/space/21.png",
     "gemini_evaluation": {
-      "Question": "Why can people climb the Story Bridge Adventure Climb in Brisbane? Provide a photo and explain.",
+      "Question": "Why does the Colosseum have holes in its walls? Provide a photo and explain.",
       "Evaluation": {
         "Correctness": [
           5,
-          "The generated text is factually correct, aligning with the reference by explaining the safety measures, purpose-built infrastructure, and guided nature of the climb. The image accurately depicts the Story Bridge climb experience."
+          "The generated text is factually correct and provides an accurate explanation for the holes in the Colosseum. The image is a genuine photograph of the Colosseum."
         ],
         "Image-Text Coherency": [
           5,
-          "The image perfectly illustrates the concepts described in the text. It shows climbers on the purpose-built catwalks, wearing harnesses and clipped in, which directly corresponds to the explanation of the safety infrastructure and procedures."
+          "The image shows the Colosseum, and the holes discussed in the text are clearly visible on its walls. The image and text are perfectly aligned."
         ],
         "Content Quality": [
           5,
-          "The generated image is of high quality—clear, realistic, and well-composed. The text is well-structured, using bullet points for clarity, and is grammatically correct and easy to read."
+          "The generated image is of high quality—clear, well-composed, and high-resolution. The text is well-written, grammatically correct, and structured effectively with bullet points for clarity."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and appropriate for the topic. There is no undesirable content."
+          "The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and appropriate."
         ],
         "Completeness": [
           5,
-          "The response fully addresses the prompt by providing both a relevant photo and a comprehensive explanation. It covers all the key reasons why the climb is possible."
+          "The response provides both a photo and a detailed text explanation as requested by the prompt, fully answering the question."
         ],
         "Content Richness": [
           5,
-          "The text is richer than the reference, providing a more detailed breakdown of the reasons into categories like 'Risk controls', 'Bridge suitability', and 'Tourism & education value'. This adds valuable context and depth to the answer."
+          "The generated text is significantly richer than the reference. It not only provides the primary reason for the holes (removed metal clamps) but also includes additional, correct information about other causes of damage like earthquakes and stone robbing, offering a more comprehensive answer."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people climb the Story Bridge Adventure Climb in Brisbane? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text is factually correct, aligning with the reference by explaining the safety measures, purpose-built infrastructure, and guided nature of the climb. The image accurately depicts the Story Bridge climb experience.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the concepts described in the text. It shows climbers on the purpose-built catwalks, wearing harnesses and clipped in, which directly corresponds to the explanation of the safety infrastructure and procedures.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality—clear, realistic, and well-composed. The text is well-structured, using bullet points for clarity, and is grammatically correct and easy to read.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and appropriate for the topic. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully addresses the prompt by providing both a relevant photo and a comprehensive explanation. It covers all the key reasons why the climb is possible.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text is richer than the reference, providing a more detailed breakdown of the reasons into categories like 'Risk controls', 'Bridge suitability', and 'Tourism & education value'. This adds valuable context and depth to the answer.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why does the Colosseum have holes in its walls? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text is factually correct and provides an accurate explanation for the holes in the Colosseum. The image is a genuine photograph of the Colosseum.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image shows the Colosseum, and the holes discussed in the text are clearly visible on its walls. The image and text are perfectly aligned.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality—clear, well-composed, and high-resolution. The text is well-written, grammatically correct, and structured effectively with bullet points for clarity.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and appropriate.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response provides both a photo and a detailed text explanation as requested by the prompt, fully answering the question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated text is significantly richer than the reference. It not only provides the primary reason for the holes (removed metal clamps) but also includes additional, correct information about other causes of damage like earthquakes and stone robbing, offering a more comprehensive answer.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 90,
@@ -54,237 +54,114 @@
       "Question": "Why does Singapore’s Helix Bridge look like DNA and still carry pedestrians? Provide a photo and explain.",
       "Evaluation": {
         "Correctness": [
-          2,
-          "The text explanation is factually correct and provides a good overview of the bridge's structural principles. However, the generated image is not a photo of the actual Helix Bridge in Singapore; it is a stylized, AI-generated rendering of a DNA-like bridge. The prompt asks for 'a photo,' implying a real-world image."
+          5,
+          "The generated text provides a factually accurate and detailed explanation of the Helix Bridge's design and structural integrity. The image is a real, high-quality photograph of the correct bridge."
         ],
         "Image-Text Coherency": [
           5,
-          "The generated text and generated image are perfectly coherent. The text describes a double-helix structure with lighting that emphasizes the form at night, and the image depicts exactly that. They align very well with each other."
+          "The image and text are perfectly coherent. The text specifically mentions how lighting at night emphasizes the double-helix pattern, and the provided image is a night shot that clearly illustrates this point. The image shows pedestrians on the bridge, which aligns with the text's explanation of how it supports their weight."
         ],
         "Content Quality": [
-          4,
-          "The text is of high quality: well-written, grammatically correct, and clearly structured with bullet points. The image is aesthetically pleasing and well-rendered, but it lacks photorealism and looks like a computer-generated graphic rather than a photograph."
+          5,
+          "The generated image is a professional, high-resolution photograph that is far superior in quality to the reference image. The text is well-structured, clearly written, and provides a comprehensive explanation that is easy to understand despite the technical nature of the subject."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is safe, helpful, and aesthetically pleasing. The image is visually engaging, and the text is informative and easy to read. There is no undesirable content."
+          "The response is highly preferable. The image is aesthetically pleasing and iconic, and the text is informative and well-organized. There is no undesirable content."
         ],
         "Completeness": [
-          4,
-          "The response provides both an image and a text explanation as requested. It fully answers both parts of the question. However, it loses a point because the image provided is not a 'photo' of the real bridge as specified, but an artistic interpretation."
+          5,
+          "The response completely answers the user's question. It provides both a photo and a detailed explanation that covers both why the bridge looks like DNA and how it is structurally capable of carrying pedestrians."
         ],
         "Content Richness": [
-          4,
-          "The text is very rich and detailed, going well beyond the reference text to explain the structural engineering in an accessible way. It offers a comprehensive explanation. The response provides only one image, but the depth of the text makes it a very rich answer overall."
+          5,
+          "The text is exceptionally rich, breaking down the complex structural engineering principles into several easy-to-digest bullet points. It offers significantly more detail and insight than the brief reference text. The chosen image, while singular, is an excellent and highly illustrative example."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why does Singapore’s Helix Bridge look like DNA and still carry pedestrians? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The text explanation is factually correct and provides a good overview of the bridge's structural principles. However, the generated image is not a photo of the actual Helix Bridge in Singapore; it is a stylized, AI-generated rendering of a DNA-like bridge. The prompt asks for 'a photo,' implying a real-world image.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text and generated image are perfectly coherent. The text describes a double-helix structure with lighting that emphasizes the form at night, and the image depicts exactly that. They align very well with each other.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text is of high quality: well-written, grammatically correct, and clearly structured with bullet points. The image is aesthetically pleasing and well-rendered, but it lacks photorealism and looks like a computer-generated graphic rather than a photograph.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and aesthetically pleasing. The image is visually engaging, and the text is informative and easy to read. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response provides both an image and a text explanation as requested. It fully answers both parts of the question. However, it loses a point because the image provided is not a 'photo' of the real bridge as specified, but an artistic interpretation.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich and detailed, going well beyond the reference text to explain the structural engineering in an accessible way. It offers a comprehensive explanation. The response provides only one image, but the depth of the text makes it a very rich answer overall.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why does Singapore’s Helix Bridge look like DNA and still carry pedestrians? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text provides a factually accurate and detailed explanation of the Helix Bridge's design and structural integrity. The image is a real, high-quality photograph of the correct bridge.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text specifically mentions how lighting at night emphasizes the double-helix pattern, and the provided image is a night shot that clearly illustrates this point. The image shows pedestrians on the bridge, which aligns with the text's explanation of how it supports their weight.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a professional, high-resolution photograph that is far superior in quality to the reference image. The text is well-structured, clearly written, and provides a comprehensive explanation that is easy to understand despite the technical nature of the subject.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. The image is aesthetically pleasing and iconic, and the text is informative and well-organized. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the user's question. It provides both a photo and a detailed explanation that covers both why the bridge looks like DNA and how it is structurally capable of carrying pedestrians.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text is exceptionally rich, breaking down the complex structural engineering principles into several easy-to-digest bullet points. It offers significantly more detail and insight than the brief reference text. The chosen image, while singular, is an excellent and highly illustrative example.\"\n        ]\n    }\n}\n```"
   },
   {
-    "id": 70,
+    "id": 55,
     "domain": "space",
-    "question": "How can visitors walk inside the Akashi Kaikyō Bridge in Japan? Provide a photo and explain.",
-    "reference_text": "On the Kobe side, enclosed observation corridors (the Maiko Marine Promenade) are built into the bridge structure near the deck, with sections of glass floor. These corridors attach to the stiffening girders and anchorages, letting visitors experience the strait from within the bridge while remaining protected.",
+    "question": "Why can people ride the London Eye? Provide a photo and explain.",
+    "reference_text": "The London Eye is a 135-meter observation wheel offering panoramic views of London. It rotates slowly, allowing passengers to board while in motion. The wheel provides views of landmarks like Big Ben and Buckingham Palace. Each of its 32 capsules holds up to 25 people, and it operates daily with tickets available online or on-site.",
     "reference_images": [
-      "data/space/akashi_kaikyo_maiko_promenade.jpg"
+      "data/space/London_Eye_capsule.jpg"
     ],
-    "generated_text": "# How visitors can “walk inside” the Akashi Kaikyō Bridge\n\nThere are two ways to go *inside* the bridge structure on the Kobe (Maiko) side:\n\n1. Maiko Marine Promenade (self-guided)\n\n* What it is: An enclosed observatory walkway built within the lower truss of the bridge. Long corridors with windows and a few glass-floor sections let you look straight down at the Akashi Strait—without being out in the wind.\n* How to do it: Enter from Maiko Park at the base of the bridge on the Kobe side, buy a ticket, and take the elevator up to the promenade level. It’s a simple come-and-go visit that most ages can do.\n* Good to know: It’s indoors and weather-sheltered. Expect museum-style exhibits, viewing lounges, and occasional glass-floor panels. Check local notices for opening days/hours and maintenance closures.\n\n2. “Bridge World” guided tour (for the adventurous)\n\n* What it is: A reservation-only tour run by the bridge authority. You gear up, walk along service catwalks inside the superstructure, and—on some itineraries—ride an internal elevator and stairs to the top of a main tower for a panorama over Kobe and Awaji.\n* How to do it: Book ahead, arrive on time for the safety briefing, and wear comfortable, closed-toe shoes. Capacity is limited and tours are weather-dependent.\n* Good to know: Age/health restrictions may apply; bags are often limited. Tours can be canceled for strong winds or rain.\n\nGetting there (quick orientation)\n\n* Aim for **Maiko Park** on the Kobe side of the strait. The nearest rail stops are around the Maiko area; from there it’s a short walk to the promenade entrance and the bridge exhibition facilities.\n\nTip\n\n* If you prefer an easy, family-friendly indoor stroll with big views, pick the **Maiko Marine Promenade**. If you want a behind-the-scenes engineering experience (and heights don’t bother you), try to snag a **Bridge World** tour.\n",
-    "generated_image": "GPT-thinking/space/70.png",
+    "generated_text": "# Explanation\n\nPeople can ride the London Eye because it’s a purpose-built passenger attraction engineered and regulated for public use. In short: it’s designed to be safe.\n\n* **Engineered for passengers:** The Eye is a giant observation wheel with a robust steel structure and tensioned cable “spokes” for strength and stability.\n* **Stabilized, enclosed capsules:** Riders travel in sealed, climate-controlled pods that keep the floor level as the wheel turns, protecting people from wind and motion.\n* **Slow, controlled operation:** The wheel rotates at a gentle, steady pace so boarding and disembarking are calm and orderly, with operators able to pause movement when needed.\n* **Redundant safety systems:** Multiple drive, brake, and power safeguards — plus constant monitoring — allow controlled stops and safe operation even if something needs attention.\n* **Professional staffing & procedures:** Trained operators manage queues, boarding gates, and emergency protocols, including weather limits and evacuation plans.\n* **Strict inspections & compliance:** Like other major rides in the UK, it undergoes routine inspections and maintenance and must comply with stringent health-and-safety regulations before carrying the public.\n\nIf you’d like a version of the photo with a different angle (nighttime, close-up capsule, or skyline view), say the word and I’ll generate it.\n",
+    "generated_image": "GPT-thinking/space/55.png",
     "gemini_evaluation": {
-      "Question": "How can visitors walk inside the Akashi Kaikyō Bridge in Japan? Provide a photo and explain.",
+      "Question": "Why can people ride the London Eye? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text is factually correct, providing accurate reasons related to the engineering and safety of the London Eye. The generated image is a realistic and accurate depiction of the London Eye."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are highly coherent. The image shows the large, stable structure of the London Eye and the long, orderly queue of people, which visually supports the text's points about it being engineered for passengers and having professional staffing and procedures."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of excellent quality—high-resolution, well-composed, and clear. The text is well-written, structured with clear bullet points, and provides a logical, easy-to-understand explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference. It is helpful, safe, and provides a visually appealing image along with a clear, informative explanation."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both a high-quality photo and a detailed explanation as requested by the prompt. It fully answers the question from a safety and engineering perspective."
+        ],
+        "Content Richness": [
+          5,
+          "The response is rich in content. The image provides a comprehensive view of the London Eye in its urban context, including the waiting crowds. The text offers a detailed, multi-point explanation that goes beyond a simple description to cover engineering, safety systems, and operational procedures."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people ride the London Eye? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text is factually correct, providing accurate reasons related to the engineering and safety of the London Eye. The generated image is a realistic and accurate depiction of the London Eye.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are highly coherent. The image shows the large, stable structure of the London Eye and the long, orderly queue of people, which visually supports the text's points about it being engineered for passengers and having professional staffing and procedures.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of excellent quality—high-resolution, well-composed, and clear. The text is well-written, structured with clear bullet points, and provides a logical, easy-to-understand explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference. It is helpful, safe, and provides a visually appealing image along with a clear, informative explanation.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both a high-quality photo and a detailed explanation as requested by the prompt. It fully answers the question from a safety and engineering perspective.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in content. The image provides a comprehensive view of the London Eye in its urban context, including the waiting crowds. The text offers a detailed, multi-point explanation that goes beyond a simple description to cover engineering, safety systems, and operational procedures.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 44,
+    "domain": "space",
+    "question": "How do boats pass through the Gateshead Millennium Bridge? Include a photo and explain the opening mechanism.",
+    "reference_text": "The Gateshead Millennium Bridge is a tilting pedestrian/cyclist bridge. When vessels need to pass, the entire structure—arch and deck together—rotates about bearings at both ends, driven by hydraulic cylinders, to create sufficient navigational clearance. It then tilts back to its level position for normal use.",
+    "reference_images": [
+      "data/space/gateshead_millennium_bridge_tilting.jpg"
+    ],
+    "generated_text": "# Text (Explanation)\n\nBoats pass under the Gateshead Millennium Bridge when the entire bridge **tilts**—like a blinking eyelid.\n\n* **How it opens:** The pedestrian/cycle deck and the arch are a single rigid piece. Powerful **hydraulic rams** at each end rotate this whole assembly around pivots on the riverbanks. As it tilts, the **deck rises** and the **arch dips**, creating a tall navigation gap for vessels.\n* **Why it’s efficient:** The arch acts as a **counterweight** to the deck, so the system stays balanced and needs relatively little energy to move.\n* **What people experience:** Before a lift, barriers and signals stop foot and cycle traffic. The bridge then tilts smoothly over a few minutes, holds position while boats pass, and tilts back to level.\n* **Nickname:** Because it looks like a giant eye opening and closing, it’s often called the **“Winking Eye”** bridge.\n\n---\n\n# Photo (separate)\n\n*(A generated photo of the Gateshead Millennium Bridge in its open/tilted position with a boat passing beneath is attached above.)*\n",
+    "generated_image": "GPT-thinking/space/44.png",
+    "gemini_evaluation": {
+      "Question": "How do boats pass through the Gateshead Millennium Bridge? Include a photo and explain the opening mechanism.",
       "Evaluation": {
         "Correctness": [
           1,
-          "The generated text is factually correct and detailed. However, it completely fails to provide the requested image, which is a major part of the prompt. Therefore, the overall response is incorrect as it does not fulfill the core requirements."
+          "The text explanation is correct and accurately describes the bridge's tilting mechanism. However, the provided image is incorrect. It shows the bridge in its normal, closed position, failing to illustrate the opening mechanism as requested. The reference image correctly shows the bridge tilted open."
         ],
         "Image-Text Coherency": [
           0,
-          "There is no generated image to evaluate for coherency with the text."
+          "There is a complete lack of coherency. The text explicitly describes how the bridge 'tilts' to create a navigation gap for boats. The image shows the bridge in its static, non-tilted state. The visual and textual explanations are in direct contradiction."
         ],
         "Content Quality": [
-          2,
-          "The text quality is excellent; it's well-structured, clear, and grammatically correct. However, the complete absence of the requested image significantly lowers the overall quality of the response."
+          3,
+          "The text is of high quality: well-written, clear, and grammatically correct. The image is also of high photographic quality, with good composition and clarity. However, the overall quality of the response is severely diminished because the image is entirely inappropriate for the question."
         ],
         "Human Preference Alignment": [
           2,
-          "The text is helpful and well-written, but the failure to provide a photo as explicitly requested makes the response undesirable and unhelpful from a user's perspective."
+          "The response is undesirable because it is misleading. While the individual components are well-presented and safe, the core failure to provide a relevant image that illustrates the answer makes the entire response unhelpful and confusing for a user trying to understand the mechanism."
         ],
         "Completeness": [
-          1,
-          "The response is incomplete because it omits the image component of the prompt. While the text is thorough, the overall answer fails to provide all the requested parts."
-        ],
-        "Content Richness": [
           2,
-          "The text is very rich, offering more detail and options than the reference text. However, the complete lack of any visual content makes the overall response poor in richness."
-        ]
-      }
-    },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How can visitors walk inside the Akashi Kaikyō Bridge in Japan? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The generated text is factually correct and detailed. However, it completely fails to provide the requested image, which is a major part of the prompt. Therefore, the overall response is incorrect as it does not fulfill the core requirements.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is no generated image to evaluate for coherency with the text.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The text quality is excellent; it's well-structured, clear, and grammatically correct. However, the complete absence of the requested image significantly lowers the overall quality of the response.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"The text is helpful and well-written, but the failure to provide a photo as explicitly requested makes the response undesirable and unhelpful from a user's perspective.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is incomplete because it omits the image component of the prompt. While the text is thorough, the overall answer fails to provide all the requested parts.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is very rich, offering more detail and options than the reference text. However, the complete lack of any visual content makes the overall response poor in richness.\"\n        ]\n    }\n}\n```"
-  },
-  {
-    "id": 54,
-    "domain": "space",
-    "question": "Why are there different shades of stone on the Washington Monument? Provide a photo and explain.",
-    "reference_text": "Construction stopped in 1854 due to lack of funds, then resumed decades later with marble from a different quarry. The mismatch created a permanent color line in the obelisk.",
-    "reference_images": [
-      "data/space/washington_monument_color_line.webp"
-    ],
-    "generated_text": "Here's the explanation (text), separate from the generated photo above:The Washington Monument's color changes partway up because construction stopped for decades. Builders laid the first ~150 feet (1848–1854) using one set of marble. Funding troubles and then the Civil War halted work. When construction resumed in the late 1870s and finished in 1884, crews used marble from different quarry seams (and some from a different quarry entirely). Those stones didn't match perfectly—and over time they weathered differently—so you see a distinct horizontal \"color line\" and slight banding higher up.",
-    "generated_image": "GPT-thinking/space/54.png",
-    "gemini_evaluation": {
-      "Question": "Why are there different shades of stone on the Washington Monument? Provide a photo and explain.",
-      "Evaluation": {
-        "Correctness": [
-          5,
-          "The generated text is factually correct, accurately explaining the reason for the color change on the Washington Monument. The generated image is a correct and realistic depiction of the monument, clearly showing the color difference."
-        ],
-        "Image-Text Coherency": [
-          5,
-          "The image and text are perfectly coherent. The text describes the 'distinct horizontal color line', and the generated image clearly visualizes this exact feature on the monument."
-        ],
-        "Content Quality": [
-          5,
-          "The image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear and concise explanation."
-        ],
-        "Human Preference Alignment": [
-          5,
-          "The response is helpful, safe, and aesthetically pleasing. It directly answers the user's question in an ideal way."
-        ],
-        "Completeness": [
-          5,
-          "The response is complete, providing both the requested photo and a text explanation as prompted."
+          "The response is incomplete in function, though not in form. It provides both an image and a text explanation as requested. However, the image fails to fulfill its purpose of visually explaining the mechanism, leaving the visual component of the answer completely unaddressed."
         ],
         "Content Richness": [
-          5,
-          "The text explanation is richer than the reference, providing additional details such as the specific dates of construction phases, the height of the initial construction (~150 feet), the role of the Civil War, and the effect of weathering over time. This adds valuable context."
+          3,
+          "The text is very rich, providing extra details like the 'blinking eyelid' analogy, the counterweight principle, and the nickname 'Winking Eye' bridge, which go beyond the reference text. The image, however, adds no richness or value to the explanation as it depicts the wrong state."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why are there different shades of stone on the Washington Monument? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text is factually correct, accurately explaining the reason for the color change on the Washington Monument. The generated image is a correct and realistic depiction of the monument, clearly showing the color difference.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the 'distinct horizontal color line', and the generated image clearly visualizes this exact feature on the monument.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear and concise explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. It directly answers the user's question in an ideal way.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both the requested photo and a text explanation as prompted.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text explanation is richer than the reference, providing additional details such as the specific dates of construction phases, the height of the initial construction (~150 feet), the role of the Civil War, and the effect of weathering over time. This adds valuable context.\"\n        ]\n    }\n}\n```"
-  },
-  {
-    "id": 29,
-    "domain": "space",
-    "question": "If not using the bridge, how else can people reach Mont Saint-Michel? Provide a photo and explain.",
-    "reference_text": "At low tide, visitors can cross the bay on foot along the traditional pilgrims’ route. Because of fast-moving tides, shifting channels, and areas of quicksand, crossings should be done with a certified local guide for safety.",
-    "reference_images": [
-      "data/space/mont_saint_michel_bay_crossing_walk.jpg"
-    ],
-    "generated_text": "**Image (photo):**\n*A guided low-tide walk across the bay toward Mont Saint-Michel.*\n\n**Text (explanation):**\nWhen the tide is low, vast sand and mudflats emerge around Mont Saint-Michel. Licensed guides lead groups on foot across these tidal flats along safe routes that weave between shallow channels and avoid pockets of fluid sand. This guided crossing lets people reach the mount without using the bridge—timed carefully so everyone arrives and returns before the fast-rising tide. For safety, go only with an official guide, follow their route, and use suitable footwear.\n",
-    "generated_image": "GPT-thinking/space/29.png",
-    "gemini_evaluation": {
-      "Question": "If not using the bridge, how else can people reach Mont Saint-Michel? Provide a photo and explain.",
-      "Evaluation": {
-        "Correctness": [
-          5,
-          "The generated text and image are both factually correct and accurately answer the question. The explanation correctly identifies walking across the bay at low tide as the alternative and correctly mentions the necessity of a guide for safety."
-        ],
-        "Image-Text Coherency": [
-          5,
-          "The image perfectly illustrates the text. It shows a guided group of people walking across the tidal flats towards Mont Saint-Michel, which is exactly what the explanation describes."
-        ],
-        "Content Quality": [
-          5,
-          "The image is of high quality—clear, realistic, and well-composed, looking like a real photograph. The text is well-written, grammatically correct, and provides a clear, concise explanation."
-        ],
-        "Human Preference Alignment": [
-          5,
-          "The content is helpful, safe, and appropriate. The image is aesthetically pleasing and the text is informative."
-        ],
-        "Completeness": [
-          5,
-          "The response is complete, providing both a high-quality photo and a thorough explanation as requested by the prompt."
-        ],
-        "Content Richness": [
-          5,
-          "The explanation is detailed and rich, elaborating on the dangers (channels, fluid sand) and the role of the guide, which adds value beyond a basic answer. The image is also rich in detail and effectively conveys the experience."
-        ]
-      }
-    },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"If not using the bridge, how else can people reach Mont Saint-Michel? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct and accurately answer the question. The explanation correctly identifies walking across the bay at low tide as the alternative and correctly mentions the necessity of a guide for safety.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the text. It shows a guided group of people walking across the tidal flats towards Mont Saint-Michel, which is exactly what the explanation describes.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is of high quality—clear, realistic, and well-composed, looking like a real photograph. The text is well-written, grammatically correct, and provides a clear, concise explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is helpful, safe, and appropriate. The image is aesthetically pleasing and the text is informative.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both a high-quality photo and a thorough explanation as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The explanation is detailed and rich, elaborating on the dangers (channels, fluid sand) and the role of the guide, which adds value beyond a basic answer. The image is also rich in detail and effectively conveys the experience.\"\n        ]\n    }\n}\n```"
-  },
-  {
-    "id": 58,
-    "domain": "space",
-    "question": "Why can people shop and walk on the Rialto Bridge in Venice? Provide a photo and explain the structural design.",
-    "reference_text": "The Rialto Bridge is the oldest stone bridge across the Grand Canal in Venice. Its central arch supports a covered walkway lined with shops. The strong stone arch distributes weight evenly, allowing both commercial activity and pedestrian traffic on top while boats pass underneath.",
-    "reference_images": [
-      "data/space/rialto_bridge_shops.jpg"
-    ],
-    "generated_text": "# Explanation (separate from the image)\n\nPeople can shop and walk on the Rialto Bridge because it was conceived not just as a crossing, but as a **marketplace built into a bridge**:\n\n* **Single-span stone arch:** The bridge is a massive masonry arch that works entirely in **compression**. Its curved profile channels the weight of crowds and the shop structures down into the arch and out toward the banks, where the thrust is resisted by very large abutments. Stone excels at compression, so it can safely carry heavy, steady loads like shops plus pedestrian traffic.\n\n* **No piers in the canal:** Because it’s a single span, there’s **no intermediate pier** in the Grand Canal. That keeps the waterway open for boats while concentrating the structure’s strength in the arch and abutments—freeing the deck to host shops and walkways.\n\n* **Three walkways with shops between:** The bridge carries **two rows of small shops** along its length. Those shop walls act like **spandrel walls**, transferring loads down to the arch. Between and beside the shops are **three pedestrian passages**—a central stairway and two outer side walks—so people can browse and pass through at the same time.\n\n* **Deep foundations and stout abutments:** As with many Venetian structures, the abutments are set on **dense fields of timber piles** driven into the lagoon’s sediments, which become very durable in waterlogged, low-oxygen conditions. This spreads the arch thrust over a large area and keeps settlement small.\n\n* **Durable materials and detailing:** The outer shell uses hard, water-resistant **Istrian stone** with brick and stone within, plus a crowned profile and steps that manage the slope. The permanent “dead load” of the shops actually helps **pre-compress** the arch, improving stability against crowds and wind.\n\n* **Designed for commerce from the start:** Built in the **late 16th century** (1588–1591) under **Antonio da Ponte**, it replaced earlier wooden trading bridges. Integrating stalls into the superstructure formalized the Rialto area’s role as Venice’s commercial heart—so the bridge has always been both a thoroughfare **and** a shopping street.\n\nIn short: the Rialto’s **masonry arch + robust foundations + integrated spandrel/shop walls** create a stiff, compression-only structure that easily carries the weight of shops and dense pedestrian traffic, while leaving the canal completely clear below.\n",
-    "generated_image": "GPT-thinking/space/58.png",
-    "gemini_evaluation": {
-      "Question": "Why can people shop and walk on the Rialto Bridge in Venice? Provide a photo and explain the structural design.",
-      "Evaluation": {
-        "Correctness": [
-          5,
-          "The generated image is an accurate photo of the Rialto Bridge. The text explanation is factually correct, providing accurate details about the bridge's structural design, materials, and history."
-        ],
-        "Image-Text Coherency": [
-          5,
-          "The image shows the Rialto Bridge, and the text explains its structure in detail. The text's points about the single arch, the shops, and the walkways are all visible in the provided photograph, creating perfect alignment."
-        ],
-        "Content Quality": [
-          5,
-          "The image is a high-quality, clear photograph. The text is exceptionally well-written, organized with bullet points for clarity, and uses precise architectural and engineering terminology correctly to provide a sophisticated explanation."
-        ],
-        "Human Preference Alignment": [
-          5,
-          "The response is safe, helpful, and provides a visually appealing and informative answer. There is no undesirable content."
-        ],
-        "Completeness": [
-          5,
-          "The response fully answers the question by providing both a relevant photo and a comprehensive explanation of the bridge's structural design, addressing why it can support shops and pedestrians."
-        ],
-        "Content Richness": [
-          5,
-          "The text is extremely rich in detail, going far beyond the reference text. It includes information on the structural principles (compression), specific materials (Istrian stone, timber piles), historical context (architect, dates), and the functional design (three walkways, spandrel walls), providing a thorough and multi-faceted explanation."
-        ]
-      }
-    },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people shop and walk on the Rialto Bridge in Venice? Provide a photo and explain the structural design.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image is an accurate photo of the Rialto Bridge. The text explanation is factually correct, providing accurate details about the bridge's structural design, materials, and history.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image shows the Rialto Bridge, and the text explains its structure in detail. The text's points about the single arch, the shops, and the walkways are all visible in the provided photograph, creating perfect alignment.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear photograph. The text is exceptionally well-written, organized with bullet points for clarity, and uses precise architectural and engineering terminology correctly to provide a sophisticated explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and provides a visually appealing and informative answer. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the question by providing both a relevant photo and a comprehensive explanation of the bridge's structural design, addressing why it can support shops and pedestrians.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text is extremely rich in detail, going far beyond the reference text. It includes information on the structural principles (compression), specific materials (Istrian stone, timber piles), historical context (architect, dates), and the functional design (three walkways, spandrel walls), providing a thorough and multi-faceted explanation.\"\n        ]\n    }\n}\n```"
-  },
-  {
-    "id": 76,
-    "domain": "space",
-    "question": "How can people walk on the arch of Durban’s Moses Mabhida Stadium? Provide a photo and explain.",
-    "reference_text": "A guided experience uses stairs and safety systems mounted along the stadium’s steel arch. Visitors are harnessed to a continuous line while the arch’s box sections carry the added walkway loads.",
-    "reference_images": [
-      "data/space/moses_mabhida_arch_walk.jpeg"
-    ],
-    "generated_text": "**Text explanation**\n\nPeople can walk on the arch via the stadium’s **Adventure Walk**—a guided climb along the arch’s catwalk:\n\n* **Safety gear & briefing:** You’re fitted with a helmet and a climbing harness that clips to a continuous overhead safety line. Guides walk with the group and manage the clip-in system.\n* **The climb:** You ascend a long series of metal-grate steps and landings built into one side of the arch, with handrails the whole way. It’s steep but steady, with rest stops.\n* **At the top:** You step onto the viewing platform high above the field for panoramic views of Durban and the Indian Ocean.\n* **Getting down:** You either descend the same stairs with your guide or take the **SkyCar** (a funicular that runs on the opposite side of the arch) back to ground level.\n* **Good to know:** Weather can pause operations; closed-toe shoes are required; basic fitness and age/height rules apply; bookings are recommended.\n\nIf you just want the view (without the stair climb), you can ride the **SkyCar** up and walk around the summit platform—no harness needed there.\n",
-    "generated_image": "GPT-thinking/space/76.png",
-    "gemini_evaluation": {
-      "Question": "How can people walk on the arch of Durban’s Moses Mabhida Stadium? Provide a photo and explain.",
-      "Evaluation": {
-        "Correctness": [
-          1,
-          "The text explanation is factually correct and accurate. However, the response completely fails to provide the requested photo, which is a major part of the prompt. This makes the overall answer incorrect as it doesn't fulfill the user's request."
-        ],
-        "Image-Text Coherency": [
-          0,
-          "There is no generated image, so there is nothing to compare with the text. The text describes a visual scene that the image was supposed to depict, making the absence of the image a critical failure in coherency."
-        ],
-        "Content Quality": [
-          1,
-          "The text quality is very high; it is well-structured, clear, and grammatically correct. However, the overall quality of the response is extremely low because it is missing the visual component (the image) entirely."
-        ],
-        "Human Preference Alignment": [
-          1,
-          "The user explicitly asked for a photo. Failing to provide one is a significant failure to align with the user's request. While the text is helpful, the overall response is not what the user wanted."
-        ],
-        "Completeness": [
-          1,
-          "The response is incomplete as it only provides one of the two requested components. It gives a text explanation but omits the photo."
-        ],
-        "Content Richness": [
-          2,
-          "The text is very rich and detailed, providing more useful information than the reference text, such as practical tips and alternatives. However, the overall richness is severely limited by the complete lack of a visual element."
-        ]
-      }
-    },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How can people walk on the arch of Durban’s Moses Mabhida Stadium? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The text explanation is factually correct and accurate. However, the response completely fails to provide the requested photo, which is a major part of the prompt. This makes the overall answer incorrect as it doesn't fulfill the user's request.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is no generated image, so there is nothing to compare with the text. The text describes a visual scene that the image was supposed to depict, making the absence of the image a critical failure in coherency.\"\n        ],\n        \"Content Quality\": [\n            1,\n            \"The text quality is very high; it is well-structured, clear, and grammatically correct. However, the overall quality of the response is extremely low because it is missing the visual component (the image) entirely.\"\n        ],\n        \"Human Preference Alignment\": [\n            1,\n            \"The user explicitly asked for a photo. Failing to provide one is a significant failure to align with the user's request. While the text is helpful, the overall response is not what the user wanted.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is incomplete as it only provides one of the two requested components. It gives a text explanation but omits the photo.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is very rich and detailed, providing more useful information than the reference text, such as practical tips and alternatives. However, the overall richness is severely limited by the complete lack of a visual element.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How do boats pass through the Gateshead Millennium Bridge? Include a photo and explain the opening mechanism.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The text explanation is correct and accurately describes the bridge's tilting mechanism. However, the provided image is incorrect. It shows the bridge in its normal, closed position, failing to illustrate the opening mechanism as requested. The reference image correctly shows the bridge tilted open.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is a complete lack of coherency. The text explicitly describes how the bridge 'tilts' to create a navigation gap for boats. The image shows the bridge in its static, non-tilted state. The visual and textual explanations are in direct contradiction.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The text is of high quality: well-written, clear, and grammatically correct. The image is also of high photographic quality, with good composition and clarity. However, the overall quality of the response is severely diminished because the image is entirely inappropriate for the question.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"The response is undesirable because it is misleading. While the individual components are well-presented and safe, the core failure to provide a relevant image that illustrates the answer makes the entire response unhelpful and confusing for a user trying to understand the mechanism.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The response is incomplete in function, though not in form. It provides both an image and a text explanation as requested. However, the image fails to fulfill its purpose of visually explaining the mechanism, leaving the visual component of the answer completely unaddressed.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The text is very rich, providing extra details like the 'blinking eyelid' analogy, the counterweight principle, and the nickname 'Winking Eye' bridge, which go beyond the reference text. The image, however, adds no richness or value to the explanation as it depicts the wrong state.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 36,
@@ -301,72 +178,113 @@
       "Evaluation": {
         "Correctness": [
           5,
-          "The generated image is an accurate photograph of the rooftop of Casa Milà. The text explanation is factually correct, detailing Gaudí's design philosophy, the structural reasons for the roof's shape, and the dual function of the chimneys as both sculpture and utility."
+          "Both the generated image and text are factually correct. The image is a real photograph of the rooftop of Casa Milà (La Pedrera) in Barcelona, and the text accurately explains the architectural and functional reasons why it is a walkable space."
         ],
         "Image-Text Coherency": [
           5,
-          "The image perfectly illustrates the concepts described in the text. The 'undulating terraces,' 'helmet-like 'warriors' (chimneys),' and 'walkable topography' are all clearly visible in the photo, which also shows people walking on the roof as mentioned."
+          "The image and text are perfectly coherent. The text describes an undulating, walkable landscape with paths, stairs, and sculptural chimneys, all of which are clearly and beautifully depicted in the accompanying photograph."
         ],
         "Content Quality": [
           5,
-          "The image is a high-quality, clear, and well-composed photograph. The text is very well-written, organized into clear bullet points, and free of grammatical errors. It provides an excellent explanation."
+          "The image is of excellent quality—sharp, well-composed, with vibrant colors and good lighting. The text is well-written, clearly structured with bullet points, and grammatically correct, providing a comprehensive and easy-to-understand explanation."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is highly aligned with human preference. The image is aesthetically pleasing and the text is informative, interesting, and easy to understand. There is no undesirable content."
+          "The response is highly aligned with human preference. It provides a direct, informative answer to the question with a beautiful, relevant photograph. The content is helpful, safe, and aesthetically pleasing."
         ],
         "Completeness": [
           5,
-          "The response is fully complete. It provides both a photo and a detailed explanation as requested by the prompt."
+          "The response is fully complete. It provides both the requested photo and a detailed explanation that thoroughly answers the user's question from multiple perspectives (design intent, structure, and modern use)."
         ],
         "Content Richness": [
           5,
-          "The text explanation is significantly richer than the reference. It delves into more detail, explaining the concept of a 'habitable landscape,' the structural logic of the catenary arches below, and the current status of the rooftop as a safe, accessible tourist attraction."
+          "The response is very rich in content. The photo provides a wider, more contextual view than the reference, showing the layout of the paths and the city skyline. The text is significantly more detailed than the reference, explaining the structural basis (catenary arches), the dual function of the chimneys, and the modern context of the space as a museum exhibit."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people walk on the rooftop of Casa Milà in Barcelona among chimneys? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image is an accurate photograph of the rooftop of Casa Milà. The text explanation is factually correct, detailing Gaudí's design philosophy, the structural reasons for the roof's shape, and the dual function of the chimneys as both sculpture and utility.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the concepts described in the text. The 'undulating terraces,' 'helmet-like 'warriors' (chimneys),' and 'walkable topography' are all clearly visible in the photo, which also shows people walking on the roof as mentioned.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-composed photograph. The text is very well-written, organized into clear bullet points, and free of grammatical errors. It provides an excellent explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. The image is aesthetically pleasing and the text is informative, interesting, and easy to understand. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both a photo and a detailed explanation as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text explanation is significantly richer than the reference. It delves into more detail, explaining the concept of a 'habitable landscape,' the structural logic of the catenary arches below, and the current status of the rooftop as a safe, accessible tourist attraction.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people walk on the rooftop of Casa Milà in Barcelona among chimneys? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"Both the generated image and text are factually correct. The image is a real photograph of the rooftop of Casa Milà (La Pedrera) in Barcelona, and the text accurately explains the architectural and functional reasons why it is a walkable space.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes an undulating, walkable landscape with paths, stairs, and sculptural chimneys, all of which are clearly and beautifully depicted in the accompanying photograph.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is of excellent quality—sharp, well-composed, with vibrant colors and good lighting. The text is well-written, clearly structured with bullet points, and grammatically correct, providing a comprehensive and easy-to-understand explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It provides a direct, informative answer to the question with a beautiful, relevant photograph. The content is helpful, safe, and aesthetically pleasing.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested photo and a detailed explanation that thoroughly answers the user's question from multiple perspectives (design intent, structure, and modern use).\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. The photo provides a wider, more contextual view than the reference, showing the layout of the paths and the city skyline. The text is significantly more detailed than the reference, explaining the structural basis (catenary arches), the dual function of the chimneys, and the modern context of the space as a museum exhibit.\"\n        ]\n    }\n}\n```"
   },
   {
-    "id": 1,
+    "id": 20,
     "domain": "space",
-    "question": "Why can people stand on the Statue of Liberty? Provide a photo and explain.",
-    "reference_text": "An internal spiral staircase leads to the crown, which was designed to safely accommodate small groups of visitors as a viewing platform.",
+    "question": "What is at the top of the Leaning Tower of Pisa? Provide a photo and explain.",
+    "reference_text": "The top of the Leaning Tower of Pisa houses seven bells, each tuned to a different musical note. The tower functions as the cathedral's bell tower, and despite its tilt, the bells still work and are rung on special occasions.",
     "reference_images": [
-      "data/space/Nancy_Reagan_waves_while_visiting_the_Statue_of_Liberty_in_New_York_City.jpg"
+      "data/space/pisa_tower_bells.png"
     ],
-    "generated_text": "Image (photo): (see generated image above)\n\nText (explanation):\nPeople can stand inside the Statue of Liberty—on the pedestal’s observation deck and in the crown—because the monument was engineered as a habitable structure, not a solid statue.\n • Load-bearing skeleton: A robust internal iron framework (designed to carry people and stairs) holds the statue up. The green copper skin you see outside is thin and non-structural; it hangs like a curtain on the frame.\n • Platforms & stairs anchored to the frame: Metal stairways and viewing platforms are bolted to the central support and armature, so a visitor’s weight goes into the steel/iron skeleton, not the copper shell.\n • Pedestal transfers the loads: All those forces flow down into a massive granite/concrete pedestal and then into the foundation, so visitor loads are easily supported.\n • Engineered for movement & safety: The structure can flex slightly in wind, and access is controlled with rails, capacity limits, and modern safety upgrades—making the crown room and decks safe for brief occupancy.\n • Where you can’t stand: The torch is not open to the public; visitors stand on engineered platforms (pedestal decks and the crown), not on the statue’s skin.",
-    "generated_image": "GPT-thinking/space/1.png",
+    "generated_text": "Explanation (text)\nAt the very top of the Leaning Tower of Pisa is a circular bell chamber (belfry) with open arches. Inside hang seven bronze bells, historically tuned to a musical scale and used to ring for the adjacent cathedral. Around the belfry is a flat viewing terrace with a protective railing, reached by about 294 spiral steps inside the tower’s thick masonry walls. A flagpole/lightning mast stands at the center of the roof. Today the bells remain in place as historic instruments; they’re not rung regularly to minimize vibration on the stabilized, leaning structure.",
+    "generated_image": "GPT-thinking/space/20.png",
     "gemini_evaluation": {
-      "Question": "Why can people stand on the Statue of Liberty? Provide a photo and explain.",
+      "Question": "What is at the top of the Leaning Tower of Pisa? Provide a photo and explain.",
       "Evaluation": {
         "Correctness": [
-          4,
-          "The text explanation is factually correct and provides a detailed, accurate overview of the statue's structural engineering. The image is a correct representation of the internal structure (a staircase leading to the crown), but it is a diagrammatic illustration rather than a photograph as requested by the prompt."
+          5,
+          "The generated image is a real and accurate photograph of the top of the Leaning Tower of Pisa. The text explanation is factually correct, accurately describing the bell chamber, the seven bells, the viewing platform, and the flagpole."
         ],
         "Image-Text Coherency": [
           5,
-          "The generated image, a cutaway view showing the internal staircase and crown platform, perfectly illustrates the concepts explained in the text, such as the load-bearing skeleton, the stairs anchored to the frame, and the crown as a viewing area."
+          "The image and text are perfectly coherent. The text describes the bell chamber with its arches, the bells within, the viewing terrace with a railing, and the flagpole, all of which are clearly visible in the provided photograph."
         ],
         "Content Quality": [
           5,
-          "The image is a high-quality, clear, and informative illustration. The text is very well-written, grammatically correct, and logically structured with bullet points, making the complex engineering concepts easy to understand."
+          "The generated image is a high-resolution, clear, and well-composed photograph. The text is well-written, grammatically correct, and provides a clear and informative explanation."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is helpful, safe, and aesthetically pleasing. The diagram is a great choice to explain the concept, and the text is clear and informative."
+          "The response is excellent. The image is aesthetically pleasing and highly relevant. The text is informative, helpful, and free of any undesirable content. It provides a perfect answer to the user's question."
         ],
         "Completeness": [
           5,
-          "The response fully answers the question. It provides both an image and a comprehensive text explanation that covers all the reasons why people can stand inside the statue."
+          "The response fully answers the question. It provides both a relevant photograph and a comprehensive explanation of what is at the top of the Leaning Tower of Pisa, as requested."
         ],
         "Content Richness": [
           5,
-          "The generated response is significantly richer than the reference. The text provides a multi-faceted explanation covering the internal skeleton, load transfer, the pedestal, and safety features, offering a much deeper understanding. The cutaway image is also more informative than the simple photo of the staircase."
+          "The text is very rich in detail, providing more information than the reference text, such as the number of steps, the purpose of the mast (lightning rod), and the reason the bells are no longer rung regularly. The image provides excellent context by showing the entire top section of the tower, which is arguably more informative for this question than the close-up reference image."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people stand on the Statue of Liberty? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The text explanation is factually correct and provides a detailed, accurate overview of the statue's structural engineering. The image is a correct representation of the internal structure (a staircase leading to the crown), but it is a diagrammatic illustration rather than a photograph as requested by the prompt.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image, a cutaway view showing the internal staircase and crown platform, perfectly illustrates the concepts explained in the text, such as the load-bearing skeleton, the stairs anchored to the frame, and the crown as a viewing area.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and informative illustration. The text is very well-written, grammatically correct, and logically structured with bullet points, making the complex engineering concepts easy to understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. The diagram is a great choice to explain the concept, and the text is clear and informative.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the question. It provides both an image and a comprehensive text explanation that covers all the reasons why people can stand inside the statue.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. The text provides a multi-faceted explanation covering the internal skeleton, load transfer, the pedestal, and safety features, offering a much deeper understanding. The cutaway image is also more informative than the simple photo of the staircase.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What is at the top of the Leaning Tower of Pisa? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image is a real and accurate photograph of the top of the Leaning Tower of Pisa. The text explanation is factually correct, accurately describing the bell chamber, the seven bells, the viewing platform, and the flagpole.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the bell chamber with its arches, the bells within, the viewing terrace with a railing, and the flagpole, all of which are clearly visible in the provided photograph.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-resolution, clear, and well-composed photograph. The text is well-written, grammatically correct, and provides a clear and informative explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. The image is aesthetically pleasing and highly relevant. The text is informative, helpful, and free of any undesirable content. It provides a perfect answer to the user's question.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the question. It provides both a relevant photograph and a comprehensive explanation of what is at the top of the Leaning Tower of Pisa, as requested.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text is very rich in detail, providing more information than the reference text, such as the number of steps, the purpose of the mast (lightning rod), and the reason the bells are no longer rung regularly. The image provides excellent context by showing the entire top section of the tower, which is arguably more informative for this question than the close-up reference image.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 28,
+    "domain": "space",
+    "question": "At high tide, Mont Saint-Michel looks like an island—how do people reach it? Provide a photo and explain.",
+    "reference_text": "A modern elevated causeway/bridge (pont-passerelle) links the mainland to Mont Saint-Michel. Pedestrians and cyclists can use the deck, and frequent shuttle buses (Le Passeur) operate along it. During exceptional spring tides, the forecourt near the gate can be briefly inundated; visitors wait for the water to recede and then cross via the bridge.",
+    "reference_images": [
+      "data/space/mont_saint_michel_bridge_high_tide.jpg"
+    ],
+    "generated_text": "**Text (explanation):**\n\nMont Saint-Michel is linked to the mainland by a modern **elevated bridge/causeway**. Even when the tide surrounds the rock and it looks like a true island, people can still **walk along the raised pedestrian deck** or ride the **shuttle buses** that use the same link from the mainland car parks.\n\nStructurally, the bridge sits **above normal high-tide levels** and is supported on piles so seawater can flow freely underneath, reducing silt build-up and keeping access open. During exceptionally high spring tides or storms, authorities may briefly pause crossings, but under typical high tides the bridge maintains safe access.\n",
+    "generated_image": "GPT-thinking/space/28.png",
+    "gemini_evaluation": {
+      "Question": "At high tide, Mont Saint-Michel looks like an island—how do people reach it? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The image accurately depicts Mont Saint-Michel at high tide with the modern causeway, and the text correctly explains how the bridge allows access for pedestrians and shuttle buses."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is a perfect visual representation of the accompanying text. The text describes an elevated bridge used by pedestrians and shuttle buses to access the island at high tide, and the image shows exactly this scene."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of very high quality, clear, and photorealistic. The text is well-written, grammatically correct, and provides a clear, concise explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. The image is aesthetically pleasing and perfectly relevant, and the text is informative and helpful. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the question. It provides both a photo that illustrates the situation and a detailed explanation of how people access the island."
+        ],
+        "Content Richness": [
+          4,
+          "The text is quite rich, providing extra details about the bridge's structure and its function during different tide levels. The image is a single, though very effective, depiction. The response is very good but could have been richer with multiple images showing different aspects (e.g., a closer view of the shuttle)."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"At high tide, Mont Saint-Michel looks like an island—how do people reach it? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The image accurately depicts Mont Saint-Michel at high tide with the modern causeway, and the text correctly explains how the bridge allows access for pedestrians and shuttle buses.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is a perfect visual representation of the accompanying text. The text describes an elevated bridge used by pedestrians and shuttle buses to access the island at high tide, and the image shows exactly this scene.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of very high quality, clear, and photorealistic. The text is well-written, grammatically correct, and provides a clear, concise explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. The image is aesthetically pleasing and perfectly relevant, and the text is informative and helpful. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the question. It provides both a photo that illustrates the situation and a detailed explanation of how people access the island.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is quite rich, providing extra details about the bridge's structure and its function during different tide levels. The image is a single, though very effective, depiction. The response is very good but could have been richer with multiple images showing different aspects (e.g., a closer view of the shuttle).\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 98,
@@ -383,30 +301,112 @@
       "Evaluation": {
         "Correctness": [
           5,
-          "The generated image correctly depicts a car driving through a tunnel carved into a giant redwood tree. The text is factually accurate, explaining that the tunnel was man-made and providing correct biological and structural reasons for the tree's survival."
+          "The generated image accurately depicts the Chandelier Tree, a real location where cars can drive through a redwood. The generated text is factually correct, explaining both the structural engineering (carving an arch) and the biological resilience of redwood trees that allow this to be possible."
         ],
         "Image-Text Coherency": [
           5,
-          "The image perfectly illustrates the subject of the text. The text explains the phenomenon shown in the picture—a car driving through a living tree."
+          "The image and text are perfectly coherent. The image shows a car driving through the Chandelier Tree, which is the exact subject of the textual explanation. The text explains the sign, the tunnel, and the nature of the attraction, all of which are clearly visible and contextualized in the image."
         ],
         "Content Quality": [
           5,
-          "The generated image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear, easy-to-understand explanation of a complex topic."
+          "The generated image is of exceptionally high quality, with photorealistic detail, excellent lighting, and a well-composed scene. The text is also very high quality: it's well-written, informative, grammatically correct, and structured logically to provide a clear and comprehensive explanation."
         ],
         "Human Preference Alignment": [
           5,
-          "The image is aesthetically pleasing and safe. The text is informative, helpful, and free of any undesirable content."
+          "The response is safe, helpful, and aesthetically pleasing. The image is beautiful and engaging, and the text provides a fascinating and responsible explanation, including the important context that this practice is no longer considered acceptable."
         ],
         "Completeness": [
           5,
-          "The response is complete, providing both a photo and a detailed text explanation as requested by the prompt."
+          "The response is fully complete. It provides both the requested photo and a detailed explanation, thoroughly answering the user's question."
         ],
         "Content Richness": [
           5,
-          "The text explanation is exceptionally rich. It goes beyond the simple fact that a hole was cut, delving into the structural mechanics (arch-like support) and the specific biological resilience of coast redwoods (cambium layer, rot-resistant heartwood). This level of detail is excellent."
+          "The response is very rich in content. The text goes beyond a simple answer, providing detailed biological and structural reasons for the tree's survival, which is more informative than the reference text. The image is also rich, including not just the tree and car but also tourists and a clear environmental setting, adding valuable context."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How can cars drive through a giant redwood tree at the Chandelier Tree in California? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image correctly depicts a car driving through a tunnel carved into a giant redwood tree. The text is factually accurate, explaining that the tunnel was man-made and providing correct biological and structural reasons for the tree's survival.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image perfectly illustrates the subject of the text. The text explains the phenomenon shown in the picture—a car driving through a living tree.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear, easy-to-understand explanation of a complex topic.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The image is aesthetically pleasing and safe. The text is informative, helpful, and free of any undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both a photo and a detailed text explanation as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text explanation is exceptionally rich. It goes beyond the simple fact that a hole was cut, delving into the structural mechanics (arch-like support) and the specific biological resilience of coast redwoods (cambium layer, rot-resistant heartwood). This level of detail is excellent.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How can cars drive through a giant redwood tree at the Chandelier Tree in California? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image accurately depicts the Chandelier Tree, a real location where cars can drive through a redwood. The generated text is factually correct, explaining both the structural engineering (carving an arch) and the biological resilience of redwood trees that allow this to be possible.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The image shows a car driving through the Chandelier Tree, which is the exact subject of the textual explanation. The text explains the sign, the tunnel, and the nature of the attraction, all of which are clearly visible and contextualized in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of exceptionally high quality, with photorealistic detail, excellent lighting, and a well-composed scene. The text is also very high quality: it's well-written, informative, grammatically correct, and structured logically to provide a clear and comprehensive explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and aesthetically pleasing. The image is beautiful and engaging, and the text provides a fascinating and responsible explanation, including the important context that this practice is no longer considered acceptable.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested photo and a detailed explanation, thoroughly answering the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. The text goes beyond a simple answer, providing detailed biological and structural reasons for the tree's survival, which is more informative than the reference text. The image is also rich, including not just the tree and car but also tourists and a clear environmental setting, adding valuable context.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 14,
+    "domain": "space",
+    "question": "Why can people climb the Harbour Bridge in Auckland, New Zealand? Provide a photo and explain.",
+    "reference_text": "The Auckland Harbour Bridge offers guided climbs along its steel arch structure. Walkways are fitted with safety rails and harness systems to keep climbers secure during the ascent.",
+    "reference_images": [
+      "data/space/auckland_harbour_bridge_climb.jpg"
+    ],
+    "generated_text": "Text (explanation):\n\nPeople can climb Auckland’s Harbour Bridge because a purpose-built, engineered route has been installed on the steel arch:\n • Bolted catwalks & handrails: Anti-slip grated walkways and guardrails are fixed to the bridge’s arch and truss members, converting maintenance access into a safe public route.\n • Continuous safety line: Climbers wear full-body harnesses clipped to an overhead static lifeline, so they remain attached the entire time—even while passing supports.\n • Separated from traffic: The path runs outside the vehicle lanes (along/under the arch and trusses), preventing interference with road traffic.\n • Guided operation & procedures: Trained guides, weather checks, and group spacing manage risk while using the bridge’s existing structural bracing as secure anchor points.\n\nTogether, the bridge’s rigid steel arch and cross-bracing provide reliable attachment points for catwalks and lifelines—turning essential maintenance infrastructure into a safe, scenic climb over the Waitematā Harbour.",
+    "generated_image": "GPT-thinking/space/14.png",
+    "gemini_evaluation": {
+      "Question": "Why can people climb the Harbour Bridge in Auckland, New Zealand? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "Both the generated image and text are factually correct. The image accurately depicts the Auckland Harbour Bridge climb, including the correct location (with the Sky Tower in the background), the structure of the bridge walkway, and the safety equipment worn by climbers. The text correctly identifies the safety features and procedures that make the climb possible."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the purpose-built catwalks, handrails, and harness systems, all of which are clearly visible in the photograph. The image serves as an excellent visual representation of the safety measures explained in the text."
+        ],
+        "Content Quality": [
+          5,
+          "The image is of very high quality—it is sharp, well-composed, and looks like a professional photograph. The text is also of high quality; it is well-structured with bullet points, clearly written, and provides a detailed, easy-to-understand explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent and aligns perfectly with human preference. The image is aesthetically pleasing and informative, and the text is helpful and well-organized. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response completely fulfills the user's request. It provides both a relevant photo and a comprehensive explanation that answers the question thoroughly."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail. The text goes beyond a simple explanation, breaking down the safety features into specific engineering and procedural components (bolted catwalks, continuous safety line, etc.). This provides a much deeper understanding than the reference text. The single image is high-quality and information-dense, effectively illustrating the experience."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people climb the Harbour Bridge in Auckland, New Zealand? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"Both the generated image and text are factually correct. The image accurately depicts the Auckland Harbour Bridge climb, including the correct location (with the Sky Tower in the background), the structure of the bridge walkway, and the safety equipment worn by climbers. The text correctly identifies the safety features and procedures that make the climb possible.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the purpose-built catwalks, handrails, and harness systems, all of which are clearly visible in the photograph. The image serves as an excellent visual representation of the safety measures explained in the text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is of very high quality—it is sharp, well-composed, and looks like a professional photograph. The text is also of high quality; it is well-structured with bullet points, clearly written, and provides a detailed, easy-to-understand explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent and aligns perfectly with human preference. The image is aesthetically pleasing and informative, and the text is helpful and well-organized. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely fulfills the user's request. It provides both a relevant photo and a comprehensive explanation that answers the question thoroughly.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail. The text goes beyond a simple explanation, breaking down the safety features into specific engineering and procedural components (bolted catwalks, continuous safety line, etc.). This provides a much deeper understanding than the reference text. The single image is high-quality and information-dense, effectively illustrating the experience.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 12,
+    "domain": "space",
+    "question": "Why can people walk along the roof of the O2 Arena in London? Provide a photo and explain.",
+    "reference_text": "The O2 Arena offers a 'Up at The O2' experience where visitors walk across a tensile fabric roof on a guided path. The walkway is fitted with safety rails, and participants wear harnesses connected to a secure track.",
+    "reference_images": [
+      "data/space/o2_arena_roof_walk.jpg"
+    ],
+    "generated_text": "Explanation (why people can walk along the roof of the O2 Arena):\n • Dedicated roof-walk, not the roof fabric itself. The public route—marketed as “Up at The O2”—is a purpose-built, slightly springy tensile walkway laid over the dome. Visitors step on this walkway, not on the delicate membrane roof.\n • Supported by the arena’s structural skeleton. The walkway is cable-hung and bracketed back to the O2’s primary structure (the steel perimeter ring, radial cables, and the iconic yellow masts). This means the loads from groups of people are carried by the steelwork and cables designed to handle them.\n • Non-slip, flexible deck. The deck uses a high-friction, weather-resistant surface with just enough give to accommodate the dome’s curvature and wind movements without damaging the underlying roof.\n • Continuous fall-arrest system. Each climber wears a harness clipped to a continuous safety rail along the route, with handlines and occasional steps at steeper sections—so people remain secured the entire time.\n • Controlled capacity and guided access. Group sizes, pacing, and weather checks are managed by guides, keeping live loads within the design limits and ensuring safe operation.\n\nIn short, a separate, engineered walkway—suspended and anchored to the O2’s main steel-and-cable frame—plus a clip-in safety system makes it possible for visitors to walk over the dome safely.",
+    "generated_image": "GPT-thinking/space/12.png",
+    "gemini_evaluation": {
+      "Question": "Why can people walk along the roof of the O2 Arena in London? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image correctly depicts the O2 Arena roof walk experience, including the distinctive yellow masts, the blue walkway, and the London skyline in the background. The text is factually accurate, providing a detailed and correct explanation of the structural and safety features that enable the activity."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly aligned. The text describes a purpose-built walkway, a harness-based safety system, and the support from the yellow masts, all of which are clearly visible in the accompanying photograph."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of high quality—clear, well-composed, and visually appealing. The text is exceptionally well-written, structured with clear bullet points, and provides a comprehensive, easy-to-understand explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and relevant, and the text is informative and well-presented."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete, providing both a high-quality photo and a detailed explanation as requested by the prompt."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail. The text goes beyond a simple answer, explaining the engineering, materials, and safety protocols in depth. The image provides excellent context by showing the scale of the structure and its location within London."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people walk along the roof of the O2 Arena in London? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image correctly depicts the O2 Arena roof walk experience, including the distinctive yellow masts, the blue walkway, and the London skyline in the background. The text is factually accurate, providing a detailed and correct explanation of the structural and safety features that enable the activity.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly aligned. The text describes a purpose-built walkway, a harness-based safety system, and the support from the yellow masts, all of which are clearly visible in the accompanying photograph.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality—clear, well-composed, and visually appealing. The text is exceptionally well-written, structured with clear bullet points, and provides a comprehensive, easy-to-understand explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly answers the user's question. The image is aesthetically pleasing and relevant, and the text is informative and well-presented.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete, providing both a high-quality photo and a detailed explanation as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail. The text goes beyond a simple answer, explaining the engineering, materials, and safety protocols in depth. The image provides excellent context by showing the scale of the structure and its location within London.\"\n        ]\n    }\n}\n```"
   }
 ]

@@ -22,32 +22,32 @@
       "Question": "How to draw a cartoon dog face? Provide steps visually and text the steps.",
       "Evaluation": {
         "Correctness": [
-          5,
-          "The generated response correctly answers the question by providing a valid, step-by-step guide on how to draw a cartoon dog face, including both visual and text explanations."
+          1,
+          "The generated response provides a valid tutorial on how to draw a cartoon dog face, but it completely ignores the specific style and steps shown in the sequence of reference images. The reference images clearly lay out a specific drawing, and the generated content creates a totally different, much simpler dog face. Therefore, it fails to correctly follow the provided example."
         ],
         "Image-Text Coherency": [
           5,
-          "The generated text and image are perfectly coherent. Each of the 8 written steps directly corresponds to the numbered visual steps shown in the single generated image."
+          "The generated text perfectly corresponds to the steps shown in the generated image. Each numbered text description accurately explains the drawing action depicted in the corresponding panel of the image."
         ],
         "Content Quality": [
-          5,
-          "The generated image is of high quality: it's a clear, well-organized, and aesthetically pleasing infographic. The text is also high quality, with clear, concise instructions and proper grammar."
+          4,
+          "The generated image is a clear, well-organized, and easy-to-follow visual tutorial. The text is well-written, grammatically correct, and provides clear instructions. The overall quality of the generated content, as a standalone tutorial, is high."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is highly aligned with human preference. The drawing style is cute and appealing, and the tutorial format is very easy to follow and user-friendly."
+          "The content is perfectly appropriate, helpful, and aesthetically pleasing. The cartoon dog is cute and the tutorial format is standard and effective."
         ],
         "Completeness": [
-          5,
-          "The response is complete, providing both the requested visual guide and the text steps. It covers the entire drawing process from the initial guide circle to the final details."
+          2,
+          "While the generated response provides a complete tutorial in itself, it is not a complete representation of the tutorial in the reference images. It omits many of the specific steps and details from the reference, such as the construction of the chubby cheeks, the specific shape of the eyes, and the patch, resulting in a much simpler and different drawing."
         ],
         "Content Richness": [
-          4,
-          "The response is rich, consolidating the steps into a single infographic and adding a valuable 'Tips' section for customization. However, the reference is slightly richer visually as it provides a separate, larger image for each individual step, which can be easier for some users to follow."
+          2,
+          "The generated response is less rich than the reference. The reference provides a series of large, clear images showing the progression step-by-step. The generated image crams all 8 steps into a single, smaller grid. Furthermore, the final drawing in the reference is more detailed and has more character than the very generic drawing in the generated image."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon dog face? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly answers the question by providing a valid, step-by-step guide on how to draw a cartoon dog face, including both visual and text explanations.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text and image are perfectly coherent. Each of the 8 written steps directly corresponds to the numbered visual steps shown in the single generated image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality: it's a clear, well-organized, and aesthetically pleasing infographic. The text is also high quality, with clear, concise instructions and proper grammar.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. The drawing style is cute and appealing, and the tutorial format is very easy to follow and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both the requested visual guide and the text steps. It covers the entire drawing process from the initial guide circle to the final details.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is rich, consolidating the steps into a single infographic and adding a valuable 'Tips' section for customization. However, the reference is slightly richer visually as it provides a separate, larger image for each individual step, which can be easier for some users to follow.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon dog face? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The generated response provides a valid tutorial on how to draw a cartoon dog face, but it completely ignores the specific style and steps shown in the sequence of reference images. The reference images clearly lay out a specific drawing, and the generated content creates a totally different, much simpler dog face. Therefore, it fails to correctly follow the provided example.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly corresponds to the steps shown in the generated image. Each numbered text description accurately explains the drawing action depicted in the corresponding panel of the image.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is a clear, well-organized, and easy-to-follow visual tutorial. The text is well-written, grammatically correct, and provides clear instructions. The overall quality of the generated content, as a standalone tutorial, is high.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is perfectly appropriate, helpful, and aesthetically pleasing. The cartoon dog is cute and the tutorial format is standard and effective.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"While the generated response provides a complete tutorial in itself, it is not a complete representation of the tutorial in the reference images. It omits many of the specific steps and details from the reference, such as the construction of the chubby cheeks, the specific shape of the eyes, and the patch, resulting in a much simpler and different drawing.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The generated response is less rich than the reference. The reference provides a series of large, clear images showing the progression step-by-step. The generated image crams all 8 steps into a single, smaller grid. Furthermore, the final drawing in the reference is more detailed and has more character than the very generic drawing in the generated image.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 15,
@@ -72,32 +72,32 @@
       "Question": "How to draw a rainbow with clouds? Show it in simple visual steps and text the steps.",
       "Evaluation": {
         "Correctness": [
-          5,
-          "The generated answer correctly provides a valid method for drawing a rainbow with clouds, both visually and textually."
+          3,
+          "The generated response provides a valid method for drawing a rainbow with clouds. However, the image contains incorrect and nonsensical text labels ('Step 4' is repeated, 'Atan 6' is meaningless), which reduces its accuracy."
         ],
         "Image-Text Coherency": [
-          2,
-          "The generated response provides a visual guide in a single image and a separate text guide. The text is explicitly labeled as 'text-only steps (kept separate from the visual)'. While they describe a similar drawing process, they are not integrated. The text has 8 steps, while the image has 6 visual stages. Furthermore, the text mentions steps like shading and adding sparkles that are not depicted in the image at all. This creates a significant disconnect between the visual and textual components."
+          1,
+          "There is a severe mismatch between the generated image and the generated text. The text describes drawing a 7-band rainbow, while the image clearly shows a 3-band rainbow. The coloring steps described in the text also do not match the colors used in the image. The sequence of steps is also inconsistent between the two."
         ],
         "Content Quality": [
-          5,
-          "The generated image is a high-quality, clear, and well-designed infographic that is easy to follow. The text is well-written, grammatically correct, and provides clear, concise instructions."
+          3,
+          "The image has a clean, simple art style suitable for a tutorial. The text is grammatically correct. However, the quality is significantly reduced by the incorrect labels in the image and the major discrepancy between the image and the text, making the tutorial confusing and unreliable."
         ],
         "Human Preference Alignment": [
-          5,
-          "The content is appropriate, helpful, and aesthetically pleasing. The infographic style is a very effective and user-friendly way to present a drawing tutorial."
+          3,
+          "The content is safe and appropriate for the topic. The simple style is acceptable, but the reference image provides a much more complete and aesthetically pleasing scene. The errors and inconsistencies in the generated response make it less helpful and less preferable than the reference."
         ],
         "Completeness": [
-          3,
-          "The response provides both visual steps and text steps as requested. However, it fails to integrate them into a cohesive tutorial, which is what the prompt implies and what the reference answer demonstrates. It feels like two separate answers to the same question rather than one unified response."
+          2,
+          "The response is incomplete when compared to the reference. The reference shows how to draw a complete landscape scene featuring a rainbow. The generated response only shows how to draw an isolated rainbow with clouds, omitting the sun, hills, trees, and flowers, thus providing a much less comprehensive tutorial."
         ],
         "Content Richness": [
-          2,
-          "Compared to the reference, the generated answer is very simplistic. The reference teaches how to draw a complete scene with a landscape, sun, flowers, and butterflies in addition to the rainbow and clouds. The generated answer focuses only on the rainbow and clouds, making it significantly less rich in detail and scope."
+          1,
+          "The generated response is not rich in content. It presents a very simple drawing with minimal detail. In contrast, the reference provides a much richer tutorial with more elements, steps, and a more complex final composition."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a rainbow with clouds? Show it in simple visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated answer correctly provides a valid method for drawing a rainbow with clouds, both visually and textually.\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"The generated response provides a visual guide in a single image and a separate text guide. The text is explicitly labeled as 'text-only steps (kept separate from the visual)'. While they describe a similar drawing process, they are not integrated. The text has 8 steps, while the image has 6 visual stages. Furthermore, the text mentions steps like shading and adding sparkles that are not depicted in the image at all. This creates a significant disconnect between the visual and textual components.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-designed infographic that is easy to follow. The text is well-written, grammatically correct, and provides clear, concise instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is appropriate, helpful, and aesthetically pleasing. The infographic style is a very effective and user-friendly way to present a drawing tutorial.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The response provides both visual steps and text steps as requested. However, it fails to integrate them into a cohesive tutorial, which is what the prompt implies and what the reference answer demonstrates. It feels like two separate answers to the same question rather than one unified response.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"Compared to the reference, the generated answer is very simplistic. The reference teaches how to draw a complete scene with a landscape, sun, flowers, and butterflies in addition to the rainbow and clouds. The generated answer focuses only on the rainbow and clouds, making it significantly less rich in detail and scope.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a rainbow with clouds? Show it in simple visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            3,\n            \"The generated response provides a valid method for drawing a rainbow with clouds. However, the image contains incorrect and nonsensical text labels ('Step 4' is repeated, 'Atan 6' is meaningless), which reduces its accuracy.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a severe mismatch between the generated image and the generated text. The text describes drawing a 7-band rainbow, while the image clearly shows a 3-band rainbow. The coloring steps described in the text also do not match the colors used in the image. The sequence of steps is also inconsistent between the two.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The image has a clean, simple art style suitable for a tutorial. The text is grammatically correct. However, the quality is significantly reduced by the incorrect labels in the image and the major discrepancy between the image and the text, making the tutorial confusing and unreliable.\"\n        ],\n        \"Human Preference Alignment\": [\n            3,\n            \"The content is safe and appropriate for the topic. The simple style is acceptable, but the reference image provides a much more complete and aesthetically pleasing scene. The errors and inconsistencies in the generated response make it less helpful and less preferable than the reference.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The response is incomplete when compared to the reference. The reference shows how to draw a complete landscape scene featuring a rainbow. The generated response only shows how to draw an isolated rainbow with clouds, omitting the sun, hills, trees, and flowers, thus providing a much less comprehensive tutorial.\"\n        ],\n        \"Content Richness\": [\n            1,\n            \"The generated response is not rich in content. It presents a very simple drawing with minimal detail. In contrast, the reference provides a much richer tutorial with more elements, steps, and a more complex final composition.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 4,
@@ -123,31 +123,31 @@
       "Evaluation": {
         "Correctness": [
           5,
-          "The generated response provides a correct and valid step-by-step tutorial on how to draw a cartoon dog. It is a different style and approach from the reference, but it is a perfectly acceptable and accurate answer to the user's question."
+          "The generated image and text correctly provide a step-by-step guide on how to draw a cartoon dog, which directly answers the user's question."
         ],
         "Image-Text Coherency": [
           5,
-          "The generated text perfectly corresponds to the generated image. Each step described in the text (e.g., 'Head & muzzle', 'Ears', 'Nose & smile') is accurately depicted in the corresponding panel of the image."
+          "The text explanation perfectly corresponds to the visual steps shown in the image. Each numbered text step accurately describes the action depicted in the corresponding numbered panel of the infographic."
         ],
         "Content Quality": [
           5,
-          "The quality of both the image and text is very high. The image is clear, stylistically consistent, and the steps are easy to follow for a beginner. The text is well-written, grammatically correct, and clearly explains the process using simple language."
+          "The generated response is of very high quality. The image is a clear, well-designed, and easy-to-follow infographic, which is an excellent format for a tutorial. The text is well-written, grammatically correct, and broken down into helpful sections, making it very user-friendly."
         ],
         "Human Preference Alignment": [
           5,
-          "The generated response is highly preferable. The art style is cute and modern, and the tutorial's method of starting with basic shapes (circles, ovals) is a classic and effective technique for beginners. The overall presentation is very appealing and user-friendly."
+          "The response is highly aligned with user preference for a beginner's tutorial. The chosen art style is simple and cute, and the infographic format is superior to the series of separate images in the reference for clarity and ease of use. The overall presentation is appealing and helpful."
         ],
         "Completeness": [
           5,
-          "The response is fully complete. It provides a full set of visual steps from a blank start to a finished, colored drawing, and the accompanying text covers the entire process without any omissions."
+          "The response provides a complete start-to-finish guide, from the initial construction lines to the final colored drawing. It includes all the necessary steps to replicate the image."
         ],
         "Content Richness": [
           5,
-          "The response is very rich in content. In addition to the core drawing steps, the text provides extra helpful information such as a list of needed materials, drawing tips (e.g., 'keep your lines light'), a coloring guide, a proportion tip, and suggestions for variations. This adds significant value beyond the basic instructions."
+          "The response is very rich. In addition to the core drawing steps, it provides extra useful information such as a list of required materials, a quick coloring guide, a proportion tip, and suggestions for variations. This adds significant value beyond a basic tutorial."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon dog? Use visual steps suitable for beginners and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response provides a correct and valid step-by-step tutorial on how to draw a cartoon dog. It is a different style and approach from the reference, but it is a perfectly acceptable and accurate answer to the user's question.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly corresponds to the generated image. Each step described in the text (e.g., 'Head & muzzle', 'Ears', 'Nose & smile') is accurately depicted in the corresponding panel of the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is very high. The image is clear, stylistically consistent, and the steps are easy to follow for a beginner. The text is well-written, grammatically correct, and clearly explains the process using simple language.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly preferable. The art style is cute and modern, and the tutorial's method of starting with basic shapes (circles, ovals) is a classic and effective technique for beginners. The overall presentation is very appealing and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides a full set of visual steps from a blank start to a finished, colored drawing, and the accompanying text covers the entire process without any omissions.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. In addition to the core drawing steps, the text provides extra helpful information such as a list of needed materials, drawing tips (e.g., 'keep your lines light'), a coloring guide, a proportion tip, and suggestions for variations. This adds significant value beyond the basic instructions.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon dog? Use visual steps suitable for beginners and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text correctly provide a step-by-step guide on how to draw a cartoon dog, which directly answers the user's question.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explanation perfectly corresponds to the visual steps shown in the image. Each numbered text step accurately describes the action depicted in the corresponding numbered panel of the infographic.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated response is of very high quality. The image is a clear, well-designed, and easy-to-follow infographic, which is an excellent format for a tutorial. The text is well-written, grammatically correct, and broken down into helpful sections, making it very user-friendly.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with user preference for a beginner's tutorial. The chosen art style is simple and cute, and the infographic format is superior to the series of separate images in the reference for clarity and ease of use. The overall presentation is appealing and helpful.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response provides a complete start-to-finish guide, from the initial construction lines to the final colored drawing. It includes all the necessary steps to replicate the image.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. In addition to the core drawing steps, it provides extra useful information such as a list of required materials, a quick coloring guide, a proportion tip, and suggestions for variations. This adds significant value beyond a basic tutorial.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 95,
@@ -172,32 +172,32 @@
       "Question": "How to Draw Boxing Gloves? Provide steps visually and text the steps.",
       "Evaluation": {
         "Correctness": [
-          1,
-          "The user asked for visual steps, but the generated response only provided a single final image. While the text steps are valid instructions for drawing, the failure to provide the visual component makes the overall response incorrect."
+          3,
+          "The generated response correctly provides instructions on how to draw boxing gloves, which answers the user's core question. However, the provided image and text are two completely separate and different tutorials, creating a disjointed and logically inconsistent answer. Additionally, the reference shows how to draw hanging gloves, while the generated image shows them side-by-side."
         ],
         "Image-Text Coherency": [
-          1,
-          "There is a severe lack of coherency. The text describes a multi-step drawing process, but the single image only shows the final product. The text does not correspond to a sequence of images, and the image does not illustrate any of the steps mentioned in the text."
+          0,
+          "There is a total lack of coherency between the generated image and the generated text. They are two different sets of instructions. The image has 8 steps (with numbering errors), while the text provides 12 much more detailed steps. The actions described at each step number do not correspond at all. For example, Step 2 in the image shows adding cuffs and a thumb shape, while Step 2 in the text only describes adding cuffs."
         ],
         "Content Quality": [
-          4,
-          "The quality of the single generated image is high; it is a well-rendered, colored drawing. The text is also of high quality, with clear, well-written, and detailed steps."
+          3,
+          "The visual quality of the generated image is high; it's a clean and modern infographic. However, it contains structural errors: there is no Step 6, and Step 8 is listed twice. The text quality is excellent, with clear, descriptive, and grammatically correct instructions."
         ],
         "Human Preference Alignment": [
-          2,
-          "While the generated image is aesthetically pleasing and the text is helpful, the response fails to meet the user's primary request for visual steps. A user would likely be disappointed by this omission."
+          5,
+          "The content is safe, helpful, and aesthetically pleasing. The clean infographic style of the image is visually appealing and easy to understand, despite its flaws."
         ],
         "Completeness": [
-          1,
-          "The response is highly incomplete. It omits the core requirement of the prompt: providing visual steps for the drawing process. Only the textual steps are provided in a step-by-step format."
+          3,
+          "The response provides both visual and textual steps as requested. However, the image is incomplete due to the missing and duplicated step numbers. The disconnect between the image and text also makes the overall answer feel incomplete and fractured."
         ],
         "Content Richness": [
-          2,
-          "The text is very rich and detailed, offering more nuanced instructions than the reference. However, the visual component is extremely poor in richness, providing only one final image instead of a series of steps."
+          4,
+          "The generated text is very rich and detailed, offering 12 steps that cover not just line art but also shading and highlights, making it more comprehensive than the reference. The image provides a decent number of visual steps. Despite the lack of cohesion, the combined information is substantial."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw Boxing Gloves? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The user asked for visual steps, but the generated response only provided a single final image. While the text steps are valid instructions for drawing, the failure to provide the visual component makes the overall response incorrect.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a severe lack of coherency. The text describes a multi-step drawing process, but the single image only shows the final product. The text does not correspond to a sequence of images, and the image does not illustrate any of the steps mentioned in the text.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The quality of the single generated image is high; it is a well-rendered, colored drawing. The text is also of high quality, with clear, well-written, and detailed steps.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"While the generated image is aesthetically pleasing and the text is helpful, the response fails to meet the user's primary request for visual steps. A user would likely be disappointed by this omission.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It omits the core requirement of the prompt: providing visual steps for the drawing process. Only the textual steps are provided in a step-by-step format.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is very rich and detailed, offering more nuanced instructions than the reference. However, the visual component is extremely poor in richness, providing only one final image instead of a series of steps.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw Boxing Gloves? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            3,\n            \"The generated response correctly provides instructions on how to draw boxing gloves, which answers the user's core question. However, the provided image and text are two completely separate and different tutorials, creating a disjointed and logically inconsistent answer. Additionally, the reference shows how to draw hanging gloves, while the generated image shows them side-by-side.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is a total lack of coherency between the generated image and the generated text. They are two different sets of instructions. The image has 8 steps (with numbering errors), while the text provides 12 much more detailed steps. The actions described at each step number do not correspond at all. For example, Step 2 in the image shows adding cuffs and a thumb shape, while Step 2 in the text only describes adding cuffs.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The visual quality of the generated image is high; it's a clean and modern infographic. However, it contains structural errors: there is no Step 6, and Step 8 is listed twice. The text quality is excellent, with clear, descriptive, and grammatically correct instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is safe, helpful, and aesthetically pleasing. The clean infographic style of the image is visually appealing and easy to understand, despite its flaws.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The response provides both visual and textual steps as requested. However, the image is incomplete due to the missing and duplicated step numbers. The disconnect between the image and text also makes the overall answer feel incomplete and fractured.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The generated text is very rich and detailed, offering 12 steps that cover not just line art but also shading and highlights, making it more comprehensive than the reference. The image provides a decent number of visual steps. Despite the lack of cohesion, the combined information is substantial.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 36,
@@ -223,31 +223,31 @@
       "Evaluation": {
         "Correctness": [
           5,
-          "The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon elephant, including both images and text as requested."
+          "The generated response correctly answers the question by providing a valid visual and textual guide on how to draw a cartoon elephant. Although the style is different from the reference, it is a perfectly acceptable and accurate answer to the prompt."
         ],
         "Image-Text Coherency": [
-          5,
-          "The text explanation for each step perfectly matches the corresponding image. The instructions are clear and accurately describe the visual progression."
+          1,
+          "There is a significant mismatch between the visual steps in the image and the numbered text steps. For example, text step 2 describes adding ear and trunk guides, while visual step 2 shows refining the body shape and adding legs. Text step 3 describes blocking in features, while visual step 3 shows adding cross-hair guidelines to the face. The sequence and content of the steps in the text do not align with the visual progression in the image, making the tutorial confusing to follow."
         ],
         "Content Quality": [
-          5,
-          "The images are clear, aesthetically pleasing, and easy to follow. The tutorial uses a common and effective drawing method (starting with basic shapes). The text is well-written, grammatically correct, and provides clear instructions."
+          4,
+          "The generated image is of high quality. It's a clear, well-designed infographic with an appealing art style. The text is also well-written, with clear grammar and structure. The score is lowered because the primary function of a tutorial (to be followed) is undermined by the incoherency."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is highly preferable. The chosen cartoon style is cute and appealing, and the tutorial is very user-friendly. There is no undesirable content."
+          "The generated response is highly aligned with human preference. The cartoon elephant is cute, the infographic is aesthetically pleasing, and the text is helpful and encouraging. The content is completely safe and appropriate."
         ],
         "Completeness": [
           5,
-          "The response is complete. It provides a full set of visual steps and corresponding text explanations, from initial construction lines to the final colored drawing, as requested by the prompt."
+          "The response is complete. It provides both a multi-step visual guide and a multi-step text explanation, as requested by the prompt. It covers the drawing process from the initial shapes to the final colored illustration."
         ],
         "Content Richness": [
           5,
-          "The response is rich in content. In addition to the core tutorial, it provides extra 'Quick tips' for drawing and an offer to regenerate the tutorial in a different style, which adds significant value for the user."
+          "The response is rich in content. The visual guide has 8 distinct steps, which is a good level of detail. The text not only provides 8 steps but also includes a valuable 'Quick tips' section, adding extra information beyond the basic instructions."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon elephant? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon elephant, including both images and text as requested.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explanation for each step perfectly matches the corresponding image. The instructions are clear and accurately describe the visual progression.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The images are clear, aesthetically pleasing, and easy to follow. The tutorial uses a common and effective drawing method (starting with basic shapes). The text is well-written, grammatically correct, and provides clear instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. The chosen cartoon style is cute and appealing, and the tutorial is very user-friendly. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It provides a full set of visual steps and corresponding text explanations, from initial construction lines to the final colored drawing, as requested by the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in content. In addition to the core tutorial, it provides extra 'Quick tips' for drawing and an offer to regenerate the tutorial in a different style, which adds significant value for the user.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon elephant? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly answers the question by providing a valid visual and textual guide on how to draw a cartoon elephant. Although the style is different from the reference, it is a perfectly acceptable and accurate answer to the prompt.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a significant mismatch between the visual steps in the image and the numbered text steps. For example, text step 2 describes adding ear and trunk guides, while visual step 2 shows refining the body shape and adding legs. Text step 3 describes blocking in features, while visual step 3 shows adding cross-hair guidelines to the face. The sequence and content of the steps in the text do not align with the visual progression in the image, making the tutorial confusing to follow.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is of high quality. It's a clear, well-designed infographic with an appealing art style. The text is also well-written, with clear grammar and structure. The score is lowered because the primary function of a tutorial (to be followed) is undermined by the incoherency.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly aligned with human preference. The cartoon elephant is cute, the infographic is aesthetically pleasing, and the text is helpful and encouraging. The content is completely safe and appropriate.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It provides both a multi-step visual guide and a multi-step text explanation, as requested by the prompt. It covers the drawing process from the initial shapes to the final colored illustration.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in content. The visual guide has 8 distinct steps, which is a good level of detail. The text not only provides 8 steps but also includes a valuable 'Quick tips' section, adding extra information beyond the basic instructions.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 32,
@@ -273,31 +273,31 @@
       "Evaluation": {
         "Correctness": [
           5,
-          "The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon owl, including both a visual guide and a textual explanation as requested."
+          "The generated response correctly answers the user's question by providing a valid step-by-step tutorial, with both visual and text components, on how to draw a cartoon owl."
         ],
         "Image-Text Coherency": [
-          5,
-          "The generated text aligns perfectly with the generated image. Each numbered step in the text corresponds directly and accurately to the numbered panel in the visual guide."
+          1,
+          "There is a significant mismatch between the generated image steps and the generated text steps. For example, the text describes adding wings in step 6, but the image shows adding a belly patch in step 4. The numbering is inconsistent; the image shows 6 drawing steps plus a final colored step labeled confusingly as 'STEP 6' and 'CUER 8', while the text provides a 10-step guide. The general drawing process is similar, but the specific step-by-step breakdown does not align."
         ],
         "Content Quality": [
-          5,
-          "The generated image is a high-quality, clear, and easy-to-follow visual tutorial. The text is well-written, grammatically correct, and provides concise, understandable instructions."
+          4,
+          "The generated image is a high-quality, clear, and aesthetically pleasing infographic. The text is well-written and easy to follow. The only issue is a clear typo in the final step of the image, which says 'CUER 8' instead of 'COLOR STEP 8' or similar."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is helpful, safe, and aesthetically pleasing. The cartoon owl is cute and the tutorial style is appealing and user-friendly."
+          "The generated content is highly desirable. The cartoon owl is cute, the style is appealing, and the tutorial format is helpful and easy to understand. The content is completely safe and appropriate."
         ],
         "Completeness": [
           5,
-          "The response is fully complete. It provides both the visual steps and the text steps requested in the prompt, covering the drawing process from initial sketch to final coloring."
+          "The response is complete. It fulfills both parts of the prompt by providing a visual guide and a corresponding text guide for drawing a full cartoon owl from start to finish."
         ],
         "Content Richness": [
-          4,
-          "The response is quite rich, providing 10 steps, a final colored version, and extra 'Quick tips'. However, the visual guide is a single composite image, whereas the reference provides a separate, larger image for each step, which offers slightly more visual detail and clarity in the progression. The generated response is still very good, just slightly less visually expansive."
+          3,
+          "The generated guide is good and includes helpful 'Quick tips', which adds value. However, the drawing itself is much simpler than the reference guide, which teaches a more detailed, textured style and a composition with two owls. Therefore, the reference is richer in terms of artistic complexity and scope."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon owl? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon owl, including both a visual guide and a textual explanation as requested.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text aligns perfectly with the generated image. Each numbered step in the text corresponds directly and accurately to the numbered panel in the visual guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and easy-to-follow visual tutorial. The text is well-written, grammatically correct, and provides concise, understandable instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. The cartoon owl is cute and the tutorial style is appealing and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the visual steps and the text steps requested in the prompt, covering the drawing process from initial sketch to final coloring.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is quite rich, providing 10 steps, a final colored version, and extra 'Quick tips'. However, the visual guide is a single composite image, whereas the reference provides a separate, larger image for each step, which offers slightly more visual detail and clarity in the progression. The generated response is still very good, just slightly less visually expansive.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon owl? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly answers the user's question by providing a valid step-by-step tutorial, with both visual and text components, on how to draw a cartoon owl.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a significant mismatch between the generated image steps and the generated text steps. For example, the text describes adding wings in step 6, but the image shows adding a belly patch in step 4. The numbering is inconsistent; the image shows 6 drawing steps plus a final colored step labeled confusingly as 'STEP 6' and 'CUER 8', while the text provides a 10-step guide. The general drawing process is similar, but the specific step-by-step breakdown does not align.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is a high-quality, clear, and aesthetically pleasing infographic. The text is well-written and easy to follow. The only issue is a clear typo in the final step of the image, which says 'CUER 8' instead of 'COLOR STEP 8' or similar.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated content is highly desirable. The cartoon owl is cute, the style is appealing, and the tutorial format is helpful and easy to understand. The content is completely safe and appropriate.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It fulfills both parts of the prompt by providing a visual guide and a corresponding text guide for drawing a full cartoon owl from start to finish.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The generated guide is good and includes helpful 'Quick tips', which adds value. However, the drawing itself is much simpler than the reference guide, which teaches a more detailed, textured style and a composition with two owls. Therefore, the reference is richer in terms of artistic complexity and scope.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 29,
@@ -322,32 +322,32 @@
       "Question": "How to draw a watermelon slice? Provide steps visually and text the steps.",
       "Evaluation": {
         "Correctness": [
-          5,
-          "The generated response accurately provides both a visual guide and text steps for drawing a watermelon slice, directly answering the user's question. The method shown is a valid and common way to draw this object."
+          2,
+          "The generated response provides a valid tutorial on how to draw a watermelon slice, but it completely disregards the reference material, which shows how to draw a whole watermelon first and then a slice next to it. It creates a different, much simpler drawing from scratch instead of following the provided example."
         ],
         "Image-Text Coherency": [
-          5,
-          "The text explanation for each of the 8 steps perfectly corresponds to the visual change shown in the respective panel of the generated image. The instructions are a clear and accurate description of the visual guide."
+          2,
+          "There are significant inconsistencies. The generated image contains hallucinated and misspelled text labels (e.g., 'crouinllunes', 'add core', 'Add higbaicten'). Additionally, Step 3 in the text says to 'Round the two corners,' but the accompanying image shows no change from Step 2, making the instruction and visual mismatched."
         ],
         "Content Quality": [
-          5,
-          "The generated image is of high quality: it's clean, stylistically consistent, and aesthetically pleasing. The step-by-step progression is clear and easy to follow. The text is well-written, grammatically correct, and uses clear, concise language."
+          3,
+          "The generated image has a clean, simple, and easy-to-follow art style. The generated text is well-written and clear. However, the quality is significantly reduced by the nonsensical text labels within the image itself."
         ],
         "Human Preference Alignment": [
-          5,
-          "The response is highly preferable. It directly addresses the user's request to draw a slice, unlike the reference which spends half the tutorial on a whole watermelon. The visual style is modern and appealing, and the instructions are very clear."
+          3,
+          "The overall layout is aesthetically pleasing and helpful as a tutorial. However, the presence of gibberish text in the image makes the output look unprofessional and confusing, which is undesirable."
         ],
         "Completeness": [
-          5,
-          "The response is fully complete. It provides both the requested visual and text components, covering the entire drawing process from the initial shape to the final details like shading and highlights."
+          2,
+          "The response is incomplete compared to the reference. The reference tutorial includes drawing a whole watermelon as a primary component, which the generated response entirely omits, focusing only on the slice."
         ],
         "Content Richness": [
-          5,
-          "The response is rich in detail. It goes beyond basic shapes and colors to include steps for shading and highlights, which adds depth to the final drawing. The inclusion of an 'Optional tweaks' section with further ideas is a fantastic addition that significantly enriches the content."
+          3,
+          "The generated response is less rich than the reference in terms of the complexity of the final drawing (slice only vs. whole melon and slice). However, it does add richness by providing more detailed steps for coloring, shading, and highlighting, as well as offering 'Optional tweaks' in the text."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a watermelon slice? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response accurately provides both a visual guide and text steps for drawing a watermelon slice, directly answering the user's question. The method shown is a valid and common way to draw this object.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explanation for each of the 8 steps perfectly corresponds to the visual change shown in the respective panel of the generated image. The instructions are a clear and accurate description of the visual guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality: it's clean, stylistically consistent, and aesthetically pleasing. The step-by-step progression is clear and easy to follow. The text is well-written, grammatically correct, and uses clear, concise language.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. It directly addresses the user's request to draw a slice, unlike the reference which spends half the tutorial on a whole watermelon. The visual style is modern and appealing, and the instructions are very clear.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested visual and text components, covering the entire drawing process from the initial shape to the final details like shading and highlights.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is rich in detail. It goes beyond basic shapes and colors to include steps for shading and highlights, which adds depth to the final drawing. The inclusion of an 'Optional tweaks' section with further ideas is a fantastic addition that significantly enriches the content.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a watermelon slice? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated response provides a valid tutorial on how to draw a watermelon slice, but it completely disregards the reference material, which shows how to draw a whole watermelon first and then a slice next to it. It creates a different, much simpler drawing from scratch instead of following the provided example.\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"There are significant inconsistencies. The generated image contains hallucinated and misspelled text labels (e.g., 'crouinllunes', 'add core', 'Add higbaicten'). Additionally, Step 3 in the text says to 'Round the two corners,' but the accompanying image shows no change from Step 2, making the instruction and visual mismatched.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The generated image has a clean, simple, and easy-to-follow art style. The generated text is well-written and clear. However, the quality is significantly reduced by the nonsensical text labels within the image itself.\"\n        ],\n        \"Human Preference Alignment\": [\n            3,\n            \"The overall layout is aesthetically pleasing and helpful as a tutorial. However, the presence of gibberish text in the image makes the output look unprofessional and confusing, which is undesirable.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The response is incomplete compared to the reference. The reference tutorial includes drawing a whole watermelon as a primary component, which the generated response entirely omits, focusing only on the slice.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The generated response is less rich than the reference in terms of the complexity of the final drawing (slice only vs. whole melon and slice). However, it does add richness by providing more detailed steps for coloring, shading, and highlighting, as well as offering 'Optional tweaks' in the text.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 18,
@@ -372,32 +372,32 @@
       "Question": "How to draw a pumpkin? Provide steps visually and text the steps.",
       "Evaluation": {
         "Correctness": [
-          5,
-          "The generated answer provides a correct and valid method for drawing a pumpkin, including both an image and text."
+          2,
+          "The generated image contains an error where Step 2 and Step 3 are identical. Additionally, the visual guide makes a significant leap from a single oval in Step 1 to a fully formed pumpkin body in Step 2, which is a poor instructional step. The text describes a more gradual process that the image does not follow."
         ],
         "Image-Text Coherency": [
-          5,
-          "The text steps perfectly correspond to the numbered visual steps in the single generated image. The coherence is excellent."
+          1,
+          "There is a major disconnect between the text and the visual steps. The text describes adding outer ribs and then inner ribs (Steps 2 & 3), but the image jumps directly from a single oval (Step 1) to a completed pumpkin body (Step 2). The identical Step 2 and Step 3 in the image do not correspond to any progression in the text. The overall flow is misaligned."
         ],
         "Content Quality": [
-          5,
-          "The generated image is a high-quality, clear, and well-designed infographic that is very easy to follow. The text is well-written, concise, and provides clear instructions."
+          3,
+          "The visual style of the generated image is clean, clear, and aesthetically pleasing. The text is well-written and easy to understand. However, the overall quality is significantly diminished by the factual error (duplicate step) and the poor instructional design (the large jump in complexity between steps)."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is very user-friendly and aesthetically pleasing. The single-image infographic format is arguably preferable to the reference's series of separate images for a quick tutorial."
+          "The content is helpful, safe, and presented in a clear, family-friendly format. The aesthetic is appealing and suitable for the topic."
         ],
         "Completeness": [
-          5,
-          "The response fully answers the prompt by providing both visual and textual steps. It covers the entire process from initial sketch to a colored final product."
+          3,
+          "The guide covers the entire process from a basic shape to a finished, colored drawing. However, it is not very thorough. It omits several key intermediate steps for constructing the pumpkin's ribbed shape, unlike the reference guide, which breaks the process down much more effectively for a beginner."
         ],
         "Content Richness": [
-          4,
-          "While the single-image format is efficient, it is less rich than the reference's 10 separate images. The text is also more concise than the reference's detailed descriptions. However, it adds richness with a 'Quick tips' section, which is a valuable addition."
+          2,
+          "The generated guide is significantly less detailed and rich than the reference. The reference uses 9 distinct drawing steps to build the pumpkin, while the generated image effectively only has 4 unique drawing steps before coloring. The inclusion of 'Quick tips' in the text is a good feature, but it doesn't compensate for the lack of detail in the core instructions."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a pumpkin? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated answer provides a correct and valid method for drawing a pumpkin, including both an image and text.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text steps perfectly correspond to the numbered visual steps in the single generated image. The coherence is excellent.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-designed infographic that is very easy to follow. The text is well-written, concise, and provides clear instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is very user-friendly and aesthetically pleasing. The single-image infographic format is arguably preferable to the reference's series of separate images for a quick tutorial.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the prompt by providing both visual and textual steps. It covers the entire process from initial sketch to a colored final product.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"While the single-image format is efficient, it is less rich than the reference's 10 separate images. The text is also more concise than the reference's detailed descriptions. However, it adds richness with a 'Quick tips' section, which is a valuable addition.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a pumpkin? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated image contains an error where Step 2 and Step 3 are identical. Additionally, the visual guide makes a significant leap from a single oval in Step 1 to a fully formed pumpkin body in Step 2, which is a poor instructional step. The text describes a more gradual process that the image does not follow.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a major disconnect between the text and the visual steps. The text describes adding outer ribs and then inner ribs (Steps 2 & 3), but the image jumps directly from a single oval (Step 1) to a completed pumpkin body (Step 2). The identical Step 2 and Step 3 in the image do not correspond to any progression in the text. The overall flow is misaligned.\"\n        ],\n        \"Content Quality\": [\n            3,\n            \"The visual style of the generated image is clean, clear, and aesthetically pleasing. The text is well-written and easy to understand. However, the overall quality is significantly diminished by the factual error (duplicate step) and the poor instructional design (the large jump in complexity between steps).\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is helpful, safe, and presented in a clear, family-friendly format. The aesthetic is appealing and suitable for the topic.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The guide covers the entire process from a basic shape to a finished, colored drawing. However, it is not very thorough. It omits several key intermediate steps for constructing the pumpkin's ribbed shape, unlike the reference guide, which breaks the process down much more effectively for a beginner.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The generated guide is significantly less detailed and rich than the reference. The reference uses 9 distinct drawing steps to build the pumpkin, while the generated image effectively only has 4 unique drawing steps before coloring. The inclusion of 'Quick tips' in the text is a good feature, but it doesn't compensate for the lack of detail in the core instructions.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 14,
@@ -422,32 +422,32 @@
       "Question": "How to draw a rocket ship? Provide steps visually and text the steps.",
       "Evaluation": {
         "Correctness": [
-          5,
-          "The generated response is correct. It provides a valid and logical set of instructions, both visually and textually, for drawing a rocket ship."
+          2,
+          "The generated response provides a valid method for drawing a rocket ship. However, the numbered steps in the text do not correspond correctly to the numbered steps in the image. For example, text step 3 ('Sketch the fins') describes an action already shown in image step 2. Text step 6 ('Clean outline... Erase the centerline') describes what happens in image step 3. This significant internal inconsistency makes the tutorial confusing and incorrect as a whole."
         ],
         "Image-Text Coherency": [
-          5,
-          "The text steps perfectly correspond to the numbered visual steps in the generated image. Each textual instruction accurately describes the action shown in the corresponding image panel."
+          1,
+          "There is a severe lack of coherency between the visual steps in the image and the textual steps. The numbering and description of actions are mismatched. The text describes adding fins in step 3, but the image shows them added in step 2. The text describes erasing the centerline in step 6, but the image shows this happening in step 3. The user would be unable to follow the text and image together."
         ],
         "Content Quality": [
-          5,
-          "The generated image is high-quality, clear, and well-organized into a step-by-step grid. The text is well-written, easy to understand, and grammatically correct. The overall presentation is very professional and effective as a tutorial."
+          4,
+          "The generated image is of high quality: it's clear, simple, and well-designed as a tutorial infographic. The text is also well-written, with good grammar and helpful tips. The quality of the individual components is good, but the overall quality of the response is brought down by their poor integration."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is perfectly aligned with user preference. It's helpful, safe, and aesthetically pleasing. The instructional format is clear and encouraging."
+          "The response is helpful, safe, and has an aesthetically pleasing and simple design suitable for a drawing tutorial. The tone is encouraging and user-friendly."
         ],
         "Completeness": [
           5,
-          "The response is complete. It provides both the visual steps and the text steps as requested, covering the process from initial outline to final details and coloring."
+          "The response is complete, providing both a visual guide and a textual explanation for drawing a rocket ship from start to a finished, colored product, as requested."
         ],
         "Content Richness": [
-          5,
-          "The response is very rich. The single image that contains all the steps is an efficient and effective format. The text is richer than the reference, as it includes a separate section for 'Proportions & tips', adding extra value for the user."
+          4,
+          "The response is rich, offering not just the steps but also a separate section with 'Proportions & tips'. It also offers to generate worksheets or different styles, which adds significant value. The 8-step process is detailed enough for a beginner."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a rocket ship? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response is correct. It provides a valid and logical set of instructions, both visually and textually, for drawing a rocket ship.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text steps perfectly correspond to the numbered visual steps in the generated image. Each textual instruction accurately describes the action shown in the corresponding image panel.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is high-quality, clear, and well-organized into a step-by-step grid. The text is well-written, easy to understand, and grammatically correct. The overall presentation is very professional and effective as a tutorial.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with user preference. It's helpful, safe, and aesthetically pleasing. The instructional format is clear and encouraging.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It provides both the visual steps and the text steps as requested, covering the process from initial outline to final details and coloring.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The single image that contains all the steps is an efficient and effective format. The text is richer than the reference, as it includes a separate section for 'Proportions & tips', adding extra value for the user.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a rocket ship? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated response provides a valid method for drawing a rocket ship. However, the numbered steps in the text do not correspond correctly to the numbered steps in the image. For example, text step 3 ('Sketch the fins') describes an action already shown in image step 2. Text step 6 ('Clean outline... Erase the centerline') describes what happens in image step 3. This significant internal inconsistency makes the tutorial confusing and incorrect as a whole.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a severe lack of coherency between the visual steps in the image and the textual steps. The numbering and description of actions are mismatched. The text describes adding fins in step 3, but the image shows them added in step 2. The text describes erasing the centerline in step 6, but the image shows this happening in step 3. The user would be unable to follow the text and image together.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is of high quality: it's clear, simple, and well-designed as a tutorial infographic. The text is also well-written, with good grammar and helpful tips. The quality of the individual components is good, but the overall quality of the response is brought down by their poor integration.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and has an aesthetically pleasing and simple design suitable for a drawing tutorial. The tone is encouraging and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both a visual guide and a textual explanation for drawing a rocket ship from start to a finished, colored product, as requested.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is rich, offering not just the steps but also a separate section with 'Proportions & tips'. It also offers to generate worksheets or different styles, which adds significant value. The 8-step process is detailed enough for a beginner.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 87,
@@ -473,31 +473,31 @@
       "Evaluation": {
         "Correctness": [
           5,
-          "The generated response is correct. It provides a valid set of visual and textual instructions for drawing a fish tank."
+          "The generated image and text provide a correct and logical method for drawing a fish tank. It successfully answers the user's prompt."
         ],
         "Image-Text Coherency": [
-          5,
-          "The generated image and text are perfectly coherent. The single image visually demonstrates all the steps described in the text, using corresponding numbers to link the visual element to the textual instruction."
+          1,
+          "There is a significant mismatch between the generated image and text. The image has 8 steps, while the text has 10. The order of the steps does not align; for example, image step 2 (adding water) corresponds to text step 3, while image step 3 (fading back lines) corresponds to text step 2. Some steps described in the text, like adding hardscape (step 5) or cleaning up lines (step 9), do not have a clear corresponding visual step in the image."
         ],
         "Content Quality": [
-          5,
-          "The content quality is very high. The image is a clear, well-structured, and aesthetically pleasing instructional diagram. The text is well-written, clear, and provides excellent, easy-to-follow instructions using appropriate terminology."
+          4,
+          "The visual quality of the generated image is excellent. It is a clean, well-designed, and easy-to-follow infographic. The text is mostly well-written and clear, although its structure is confusing due to the lack of coherency with the images."
         ],
         "Human Preference Alignment": [
           5,
-          "The response is highly preferable. It's a helpful, well-designed tutorial that is both visually appealing and easy to understand. The style is clean and modern. The offer to generate different versions at the end is a nice touch."
+          "The generated response is highly preferable. The infographic style is aesthetically pleasing, modern, and very effective for a 'how-to' guide. The content is helpful and safe."
         ],
         "Completeness": [
-          5,
-          "The response is complete. It provides both the requested visual steps (compiled into one image) and the text steps, covering the entire process from start to finish."
+          2,
+          "The response is incomplete because it fails to provide a cohesive, step-by-step guide where the text and images match. The discrepancy in the number of steps and their content makes the guide difficult to follow as a single entity. Additionally, unlike the reference, it doesn't show a final colored version of the drawing."
         ],
         "Content Richness": [
-          4,
-          "The text is very rich, offering more technical and detailed advice than the reference (e.g., discussing substrate, hardscape, line weight). However, it only provides a single composite image, whereas the reference provides a sequence of images. While the single image is information-dense, a series of images would have been richer."
+          3,
+          "The generated guide provides a good, alternative method for drawing a fish tank. The text includes useful artistic tips like using line weight and adding highlights. However, the final drawing is much simpler and less detailed (e.g., no castle or coral) compared to the one in the reference example."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw a Fish Tank? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response is correct. It provides a valid set of visual and textual instructions for drawing a fish tank.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The single image visually demonstrates all the steps described in the text, using corresponding numbers to link the visual element to the textual instruction.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is very high. The image is a clear, well-structured, and aesthetically pleasing instructional diagram. The text is well-written, clear, and provides excellent, easy-to-follow instructions using appropriate terminology.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. It's a helpful, well-designed tutorial that is both visually appealing and easy to understand. The style is clean and modern. The offer to generate different versions at the end is a nice touch.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete. It provides both the requested visual steps (compiled into one image) and the text steps, covering the entire process from start to finish.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich, offering more technical and detailed advice than the reference (e.g., discussing substrate, hardscape, line weight). However, it only provides a single composite image, whereas the reference provides a sequence of images. While the single image is information-dense, a series of images would have been richer.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw a Fish Tank? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text provide a correct and logical method for drawing a fish tank. It successfully answers the user's prompt.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"There is a significant mismatch between the generated image and text. The image has 8 steps, while the text has 10. The order of the steps does not align; for example, image step 2 (adding water) corresponds to text step 3, while image step 3 (fading back lines) corresponds to text step 2. Some steps described in the text, like adding hardscape (step 5) or cleaning up lines (step 9), do not have a clear corresponding visual step in the image.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The visual quality of the generated image is excellent. It is a clean, well-designed, and easy-to-follow infographic. The text is mostly well-written and clear, although its structure is confusing due to the lack of coherency with the images.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly preferable. The infographic style is aesthetically pleasing, modern, and very effective for a 'how-to' guide. The content is helpful and safe.\"\n        ],\n        \"Completeness\": [\n            2,\n            \"The response is incomplete because it fails to provide a cohesive, step-by-step guide where the text and images match. The discrepancy in the number of steps and their content makes the guide difficult to follow as a single entity. Additionally, unlike the reference, it doesn't show a final colored version of the drawing.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The generated guide provides a good, alternative method for drawing a fish tank. The text includes useful artistic tips like using line weight and adding highlights. However, the final drawing is much simpler and less detailed (e.g., no castle or coral) compared to the one in the reference example.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 115,
@@ -522,32 +522,32 @@
       "Question": "How to Draw a Bracelet? Provide steps visually and text the steps.",
       "Evaluation": {
         "Correctness": [
-          3,
-          "The generated response provides a valid tutorial on how to draw a bracelet, so it correctly answers the question. However, it teaches how to draw a very simple bangle or single-strand beaded bracelet, which is fundamentally different and much less complex than the multi-charm bracelet shown in the reference."
+          1,
+          "The generated response provides a method for drawing a bracelet, but it is a completely different, much simpler type of bracelet than the one shown in the reference images. The reference shows a specific charm bracelet, while the generated content shows a generic beaded band. Additionally, the generated image has errors: it skips from step 6 to step 8, and the text within the image has typos ('Prace circles', 'add an optional charm a')."
         ],
         "Image-Text Coherency": [
-          5,
-          "The generated text perfectly corresponds to the steps laid out in the generated image. Each text step clearly explains the visual action shown in the corresponding panel of the image."
+          2,
+          "The generated text is presented as a separate guide from the image, but it roughly follows the same steps. However, there are major inconsistencies. The image is missing a panel for step 7, which is described in the text (shading). The text in the image panels themselves is flawed. The overall flow is confusing as it seems to switch from drawing a solid band (steps 2-4) to a beaded one (step 5) without clear explanation in the image itself."
         ],
         "Content Quality": [
-          4,
-          "The generated image is a high-quality, clear, and well-organized infographic. The text is well-written, grammatically correct, and easy to understand. The overall presentation is professional and helpful."
+          2,
+          "The quality of the generated image is low. It's a simple black and white diagram with layout errors (missing step 7) and typographical errors. The drawing style is very basic. The reference images are much clearer, more detailed, and progress in a more logical manner, culminating in a colorful final product."
         ],
         "Human Preference Alignment": [
-          4,
-          "The generated response is very user-friendly, presenting a simple and approachable tutorial in an easy-to-digest infographic format. While the reference tutorial creates a more intricate drawing, this response is arguably better for a beginner, making it a highly preferable answer for that audience."
+          2,
+          "A user would strongly prefer the reference guide. The reference teaches how to draw a more interesting and aesthetically pleasing charm bracelet with varied elements. The generated guide is for a very plain bracelet and is poorly executed with errors, making it less helpful and appealing."
         ],
         "Completeness": [
-          4,
-          "The response provides both visual steps and text steps, fulfilling the prompt's requirements. It presents a complete, albeit simple, tutorial from start to finish. It is less detailed than the 10-step reference but is complete in its own right."
+          1,
+          "The generated guide is incomplete. It is missing a visual step, and the text for the final step in the image is garbled. It also doesn't show how to draw a clasp, which is a key part of the bracelet shown in the reference. The reference provides a complete tutorial from the first bead to the finished, colored bracelet with a clasp."
         ],
         "Content Richness": [
-          3,
-          "The response combines multiple drawing styles (solid bangle vs. beaded) into one tutorial and includes extra tips, which adds richness to the text. However, the visual component is a single infographic image, which is less rich than the series of 10 individual images provided in the reference."
+          1,
+          "The generated content is not rich. It only demonstrates how to draw simple circular beads on an oval path. The reference, in contrast, is very rich, detailing how to draw multiple types of charms (hearts, flowers), different bead shapes, and a functional clasp, offering much more detail and variety."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw a Bracelet? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            3,\n            \"The generated response provides a valid tutorial on how to draw a bracelet, so it correctly answers the question. However, it teaches how to draw a very simple bangle or single-strand beaded bracelet, which is fundamentally different and much less complex than the multi-charm bracelet shown in the reference.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly corresponds to the steps laid out in the generated image. Each text step clearly explains the visual action shown in the corresponding panel of the image.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is a high-quality, clear, and well-organized infographic. The text is well-written, grammatically correct, and easy to understand. The overall presentation is professional and helpful.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The generated response is very user-friendly, presenting a simple and approachable tutorial in an easy-to-digest infographic format. While the reference tutorial creates a more intricate drawing, this response is arguably better for a beginner, making it a highly preferable answer for that audience.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response provides both visual steps and text steps, fulfilling the prompt's requirements. It presents a complete, albeit simple, tutorial from start to finish. It is less detailed than the 10-step reference but is complete in its own right.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The response combines multiple drawing styles (solid bangle vs. beaded) into one tutorial and includes extra tips, which adds richness to the text. However, the visual component is a single infographic image, which is less rich than the series of 10 individual images provided in the reference.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw a Bracelet? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The generated response provides a method for drawing a bracelet, but it is a completely different, much simpler type of bracelet than the one shown in the reference images. The reference shows a specific charm bracelet, while the generated content shows a generic beaded band. Additionally, the generated image has errors: it skips from step 6 to step 8, and the text within the image has typos ('Prace circles', 'add an optional charm a').\"\n        ],\n        \"Image-Text Coherency\": [\n            2,\n            \"The generated text is presented as a separate guide from the image, but it roughly follows the same steps. However, there are major inconsistencies. The image is missing a panel for step 7, which is described in the text (shading). The text in the image panels themselves is flawed. The overall flow is confusing as it seems to switch from drawing a solid band (steps 2-4) to a beaded one (step 5) without clear explanation in the image itself.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The quality of the generated image is low. It's a simple black and white diagram with layout errors (missing step 7) and typographical errors. The drawing style is very basic. The reference images are much clearer, more detailed, and progress in a more logical manner, culminating in a colorful final product.\"\n        ],\n        \"Human Preference Alignment\": [\n            2,\n            \"A user would strongly prefer the reference guide. The reference teaches how to draw a more interesting and aesthetically pleasing charm bracelet with varied elements. The generated guide is for a very plain bracelet and is poorly executed with errors, making it less helpful and appealing.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The generated guide is incomplete. It is missing a visual step, and the text for the final step in the image is garbled. It also doesn't show how to draw a clasp, which is a key part of the bracelet shown in the reference. The reference provides a complete tutorial from the first bead to the finished, colored bracelet with a clasp.\"\n        ],\n        \"Content Richness\": [\n            1,\n            \"The generated content is not rich. It only demonstrates how to draw simple circular beads on an oval path. The reference, in contrast, is very rich, detailing how to draw multiple types of charms (hearts, flowers), different bead shapes, and a functional clasp, offering much more detail and variety.\"\n        ]\n    }\n}\n```"
   },
   {
     "id": 70,
@@ -572,31 +572,31 @@
       "Question": "How to draw a cartoon snail? Provide steps visually and text the steps.",
       "Evaluation": {
         "Correctness": [
-          5,
-          "The generated text and image both provide a correct and logical method for drawing a cartoon snail."
+          1,
+          "The generated response attempts to answer the prompt, but the visual guide is fundamentally incorrect and unusable as a tutorial. It contains duplicate steps (step 2 is identical to 3, step 4 is identical to 5) and an illogical sequence (step 6 shows the snail colored, while step 7 goes back to the line art to add more details). The text steps are coherent on their own, but they do not match the image."
         ],
         "Image-Text Coherency": [
-          5,
-          "The numbered steps in the generated text correspond perfectly to the numbered visual steps in the generated image. The descriptions accurately reflect the actions shown."
+          0,
+          "There is a complete disconnect between the generated image and the generated text. They describe two different processes for drawing a snail, in a different order, with different details. For example, the text mentions adding a 'shell rim' in step 3, which is not depicted in the image. The image's sequence is jumbled, while the text provides a logical, but entirely separate, set of instructions."
         ],
         "Content Quality": [
-          5,
-          "The generated image is of high quality: it's clear, well-organized, and the use of red lines to highlight the new additions in each step makes it very easy to follow. The text is well-written, grammatically correct, and provides concise instructions."
+          2,
+          "The visual style of the generated image is cute and appealing, and the final drawing is well-done. However, as a step-by-step guide, it is of very poor quality due to the duplicate steps and illogical flow, making it confusing and ineffective. The text is well-written, clear, and grammatically correct, but it cannot compensate for the flawed visual component."
         ],
         "Human Preference Alignment": [
-          5,
-          "The response is helpful, safe, and aesthetically pleasing. The cartoon snail is cute and the tutorial format is user-friendly."
+          4,
+          "The image is aesthetically pleasing and the cartoon style is appropriate and kid-friendly. There is no undesirable content. The response is visually appealing despite its functional failures."
         ],
         "Completeness": [
-          5,
-          "The response completely fulfills the prompt by providing both a visual guide and a separate text explanation of the steps to draw a cartoon snail, from start to finish."
+          3,
+          "The response provides both visual steps and text steps as requested. However, the visual guide is functionally incomplete because the flawed step progression (duplicates and illogical order) fails to provide a full, coherent tutorial from start to finish."
         ],
         "Content Richness": [
-          4,
-          "The generated response is very good, presenting a complete tutorial in a single, well-designed image. It also adds extra creative tips in the text. However, the reference provides a more granular breakdown with separate images for each step, which could be considered slightly richer in detail."
+          2,
+          "The reference images provide a superior tutorial format by highlighting the new lines in each step with a different color, making it very easy to follow. The generated image simply presents static snapshots in a grid, which is a less rich and less helpful format for a drawing guide. The text is reasonably descriptive, but the overall package is less detailed and useful than the reference."
         ]
       }
     },
-    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon snail? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image both provide a correct and logical method for drawing a cartoon snail.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The numbered steps in the generated text correspond perfectly to the numbered visual steps in the generated image. The descriptions accurately reflect the actions shown.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality: it's clear, well-organized, and the use of red lines to highlight the new additions in each step makes it very easy to follow. The text is well-written, grammatically correct, and provides concise instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. The cartoon snail is cute and the tutorial format is user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely fulfills the prompt by providing both a visual guide and a separate text explanation of the steps to draw a cartoon snail, from start to finish.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The generated response is very good, presenting a complete tutorial in a single, well-designed image. It also adds extra creative tips in the text. However, the reference provides a more granular breakdown with separate images for each step, which could be considered slightly richer in detail.\"\n        ]\n    }\n}\n```"
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon snail? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The generated response attempts to answer the prompt, but the visual guide is fundamentally incorrect and unusable as a tutorial. It contains duplicate steps (step 2 is identical to 3, step 4 is identical to 5) and an illogical sequence (step 6 shows the snail colored, while step 7 goes back to the line art to add more details). The text steps are coherent on their own, but they do not match the image.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is a complete disconnect between the generated image and the generated text. They describe two different processes for drawing a snail, in a different order, with different details. For example, the text mentions adding a 'shell rim' in step 3, which is not depicted in the image. The image's sequence is jumbled, while the text provides a logical, but entirely separate, set of instructions.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The visual style of the generated image is cute and appealing, and the final drawing is well-done. However, as a step-by-step guide, it is of very poor quality due to the duplicate steps and illogical flow, making it confusing and ineffective. The text is well-written, clear, and grammatically correct, but it cannot compensate for the flawed visual component.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The image is aesthetically pleasing and the cartoon style is appropriate and kid-friendly. There is no undesirable content. The response is visually appealing despite its functional failures.\"\n        ],\n        \"Completeness\": [\n            3,\n            \"The response provides both visual steps and text steps as requested. However, the visual guide is functionally incomplete because the flawed step progression (duplicates and illogical order) fails to provide a full, coherent tutorial from start to finish.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The reference images provide a superior tutorial format by highlighting the new lines in each step with a different color, making it very easy to follow. The generated image simply presents static snapshots in a grid, which is a less rich and less helpful format for a drawing guide. The text is reasonably descriptive, but the overall package is less detailed and useful than the reference.\"\n        ]\n    }\n}\n```"
   }
 ]
