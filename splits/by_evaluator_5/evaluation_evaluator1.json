@@ -1,0 +1,902 @@
+[
+  {
+    "id": 82,
+    "domain": "art",
+    "question": "How to draw a cartoon dog face? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Start with two tall hill shapes. Add a curve underneath each shape, then draw ovals inside each shape with a circle cut out of the ovals. 2. 2. Draw a curve above each eye with an oval in the middle. 3. 3. Add a line underneath the nose, then sketch a hook shape on either side. 4. 4. Draw a curve underneath the cartoon puppy face's mouth. 5. 5. Sketch a curve on either side of the face. 6. 6. Draw a rectangle with rounded edges to outline the head. 7. 7. Outline an oval for the right ear. Make sure the oval is behind the face. 8. 8. Repeat the previous step for the left ear. 9. 9. Use a wavy shape to draw a patch around your puppy face's eye. Finally, outline your easy dog face with black. Use thick lines for most of the drawing and a thin line for the patch. If you like, add a dog biscuit to give your dog a treat. 10. You can fill in your easy dog face with any color, but this guide recommends using tan for the face and dark brown for the ears, nose and patch. Leave the eyes white, and add a white highlight to the nose.",
+    "reference_images": [
+      "data/art/82_1.png",
+      "data/art/82_2.png",
+      "data/art/82_3.png",
+      "data/art/82_4.png",
+      "data/art/82_5.png",
+      "data/art/82_6.png",
+      "data/art/82_7.png",
+      "data/art/82_8.png",
+      "data/art/82_9.png",
+      "data/art/82_10.png"
+    ],
+    "generated_text": "Here are the written steps to match the visual:\n\n1. Head guide\n   Draw a circle for the head. Lightly add a vertical and a horizontal guideline across the circle.\n\n2. Clean outline\n   Trace the circle cleanly (keep guidelines faint so you can erase them later).\n\n3. Eyes\n   Place two big oval eyes on the horizontal guideline, spaced about one eye-width apart. Add tiny highlights (white dots) to make them lively.\n\n4. Nose & muzzle\n   Under the eye line, draw a small upside-down triangle nose. From the sides of the nose, curve two lines down and around to form a soft “W” for the cheeks and a small smile. Add a little tongue if you like.\n\n5. Ears\n   Add two floppy, rounded triangle ears attached near the top sides of the head.\n\n6. Details\n   Add short eyebrow curves above the eyes, a small chin line, and three tiny whisker dots on each cheek (optional).\n\n7. Refine the smile\n   Thicken the mouth line slightly and round the cheeks so it looks friendly. Erase the guidelines.\n\n8. Finish\n   Add a collar and tag under the chin if desired. You can also add a patch around one eye or a few spots. Ink your final lines and color if you want.\n\nTips:\n\n* Keep everything round and soft for a cute look.\n* If you want a different breed vibe, change the ear shape (pointy for a husky, long and thin for a hound).\n* Eyes higher = younger/cuter; eyes lower = older/goofier.\n\nIf you want, I can also make a printable worksheet version.\n",
+    "generated_image": "GPT-thinking/art/82.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a cartoon dog face? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response correctly answers the question by providing a valid, step-by-step guide on how to draw a cartoon dog face, including both visual and text explanations."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text and image are perfectly coherent. Each of the 8 written steps directly corresponds to the numbered visual steps shown in the single generated image."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is of high quality: it's a clear, well-organized, and aesthetically pleasing infographic. The text is also high quality, with clear, concise instructions and proper grammar."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. The drawing style is cute and appealing, and the tutorial format is very easy to follow and user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both the requested visual guide and the text steps. It covers the entire drawing process from the initial guide circle to the final details."
+        ],
+        "Content Richness": [
+          4,
+          "The response is rich, consolidating the steps into a single infographic and adding a valuable 'Tips' section for customization. However, the reference is slightly richer visually as it provides a separate, larger image for each individual step, which can be easier for some users to follow."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon dog face? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly answers the question by providing a valid, step-by-step guide on how to draw a cartoon dog face, including both visual and text explanations.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text and image are perfectly coherent. Each of the 8 written steps directly corresponds to the numbered visual steps shown in the single generated image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is of high quality: it's a clear, well-organized, and aesthetically pleasing infographic. The text is also high quality, with clear, concise instructions and proper grammar.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. The drawing style is cute and appealing, and the tutorial format is very easy to follow and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both the requested visual guide and the text steps. It covers the entire drawing process from the initial guide circle to the final details.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is rich, consolidating the steps into a single infographic and adding a valuable 'Tips' section for customization. However, the reference is slightly richer visually as it provides a separate, larger image for each individual step, which can be easier for some users to follow.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 32,
+    "domain": "art",
+    "question": "How to draw a cartoon owl? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Begin the owl babies outline by drawing the bird’s huge, round eyes. First, outline two circles. Use two curved lines that don’t quite meet to draw each. Then, shade a large round pupil inside each eye. Between them, draw an inverted teardrop shape. This is the owlet’s beak. Draw two short lines inside it to form the nostrils. Next, draw the fluffy feathers on top of the animal’s head. Use a series of short, curved lines that meet at jagged points. 2. 2. Draw a series of short, curved, connected lines above each eye. Use a similar series of lines - short ones that meet at gentle points - to outline the round, feathered face. Then, draw a series of lines that meet at points to outline the side of its round body. 3. 3. Use a series of curved lines that meet at jagged points to draw the opposite side of the baby’s body. Draw the owl’s legs, using long lines for the outsides, and connect them with a series of short lines. 4. 4. Texture the feathers of the owl’s chest using a series of short curved lines. Then, draw the bird’s foot. Draw three teardrop-shaped claws. Draw “U” shaped lines passing behind them to form the toes. 5. 5. Draw the owl’s remaining foot. Again, draw three teardrop-shaped claws with “U” shaped lines passing behind them to form the toes. Then, begin the second owlet. Draw the eyes, using two curved lines that don’t quite meet to draw each. Shade a large round pupil inside each eye. Draw a curved triangle between the eyes, forming the beak. 6. 6. Outline the feathery head using a series of short curved lines that meet at jagged points. Draw similar lines above the eyes. Draw a small nostril within the beak. 7. 7. Use a series of short, curved, jagged lines to draw the wing, and another for the belly. 8. 8. Draw the second owl’s feet. First, draw teardrop shapes for the six talons. Then, use curved lines to sketch the toes. 9. 9. Texture each owlet’s feathers with individual curved lines and connected lines in series. Notice the bellies, the base of the neck, and the area around the beak. 10. Your owl babies outline is now complete. Color your picture. Different species of owl have different feather colors, but they range from brown to gray.",
+    "reference_images": [
+      "data/art/32_1.png",
+      "data/art/32_2.png",
+      "data/art/32_3.png",
+      "data/art/32_4.png",
+      "data/art/32_5.png",
+      "data/art/32_6.png",
+      "data/art/32_7.png",
+      "data/art/32_8.png",
+      "data/art/32_9.png",
+      "data/art/32_10.png"
+    ],
+    "generated_text": "Here are the written steps (separate from the visual guide):\n\n# How to Draw a Cute Cartoon Owl (Text Steps)\n\n1. **Body & head**\n   Lightly sketch a tall oval for the body. Add a slightly smaller circle/oval on top for the head, overlapping the body a bit.\n\n2. **Guides & ear tufts**\n   Draw a faint vertical line down the head and a faint horizontal line across the middle. Add two little triangle ear-tufts at the top corners.\n\n3. **Big eye circles**\n   Add two large circles for the eye “frames,” almost touching in the middle. Keep them symmetrical.\n\n4. **Pupils & highlights**\n   Inside each eye, draw a smaller circle for the iris/pupil. Add a tiny white highlight circle so the eyes look lively.\n\n5. **Beak**\n   Between the eyes on the center line, draw a small diamond/triangle pointing down.\n\n6. **Wings**\n   On each side of the body, draw a long curved “(” and “)” shape for wings that stop above the feet area.\n\n7. **Belly patch & feather marks**\n   Draw a rounded oval on the belly. Add 2–3 rows of small “~” or “U” shapes for feathers.\n\n8. **Feet (and a branch, optional)**\n   Two stubby feet made of three rounded toes each (like a soft “W”). If you want, place them on a simple branch.\n\n9. **Clean line art**\n   Trace your favorite lines with a darker pen/marker. Erase all construction lines and overlaps.\n\n10. **Color**\n    Body: light–medium brown. Wings: darker brown. Belly: cream. Beak/feet: yellow-orange. Add a leaf on the branch for a pop of green.\n\n**Quick tips**\n\n* Keep lines light until the clean-up step.\n* If the owl looks grumpy, lift the inner top curves of the eyes a touch.\n* Big eyes and a small beak = cuter style.\n",
+    "generated_image": "GPT-thinking/art/32.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a cartoon owl? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon owl, including both a visual guide and a textual explanation as requested."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text aligns perfectly with the generated image. Each numbered step in the text corresponds directly and accurately to the numbered panel in the visual guide."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and easy-to-follow visual tutorial. The text is well-written, grammatically correct, and provides concise, understandable instructions."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and aesthetically pleasing. The cartoon owl is cute and the tutorial style is appealing and user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the visual steps and the text steps requested in the prompt, covering the drawing process from initial sketch to final coloring."
+        ],
+        "Content Richness": [
+          4,
+          "The response is quite rich, providing 10 steps, a final colored version, and extra 'Quick tips'. However, the visual guide is a single composite image, whereas the reference provides a separate, larger image for each step, which offers slightly more visual detail and clarity in the progression. The generated response is still very good, just slightly less visually expansive."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon owl? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response correctly provides a valid, step-by-step tutorial on how to draw a cartoon owl, including both a visual guide and a textual explanation as requested.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text aligns perfectly with the generated image. Each numbered step in the text corresponds directly and accurately to the numbered panel in the visual guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and easy-to-follow visual tutorial. The text is well-written, grammatically correct, and provides concise, understandable instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. The cartoon owl is cute and the tutorial style is appealing and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the visual steps and the text steps requested in the prompt, covering the drawing process from initial sketch to final coloring.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is quite rich, providing 10 steps, a final colored version, and extra 'Quick tips'. However, the visual guide is a single composite image, whereas the reference provides a separate, larger image for each step, which offers slightly more visual detail and clarity in the progression. The generated response is still very good, just slightly less visually expansive.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 115,
+    "domain": "art",
+    "question": "How to Draw a Bracelet? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Begin the bracelet outline by drawing a heart. Draw a long curved line inside the heart, parallel to the outline. This gives it a rounded, three-dimensional appearance. Then, draw an oval-shaped bead overlapping the edge of the heart. 2. 2. Draw a smaller circular bead and another oval-shaped bead. Then, begin drawing the flower-shaped bead. Draw a circle for the center of the flower and connected \"U\" shaped lines for its petals. 3. 3. Finish the petals of the flower using \"U\" shaped lines. Then, draw another oval, circle, and oval series of beads. 4. 4. Draw another, smaller heart, then another series of oval, circle, and oval-shaped beads. 5. 5. On the opposite side of the large heart, draw a series of oval, circular, and oval-shaped beads. Then, draw another daisy-shaped bead. Again, use a circle for the center of the flower and connected \"U\" shaped lines for the petals. 6. 6. Beside the flower, draw another series of oval, circle, and oval beads. Then, draw another small heart-shaped bead. 7. 7. Draw a series of oval and circle-shaped beads extending from the heart. After the last oval-shaped bead, draw a circle within a circle. This is part of the bracelet's clasp. 8. 8. Draw an oval within an oval passing through the circle within a circle. Erase as necessary. Then, draw two parallel curved lines entering the oval-shaped portion of the clasp. The lines will form a question mark shape. 9. 9. Use a curved line, doubled back on itself, to form the tip of the question mark shape. At its middle, enclose a bump - the movable arm of the clasp - using a curved line. At its base, draw a circle within a circle. Use another circle within a circle to form the chain link connecting it to the rest of the bracelet. 10. Your bracelet outline is now complete. Don't forget to color it! We've left some of our beads white like pearls, while others are blue, pink, and yellow. The clasp is yellow as if made of gold.",
+    "reference_images": [
+      "data/art/115_1.png",
+      "data/art/115_2.png",
+      "data/art/115_3.png",
+      "data/art/115_4.png",
+      "data/art/115_5.png",
+      "data/art/115_6.png",
+      "data/art/115_7.png",
+      "data/art/115_8.png",
+      "data/art/115_9.png",
+      "data/art/115_10.png"
+    ],
+    "generated_text": "Here are the **text steps** (separate from the visual guide you now have):\n\n1. Sketch a tilted oval\n\n   * Lightly draw an ellipse. This is the opening of the bracelet, so keep strokes faint.\n\n2. Add band thickness\n\n   * Inside the first oval, draw a slightly smaller, parallel oval. This creates the top and inner rim.\n\n3. Define the edge and clean up\n\n   * Connect the near and far sides with short curves so the band looks three-dimensional. Erase extra construction lines.\n\n4. (Optional) Add a charm loop\n\n   * On the lower-right edge, draw a tiny ring or hook where a charm could hang.\n\n5. Switch to a beaded style (if you like)\n\n   * Lightly “walk” small circles around the oval path, spacing them evenly (mark the four compass points first, then fill the gaps).\n\n6. Refine beads\n\n   * Plump each circle, let neighboring beads overlap slightly, and outline cleanly.\n\n7. Shade for volume\n\n   * Pick a light source (top-left works well). On each bead, shade the lower-right, leave a small highlight on the upper-left. Add a soft inner rim shadow if you kept the solid band style instead of beads.\n\n8. Finish details\n\n   * Darken contact shadows between beads, add a subtle cast shadow beneath the bracelet, and draw a tiny charm (heart, star, initial) on the loop if desired.\n\nTips\n\n* Keep ellipses symmetrical by drawing through them a few times before committing.\n* If the bracelet feels too flat, thicken the band or exaggerate bead overlap.\n* For a metal bangle: skip steps 5–6, and add bright edge highlights along the outer rim.\n\nIf you want another visual showing a **chain** or **cuff** version, say the word and I’ll add it.\n",
+    "generated_image": "GPT-thinking/art/115.png",
+    "gemini_evaluation": {
+      "Question": "How to Draw a Bracelet? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          3,
+          "The generated response provides a valid tutorial on how to draw a bracelet, so it correctly answers the question. However, it teaches how to draw a very simple bangle or single-strand beaded bracelet, which is fundamentally different and much less complex than the multi-charm bracelet shown in the reference."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text perfectly corresponds to the steps laid out in the generated image. Each text step clearly explains the visual action shown in the corresponding panel of the image."
+        ],
+        "Content Quality": [
+          4,
+          "The generated image is a high-quality, clear, and well-organized infographic. The text is well-written, grammatically correct, and easy to understand. The overall presentation is professional and helpful."
+        ],
+        "Human Preference Alignment": [
+          4,
+          "The generated response is very user-friendly, presenting a simple and approachable tutorial in an easy-to-digest infographic format. While the reference tutorial creates a more intricate drawing, this response is arguably better for a beginner, making it a highly preferable answer for that audience."
+        ],
+        "Completeness": [
+          4,
+          "The response provides both visual steps and text steps, fulfilling the prompt's requirements. It presents a complete, albeit simple, tutorial from start to finish. It is less detailed than the 10-step reference but is complete in its own right."
+        ],
+        "Content Richness": [
+          3,
+          "The response combines multiple drawing styles (solid bangle vs. beaded) into one tutorial and includes extra tips, which adds richness to the text. However, the visual component is a single infographic image, which is less rich than the series of 10 individual images provided in the reference."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Draw a Bracelet? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            3,\n            \"The generated response provides a valid tutorial on how to draw a bracelet, so it correctly answers the question. However, it teaches how to draw a very simple bangle or single-strand beaded bracelet, which is fundamentally different and much less complex than the multi-charm bracelet shown in the reference.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly corresponds to the steps laid out in the generated image. Each text step clearly explains the visual action shown in the corresponding panel of the image.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is a high-quality, clear, and well-organized infographic. The text is well-written, grammatically correct, and easy to understand. The overall presentation is professional and helpful.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The generated response is very user-friendly, presenting a simple and approachable tutorial in an easy-to-digest infographic format. While the reference tutorial creates a more intricate drawing, this response is arguably better for a beginner, making it a highly preferable answer for that audience.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response provides both visual steps and text steps, fulfilling the prompt's requirements. It presents a complete, albeit simple, tutorial from start to finish. It is less detailed than the 10-step reference but is complete in its own right.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The response combines multiple drawing styles (solid bangle vs. beaded) into one tutorial and includes extra tips, which adds richness to the text. However, the visual component is a single infographic image, which is less rich than the series of 10 individual images provided in the reference.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 5,
+    "domain": "life",
+    "question": "How to boil pasta perfectly? Provide a visual guide and text the steps.",
+    "reference_text": "1. Fill a large pot about 2/3 full of water. Since the pasta needs lots of room to move around as it cooks, use a big pot. For example, if you'll be cooking a 1 pound (450 g) box of pasta, get out a pot that's at least 4 US quarts (3.8 L) in size. Then, pour in enough water to come 2/3 up the side of the pot. If you use a pot that's too small, your pasta is more likely to clump together as it cooks. 2. Cover the pot and bring the water to a boil. Set the pot of water on the stove and put a lid on it. Turn the burner to high and let the water come to a boil. You'll know the water is boiling when you see steam escaping from under the lid. Covering the pot with a lid will make the water boil faster. 3. Add salt and 1 pound (450 g) of pasta to the boiling water. Once the water boils vigorously, remove the lid and add 1 tablespoon (17 g) of salt and 1 pound (450 g) of pasta. If you're cooking long noodles, such as spaghetti, that don't fit in the pot, wait about 30 seconds and then push them into the water using a spoon or pasta fork. The salt will season the noodles as they cook, which will give you flavorful pasta. If you're unsure how many servings of pasta to cook, check the side of the box for recommended serving sizes. 4. Set a timer for 3 to 8 minutes. Stir the noodles with a pasta fork to break the noodles up and leave the lid off the pot. Then, check the pasta package for a recommended cooking time and set a timer for the minimum time that's suggested. For example, if the box says to cook the noodles for 7 to 9 minutes, set a timer for 7 minutes. Thin pasta, such as angel hair, will cook faster than thick or long noodles, such as fettuccine or penne, which take closer to 8 or 9 minutes. 5. Stir the noodles occasionally as they boil. The water should continue to bubble as the pasta cooks. Stir it every few minutes to prevent the noodles from sticking together. If the water looks like it might boil over the sides of the pot, turn the burner down to medium-high. 6. Bite into a noodle to see if it's cooked enough for you. Carefully scoop a noodle out of the water when the timer beeps and set it aside to cool a little. Bite into the noodle to tell if it's still hard in the center or if it's as soft as you like. Most people prefer to cook pasta until it's al dente, which means it's still a little firm in the center. If the pasta is still too hard for your liking, boil it for another minute before checking it again.",
+    "reference_images": [
+      "data/life/5_1.jpg",
+      "data/life/5_2.jpg",
+      "data/life/5_3.jpg",
+      "data/life/5_4.jpg",
+      "data/life/5_5.jpg",
+      "data/life/5_6.jpg"
+    ],
+    "generated_text": "Here’s your **text guide**. The **visual guide** is attached above as an infographic.\n\n# Text Guide: How to Boil Pasta Perfectly\n\n1. Pick the pot + water\n\n* Use a big pot so pasta can move freely.\n* Water: **4–6 quarts (4–5.5 L) per 1 lb / 450 g** pasta.\n\n2. Salt like the sea\n\n* Add salt once the water is hot but before the pasta goes in.\n* Aim for **1–2% salinity** (about **1½–2 Tbsp kosher salt** or **1 Tbsp table salt** per 4–6 quarts). This seasons the pasta itself.\n\n3. Rolling boil first\n\n* Wait for a **vigorous, rolling boil (100°C / 212°F)** before adding pasta. Lids help you get there; remove the lid once boiling.\n\n4. Add pasta & stir early\n\n* Drop pasta in and **stir for the first 1–2 minutes** to prevent sticking, then stir occasionally.\n\n5. Cook to al dente (taste, don’t guess)\n\n* Start tasting **2 minutes before** the package’s low end.\n* Al dente = cooked through with a pleasant bite and no chalky center.\n\n6. Save some pasta water\n\n* **Reserve ½–1 cup** starchy water before draining. It helps sauces cling and lets you adjust thickness.\n\n7. Drain, don’t rinse\n\n* **Do not rinse** (you’ll wash off starch). Only rinse if making a **cold pasta salad**.\n\n8. Marry pasta with sauce\n\n* Finish pasta **in a pan with the sauce** for 1–2 minutes, loosening with splashes of reserved water and finishing with a knob of butter or olive oil if desired. Season to taste.\n\n9. Rest & serve hot\n\n* Let it sit **30–60 seconds** off heat to settle the sauce; plate immediately.\n\n---\n\n## Quick Timing Reference (start tasting early!)\n\n* **Fresh pasta (eggs)**: 2–4 min\n* **Dry thin long (spaghetti, linguine)**: 8–10 min\n* **Dry short (penne, rigatoni, fusilli)**: 9–12 min\n* **Thick/shape with ridges or whole wheat**: 11–13+ min\n* **Gluten-free**: often **less forgiving**—taste frequently in the last few minutes.\n\n---\n\n## Common Mistakes & Fixes\n\n* **Pot too small** → water cools off and pasta sticks. Use a larger pot.\n* **Under-salting** → flat flavor. Salt the water properly.\n* **Adding pasta before a full boil** → gummy texture. Wait for the rolling boil.\n* **Not stirring early** → clumps. Stir in the first 1–2 minutes.\n* **Overcooking** → mush. Taste early and often.\n* **Rinsing after draining** → sauce won’t cling. Don’t rinse unless for cold dishes.\n\n---\n\n## Pro Tips\n\n* For silky sauces, emulsify: **toss pasta + sauce + reserved water** over medium heat until glossy.\n* Cooking for later? **Undercook by ~1 minute**, then finish in sauce when reheating.\n* High altitude: water boils at a lower temp—**add a minute or two** and rely on tasting.\n\nIf you want, I can tailor the infographic for a specific pasta shape or serving size.\n",
+    "generated_image": "GPT-thinking/life/5.png",
+    "gemini_evaluation": {
+      "Question": "How to boil pasta perfectly? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct and provide accurate, widely-accepted instructions for cooking pasta."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is an infographic that visually summarizes the key steps detailed in the accompanying text. The text explicitly refers to the image as a visual guide, and the steps in the infographic directly correspond to the main points in the text guide."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is exceptional. The infographic is well-designed, clear, and easy to understand. The text is expertly written, well-structured with clear headings and bolding, and free of grammatical errors. The formatting makes the complex information highly digestible."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. The infographic is a modern and effective way to present a visual guide, arguably better than a series of photos. The text is helpful, safe, and provides a very thorough answer to the question."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is more complete than the reference. It not only covers the basics of boiling pasta but also includes crucial subsequent steps like saving pasta water and marrying the pasta with the sauce, which are essential for a 'perfect' final dish. The inclusion of timing guides, common mistakes, and pro-tips makes it very thorough."
+        ],
+        "Content Richness": [
+          5,
+          "The response is significantly richer than the reference. The single infographic is more information-dense and visually engaging than the series of simple photos. The text is far more detailed, providing specific quantities, timing charts for different pasta types, troubleshooting advice, and advanced tips, adding immense value."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to boil pasta perfectly? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct and provide accurate, widely-accepted instructions for cooking pasta.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is an infographic that visually summarizes the key steps detailed in the accompanying text. The text explicitly refers to the image as a visual guide, and the steps in the infographic directly correspond to the main points in the text guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is exceptional. The infographic is well-designed, clear, and easy to understand. The text is expertly written, well-structured with clear headings and bolding, and free of grammatical errors. The formatting makes the complex information highly digestible.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. The infographic is a modern and effective way to present a visual guide, arguably better than a series of photos. The text is helpful, safe, and provides a very thorough answer to the question.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is more complete than the reference. It not only covers the basics of boiling pasta but also includes crucial subsequent steps like saving pasta water and marrying the pasta with the sauce, which are essential for a 'perfect' final dish. The inclusion of timing guides, common mistakes, and pro-tips makes it very thorough.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is significantly richer than the reference. The single infographic is more information-dense and visually engaging than the series of simple photos. The text is far more detailed, providing specific quantities, timing charts for different pasta types, troubleshooting advice, and advanced tips, adding immense value.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 78,
+    "domain": "life",
+    "question": "How to clean a cutting board? Provide steps with visuals and text the steps.",
+    "reference_text": "1. Rinse your board right after using it. Rinse your board with water right after you use it, rather than waiting until the end of the meal or even the next day when you clean it. This will help minimize bacteria growth and keep your board cleaner. Resist the urge to throw your board in the sink after the meal and forget about it. 2. Clean your board with dish soap and hot water. To clean your cutting board, scrub it with a few drops of dish soap on a sponge and some hot water. [2] X Expert Source Raymond Chiu House Cleaning Professional Expert Interview Be sure to remove any food particles as you wash, paying particular attention to any grooves or scrapes in your board. Food can collect in these spots. Never clean a wooden cutting board in the dishwasher or soak it in water. The wood will absorb water, which can lead to bacteria and mold forming. [4] X Expert Source James Sears House Cleaning Professional Expert Interview 3. Rinse your board. Rinse your board to remove any traces of soap. You don’t want whatever you cook next to taste like your dish soap. [5] X Expert Source Raymond Chiu House Cleaning Professional Expert Interview 4. Dry your board thoroughly to prevent cracking. After you’re finished washing your cutting board, dry it thoroughly with a clean dishtowel, removing any excess water. This is particularly important if your board is made of wood, as they are more prone to cracks. 5. Use a combination of white vinegar and baking soda. To sanitize your cutting board after use, sprinkle it with some baking soda. Then, spray the baking soda–covered board with white vinegar. This will fizz, helping draw stains out of your board and deodorizing it. Let this mix sit for 5 minutes and then rinse your board with water, drying as normal. 6. Disinfect your board with 3% hydrogen peroxide. Just as hydrogen peroxide can clean a wound, it can also clean your cutting board. Sprinkle your board with 3% hydrogen peroxide solution, and let it stand for 1 minute to kill any surface bacteria. Then, rinse your board with water, and dry with a dishtowel as normal. [8] X Expert Source Raymond Chiu House Cleaning Professional Expert Interview Hydrogen peroxide can bleach porous surfaces like wood. Don’t let the solution sit too long or it might fade your cutting board. 7. Remove stains with a scrub of coarse salt. For deep, set-in stains on your cutting board, use a coarse salt, such as kosher salt, as a scrub. [10] X Expert Source Raymond Chiu House Cleaning Professional Expert Interview Wet a sponge and use a handful of salt to scour your board, focusing on any areas of discoloration. Rinse your board with water when finished, and dry with a clean towel. [11] X Expert Source Raymond Chiu House Cleaning Professional Expert Interview Be sure to wash your hands well and moisturize them with lotion after scrubbing your board with salt. It can be very drying. Another option is wearing kitchen gloves. 8. Wash your board with diluted bleach once a month. Especially if you work with raw meats and fish on your cutting board, use a diluted bleach solution to do a deep clean of your board once a month. Make a solution that’s 1/8th bleach and 7/8ths water. Wet a sponge, and scrub your board with the solution. Rinse well with plain water and dry your board as normal with a clean towel. 9. Rub your board with a lemon to deodorize once a week. To keep your board smelling fresh, use half of a cut lemon to deodorize your board. Rub the cut-side of the lemon along the length of the board side to side. Then, rinse with plain water, and dry with a clean towel. 10. Condition your cutting board weekly. If your cutting board is made of wood, use mineral oil to condition your board after it’s clean. This will keep it in optimal condition. Do not use organic oils or fats, which can turn rancid, to lubricate your board. Look for products labeled kitchen-grade white mineral oil, such as Howard’s Cutting Board Oil. There are other mineral oils meant for lubricating machinery but not for consumption. Look specifically for kitchen-grade oil. You can condition your board every time you clean it, or a minimum of once a week. Simply rub your board with the conditioner, and let it air try so the oil can soak in.",
+    "reference_images": [
+      "data/life/78_1.jpg",
+      "data/life/78_2.jpg",
+      "data/life/78_3.jpg",
+      "data/life/78_4.jpg",
+      "data/life/78_5.jpg",
+      "data/life/78_6.jpg",
+      "data/life/78_7.jpg",
+      "data/life/78_8.jpg",
+      "data/life/78_9.jpg",
+      "data/life/78_10.jpg"
+    ],
+    "generated_text": "# How to Slice a Pineapple (text guide)\n\n**You’ll need:** ripe pineapple, large chef’s knife, sturdy cutting board, optional paring knife or small round cutter, towel.\n\n1. **Prep & safety**\n\n* Rinse the pineapple. Place a damp towel under the board so it won’t slip.\n\n2. **Remove crown & base**\n\n* Lay the pineapple on its side. Slice off about ½ inch from the top (crown) and bottom to make flat ends.\n\n3. **Stand and peel**\n\n* Stand it upright. Following the curve of the fruit, slice downward in long strips to remove the skin. Keep cuts shallow to save fruit.\n\n4. **Remove the “eyes”**\n\n* You’ll see brown “eyes” left in diagonal rows. Make shallow V-shaped notches along those diagonals (or shave them off) until the flesh is clean.\n\n5. **Choose your cut**\n\n* **Method A — Rings:** Lay the pineapple on its side and slice crosswise into ½-inch discs. Use a small round cutter or a paring knife to remove the hard core circle from each disc.\n* **Method B — Spears & Chunks:** Stand it up. Cut in half lengthwise, then into quarters. Lay each quarter flat and slice off the tough core (a pale, fibrous triangle) from the center edge. Cut quarters into long spears, then into bite-size chunks.\n\n6. **Serve or store**\n\n* Eat right away, or refrigerate in an airtight container for up to 3–4 days. For longer storage, freeze chunks on a tray, then bag.\n\n**Tips**\n\n* A ripe pineapple smells sweet at the base and yields slightly when pressed.\n* For cleaner cuts, wipe juice from the board as you go.\n* Try a sprinkle of lime and chili powder, or grill spears 1–2 minutes per side for caramelization.\n\n(Visual guide generated separately above.)\n",
+    "generated_image": "GPT-thinking/life/78.png",
+    "gemini_evaluation": {
+      "Question": "How to clean a cutting board? Provide steps with visuals and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          0,
+          "The generated response is completely incorrect. The question asks how to clean a cutting board, but the generated image and text provide instructions on how to slice a pineapple. This is a total failure to address the user's query."
+        ],
+        "Image-Text Coherency": [
+          1,
+          "While the generated image and text are coherent with each other (both are about slicing a pineapple), they are completely incoherent with the actual question asked. Therefore, the overall package is incoherent as a response to the prompt."
+        ],
+        "Content Quality": [
+          2,
+          "The quality of the generated assets, in isolation, is decent. The illustration is clear and the text is well-written. However, because the content is entirely irrelevant to the question, its quality as an answer is extremely low."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The generated content, while incorrect, is not offensive, harmful, or undesirable. It is a standard, safe 'how-to' guide for a different topic."
+        ],
+        "Completeness": [
+          0,
+          "The response is completely incomplete. It fails to provide any of the requested steps for cleaning a cutting board."
+        ],
+        "Content Richness": [
+          0,
+          "The response provides zero information or detail relevant to the question. It shows a single composite image for an incorrect topic, whereas the reference provides 10 distinct images and steps for the correct topic."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to clean a cutting board? Provide steps with visuals and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            0,\n            \"The generated response is completely incorrect. The question asks how to clean a cutting board, but the generated image and text provide instructions on how to slice a pineapple. This is a total failure to address the user's query.\"\n        ],\n        \"Image-Text Coherency\": [\n            1,\n            \"While the generated image and text are coherent with each other (both are about slicing a pineapple), they are completely incoherent with the actual question asked. Therefore, the overall package is incoherent as a response to the prompt.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The quality of the generated assets, in isolation, is decent. The illustration is clear and the text is well-written. However, because the content is entirely irrelevant to the question, its quality as an answer is extremely low.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated content, while incorrect, is not offensive, harmful, or undesirable. It is a standard, safe 'how-to' guide for a different topic.\"\n        ],\n        \"Completeness\": [\n            0,\n            \"The response is completely incomplete. It fails to provide any of the requested steps for cleaning a cutting board.\"\n        ],\n        \"Content Richness\": [\n            0,\n            \"The response provides zero information or detail relevant to the question. It shows a single composite image for an incorrect topic, whereas the reference provides 10 distinct images and steps for the correct topic.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 90,
+    "domain": "space",
+    "question": "Why does Singapore’s Helix Bridge look like DNA and still carry pedestrians? Provide a photo and explain.",
+    "reference_text": "The Helix Bridge uses a double-helix tubular truss. The helical steel spirals carry the walking deck and create viewing pods while keeping structural efficiency.",
+    "reference_images": [
+      "data/space/helix_bridge_singapore_walkway.jpg"
+    ],
+    "generated_text": "Text (explanation):\n\nSingapore’s Helix Bridge looks like DNA because its main structure is literally two spiraling steel “ladders” that wrap around the walkway like a double helix. Short cross-members link the pair of spirals at regular intervals—just like DNA’s “base pairs”—and lighting emphasizes the twist so the pattern reads clearly, especially at night.\n\nIt can still carry crowds safely because that DNA form isn’t just decoration; it’s a working spatial truss. Here’s how it holds up the deck:\n\n* Two opposite helices share the load. One spiral primarily takes compression in some segments while the other takes tension; together they brace each other against buckling and twisting.\n* Radial struts connect the deck to the helices, so the walkway’s weight (and people on it) is transferred into the surrounding tube network rather than a single beam.\n* The helical tubes form closed, triangulated paths for forces, which is very efficient. Loads flow through the tubes to a series of piers in the bay, so the bridge is supported in stages rather than by one long, bending span.\n* Stainless-steel tubes provide high strength relative to weight and resist corrosion in the marine environment, keeping the structure stiff and durable.\n* The geometry also resists side winds and footfall vibrations, and the deck has full-height guardrails and non-slip surfacing for safety.\n\nIn short: the bridge reads as DNA because its load-bearing skeleton is a pair of intertwined steel helices with “rungs”—the same elements that make it strong enough for pedestrians.\n\n(Generated photo provided above.)\n",
+    "generated_image": "GPT-thinking/space/90.png",
+    "gemini_evaluation": {
+      "Question": "Why does Singapore’s Helix Bridge look like DNA and still carry pedestrians? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The text explanation is factually correct and provides a good overview of the bridge's structural principles. However, the generated image is not a photo of the actual Helix Bridge in Singapore; it is a stylized, AI-generated rendering of a DNA-like bridge. The prompt asks for 'a photo,' implying a real-world image."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text and generated image are perfectly coherent. The text describes a double-helix structure with lighting that emphasizes the form at night, and the image depicts exactly that. They align very well with each other."
+        ],
+        "Content Quality": [
+          4,
+          "The text is of high quality: well-written, grammatically correct, and clearly structured with bullet points. The image is aesthetically pleasing and well-rendered, but it lacks photorealism and looks like a computer-generated graphic rather than a photograph."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and aesthetically pleasing. The image is visually engaging, and the text is informative and easy to read. There is no undesirable content."
+        ],
+        "Completeness": [
+          4,
+          "The response provides both an image and a text explanation as requested. It fully answers both parts of the question. However, it loses a point because the image provided is not a 'photo' of the real bridge as specified, but an artistic interpretation."
+        ],
+        "Content Richness": [
+          4,
+          "The text is very rich and detailed, going well beyond the reference text to explain the structural engineering in an accessible way. It offers a comprehensive explanation. The response provides only one image, but the depth of the text makes it a very rich answer overall."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why does Singapore’s Helix Bridge look like DNA and still carry pedestrians? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The text explanation is factually correct and provides a good overview of the bridge's structural principles. However, the generated image is not a photo of the actual Helix Bridge in Singapore; it is a stylized, AI-generated rendering of a DNA-like bridge. The prompt asks for 'a photo,' implying a real-world image.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text and generated image are perfectly coherent. The text describes a double-helix structure with lighting that emphasizes the form at night, and the image depicts exactly that. They align very well with each other.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The text is of high quality: well-written, grammatically correct, and clearly structured with bullet points. The image is aesthetically pleasing and well-rendered, but it lacks photorealism and looks like a computer-generated graphic rather than a photograph.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and aesthetically pleasing. The image is visually engaging, and the text is informative and easy to read. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response provides both an image and a text explanation as requested. It fully answers both parts of the question. However, it loses a point because the image provided is not a 'photo' of the real bridge as specified, but an artistic interpretation.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The text is very rich and detailed, going well beyond the reference text to explain the structural engineering in an accessible way. It offers a comprehensive explanation. The response provides only one image, but the depth of the text makes it a very rich answer overall.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 76,
+    "domain": "space",
+    "question": "How can people walk on the arch of Durban’s Moses Mabhida Stadium? Provide a photo and explain.",
+    "reference_text": "A guided experience uses stairs and safety systems mounted along the stadium’s steel arch. Visitors are harnessed to a continuous line while the arch’s box sections carry the added walkway loads.",
+    "reference_images": [
+      "data/space/moses_mabhida_arch_walk.jpeg"
+    ],
+    "generated_text": "**Text explanation**\n\nPeople can walk on the arch via the stadium’s **Adventure Walk**—a guided climb along the arch’s catwalk:\n\n* **Safety gear & briefing:** You’re fitted with a helmet and a climbing harness that clips to a continuous overhead safety line. Guides walk with the group and manage the clip-in system.\n* **The climb:** You ascend a long series of metal-grate steps and landings built into one side of the arch, with handrails the whole way. It’s steep but steady, with rest stops.\n* **At the top:** You step onto the viewing platform high above the field for panoramic views of Durban and the Indian Ocean.\n* **Getting down:** You either descend the same stairs with your guide or take the **SkyCar** (a funicular that runs on the opposite side of the arch) back to ground level.\n* **Good to know:** Weather can pause operations; closed-toe shoes are required; basic fitness and age/height rules apply; bookings are recommended.\n\nIf you just want the view (without the stair climb), you can ride the **SkyCar** up and walk around the summit platform—no harness needed there.\n",
+    "generated_image": "GPT-thinking/space/76.png",
+    "gemini_evaluation": {
+      "Question": "How can people walk on the arch of Durban’s Moses Mabhida Stadium? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          1,
+          "The text explanation is factually correct and accurate. However, the response completely fails to provide the requested photo, which is a major part of the prompt. This makes the overall answer incorrect as it doesn't fulfill the user's request."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "There is no generated image, so there is nothing to compare with the text. The text describes a visual scene that the image was supposed to depict, making the absence of the image a critical failure in coherency."
+        ],
+        "Content Quality": [
+          1,
+          "The text quality is very high; it is well-structured, clear, and grammatically correct. However, the overall quality of the response is extremely low because it is missing the visual component (the image) entirely."
+        ],
+        "Human Preference Alignment": [
+          1,
+          "The user explicitly asked for a photo. Failing to provide one is a significant failure to align with the user's request. While the text is helpful, the overall response is not what the user wanted."
+        ],
+        "Completeness": [
+          1,
+          "The response is incomplete as it only provides one of the two requested components. It gives a text explanation but omits the photo."
+        ],
+        "Content Richness": [
+          2,
+          "The text is very rich and detailed, providing more useful information than the reference text, such as practical tips and alternatives. However, the overall richness is severely limited by the complete lack of a visual element."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How can people walk on the arch of Durban’s Moses Mabhida Stadium? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The text explanation is factually correct and accurate. However, the response completely fails to provide the requested photo, which is a major part of the prompt. This makes the overall answer incorrect as it doesn't fulfill the user's request.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"There is no generated image, so there is nothing to compare with the text. The text describes a visual scene that the image was supposed to depict, making the absence of the image a critical failure in coherency.\"\n        ],\n        \"Content Quality\": [\n            1,\n            \"The text quality is very high; it is well-structured, clear, and grammatically correct. However, the overall quality of the response is extremely low because it is missing the visual component (the image) entirely.\"\n        ],\n        \"Human Preference Alignment\": [\n            1,\n            \"The user explicitly asked for a photo. Failing to provide one is a significant failure to align with the user's request. While the text is helpful, the overall response is not what the user wanted.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is incomplete as it only provides one of the two requested components. It gives a text explanation but omits the photo.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is very rich and detailed, providing more useful information than the reference text, such as practical tips and alternatives. However, the overall richness is severely limited by the complete lack of a visual element.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 21,
+    "domain": "exercise",
+    "question": "How to do an overhead press with dumbbells? Provide visual steps and text the steps.",
+    "reference_text": "1. Exhale as you raise the weights above the head in a controlled motion. 2. Pause briefly at the top of the motion. 3. Inhale and return the dumbbells to the shoulders.",
+    "reference_images": [
+      "data/exercise/21_1.png",
+      "data/exercise/21_2.png",
+      "data/exercise/21_3.png"
+    ],
+    "generated_text": "Here are the **text steps** to go with the visual:\n\n# Dumbbell Overhead Press — Text Steps\n\n1. **Setup**\n\n* Stand with feet about shoulder-width, toes slightly out.\n* Hold a dumbbell in each hand at shoulder height, palms facing in or slightly forward.\n* **Wrists neutral** (straight), forearms vertical, elbows a bit in front of the torso.\n* Draw ribs down, squeeze glutes, and keep a light bend in the knees.\n\n2. **Brace**\n\n* Big inhale through the belly, tighten abs like you’re about to be poked.\n* Pack the shoulders (down and slightly back). Keep gaze forward.\n\n3. **Press Up**\n\n* Drive the dumbbells **up and slightly back**, letting your head move a touch back so the bells travel close to your face.\n* Keep ribs from flaring; maintain tight glutes and abs.\n* Elbows stay under (or just in front of) the wrists—don’t let them flare wide.\n\n4. **Lockout**\n\n* Finish with arms straight, **biceps near ears**, shoulders down (no shrug).\n* Exhale at the top or through the sticking point. Pause briefly under control.\n\n5. **Lower**\n\n* Pull the weights back to shoulders on a controlled 2–3-second descent.\n* Keep torso tall; don’t lean back or arch.\n\n6. **Breathe & Repeat**\n\n* Reset your brace each rep. Perform 6–12 reps for hypertrophy or 3–6 for strength.\n* Stop 1–2 reps shy of form breakdown.\n\n---\n\n### Quick Tips\n\n* Start lighter than you think; build up in 2–5 lb jumps.\n* If your low back arches, **tighten abs and glutes** or switch to a half-kneeling stance.\n* Think “press the body **under** the bells” rather than pushing them far forward.\n\n### Common Mistakes → Fixes\n\n* **Flaring ribs / big back arch** → Squeeze glutes, exhale, knit ribs down.\n* **Bent-back wrists** → Stack knuckles over forearms; grip the handles firmly.\n* **Press path in front** → Aim slightly back at the top so bells finish over mid-foot.\n* **Shrugging** → Keep shoulder blades set down; don’t chase height with traps.\n\n### Variations\n\n* **Seated press** for more stability.\n* **Arnold press** for extra front-delt/rotation work.\n* **Single-arm press** to train anti-lean core control.\n\nStay smooth and pain-free—if you feel shoulder pinching, reduce range, rotate palms in, or stop.",
+    "generated_image": "GPT-thinking/exercise/21.png",
+    "gemini_evaluation": {
+      "Question": "How to do an overhead press with dumbbells? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The image accurately depicts the three key stages of a dumbbell overhead press, and the text provides a detailed, safe, and correct guide to performing the exercise."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image and text are perfectly coherent. The image provides a visual representation of the starting position, the pressing motion, and the locked-out position, which directly correspond to the steps detailed in the text (Setup, Press Up, Lockout)."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the image and text is excellent. The image is photorealistic, clear, and anatomically correct. The text is well-structured, easy to read, grammatically correct, and uses helpful formatting like bolding and bullet points."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It's a safe, helpful, and encouraging guide to a physical exercise. The image is appropriate and free of any undesirable content or biases."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It provides both the visual steps (in the image) and the text steps as requested. It fully answers the user's question by breaking down the entire movement."
+        ],
+        "Content Richness": [
+          5,
+          "The response is exceptionally rich, especially the text. It goes far beyond the basic steps provided in the reference, including detailed instructions on setup, bracing, breathing, common mistakes with fixes, and exercise variations. This level of detail is extremely valuable."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to do an overhead press with dumbbells? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The image accurately depicts the three key stages of a dumbbell overhead press, and the text provides a detailed, safe, and correct guide to performing the exercise.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The image provides a visual representation of the starting position, the pressing motion, and the locked-out position, which directly correspond to the steps detailed in the text (Setup, Press Up, Lockout).\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is excellent. The image is photorealistic, clear, and anatomically correct. The text is well-structured, easy to read, grammatically correct, and uses helpful formatting like bolding and bullet points.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It's a safe, helpful, and encouraging guide to a physical exercise. The image is appropriate and free of any undesirable content or biases.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It provides both the visual steps (in the image) and the text steps as requested. It fully answers the user's question by breaking down the entire movement.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is exceptionally rich, especially the text. It goes far beyond the basic steps provided in the reference, including detailed instructions on setup, bracing, breathing, common mistakes with fixes, and exercise variations. This level of detail is extremely valuable.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 20,
+    "domain": "exercise",
+    "question": "How to Do Bicep Curls? Show visual steps and text the steps.",
+    "reference_text": "1. Start small and work your way up the dumbbell scale as you progress. If you are new to doing curls, or simply looking to maintain existing muscle tone, even 1 to 3 lb (0.45 to 1.36 kg) weights may be sufficient. Taking on too much weight causes a breakdown in technique and can easily lead to injuries of the elbow, wrist, or muscle tissue. If you are going to do 2-handed curls with a bar, the same principle holds. Start at a lower weight and work your way up slowly. Everyone is different, so start with lighter weights and find the maximum amount that permits you to do your desired number of repetitions (reps) while retaining the proper form. 2. Adjust your regime to suit your goal. Generally speaking, if you are seeking to maintain existing muscle tone and arm strength, it is better to do more reps per set with a lower dumbbell weight. If you are looking to build muscle, do fewer reps at a higher weight (but again, don’t sacrifice technique). For muscle maintenance, do 1 to 3 sets of 10 to 12 reps each, for each arm. For strength building, sets of 6 to 8 reps may be preferable. Let your body be your guide. If you can’t do the number of reps you seek, reduce the dumbbell weight. If necessary, start with 1 set per arm and build up to 3. Reader Poll: We asked 649 wikiHow readers what type of exercise they enjoy most for arm workouts, and 72% of them said weightlifting. 3. Isolate your body movement so that only the arm doing the curl is moving. Traditional biceps curls are done while standing, but can also be done easily and properly while seated. Creating a solid base with your body positioning is critical to achieving this goal. Stand with your feet at hip width and your knees slightly bent. Keep your back straight and your abdomen pulled in (but not uncomfortably so). Let your arms rest at your sides and look forward—into a mirror, if possible, to monitor your technique. Sit with your feet firmly on the ground, your back straight and abdomen in, your arms to the side, and your head looking forward. Make sure the chair or bench will not impede your arm motion (or the dumbbell’s) during the curls. 4. Keep it smooth and simple. In spite of the form displayed by the aspiring Mr. Universe you might run into at the gym, a bicep curl shouldn’t be a quick, jerking motion that involves the entire body. It is meant to be a slow, steady, consistent motion that isolates a single muscle group. You can do dumbbell curls with both arms at the same time (or alternating arms), but for simplicity’s sake (especially as a beginner), you should probably start with 1 arm at a time. Or, you can do curls with both arms at the same time by using a bar. If so, you will use the same arm motions as described below for a dumbbell. With the dumbbell securely in your hand, palm facing forward and arm loose to your side, exhale and slowly bend your elbow and contract your biceps to draw the weight upward. While lifting, try to keep every other part of your body still. Keep raising the weight until it is at shoulder height, or even touching your shoulder. Pause for a beat without stopping to let the weight rest on your shoulder. Inhale and slowly lower the weight back to the starting position. Don’t let it just drop back down — control the movement in each direction. 5. Don’t cheat yourself. Sacrificing form to lift bigger dumbbells not only risks injury, it also minimizes the benefits of the curls. “Maxing out” on a curl should mean getting the most out of each one, not hurting yourself by flailing around with a giant dumbbell. Keep your wrists straight and rigid throughout the entire curl. It is easy to cause injury by using your wrist as a lever or letting it swing loosely. Use wrist wraps if they help. [9] X Trustworthy Source Mayo Clinic Educational website from one of the world's leading hospitals Go to source Don’t lean forward to start the curl, and/or rock backward during the lift. Your body should not be acting as a pendulum during the curl — this takes the focus away from your biceps, and can cause a loss of balance and possible injury. Don’t let the weight rest on your shoulder at the top of the motion. If you need a break during a set, you are using too much weight or doing too many reps. Likewise, don’t rest your elbows on your hips or the sides of your abdomen during the motion. You want the full weight of the dumbbells to be isolated on your biceps. 6. Return and repeat. When you finish a curl, make sure you extend your arm fully — leaving your elbow slightly bent is another cheat that will reduce the impact of each curl. Once you’ve returned the dumbbell to the proper starting position, pause just long enough to refocus and exhale as you begin the next lift. Rest for 30 to 90 seconds between sets, if you are doing more than 1. If you're curling 1 arm at a time, keep alternating arms while allowing 1 to rest between its sets. Again, it is better to reduce the weight, or your reps or sets, than to let your form break down.",
+    "reference_images": [
+      "data/exercise/20_1.jpg",
+      "data/exercise/20_2.jpg",
+      "data/exercise/20_3.jpg",
+      "data/exercise/20_4.jpg",
+      "data/exercise/20_5.jpg",
+      "data/exercise/20_6.jpg"
+    ],
+    "generated_text": "Here are the steps in text, separate from the image:\n\n# Dumbbell Bicep Curl — Step-by-step (Text)\n\n1. Setup\n\n* Stand tall, feet hip-width. Hold a dumbbell in each hand at your sides.\n* Shoulders back and down, ribs stacked over hips, eyes forward.\n* Grip lightly, wrists straight (knuckles facing out), elbows close to your ribs.\n\n2. Brace\n\n* Inhale, engage your core and glutes. Keep a neutral spine—no leaning.\n\n3. Curl\n\n* Exhale as you bend the elbows and lift the weights toward your shoulders.\n* Keep elbows pinned to your sides; don’t let them drift forward.\n* As you lift, rotate forearms so palms face up by the top (supination).\n\n4. Squeeze\n\n* Pause briefly at the top. Feel the biceps working.\n* Don’t shrug or let wrists bend; forearms stay in line with the back of your hands.\n\n5. Lower\n\n* Inhale as you lower slowly for 2–3 seconds.\n* Fully straighten the elbows without locking; keep shoulders relaxed.\n\n6. Repeat\n\n* Perform 8–12 controlled reps for 2–4 sets. Rest 60–90 seconds between sets.\n* Choose a weight that leaves 1–2 reps “in the tank” at the end of each set.\n\n## Quick cues\n\n* Tempo: **2–0–2** (two seconds up, no pause, two seconds down).\n* Range: Full elbow extension to full elbow flexion without swinging.\n* Breath: Exhale up, inhale down.\n\n## Common mistakes to avoid\n\n* Swinging your torso or using momentum.\n* Elbows flaring away from your sides.\n* Bending or curling your wrists.\n* Cutting the range short or rushing the lowering phase.\n\n## Variations (optional)\n\n* **Hammer Curl:** Neutral grip the whole time; targets brachialis/forearm more.\n* **Barbell Curl:** Two hands on a bar; keep elbows tucked.\n* **Incline Dumbbell Curl:** On an incline bench; emphasizes the long head stretch.\n* **Concentration Curl:** Seated, elbow braced on inner thigh for strict form.\n\nWant a second visual for hammer curls or barbell curls too?\n",
+    "generated_image": "GPT-thinking/exercise/20.png",
+    "gemini_evaluation": {
+      "Question": "How to Do Bicep Curls? Show visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct and accurately describe and depict the proper form for performing a dumbbell bicep curl."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image and text are perfectly coherent. The six visual steps in the image directly correspond to the six numbered steps in the text explanation (Setup, Brace, Curl, Squeeze, Lower, Repeat). The labels in the image match the text headings, creating a seamless and easy-to-follow guide."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is clear, professional, and well-labeled, with a realistic depiction of the exercise. The text is exceptionally well-structured, using clear headings, bullet points, and proper terminology, making it very easy to read and understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. The image is aesthetically pleasing and looks like a professional fitness guide. The text is helpful, safe, and provides clear, actionable instructions. The overall presentation is clean and user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the user's request by providing both visual and textual steps for performing a bicep curl. It covers the entire motion from start to finish, including setup and repetition guidance."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in content. In addition to the core steps, it includes valuable extra information such as 'Quick cues' (tempo, breathing), a list of 'Common mistakes to avoid,' and several 'Variations' of the exercise. This level of detail significantly enhances the value of the answer."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Do Bicep Curls? Show visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct and accurately describe and depict the proper form for performing a dumbbell bicep curl.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The six visual steps in the image directly correspond to the six numbered steps in the text explanation (Setup, Brace, Curl, Squeeze, Lower, Repeat). The labels in the image match the text headings, creating a seamless and easy-to-follow guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is clear, professional, and well-labeled, with a realistic depiction of the exercise. The text is exceptionally well-structured, using clear headings, bullet points, and proper terminology, making it very easy to read and understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. The image is aesthetically pleasing and looks like a professional fitness guide. The text is helpful, safe, and provides clear, actionable instructions. The overall presentation is clean and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the user's request by providing both visual and textual steps for performing a bicep curl. It covers the entire motion from start to finish, including setup and repetition guidance.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. In addition to the core steps, it includes valuable extra information such as 'Quick cues' (tempo, breathing), a list of 'Common mistakes to avoid,' and several 'Variations' of the exercise. This level of detail significantly enhances the value of the answer.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 49,
+    "domain": "exercise",
+    "question": "How to Do Crunches? Provide visual steps and text the steps.",
+    "reference_text": "1. Lie on your back on top of an exercise mat . Find a comfortable spot to lie down on the floor where you can spread out. Keep your neck and back in line. Tighten your abs and push your lower back flat against the mat the entire time you’re performing crunches to ensure your core stays engaged. If you don’t have an exercise mat, then lay out a soft towel or do crunches on a carpeted floor so you’re more comfortable. 2. Bend your knees so your feet are flat on the floor. Position your feet so your heels are about 12 to 18 in (30 to 46 cm) from your tailbone. Bend your knees to 90 degrees and keep them about hip-width apart. Make sure the soles of your feet are flat against the ground. 3. Cross your arms in front of your chest with your hands just below your shoulders. Keep your elbows pointed down toward your feet. Lay your hands flat on your chest right in front of your shoulders. Avoid putting your hands behind your head since you could accidentally strain your neck when you perform your exercise. For more resistance during your workout, hold a 5 to 10 pounds (2.3 to 4.5 kg) plate weight over your chest. 4. Lift your shoulder blades off of the mat with a smooth, controlled motion. Tighten your abs and take a deep breath in. As you exhale, engage your muscles to raise your torso off of the mat all while keeping your lower back and feet flat on the floor. Lift yourself just enough to get your shoulder blades off of the floor. Support yourself in this position for 1–2 seconds. Avoid sitting all the way up when you perform a crunch since muscles in your back and hips will take over, and you could strain yourself. Keep your lower back, tailbone, and feet in contact with the mat at all times. If your feet lift off of the ground while you’re performing a rep, have someone hold onto your feet or position them underneath something heavy. Keep your neck relaxed instead of tucking in your chin. Try to keep an apple-sized space between your chin and your chest. Looking at the ceiling can help keep you from curling your neck too much. 5. Lower yourself back down with a slow, steady motion. Gently inhale as you slowly lower your torso down to the floor. Use a smooth, controlled motion to work your ab muscles and prevent you from injuring yourself. Take a brief pause to finish 1 rep. If you rush into the next rep, you’ll end up using the momentum of your body moving instead of your muscles to lift yourself up. Additionally, you’re more likely to injure your back Try doing a set of 10–12 crunches to start working out your abs . As you start building up your core strength, try doing 2–3 sets or increasing the number of reps you do.",
+    "reference_images": [
+      "data/exercise/49_1.jpg",
+      "data/exercise/49_2.jpg",
+      "data/exercise/49_3.jpg",
+      "data/exercise/49_4.jpg",
+      "data/exercise/49_5.jpg"
+    ],
+    "generated_text": "Here are the **text steps** to go with the visual:\n\n# Side Crunch (Side-Lying Oblique Crunch) — Text Steps\n\n1. Set up\n\n* Lie on your **right side** on a mat.\n* Bend knees about **90°** and stack hips, knees, and ankles.\n* Right forearm on the floor for balance; **left hand** lightly behind your head (don’t pull your neck).\n* Keep ribs “down” and neck neutral.\n\n2. Brace\n\n* Take a breath in.\n* Gently **brace your core** as if preparing for a light poke, keeping hips stacked and elbow open.\n\n3. Crunch up\n\n* **Exhale** and bring your **left ribcage toward your left hip**.\n* Lift both shoulders a few inches; keep elbow wide and gaze forward.\n* Knees and legs stay quiet—movement comes from your **obliques**, not from tugging the head.\n\n4. Pause\n\n* Hold the top position for **1 second**, keep breathing softly, feel the side squeeze.\n\n5. Lower with control\n\n* **Inhale** and lower your shoulders back to the start without collapsing. Maintain tension.\n\n6. Repeat & switch sides\n\n* Do **8–15 controlled reps**, then **flip to your left side** to work the right obliques.\n* Aim for **2–3 sets per side**.\n\n### Form tips & common mistakes\n\n* Keep hips stacked; don’t roll backward.\n* Don’t yank on your head—your hand just supports.\n* Small range is fine; prioritize **slow, controlled** reps.\n* If you feel your neck more than your side, reduce range and press your tongue lightly to the roof of your mouth to help stabilize.\n\n### Make it easier\n\n* Place top hand across your chest instead of behind your head.\n* Keep bottom arm straight and use it lightly on the floor for balance.\n\n### Make it harder\n\n* Straighten your legs and keep feet slightly off the floor.\n* Add a light dumbbell or small plate held against the side of your ribcage (still no neck pulling).\n\nIf you want variations (e.g., **side plank crunch** or **standing side crunch**), say the word and I’ll add those too.\n",
+    "generated_image": "GPT-thinking/exercise/49.png",
+    "gemini_evaluation": {
+      "Question": "How to Do Crunches? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          1,
+          "The user asked for instructions on how to do crunches, which typically refers to the standard abdominal crunch as shown in the reference. The generated response provides instructions for a side crunch, which is a different exercise."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image and text are perfectly coherent. The image shows a side crunch, and the text provides a detailed explanation of how to perform a side crunch."
+        ],
+        "Content Quality": [
+          4,
+          "The generated image is a high-quality, clear photograph. The text is well-structured, grammatically correct, and provides clear instructions for the exercise it describes."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is safe, helpful, and appropriate for a fitness-related query. There is no undesirable content."
+        ],
+        "Completeness": [
+          1,
+          "The response is incomplete because the question asked for visual steps, implying a series of images showing the progression of the movement. The generated response only provides a single static image, failing to visually guide the user through the steps."
+        ],
+        "Content Richness": [
+          2,
+          "While the text is very rich, providing form tips, common mistakes, and modifications, the visual content is extremely poor. It consists of only one image, which does not show the multiple steps of the exercise."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Do Crunches? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            1,\n            \"The user asked for instructions on how to do crunches, which typically refers to the standard abdominal crunch as shown in the reference. The generated response provides instructions for a side crunch, which is a different exercise.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The image shows a side crunch, and the text provides a detailed explanation of how to perform a side crunch.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is a high-quality, clear photograph. The text is well-structured, grammatically correct, and provides clear instructions for the exercise it describes.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is safe, helpful, and appropriate for a fitness-related query. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is incomplete because the question asked for visual steps, implying a series of images showing the progression of the movement. The generated response only provides a single static image, failing to visually guide the user through the steps.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"While the text is very rich, providing form tips, common mistakes, and modifications, the visual content is extremely poor. It consists of only one image, which does not show the multiple steps of the exercise.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 78,
+    "domain": "diagram",
+    "question": "We propose a lightweight visual prompt tuning method, called Visual Fourier Prompt Tuning (VFPT), to improve efficiency and expressiveness in transformer-based visual models. VFPT introduces 2D Fast Fourier Transform (FFT) into partial visual prompts along both hidden and sequence dimensions. The design is compared with original Visual Prompt Tuning (VPT).\nPlease provide:\n 1. A clear figure illustrating: (a) VPT structure, (b) 2D FFT over prompts, (c) VFPT integration into transformer encoder.\n 2. A concise figure caption. Output the image and caption separately.",
+    "reference_text": "Figure 1: **Overview of VPT vs. VFPT (ours) frameworks.** (a) Original Visual Prompt Tuning. (b) 2D Fast Fourier Transform operations in partial visual prompts along hidden and sequence length dimensions. (c) The overall architecture of our proposed VFPT (see §3.2).",
+    "reference_images": [
+      "data/diagram/VFPT-VPT_vs_FFTPrompt.png"
+    ],
+    "generated_text": "Figure caption (separate text):\n\nVisual Fourier Prompt Tuning (VFPT). (a) Visual Prompt Tuning (VPT): a small set of learnable prompt tokens is prepended to the image patch tokens and fed to a frozen transformer encoder. (b) VFPT core: a partial subset of the prompt matrix (sequence × hidden) is transformed with a 2D FFT, modulated in the frequency domain, and mapped back by an inverse 2D FFT to yield enhanced prompts. (c) VFPT integration: the enhanced partial prompts are injected at selected encoder layers, enabling lightweight parameter cost with improved expressiveness over standard VPT.\n",
+    "generated_image": "GPT-thinking/diagram/78.png",
+    "gemini_evaluation": {
+      "Question": "We propose a lightweight visual prompt tuning method, called Visual Fourier Prompt Tuning (VFPT), to improve efficiency and expressiveness in transformer-based visual models. VFPT introduces 2D Fast Fourier Transform (FFT) into partial visual prompts along both hidden and sequence dimensions. The design is compared with original Visual Prompt Tuning (VPT).\nPlease provide:\n 1. A clear figure illustrating: (a) VPT structure, (b) 2D FFT over prompts, (c) VFPT integration into transformer encoder.\n 2. A concise figure caption. Output the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagrams accurately represent the concepts of Visual Prompt Tuning (VPT), the 2D Fast Fourier Transform (FFT) process on prompts, and the integration of the resulting Visual Fourier Prompt Tuning (VFPT) prompts into a transformer encoder, consistent with the reference."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text caption perfectly aligns with the generated image. Each part of the caption, (a), (b), and (c), corresponds directly and accurately to the respective sections of the diagram, providing a clear explanation of the visual elements."
+        ],
+        "Content Quality": [
+          5,
+          "The image quality is excellent for a technical diagram. It is clear, well-organized, and uses a consistent and professional style. The text is also of high quality, being grammatically correct, concise, and using appropriate technical terminology."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for a technical explanation. The content is safe and helpful. The diagram is aesthetically pleasing, clear, and easy to understand."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both a figure and a separate text caption as requested. The figure successfully illustrates all three required components: (a) VPT structure, (b) 2D FFT over prompts, and (c) VFPT integration."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The diagram provides a clear visual breakdown of a complex process. The text caption is more detailed and explanatory than the reference caption, offering a better understanding of what each component does, which is highly valuable."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"We propose a lightweight visual prompt tuning method, called Visual Fourier Prompt Tuning (VFPT), to improve efficiency and expressiveness in transformer-based visual models. VFPT introduces 2D Fast Fourier Transform (FFT) into partial visual prompts along both hidden and sequence dimensions. The design is compared with original Visual Prompt Tuning (VPT).\\nPlease provide:\\n 1. A clear figure illustrating: (a) VPT structure, (b) 2D FFT over prompts, (c) VFPT integration into transformer encoder.\\n 2. A concise figure caption. Output the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagrams accurately represent the concepts of Visual Prompt Tuning (VPT), the 2D Fast Fourier Transform (FFT) process on prompts, and the integration of the resulting Visual Fourier Prompt Tuning (VFPT) prompts into a transformer encoder, consistent with the reference.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text caption perfectly aligns with the generated image. Each part of the caption, (a), (b), and (c), corresponds directly and accurately to the respective sections of the diagram, providing a clear explanation of the visual elements.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image quality is excellent for a technical diagram. It is clear, well-organized, and uses a consistent and professional style. The text is also of high quality, being grammatically correct, concise, and using appropriate technical terminology.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for a technical explanation. The content is safe and helpful. The diagram is aesthetically pleasing, clear, and easy to understand.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both a figure and a separate text caption as requested. The figure successfully illustrates all three required components: (a) VPT structure, (b) 2D FFT over prompts, and (c) VFPT integration.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The diagram provides a clear visual breakdown of a complex process. The text caption is more detailed and explanatory than the reference caption, offering a better understanding of what each component does, which is highly valuable.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 59,
+    "domain": "diagram",
+    "question": "I'm creating a figure to illustrate the GraphStitch unit architecture in UniGAD.\nThe figure has two layers:\n1. **Multi-level Layer1**: Processes node, edge, and graph features separately but identically. Each feature level is connected to a **GraphStitch Unit**, which computes interaction attention weights across levels (e.g., α<sub>nn</sub>, α<sub>ne</sub>, α<sub>ng</sub> for node level).\n2. **Multi-level Layer2**: Receives processed outputs from Layer1, again uses a **GraphStitch Unit** with updated attention weights for cross-level feature fusion. The architecture is repeated across layers with the node-level highlighted.\nPlease provide:\n 1. A clear figure illustrating the GraphStitch unit and multi-level interaction structure.\n 2. A concise figure caption. Output the image and caption separately.",
+    "reference_text": "Figure 4: GraphStitch network structure in UniGAD. Node level is highlighted.",
+    "reference_images": [
+      "data/diagram/UniGAD-GraphStitch.png"
+    ],
+    "generated_text": "**Figure caption:**GraphStitch unit architecture for UniGAD. Each multi-level layer (Layer1 → Layer2) processes node, edge, and graph features in parallel with identical level-specific processors, then fuses them via a GraphStitch Unit that learns cross-level interaction attention weights $\\alpha_{\\ell m}$ (illustrated for the node stream as $\\alpha_{nn}, \\alpha_{ne}, \\alpha_{ng}$). Layer2 consumes the outputs of Layer1 and applies an updated attention matrix $\\alpha'_{\\ell m}$; the pattern repeats across layers, with the node pathway highlighted.",
+    "generated_image": "GPT-thinking/diagram/59.png",
+    "gemini_evaluation": {
+      "Question": "I'm creating a figure to illustrate the GraphStitch unit architecture in UniGAD.\nThe figure has two layers:\n1. **Multi-level Layer1**: Processes node, edge, and graph features separately but identically. Each feature level is connected to a **GraphStitch Unit**, which computes interaction attention weights across levels (e.g., α<sub>nn</sub>, α<sub>ne</sub>, α<sub>ng</sub> for node level).\n2. **Multi-level Layer2**: Receives processed outputs from Layer1, again uses a **GraphStitch Unit** with updated attention weights for cross-level feature fusion. The architecture is repeated across layers with the node-level highlighted.\nPlease provide:\n 1. A clear figure illustrating the GraphStitch unit and multi-level interaction structure.\n 2. A concise figure caption. Output the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both correct. The image accurately visualizes the two-layer architecture with parallel processing streams for node, edge, and graph features, the identical processors, and the GraphStitch units with the specified attention weights. The text correctly and precisely describes all the components and processes shown in the diagram."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text perfectly describes the generated image. Every element mentioned in the caption—the two layers, the parallel feature streams, the identical processors, the GraphStitch units, the specific attention weights (α and α'), and the highlighted node pathway—is clearly and accurately depicted in the visual diagram. The alignment is flawless."
+        ],
+        "Content Quality": [
+          5,
+          "The quality is excellent. The image is a clear, professional-grade technical diagram with a logical layout, legible text, and effective use of color to highlight the node pathway. The text is well-written, grammatically correct, and uses appropriate technical language and LaTeX formatting for symbols, making it a high-quality, descriptive caption."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It provides a clean, aesthetically pleasing, and easy-to-understand diagram for a complex architecture. The caption is informative and helpful. The entire output is professional and directly addresses the user's request without any issues."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both of the requested items: a clear figure and a separate, concise caption. All the specific architectural details mentioned in the prompt are included in the figure and explained in the text."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The diagram is detailed, showing the flow of data and the specific mathematical notations for the attention weights. The caption is significantly more descriptive and informative than the reference, providing a comprehensive explanation of the entire architecture, which adds substantial value for the reader."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm creating a figure to illustrate the GraphStitch unit architecture in UniGAD.\\nThe figure has two layers:\\n1. **Multi-level Layer1**: Processes node, edge, and graph features separately but identically. Each feature level is connected to a **GraphStitch Unit**, which computes interaction attention weights across levels (e.g., α<sub>nn</sub>, α<sub>ne</sub>, α<sub>ng</sub> for node level).\\n2. **Multi-level Layer2**: Receives processed outputs from Layer1, again uses a **GraphStitch Unit** with updated attention weights for cross-level feature fusion. The architecture is repeated across layers with the node-level highlighted.\\nPlease provide:\\n 1. A clear figure illustrating the GraphStitch unit and multi-level interaction structure.\\n 2. A concise figure caption. Output the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both correct. The image accurately visualizes the two-layer architecture with parallel processing streams for node, edge, and graph features, the identical processors, and the GraphStitch units with the specified attention weights. The text correctly and precisely describes all the components and processes shown in the diagram.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly describes the generated image. Every element mentioned in the caption—the two layers, the parallel feature streams, the identical processors, the GraphStitch units, the specific attention weights (α and α'), and the highlighted node pathway—is clearly and accurately depicted in the visual diagram. The alignment is flawless.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality is excellent. The image is a clear, professional-grade technical diagram with a logical layout, legible text, and effective use of color to highlight the node pathway. The text is well-written, grammatically correct, and uses appropriate technical language and LaTeX formatting for symbols, making it a high-quality, descriptive caption.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It provides a clean, aesthetically pleasing, and easy-to-understand diagram for a complex architecture. The caption is informative and helpful. The entire output is professional and directly addresses the user's request without any issues.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both of the requested items: a clear figure and a separate, concise caption. All the specific architectural details mentioned in the prompt are included in the figure and explained in the text.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The diagram is detailed, showing the flow of data and the specific mathematical notations for the attention weights. The caption is significantly more descriptive and informative than the reference, providing a comprehensive explanation of the entire architecture, which adds substantial value for the reader.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0224",
+    "domain": "textbook",
+    "question": "How does a reflecting telescope form an image? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows the optics of a reflecting telescope. Light enters the aperture and strikes a large concave mirror at the back of the tube, called the objective. The mirror reflects the light inward to a small angled mirror, which redirects it to the eyepiece. The eyepiece lenses then focus the light into a clear image for the observer.",
+    "reference_images": [
+      "data/textbook/parts_telescope_8153.png"
+    ],
+    "generated_text": "# Written explanation\n\nA reflecting telescope forms an image using mirrors instead of a large front lens.\n\n1. **Light collection & focusing**\n   Parallel rays from a distant object enter the tube and strike a **concave primary mirror** (usually parabolic). Because the rays are nearly parallel, the parabolic surface reflects them so they **converge toward a common focus**. This creates a **real, inverted image** at the **focal plane**.\n\n2. **Fold/redirect the beam**\n   To reach a convenient viewing or instrument position, a **secondary mirror** intercepts the converging beam and redirects it:\n\n   * **Newtonian**: a small **flat** mirror at ~45° sends the light out the side of the tube to a focuser.\n   * **Cassegrain**: a small **convex** mirror sends the light back through a hole in the primary to the rear of the telescope.\n\n3. **Viewing or recording the image**\n\n   * An **eyepiece** acts like a magnifying glass that views the real image at the focal plane, producing a magnified virtual image for your eye.\n   * A **camera sensor** can be placed at the focal plane to record the image directly (prime focus).\n\n4. **Key relationships**\n\n   * **Magnification** (for visual use): ( M \\approx \\dfrac{f_{\\text{telescope}}}{f_{\\text{eyepiece}}} ).\n   * **Angular resolution (diffraction limit)**: ( \\theta \\approx 1.22,\\dfrac{\\lambda}{D} ), so a **larger aperture (D)** resolves finer detail.\n   * **Light-gathering power** scales with **area** (\\propto D^2), so bigger mirrors reveal fainter objects.\n\n5. **Practical notes**\n\n   * The central obstruction (secondary mirror) and its support can slightly reduce contrast and create diffraction spikes on bright stars.\n   * Reflectors avoid chromatic aberration (since mirrors reflect all wavelengths the same), but they must be **collimated** (optics precisely aligned) to perform at their best.\n   * Image orientation isn’t “upright”—it may appear **rotated and/or mirrored** depending on the design and accessories, which is fine for astronomy.\n\nIf you’d like, I can also generate a second image showing the Cassegrain light path or label additional components (spider vanes, focuser, focal plane detail, etc.).\n",
+    "generated_image": "GPT-thinking/textbook/224.png",
+    "gemini_evaluation": {
+      "Question": "How does a reflecting telescope form an image? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately depicts the light path in a Newtonian reflecting telescope, and the text provides a detailed and accurate explanation of the principles involved."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text and image are perfectly coherent. The text explicitly describes the components and light path of a Newtonian telescope, which is precisely what the diagram illustrates. The labels in the image correspond directly to the terms used in the explanation."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The generated image is a clear, well-labeled, and easy-to-understand diagram. The text is well-structured, using headings and bullet points, making it highly readable and informative. The language is precise and the grammar is correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The diagram is clean and professional, and the text is formatted for easy comprehension."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It fully answers the question by providing both a detailed written explanation and a clear illustrative image, covering all the essential steps of image formation in a reflecting telescope."
+        ],
+        "Content Richness": [
+          5,
+          "The response is exceptionally rich in content. The text goes far beyond a basic explanation, including different types of reflectors (Newtonian, Cassegrain), key performance formulas (magnification, resolution), and practical considerations like collimation and aberrations. This level of detail adds significant educational value."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How does a reflecting telescope form an image? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately depicts the light path in a Newtonian reflecting telescope, and the text provides a detailed and accurate explanation of the principles involved.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text and image are perfectly coherent. The text explicitly describes the components and light path of a Newtonian telescope, which is precisely what the diagram illustrates. The labels in the image correspond directly to the terms used in the explanation.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The generated image is a clear, well-labeled, and easy-to-understand diagram. The text is well-structured, using headings and bullet points, making it highly readable and informative. The language is precise and the grammar is correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The diagram is clean and professional, and the text is formatted for easy comprehension.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It fully answers the question by providing both a detailed written explanation and a clear illustrative image, covering all the essential steps of image formation in a reflecting telescope.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is exceptionally rich in content. The text goes far beyond a basic explanation, including different types of reflectors (Newtonian, Cassegrain), key performance formulas (magnification, resolution), and practical considerations like collimation and aberrations. This level of detail adds significant educational value.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0244",
+    "domain": "textbook",
+    "question": "What information is shown in a nuclear symbol? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram shows the nuclear symbol for Boron. The atomic number, in the lower left, represents the number of protons. The mass number, in the upper left, represents protons plus neutrons. If the atom is an ion, its charge is shown in the upper right. These numbers identify the element and isotope.",
+    "reference_images": [
+      "data/textbook/atomic_mass_number_9001.png"
+    ],
+    "generated_text": "# Written explanation (separate from the image)\n\nA nuclear symbol (isotope notation) is written in the form (^{A}_{Z}!X^{q}). It conveys:\n\n* **Element symbol (X)** — which element it is (e.g., C, Cl, U).\n* **Atomic number (Z)** — the number of protons in the nucleus. This defines the element.\n* **Mass number (A)** — total number of nucleons (protons + neutrons).\n\n  * From this you can **derive neutrons**: (N = A - Z).\n* **Charge (q)** (optional) — ionic charge; if omitted, the atom is neutral.\n\n  * From this you can **derive electrons**:\n\n    * If the charge is positive (q=+n), electrons (= Z - n).\n    * If the charge is negative (q=-n), electrons (= Z + n).\n\n**Example:** (^{37}_{17}\\text{Cl}^{-}) → 17 protons, (37-17=20) neutrons, and (17+1=18) electrons.\n\n*(Your image above illustrates these parts visually.)*\n",
+    "generated_image": "GPT-thinking/textbook/244.png",
+    "gemini_evaluation": {
+      "Question": "What information is shown in a nuclear symbol? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram correctly labels the components of a nuclear symbol (mass number, atomic number, element symbol, charge), and the text accurately explains what each component represents and how to derive the number of subatomic particles."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the general form of a nuclear symbol, and the image provides a clear visual diagram of that general form, with labels that match the terms used in the text. The text even explicitly refers to the image for visual illustration."
+        ],
+        "Content Quality": [
+          5,
+          "The content is of very high quality. The image is a clear, simple, and effective educational diagram. The text is well-structured, using bullet points and bolding for clarity, and is grammatically correct. The explanation is easy to follow and comprehensive."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference. It is helpful, safe, and well-presented. The diagram is aesthetically clean and professional."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested image and a detailed written explanation, covering all the necessary information about a nuclear symbol."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is richer than the reference. While the reference uses a specific example (Boron), the generated response uses a general formula (A, Z, X, q), which is more broadly educational. It also provides extra valuable information on how to calculate the number of neutrons and electrons, and includes a specific, worked-out example (Chlorine-37) to solidify the concept."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What information is shown in a nuclear symbol? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram correctly labels the components of a nuclear symbol (mass number, atomic number, element symbol, charge), and the text accurately explains what each component represents and how to derive the number of subatomic particles.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the general form of a nuclear symbol, and the image provides a clear visual diagram of that general form, with labels that match the terms used in the text. The text even explicitly refers to the image for visual illustration.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content is of very high quality. The image is a clear, simple, and effective educational diagram. The text is well-structured, using bullet points and bolding for clarity, and is grammatically correct. The explanation is easy to follow and comprehensive.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference. It is helpful, safe, and well-presented. The diagram is aesthetically clean and professional.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested image and a detailed written explanation, covering all the necessary information about a nuclear symbol.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is richer than the reference. While the reference uses a specific example (Boron), the generated response uses a general formula (A, Z, X, q), which is more broadly educational. It also provides extra valuable information on how to calculate the number of neutrons and electrons, and includes a specific, worked-out example (Chlorine-37) to solidify the concept.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0083",
+    "domain": "textbook",
+    "question": "What are greenhouse gases, and why is the greenhouse effect important for life on Earth? Explain with an image.",
+    "reference_text": "Greenhouse gases like carbon dioxide and water vapor absorb heat in the atmosphere. This keeps Earth warm enough to support life. Without them, Earth would be too cold. The diagram shows how this process works.",
+    "reference_images": [
+      "data/textbook/greenhouse_effect_6940.png"
+    ],
+    "generated_text": "Here’s the **text** (separate from the image):\n\n# What are greenhouse gases?\n\nGreenhouse gases are components of Earth’s atmosphere that **absorb and re-emit infrared (heat) radiation**. Because of their molecular vibration modes, they interact strongly with the wavelengths of heat the surface gives off after being warmed by sunlight.\n\n**Main greenhouse gases:**\n\n* **Water vapor (H₂O)** — most abundant, highly variable\n* **Carbon dioxide (CO₂)**\n* **Methane (CH₄)**\n* **Nitrous oxide (N₂O)**\n* **Ozone (O₃)**\n* **Halocarbons** (e.g., CFCs, HFCs) in small amounts\n\n(For contrast: **nitrogen (N₂)**, **oxygen (O₂)**, and **argon (Ar)** make up most of the air but are *not* effective greenhouse gases because they don’t absorb infrared efficiently.)\n\n# Why the greenhouse effect matters for life\n\n1. **Sunlight (shortwave)** passes through the atmosphere; some is reflected by clouds and bright surfaces like ice.\n2. **Earth’s surface absorbs** the rest and **re-emits** energy upward as **infrared (longwave)** heat.\n3. **Greenhouse gases absorb and re-emit** some of that heat in all directions, including back toward the surface.\n4. This slows the escape of heat to space and **warms the lower atmosphere and surface** until a balance is reached between incoming sunlight and outgoing infrared.\n\n**Without the natural greenhouse effect,** Earth’s average surface temperature would be about **−18 °C (0 °F)**.\n**With it,** the average is about **+15 °C (59 °F)** — warm enough for **liquid water, stable climates, and the ecosystems and agriculture** life depends on.\n\n> Note: Adding extra greenhouse gases (e.g., rising CO₂ and CH₄) **enhances** the effect, shifting the balance and driving **modern climate change**.\n\n---\n\n**Image:** A labeled infographic illustrating the steps above (Sunlight in, reflection, surface warming, infrared out, greenhouse gases re-emitting heat, and the −18 °C vs +15 °C note).",
+    "generated_image": "GPT-thinking/textbook/83.png",
+    "gemini_evaluation": {
+      "Question": "What are greenhouse gases, and why is the greenhouse effect important for life on Earth? Explain with an image.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The text and the image are both factually correct and scientifically accurate. The explanation of the greenhouse effect, the list of gases, and the temperature data are all valid."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image is a perfect visual representation of the detailed text explanation. It illustrates the key steps mentioned in the text, such as incoming shortwave radiation, outgoing infrared radiation, and the re-emission of heat by greenhouse gases. The specific temperature figures (-18°C vs +15°C) mentioned in the text are also clearly labeled in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The text is exceptionally well-written, structured, and easy to understand. It uses clear headings, bullet points, and bold text effectively. The image is a high-quality, clear, and well-labeled infographic that effectively communicates the scientific concept."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and entirely appropriate for an educational question. The infographic is aesthetically pleasing and well-designed."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers all parts of the question. It defines greenhouse gases, explains the importance of the greenhouse effect for life, and provides a corresponding explanatory image."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in detail, going far beyond the basic reference answer. The text provides a list of specific gases, contrasts them with non-greenhouse gases, explains the physics (shortwave vs. longwave radiation), quantifies the temperature effect, and adds a relevant note on climate change. The image is similarly detailed."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What are greenhouse gases, and why is the greenhouse effect important for life on Earth? Explain with an image.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The text and the image are both factually correct and scientifically accurate. The explanation of the greenhouse effect, the list of gases, and the temperature data are all valid.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image is a perfect visual representation of the detailed text explanation. It illustrates the key steps mentioned in the text, such as incoming shortwave radiation, outgoing infrared radiation, and the re-emission of heat by greenhouse gases. The specific temperature figures (-18°C vs +15°C) mentioned in the text are also clearly labeled in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The text is exceptionally well-written, structured, and easy to understand. It uses clear headings, bullet points, and bold text effectively. The image is a high-quality, clear, and well-labeled infographic that effectively communicates the scientific concept.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and entirely appropriate for an educational question. The infographic is aesthetically pleasing and well-designed.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers all parts of the question. It defines greenhouse gases, explains the importance of the greenhouse effect for life, and provides a corresponding explanatory image.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in detail, going far beyond the basic reference answer. The text provides a list of specific gases, contrasts them with non-greenhouse gases, explains the physics (shortwave vs. longwave radiation), quantifies the temperature effect, and adds a relevant note on climate change. The image is similarly detailed.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0098",
+    "domain": "textbook",
+    "question": "How do you use a compound light microscope properly? Use the diagram to help explain.",
+    "reference_text": "A compound microscope has parts like eyepiece, objective lenses, stage, and coarse/fine focus knobs. Always carry it by the arm and base. Use focus knobs and lenses to adjust image clarity.",
+    "reference_images": [
+      "data/textbook/parts_microscope_7193.png"
+    ],
+    "generated_text": "Here’s the image and the explanation kept separate, just like you asked.\n\n# 1) Diagram (labeled parts)\n\n*(See the image above.)*\nThe figure shows a compound light microscope with the light path and numbered callouts for each component.\n\n---\n\n# 2) How a compound microscope works (with parts explained)\n\n## Big picture\n\nA compound microscope uses **two lens systems**—the **objective** near the specimen and the **eyepiece (ocular)** near your eye—to create **high total magnification**. Light from the **illuminator** is focused through the specimen by the **condenser**. The **objective** forms a **real, inverted intermediate image** inside the tube; the **eyepiece** then magnifies that into the **virtual image** you see.\n\n**Total magnification = (eyepiece power) × (objective power).**\n**Resolution** (smallest detail you can separate) improves with higher **NA** of the objective/condenser and with shorter wavelengths of light.\n\n## What each numbered part does (match to the image)\n\n1. **Eyepiece (ocular)** – Magnifies the intermediate image made by the objective; often 10×. Some models include a **diopter** ring to match focus between your eyes.\n\n2. **Head / Body tube** – Holds the optics at fixed spacing so the objective image forms at the correct plane for the eyepiece.\n\n3. **Revolving nosepiece (turret)** – Clicks different **objective lenses** into the light path quickly.\n\n4. **Objectives (4×, 10×, 40×, 100× oil)** – The primary magnifiers; also the main drivers of **resolution** and **working distance**.\n\n   * **4× (scanning):** wide field, easy to find the specimen.\n   * **10× (low):** more detail, still forgiving.\n   * **40× (high dry):** fine detail; use **fine focus only**.\n   * **100× oil:** highest detail; requires immersion oil to boost NA and resolution.\n\n5. **Stage** – Platform that holds the slide. Often a **mechanical stage** with **X–Y controls** for precise movement.\n\n6. **Slide & stage clips** – Secure the specimen directly over the light path.\n\n7. **Coarse focus knob** – Moves the stage quickly to find focus at low power.\n\n8. **Fine focus knob** – Small, precise motion for sharp focus, especially at 40×/100×.\n\n9. **Condenser** – A lens system that concentrates light onto the specimen; usually raised close to the underside of the slide for brightfield.\n\n10. **Iris diaphragm (substage)** – Adjustable aperture beneath the condenser. **Open** for brightness and resolution; **close** for more contrast (but less resolution). Use together with the condenser height.\n\n11. **Field diaphragm (if present)** – Controls the illuminated field size; helps set Köhler illumination and reduce stray light.\n\n12. **Illuminator / LED** – The light source. Often paired with a **brightness control** on the base.\n\n13. **On/Off & brightness control** – Powers the lamp and sets intensity to a comfortable, non-glary level.\n\n14. **Arm** – Structural support; the safe handle when carrying the scope (other hand under the base).\n\n15. **Base & power connector** – House the lamp and electronics; provides stability.\n\n### What’s happening to the image?\n\n* **Illuminator → condenser → specimen:** Light is focused into a cone that passes through the specimen. Transparent/colored areas transmit or absorb light differently, creating contrast.\n* **Specimen → objective:** The objective produces a **real, inverted** magnified image inside the tube.\n* **Objective image → eyepiece:** The eyepiece acts like a magnifier, creating a **virtual image** your eye focuses on.\n* **Result:** High magnification with limited depth of field; tiny focus adjustments and proper illumination are crucial.\n\nIf you want, I can make a printable one-page “How it works + parts” handout using this same diagram.\n",
+    "generated_image": "GPT-thinking/textbook/98.png",
+    "gemini_evaluation": {
+      "Question": "How do you use a compound light microscope properly? Use the diagram to help explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The diagram accurately labels the parts of a compound light microscope, and the text provides a scientifically accurate explanation of each part's function and the overall optical principles."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text is perfectly coherent with the image. It uses a numbered list that directly corresponds to the numbered labels on the diagram, making it very easy to follow and understand which part is being described."
+        ],
+        "Content Quality": [
+          5,
+          "The quality is excellent. The image is a clear, professional-looking diagram. The text is well-written, grammatically correct, well-structured with headings and bullet points, and uses precise scientific terminology correctly."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly preferable. It's educational, well-organized, and presents complex information in an accessible way. The tone is helpful and appropriate."
+        ],
+        "Completeness": [
+          4,
+          "The response provides an exhaustive explanation of the parts of the microscope and how it works, which is essential for understanding its use. However, it does not provide a direct, step-by-step procedural guide on *how to use it* (e.g., '1. Place the slide on the stage... 2. Start with the lowest power objective...'), which was the explicit question. It provides the 'why' but not the 'how-to' in a simple list format."
+        ],
+        "Content Richness": [
+          5,
+          "The response is exceptionally rich. It goes far beyond the simple reference answer by explaining magnification formulas, resolution, the function of different objective lenses, the role of the condenser and diaphragms, and the optical path. This level of detail is highly valuable for a comprehensive understanding."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How do you use a compound light microscope properly? Use the diagram to help explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The diagram accurately labels the parts of a compound light microscope, and the text provides a scientifically accurate explanation of each part's function and the overall optical principles.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text is perfectly coherent with the image. It uses a numbered list that directly corresponds to the numbered labels on the diagram, making it very easy to follow and understand which part is being described.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality is excellent. The image is a clear, professional-looking diagram. The text is well-written, grammatically correct, well-structured with headings and bullet points, and uses precise scientific terminology correctly.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly preferable. It's educational, well-organized, and presents complex information in an accessible way. The tone is helpful and appropriate.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response provides an exhaustive explanation of the parts of the microscope and how it works, which is essential for understanding its use. However, it does not provide a direct, step-by-step procedural guide on *how to use it* (e.g., '1. Place the slide on the stage... 2. Start with the lowest power objective...'), which was the explicit question. It provides the 'why' but not the 'how-to' in a simple list format.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is exceptionally rich. It goes far beyond the simple reference answer by explaining magnification formulas, resolution, the function of different objective lenses, the role of the condenser and diaphragms, and the optical path. This level of detail is highly valuable for a comprehensive understanding.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 21,
+    "domain": "paper",
+    "question": "I've been reading about vision transformers. How is Swin Transformer different from ViT in terms of architecture and suitability for tasks beyond classification? Please explain with an image and brief explanation.",
+    "reference_text": "The original Vision Transformer (ViT) applies a fixed-resolution patch embedding and operates on a single-scale representation throughout the network, which works well for classification but is limited for dense prediction tasks. Swin Transformer introduces a hierarchical feature representation by gradually merging patches, similar to CNNs. This enables it to handle tasks like object detection and segmentation more efficiently. The diagram illustrates this difference: Swin Transformer builds multi-scale features, while ViT maintains a constant resolution.",
+    "reference_images": [
+      "data/paper/swin_vs_vit.png"
+    ],
+    "generated_text": "Here's the image comparing the Vision Transformer (ViT) and Swin Transformer architectures. The key difference lies in how they process the image. ViT uses standard stacked Transformer blocks, whereas Swin Transformer divides the image into smaller shifted windows for more efficient processing. This shift in windowing makes Swin more adaptable for tasks beyond just classification, such as dense prediction tasks (e.g., object detection, segmentation).\n\nLet me know if you need more details!\n\n",
+    "generated_image": "GPT-thinking/paper/21.png",
+    "gemini_evaluation": {
+      "Question": "I've been reading about vision transformers. How is Swin Transformer different from ViT in terms of architecture and suitability for tasks beyond classification? Please explain with an image and brief explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The text accurately identifies the use of shifted windows in Swin Transformer as a key difference making it suitable for dense prediction tasks. The image correctly visualizes the single-scale, fixed-resolution approach of ViT versus the hierarchical, multi-scale feature representation of Swin Transformer."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text explains that Swin Transformer's architecture makes it more adaptable for dense prediction tasks, and the image illustrates this by showing the hierarchical, pyramid-like feature structure that is essential for such tasks, contrasting it with ViT's single-scale approach."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a very clear and well-designed diagram that effectively communicates the architectural differences. The text is well-written, concise, and grammatically correct."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and directly answers the user's question. The visual style of the diagram is clean and professional."
+        ],
+        "Completeness": [
+          5,
+          "The response fully addresses the user's request. It provides both an image and a brief explanation, covering the key architectural differences and their implications for different computer vision tasks."
+        ],
+        "Content Richness": [
+          4,
+          "The response is very good, but the text could have been slightly richer by explicitly mentioning 'hierarchical features' or 'patch merging' to more directly describe what is happening in the stages shown in the diagram. However, the explanation is effective and concise as requested."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I've been reading about vision transformers. How is Swin Transformer different from ViT in terms of architecture and suitability for tasks beyond classification? Please explain with an image and brief explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The text accurately identifies the use of shifted windows in Swin Transformer as a key difference making it suitable for dense prediction tasks. The image correctly visualizes the single-scale, fixed-resolution approach of ViT versus the hierarchical, multi-scale feature representation of Swin Transformer.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text explains that Swin Transformer's architecture makes it more adaptable for dense prediction tasks, and the image illustrates this by showing the hierarchical, pyramid-like feature structure that is essential for such tasks, contrasting it with ViT's single-scale approach.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a very clear and well-designed diagram that effectively communicates the architectural differences. The text is well-written, concise, and grammatically correct.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly answers the user's question. The visual style of the diagram is clean and professional.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully addresses the user's request. It provides both an image and a brief explanation, covering the key architectural differences and their implications for different computer vision tasks.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"The response is very good, but the text could have been slightly richer by explicitly mentioning 'hierarchical features' or 'patch merging' to more directly describe what is happening in the stages shown in the diagram. However, the explanation is effective and concise as requested.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 35,
+    "domain": "paper",
+    "question": "I'm studying GRUs. How are the reset gate and update gate computed in a GRU model, and what role do they play in controlling memory flow? Please explain using the diagram.",
+    "reference_text": "In a GRU (Gated Recurrent Unit), two key gates control information flow: the reset gate \\( R_t \\) and the update gate \\( Z_t \\). Both gates are computed from the current input \\( X_t \\) and the previous hidden state \\( H_{t-1} \\) using fully connected layers followed by a sigmoid activation. The reset gate determines how much past information to forget, while the update gate decides how much of the new hidden state will be kept versus carried over from the past. This figure illustrates how both gates are computed in parallel by concatenating \\( X_t \\) and \\( H_{t-1} \\), passing them through separate linear layers and activation functions. The sigmoid ensures outputs between 0 and 1, enabling fine-grained control over memory flow.",
+    "reference_images": [
+      "data/paper/gru_gates_reset_update.png"
+    ],
+    "generated_text": "# Image\n\nA schematic diagram of a single GRU cell at time t has been generated above.\n\n# Text explanation (concise)\n\n**Gate computations**\n\n* **Update gate**\n  $z_t = \\sigma(W_z x_t + U_z h_{t-1} + b_z)$\n  Learns, per dimension, how much of the *previous* state to carry forward.\n\n* **Reset gate**\n  $r_t = \\sigma(W_r x_t + U_r h_{t-1} + b_r)$\n  Learns how much of the *previous* state to expose when forming the new content.\n\n**Candidate hidden state**\n\n* $\\tilde{h}_t = \\tanh\\!\\big(W_h x_t + U_h (r_t \\odot h_{t-1}) + b_h\\big)$\n  Here the reset gate $r_t$ gates $h_{t-1}$ before it mixes with the input, letting the unit *forget* irrelevant history (small $r_t$) or reuse it (large $r_t$).\n\n**Final state (memory flow)**\n\n* $h_t = (1 - z_t) \\odot \\tilde{h}_t + z_t \\odot h_{t-1}$\n  The update gate $z_t$ interpolates between the old memory and the newly computed candidate:\n\n  * $z_t \\approx 1$: keep prior memory $h_{t-1}$ (long-term carry)\n  * $z_t \\approx 0$: overwrite with $\\tilde{h}_t$ (fast update)\n\n**Intuition (mapped to the diagram)**\n\n1. $x_t$ and $h_{t-1}$ feed two sigmoid blocks → $z_t$ and $r_t$.\n2. $r_t$ multiplies $h_{t-1}$ (⊙ node) before the tanh block to make $\\tilde{h}_t$.\n3. A final mixing node blends $\\tilde{h}_t$ with $h_{t-1}$ using $1-z_t$ and $z_t$ to produce $h_t$.\n\n**Why it works**\n\n* $r_t$ provides *content-based forgetting* during candidate construction.\n* $z_t$ provides *persistent memory* by creating a shortcut for gradients and information from $h_{t-1}$, helping stabilize long-range dependencies without a separate cell state.\n",
+    "generated_image": "GPT-thinking/paper/35.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying GRUs. How are the reset gate and update gate computed in a GRU model, and what role do they play in controlling memory flow? Please explain using the diagram.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The formulas for the GRU gates and states are standard and accurately represented. The explanation of their roles in memory flow is also correct."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text and image are perfectly coherent. The text provides the mathematical formulas and a step-by-step intuition that directly maps onto the components and flow of the generated diagram. All elements mentioned in the text (e.g., z_t, r_t, h_{t-1}, x_t, ⊙) are clearly labeled and depicted in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and well-labeled diagram that is superior to the reference image. The text is well-structured, uses correct grammar, and effectively employs formatting (bolding, lists, LaTeX for formulas) to enhance readability and understanding."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with user intent. It provides a safe, helpful, and high-quality educational explanation. The diagram is aesthetically pleasing for a technical illustration, and the text is well-formatted."
+        ],
+        "Completeness": [
+          5,
+          "The generated answer is more complete than the reference. While the reference focuses only on the computation of the two gates, the generated answer shows how these gates fit into the entire GRU cell's computation. This provides crucial context and a more thorough answer to the question about their role in controlling memory flow."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. The image shows the complete GRU cell, not just the gates. The text is far more detailed, providing the exact formulas, a section mapping the intuition to the diagram, and a summary of why the mechanism works, which goes well beyond the reference's brief paragraph."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying GRUs. How are the reset gate and update gate computed in a GRU model, and what role do they play in controlling memory flow? Please explain using the diagram.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The formulas for the GRU gates and states are standard and accurately represented. The explanation of their roles in memory flow is also correct.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text and image are perfectly coherent. The text provides the mathematical formulas and a step-by-step intuition that directly maps onto the components and flow of the generated diagram. All elements mentioned in the text (e.g., z_t, r_t, h_{t-1}, x_t, ⊙) are clearly labeled and depicted in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-labeled diagram that is superior to the reference image. The text is well-structured, uses correct grammar, and effectively employs formatting (bolding, lists, LaTeX for formulas) to enhance readability and understanding.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with user intent. It provides a safe, helpful, and high-quality educational explanation. The diagram is aesthetically pleasing for a technical illustration, and the text is well-formatted.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated answer is more complete than the reference. While the reference focuses only on the computation of the two gates, the generated answer shows how these gates fit into the entire GRU cell's computation. This provides crucial context and a more thorough answer to the question about their role in controlling memory flow.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. The image shows the complete GRU cell, not just the gates. The text is far more detailed, providing the exact formulas, a section mapping the intuition to the diagram, and a summary of why the mechanism works, which goes well beyond the reference's brief paragraph.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 4,
+    "domain": "tech",
+    "question": "How to Connect One Router to Another to Expand a Network？ Provide steps with images and text the steps.",
+    "reference_text": "1. Connect the modem to the first router. Use an Ethernet cable to connect to the WAN port of a router to the WAN/Internet port of the high-speed modem. For the purpose of this wikiHow, we will refer to the router that’s connected to the modem as “Router 1.\" Some routers act as a high-speed modem and router. If this is the case for Router 1, simply connect it to the cable that carries your internet connection. The WAN port may be labeled “Internet.” 2. Connect Router 1 to a computer. Use an Ethernet cable to connect from one of Router 1’s LAN ports to a computer’s Ethernet port. You can also connect to the router wirelessly using the wi-fi name and passkey. 3. Turn on the modem and Router 1. Allow a few moments for them both to boot up. 4. Open a web browser. You’ll need a web browser to connect to the admin user interface of Router 1. 5. Enter Router 1's IP address in the address bar. Type the IP address for Router 1 into the address bar at the top of your web browser. This opens the router's admin login screen. Check the user's manual or manufacturer's website to find the default IP address for Router 1. Here are some default IP addresses for common router brands: 2Wire: 192.168.1.1, 192.168.0.1, 192.168.1.254, 10.0.0.138 Apple: 10.0.0.1 Belkin: 192.168.1.1, 192.168.2.1, 10.0.0.2, 10.1.1.1 Dlink: 192.168.1.1, 192.168.0.1, 192.168.0.101, 192.168.0.30, 192.168.0.50, 192.168.15.1, 192.168.254.254, 192.168.1.254, 192.168.0.10, 192.168.15.1, 10.0.0.1, 10.0.0.2, 10.1.1.1, 10.90.90.90, Netgear: 192.168.0.1, 192.168.0.227 6. Log in using Router 1's admin username and password. This opens Router 1's admin user interface. Check the user's manual, or the manufacturer's website to find the default username and password for the Router 1. Most router's use \"admin\" as the username and password. You can also try \"Password\" or \"12345678\" as the password. For some router's, the username or password is left blank. If you’re using the right password but still can’t connect, check the user's manual or manufacturer's website to learn how to reset the router's to it's factory settings. 7. Enable DHCP on Router 1. This will allow Router 1 to assign all of the IP addresses in your network. You can usually find these settings under “Network settings,” or “LAN settings.” The admin user interface layout is different from one router make and model to another. In most cases, the DHCP server is turned on by default. 8. Test your network and internet connection. [6] X Trustworthy Source Microsoft Support Technical support and product information from Microsoft. Go to source Visit any website (like https://www.wikihow.com ) to verify that you can connect to the Internet. Make sure that the physical configuration of your network leaves room for one LAN port to be open on Router 1. 9. Disconnect Router 1 from the computer. Remove the Ethernet cable between Router 1 and the computer. Everything else can remain on and plugged in. 10. Plug the second router in and turn it on. Make sure you have a free electrical outlet and a computer near where you want the second router to be located. Plug it in and turn it on. For the purposes of this wikiHow, we will refer to the second router as \"Router 2\". 11. Connect a computer to the Router 2. Use an Ethernet cable to connect to the LAN port on Router 2. Then connect to the Ethernet port on a computer. 12. Type Router 2's IP address in the address bar of a web browser. This opens the admin login screen for Router 2. With most router's, the IP address is 192.168.0.1, 192.168.1.1, or 10.0.0.1. 13. Log in using Router 2's username and password. Use the default username and password to log in to the admin user interface for Router 2, just as you did with Router 1. Check the user's manual or manufacturer's website to find the default username and password. With most routers, \"admin\" is both the username and password. 14. Disable DHCP on Router 2. Since DHCP is enabled on Router 1, it should be disabled on Router 2 to prevent IP conflicts. Locate the DHCP settings in the admin user interface and switch the DHCP server to “Off.” 15. Assign a new IP address to Router 2. As of now, there’s a good possibility that Routers 1 and 2 have the same default IP address. To prevent IP conflicts, Router 2 needs to have a different IP address than Router 1. Find the area in the routers admin user interface called “LAN” or “Local Network.” There should be a box that contains the current IP address. Type a new IP address in place of the existing one. The new IP address on Router 2 must be on the same subnet as Router 1. This means the first three sets of numbers in the IP address should be the same as Router 1. Change the number after the third period in the IP address to something different from Router 1. It also can’t be an IP currently assigned to another device. 16. Configure Router 2's Wi-Fi name and passkey. They should be identical to Router 1. You should find these settings under a menu called “Wireless”, “Wi-Fi setup”, or something similar If you’re unsure of Router 1’s SSID and passkey, it should be printed on the device. Router 2 is not a wireless router, skip this step. 17. Disconnect the power from Router 2. Now that Router 2’s all set up, it’s a good idea to give it a restart—though, for now, leave the power unplugged instead of turning it right back on. 18. Connect the first router to the second router. Use an Ethernet cable to connect to a LAN port on Router 1. Then connect to the first LAN port on Router 2. Make sure you’re not plugging it into the WAN port as they look similar. 19. Plug Router 2 back in and turn it on. When the router comes back up, it will have the IP address you configured. As long as Router 1 has Internet access, Router 2 will now also be online. 20. Restart the computer that’s connected to Router 2. Anytime you connect a computer to a new network device, it's a good idea to restart your computer. 21. Connect other computers and devices. This can be done wirelessly , or by connecting Ethernet cables to unused LAN ports on either router. Router 1’s DHCP server will automatically assign each device its own IP address in the same subnet. Enjoy your expanded network!",
+    "reference_images": [
+      "data/tech/4_1.jpg",
+      "data/tech/4_2.jpg",
+      "data/tech/4_3.jpg",
+      "data/tech/4_4.jpg",
+      "data/tech/4_5.jpg",
+      "data/tech/4_6.jpg",
+      "data/tech/4_7.jpg",
+      "data/tech/4_8.jpg",
+      "data/tech/4_9.jpg",
+      "data/tech/4_10.jpg",
+      "data/tech/4_11.jpg",
+      "data/tech/4_12.jpg",
+      "data/tech/4_13.jpg",
+      "data/tech/4_14.jpg",
+      "data/tech/4_15.jpg",
+      "data/tech/4_16.jpg",
+      "data/tech/4_17.jpg",
+      "data/tech/4_18.jpg",
+      "data/tech/4_19.jpg",
+      "data/tech/4_20.jpg",
+      "data/tech/4_21.jpg"
+    ],
+    "generated_text": "# Images\n\n(I made four simple diagrams for you. If you want any of them tweaked—colors, labels, or brand-specific screenshots—say the word and I’ll regenerate.)\n\n1. **Overview: Two Ways to Connect One Router to Another**\n2. **LAN-to-LAN (Access Point mode) – step-by-step**\n3. **LAN-to-WAN (Router-behind-Router) – step-by-step**\n4. **Placement & Channel Planning**\n\n# Text Steps\n\n## Before you start\n\n* **Pick your method**\n\n  * **LAN-to-LAN (Access Point/AP mode)** — one big network, seamless roaming. *Recommended for most homes.*\n  * **LAN-to-WAN (Double NAT)** — creates a second, isolated network. *Good for guests, kids, or separating work gear.*\n* **What you need**: Router 1 (already on the internet), Router 2, one Ethernet cable (Cat5e or better), a laptop/phone to configure Router 2.\n\n---\n\n## Option A — LAN-to-LAN (Access Point/AP mode)  *(matches Image 2)*\n\nThis turns Router 2 into a simple access point/switch on the **same** network as Router 1.\n\n1. **Connect to Router 2**\n   Plug your laptop into a LAN port on Router 2 (or join its default Wi-Fi). Open its admin page.\n\n2. **Set Router 2 a fixed LAN IP on Router 1’s subnet**\n\n   * Example: if **Router 1** is `192.168.1.1` and its DHCP pool is `192.168.1.100–192.168.1.199`, set **Router 2** to **`192.168.1.2`**.\n   * Aim for an address **outside** Router 1’s DHCP pool to avoid conflicts.\n\n3. **Turn off DHCP on Router 2**\n   Router 1 will be the only device handing out addresses.\n\n4. **Wi-Fi settings on Router 2**\n\n   * For seamless roaming: **same SSID and password** as Router 1.\n   * Set **different channels** to reduce interference:\n\n     * 2.4 GHz: use **1/6/11** (pick a different one than Router 1).\n     * 5 GHz: pick a different channel band (auto is usually fine).\n\n5. **Wire it LAN-to-LAN**\n   Run an Ethernet cable from a **LAN port** on Router 1 to a **LAN port** on Router 2 (do **not** use Router 2’s WAN port).\n\n6. **Place Router 2 well**\n   Put it roughly midway between dead zones and Router 1 (see Image 4). Avoid metal cabinets, microwaves, and thick concrete walls.\n\n7. **Test**\n   Walk around with your phone—signal should stay strong and your device should keep one IP range (e.g., `192.168.1.x`).\n\n---\n\n## Option B — LAN-to-WAN (Router-behind-Router / Double NAT)  *(matches Image 3)*\n\nThis keeps Router 2 as a full router on a **different** subnet. Devices on Router 2 are isolated from Router 1 unless you add special rules.\n\n1. **Connect to Router 2**\n   Log into the admin page.\n\n2. **Use a different LAN subnet on Router 2**\n\n   * Example: leave **Router 1** at `192.168.1.1`.\n   * Set **Router 2** LAN to **`192.168.2.1`** (or any different private subnet). Keep **DHCP ON** on Router 2.\n\n3. **Wire it LAN-to-WAN**\n   Cable from a **LAN port** on Router 1 to the **WAN/Internet** port on Router 2. WAN on Router 2 should be set to **DHCP/Automatic**.\n\n4. **Wi-Fi settings**\n\n   * You can reuse the same SSID/password or choose a **different** name to make it clear which network is which (e.g., “Home-Guest”).\n\n5. **Test**\n   Devices on Router 2 should receive `192.168.2.x` addresses and have internet.\n   *(Note: gaming consoles, servers, or VPNs may need extra port forwarding because of double NAT.)*\n\n---\n\n## Quick Troubleshooting\n\n* **Can’t reach Router 2 after changing its IP?**\n  Temporarily set your laptop to a manual IP on that subnet (e.g., `192.168.1.10`) and browse to Router 2’s new address.\n* **IP conflict or no internet in AP mode?**\n  Make sure **DHCP is OFF** on Router 2 and its IP doesn’t sit inside Router 1’s DHCP pool.\n* **Wi-Fi drops or poor speeds?**\n  Move Router 2 farther from Router 1 and use different channels (1/6/11 on 2.4 GHz).\n* **Double NAT issues (Option B)**\n  If a device needs inbound connections (server, P2P, gaming), add **port forwarding** on **both** routers or switch to **Option A**.\n\n---\n\n## Summary\n\n* For one seamless home network, use **Option A (LAN-to-LAN/AP mode)**.\n* For a segregated guest or work network, use **Option B (LAN-to-WAN/Double NAT)**.\n\nIf you tell me your current router’s IP and DHCP range, I can plug in exact values for you.\n\",",
+    "generated_image": "GPT-thinking/tech/4.png",
+    "gemini_evaluation": {
+      "Question": "How to Connect One Router to Another to Expand a Network？ Provide steps with images and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and images are factually correct. The response accurately describes the two primary methods for connecting routers (LAN-to-LAN for an access point and LAN-to-WAN for a separate sub-network) and provides correct instructions for each."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text explicitly refers to the images (e.g., '*(matches Image 2)*'), and each diagram perfectly illustrates the corresponding section of the text. The overview, step-by-step connection diagrams, and placement guide all align perfectly with their textual descriptions."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is exceptional. The diagrams are clear, well-labeled, and effectively simplify complex network topologies. The text is well-structured, using headings, bullet points, and bold text to improve readability. The explanations are concise and easy for a user to understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The generated response is highly preferable to the reference. It's better organized by presenting two distinct, practical options and explaining the use case for each. This structure is more helpful for a user than the reference's single, very long list of steps. The inclusion of a troubleshooting section is also a major plus."
+        ],
+        "Completeness": [
+          4,
+          "The generated response covers two complete methods for connecting routers, which is more comprehensive than the reference's single method. However, the reference breaks down its one method into more granular, individual steps (21 steps vs. 7-8 per method). While the generated approach is better, it could be argued that it omits some micro-steps that a complete beginner might need, such as 'open web browser'."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. It provides four distinct diagrams covering different aspects of the process. It explains two different technical methods, discusses their pros and cons (seamless roaming vs. isolated network), and includes valuable extra information like channel planning and a troubleshooting guide. This goes well beyond a basic set of instructions."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Connect One Router to Another to Expand a Network？ Provide steps with images and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and images are factually correct. The response accurately describes the two primary methods for connecting routers (LAN-to-LAN for an access point and LAN-to-WAN for a separate sub-network) and provides correct instructions for each.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text explicitly refers to the images (e.g., '*(matches Image 2)*'), and each diagram perfectly illustrates the corresponding section of the text. The overview, step-by-step connection diagrams, and placement guide all align perfectly with their textual descriptions.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is exceptional. The diagrams are clear, well-labeled, and effectively simplify complex network topologies. The text is well-structured, using headings, bullet points, and bold text to improve readability. The explanations are concise and easy for a user to understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly preferable to the reference. It's better organized by presenting two distinct, practical options and explaining the use case for each. This structure is more helpful for a user than the reference's single, very long list of steps. The inclusion of a troubleshooting section is also a major plus.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The generated response covers two complete methods for connecting routers, which is more comprehensive than the reference's single method. However, the reference breaks down its one method into more granular, individual steps (21 steps vs. 7-8 per method). While the generated approach is better, it could be argued that it omits some micro-steps that a complete beginner might need, such as 'open web browser'.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. It provides four distinct diagrams covering different aspects of the process. It explains two different technical methods, discusses their pros and cons (seamless roaming vs. isolated network), and includes valuable extra information like channel planning and a troubleshooting guide. This goes well beyond a basic set of instructions.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 18,
+    "domain": "tech",
+    "question": "How to check battery health on iPad? Provide steps with screenshots and text the steps.",
+    "reference_text": "1. Open your Settings app. The app has a gray icon with a gear on it. You can use this method to check your battery health on any iPad model, including iPad Pro and iPad Air. 2. Navigate to Privacy & Security . You will have to scroll a bit to find this option, as it's at the bottom of the section that begins with General . 3. Click on Analytics & Improvements . It's near the bottom of the screen. 4. Ensure Share iPad Analytics is toggled. If this setting isn't toggled on, your iPad will not generate the logs needed to decipher your battery health. If you just toggled this setting on now, you'll need to wait a minimum of 24 hours for your iPad to create the correct analytics log. 5. Click on Analytics Data . A list of logs should pop up. 6. Find the most recent Analytics log. You are looking for a log that is titled Analytics . The numbers after Analytics are a date, so select the one that is the most recent. Logs titled analyticsd.diskwrites will not work for this method. If you're on iOS 15 or earlier, the correct analytics log will be titled log-aggregated . 7. Copy the log into a text editor. You can use the Notes app on your iPad or you can export the log file to a computer. 8. Search for MaximumCapacityPercent . The number after that phrase is your current maximum battery capacity. This number is a percentage, so if your log gives you a 90 after this number, your battery capacity is at 90%. You can search the log by using Find in Note if you're using the Notes app. Find in Note is located under the three-dot menu in the upper right-hand corner. On a computer, you can use the Find function , which is available in most text editors by clicking Ctrl + F on Windows or Cmd + F Mac. 9. Search for CycleCount . The number after that phrase is the current battery cycle count. Every time your iPad battery is charged from 0 to 100, that counts as a cycle. Apple says that iPads should maintain about 80% of total battery capacity after 1000 cycles.",
+    "reference_images": [
+      "data/tech/18_1.jpg",
+      "data/tech/18_2.jpg",
+      "data/tech/18_3.jpg",
+      "data/tech/18_4.jpg",
+      "data/tech/18_5.jpg",
+      "data/tech/18_6.jpg",
+      "data/tech/18_7.jpg",
+      "data/tech/18_8.jpg",
+      "data/tech/18_9.jpg"
+    ],
+    "generated_text": "Here are the **text steps** (separate from the screenshots you see above):\n\n# Method A — If your iPad shows “Battery Health”\n\n1. Open **Settings**.\n2. In the left sidebar, tap **Battery**.\n3. Tap **Battery Health** (if it appears).\n4. Review the info:\n\n   * **Maximum Capacity** (overall battery health as a %).\n   * **Cycle Count** (how many full charge cycles).\n   * Any status note like **“Service Recommended.”**\n\n# Method B — If “Battery Health” isn’t shown (older iPadOS)\n\n1. Open **Settings** → **Privacy & Security**.\n2. Tap **Analytics & Improvements** → **Analytics Data**.\n3. Open the most recent file named **log-aggregated-YYYY…**.\n4. Scroll through the text and find lines such as:\n\n   * **BatteryCycleCount:** *number* (your charge cycles)\n   * **MaximumCapacityPercent:** *number* (approx capacity %)\n     If Analytics Data is empty, turn on **Share iPad Analytics** and check again after a day or two.\n\n# Quick tips to interpret\n\n* A **cycle** ≈ one full discharge/charge (e.g., 50% → 100% twice ≈ 1 cycle).\n* If you see **Maximum Capacity** notably below ~80% or a **Service Recommended** message, your battery is significantly worn—consider contacting Apple Support.\n\nIf you want, I can tailor the steps to your exact iPad model and iPadOS version.\n\",",
+    "generated_image": "GPT-thinking/tech/18.png",
+    "gemini_evaluation": {
+      "Question": "How to check battery health on iPad? Provide steps with screenshots and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          2,
+          "The generated text is factually correct and provides valid methods for checking iPad battery health. However, the response completely fails to provide the requested images (screenshots), which was a core part of the prompt. This is a major failure in correctness regarding the output format."
+        ],
+        "Image-Text Coherency": [
+          0,
+          "No images were generated, so there is no image-text coherency to evaluate."
+        ],
+        "Content Quality": [
+          2,
+          "The text quality is high; it's well-structured, clear, and grammatically correct. However, the overall content quality is poor because it completely omits the visual component (screenshots) which is crucial for a step-by-step guide of this nature."
+        ],
+        "Human Preference Alignment": [
+          4,
+          "The text is helpful, safe, and well-intentioned. It provides useful information. It scores highly on this front, but is docked a point for failing to adhere to the user's explicit request for images."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. It provides the text steps but entirely omits the screenshots that were explicitly requested in the prompt."
+        ],
+        "Content Richness": [
+          2,
+          "The text is arguably richer than the reference, as it provides two distinct methods depending on the iPadOS version. However, the complete lack of any images makes the overall response significantly less rich than the reference, which includes 9 helpful screenshots."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to check battery health on iPad? Provide steps with screenshots and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            2,\n            \"The generated text is factually correct and provides valid methods for checking iPad battery health. However, the response completely fails to provide the requested images (screenshots), which was a core part of the prompt. This is a major failure in correctness regarding the output format.\"\n        ],\n        \"Image-Text Coherency\": [\n            0,\n            \"No images were generated, so there is no image-text coherency to evaluate.\"\n        ],\n        \"Content Quality\": [\n            2,\n            \"The text quality is high; it's well-structured, clear, and grammatically correct. However, the overall content quality is poor because it completely omits the visual component (screenshots) which is crucial for a step-by-step guide of this nature.\"\n        ],\n        \"Human Preference Alignment\": [\n            4,\n            \"The text is helpful, safe, and well-intentioned. It provides useful information. It scores highly on this front, but is docked a point for failing to adhere to the user's explicit request for images.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. It provides the text steps but entirely omits the screenshots that were explicitly requested in the prompt.\"\n        ],\n        \"Content Richness\": [\n            2,\n            \"The text is arguably richer than the reference, as it provides two distinct methods depending on the iPadOS version. However, the complete lack of any images makes the overall response significantly less rich than the reference, which includes 9 helpful screenshots.\"\n        ]\n    }\n}\n```"
+  }
+]

@@ -1,0 +1,880 @@
+[
+  {
+    "id": 4,
+    "domain": "art",
+    "question": "How to draw a cartoon dog? Use visual steps suitable for beginners and text the steps.",
+    "reference_text": "1. 1. Begin the dog cartoon outline by drawing his face. Outline the eyes using curved lines. Extend the side of one eye to form the top of the long snout or muzzle. 2. 2. At the end of the snout, draw a circle. This is the dog’s nose. Use curved lines to trace the side of the dog’s face and his forehead. Above the eyes, use curved lines to enclose the pointed eyebrows 3. 3. Draw the dog’s open, smiling mouth. Below the nose, draw a wide, curved “W” shaped line. Let it meet the nose on one side. On the other, extend the arm of the “W” all the way to the corner of the mouth. Below this, use curved lines to outline the lower jaw, the inside of the mouth, and the tongue. Contour the corner of the mouth with short lines. At the front of the snout, draw two small, triangular teeth. 4. 4. Use curved lines to enclose the rounded shapes of the dog’s ears. Then, use long curved lines to trace the top of the head, neck, and side of the body. 5. 5. Extend a long curved line below the lower jaw to form the chest. Then, use a pair of long curved lines to draw the leg. At the bottom, use overlapping curved lines to create the toes and enclose the paw. 6. 6. Contour the chest with a curved line and draw the remaining front leg. Again, use curved lines. Those at the toes should overlap. 7. 7. Draw the rear leg, bent into a sitting position, using curved lines. Again the toes should utilize overlapping curved lines. 8. 8. Draw the remaining leg of the sitting dog. Use curved lines for the back, the bent leg, and the round paw. Band the paw with short lines. 9. 9. Complete your dog cartoon outline by drawing his wagging tail. Extend two curved lines from the dog’s hip and allow them to meet at a sharp point. Beside the tail, sketch a hatch mark pattern using curved lines to simulate the motion of the tail. 10. Color your cartoon dog. We’ve shaded ours dark brown like a chocolate labrador dog.",
+    "reference_images": [
+      "data/art/4_1.png",
+      "data/art/4_2.png",
+      "data/art/4_3.png",
+      "data/art/4_4.png",
+      "data/art/4_5.png",
+      "data/art/4_6.png",
+      "data/art/4_7.png",
+      "data/art/4_8.png",
+      "data/art/4_9.png",
+      "data/art/4_10.png"
+    ],
+    "generated_text": "Here’s a simple, beginner-friendly way to draw a cute cartoon dog (front view, sitting). Keep your lines light until the end—then trace the final outline darker.\n\nYou’ll need: pencil, eraser, black pen/marker, and optional colored pencils/markers.\n\nStep-by-step (8 steps)\n\nHead & muzzle\nDraw a big circle for the head. Lightly add a short vertical guideline. At the bottom of the circle, sketch a small horizontal oval for the muzzle (it overlaps the circle).\n\nEars\nAdd two floppy, teardrop-like ears on the sides of the head. Their tips should hang lower than the midpoint of the head.\n\nNose & smile\nOn the muzzle, draw a small rounded triangle for the nose. From its sides, curve two short lines downward to suggest a smile. Add a wide “U” under the smile for the mouth/tongue.\n\nEyes & brows\nAbove the muzzle, draw two big ovals for eyes. Add tiny white circles for highlights and fill the pupils around them. Two small curved dashes above each eye make friendly brows.\n\nBody shape\nUnder the head, draw a wide “U” shape for the chest/body. Let the head overlap the body slightly (no neck needed).\n\nFront legs & paws\nFrom the body, add two long “U” shapes straight down for the front legs. At the bottom, draw 3 small bumps on each paw to suggest toes.\n\nBack leg & tail\nOn one side, add a “C” shaped curve for the back leg with a small oval paw peeking out. Sketch a short curved tail to one side.\n\nDetails, cleanup & style\nAdd a collar band and tiny tag under the head if you like. Erase extra construction lines. Trace your final outline with thicker, smooth lines. Optional spots/patches and a soft ground shadow under the paws.\n\nQuick coloring guide (optional)\n\nCoat: light brown or cream\n\nEars/patches: slightly darker brown\n\nNose: black; Tongue: pink\n\nCollar: any bright color (e.g., blue)\n\nLeave small white shines in the eyes\n\nProportion tip: Big head + small body + big eyes = instant cute.\nVariation: Try perky ears, a curlier tail, or different spot patterns.",
+    "generated_image": "GPT-thinking/art/4.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a cartoon dog? Use visual steps suitable for beginners and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated response provides a correct and valid step-by-step tutorial on how to draw a cartoon dog. It is a different style and approach from the reference, but it is a perfectly acceptable and accurate answer to the user's question."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text perfectly corresponds to the generated image. Each step described in the text (e.g., 'Head & muzzle', 'Ears', 'Nose & smile') is accurately depicted in the corresponding panel of the image."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the image and text is very high. The image is clear, stylistically consistent, and the steps are easy to follow for a beginner. The text is well-written, grammatically correct, and clearly explains the process using simple language."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The generated response is highly preferable. The art style is cute and modern, and the tutorial's method of starting with basic shapes (circles, ovals) is a classic and effective technique for beginners. The overall presentation is very appealing and user-friendly."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides a full set of visual steps from a blank start to a finished, colored drawing, and the accompanying text covers the entire process without any omissions."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in content. In addition to the core drawing steps, the text provides extra helpful information such as a list of needed materials, drawing tips (e.g., 'keep your lines light'), a coloring guide, a proportion tip, and suggestions for variations. This adds significant value beyond the basic instructions."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a cartoon dog? Use visual steps suitable for beginners and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated response provides a correct and valid step-by-step tutorial on how to draw a cartoon dog. It is a different style and approach from the reference, but it is a perfectly acceptable and accurate answer to the user's question.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text perfectly corresponds to the generated image. Each step described in the text (e.g., 'Head & muzzle', 'Ears', 'Nose & smile') is accurately depicted in the corresponding panel of the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is very high. The image is clear, stylistically consistent, and the steps are easy to follow for a beginner. The text is well-written, grammatically correct, and clearly explains the process using simple language.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly preferable. The art style is cute and modern, and the tutorial's method of starting with basic shapes (circles, ovals) is a classic and effective technique for beginners. The overall presentation is very appealing and user-friendly.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides a full set of visual steps from a blank start to a finished, colored drawing, and the accompanying text covers the entire process without any omissions.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. In addition to the core drawing steps, the text provides extra helpful information such as a list of needed materials, drawing tips (e.g., 'keep your lines light'), a coloring guide, a proportion tip, and suggestions for variations. This adds significant value beyond the basic instructions.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 18,
+    "domain": "art",
+    "question": "How to draw a pumpkin? Provide steps visually and text the steps.",
+    "reference_text": "1. 1. Draw an oval or egg shape to create the first rib of the pumpkin. Then, enclose another curved shape alongside it to create a second rib. 2. 2. Continue using long curved lines to enclose rounded ribs until the pumpkin has a round, full shape. 3. 3. Draw the pumpkin's thick stem. Extend two curved lines from the top of the pumpkin. From each of these, draw a long curved line. The lines should be roughly parallel and \"S\" shaped. 4. 4. Use a curved line to enclose the end of the stem. Draw another curved line across it to give the tip of the stem an oval shape. Then, texture the stem with curved lines. Use additional short lines to begin enclosing the ribs visible behind the stem. 5. 5. Complete the pumpkin's ribs. Then, draw tendrils of vine terminating from the stem. Use long, curving, \"S\" shaped lines. 6. 6. Draw a leaf along the pumpkin vine. First, extend a curved line from the vine. This forms the leaf's stem and vein. Then, use a series of connected, curved lines to outline the body of the leaf. 7. 7. Continue to draw the body of the leaf on the opposite side of the vein. Then, draw secondary veins extending from the primary vein or midrib. 8. 8. Draw the remaining veins, and begin a second leaf. Again, use a curved line for the stem and a series of curved lines to sketch the outline of the leaf. 9. 9. Complete the leaf, erasing as necessary. Finish outlining the leaf, and draw the secondary veins. 10. Color your pumpkin. Traditionally, pumpkins are orange in color. They can also be yellow, brown, green, or white!",
+    "reference_images": [
+      "data/art/18_1.png",
+      "data/art/18_2.png",
+      "data/art/18_3.png",
+      "data/art/18_4.png",
+      "data/art/18_5.png",
+      "data/art/18_6.png",
+      "data/art/18_7.png",
+      "data/art/18_8.png",
+      "data/art/18_9.png",
+      "data/art/18_10.png"
+    ],
+    "generated_text": "Here are the **text steps** (the visual guide is attached above):\n\n1. Sketch the body\n   Draw a wide oval. Add a faint vertical guideline down the center.\n\n2. Add the outer ribs\n   On the left and right, draw two long C-shaped curves that hug the oval—these are the outer pumpkin lobes.\n\n3. Fill in the middle ribs\n   Add 2–3 more curved ribs between the outer ones, all meeting near the top and bottom to suggest depth.\n\n4. Shape the top and bottom\n   Flatten the bottom with a shallow curve so it can “sit.” At the top, tuck the ribs slightly inward to form a little dip.\n\n5. Draw the stem\n   From the top dip, sketch a short, slightly curved stem (think a bent cylinder). Add a notch or two where it meets the pumpkin.\n\n6. Optional leaf & vine\n   Add a simple leaf beside the stem and a loose curly vine for character.\n\n7. Clean lines\n   Erase the original oval and any overlaps you don’t need. Thicken the outer contour slightly to make the form pop.\n\n8. Shade & color\n   Color the pumpkin a warm orange. Deepen the creases between ribs with a darker orange/brown, keep the front planes lighter, color the stem green-brown, and add a soft shadow under the pumpkin.\n\nQuick tips\n\n* Keep rib curves widest at the middle and narrower near top/bottom.\n* If it looks too round, widen the oval; if too flat, make it taller.\n* Highlights along one side instantly make it look glossy.\n",
+    "generated_image": "GPT-thinking/art/18.png",
+    "gemini_evaluation": {
+      "Question": "How to draw a pumpkin? Provide steps visually and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated answer provides a correct and valid method for drawing a pumpkin, including both an image and text."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text steps perfectly correspond to the numbered visual steps in the single generated image. The coherence is excellent."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and well-designed infographic that is very easy to follow. The text is well-written, concise, and provides clear instructions."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is very user-friendly and aesthetically pleasing. The single-image infographic format is arguably preferable to the reference's series of separate images for a quick tutorial."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the prompt by providing both visual and textual steps. It covers the entire process from initial sketch to a colored final product."
+        ],
+        "Content Richness": [
+          4,
+          "While the single-image format is efficient, it is less rich than the reference's 10 separate images. The text is also more concise than the reference's detailed descriptions. However, it adds richness with a 'Quick tips' section, which is a valuable addition."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to draw a pumpkin? Provide steps visually and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated answer provides a correct and valid method for drawing a pumpkin, including both an image and text.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text steps perfectly correspond to the numbered visual steps in the single generated image. The coherence is excellent.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and well-designed infographic that is very easy to follow. The text is well-written, concise, and provides clear instructions.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is very user-friendly and aesthetically pleasing. The single-image infographic format is arguably preferable to the reference's series of separate images for a quick tutorial.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the prompt by providing both visual and textual steps. It covers the entire process from initial sketch to a colored final product.\"\n        ],\n        \"Content Richness\": [\n            4,\n            \"While the single-image format is efficient, it is less rich than the reference's 10 separate images. The text is also more concise than the reference's detailed descriptions. However, it adds richness with a 'Quick tips' section, which is a valuable addition.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 12,
+    "domain": "life",
+    "question": "How to hand-wash delicate clothing safely? Provide a visual guide and text the steps. ",
+    "reference_text": "1. The tags on your clothes tell you the best ways to clean them. Read through the tag on each garment that you’re washing to see what fabric it’s made from and how to clean it properly. Keep similar fabrics together so you can wash them at the same time. Anything that can go in your machine or that has a “hand wash only” label is safe for hand-washing. If a tag says “dry clean only,” then avoid hand-washing that garment to avoid damaging it. As a quick way to check if your garments are safe to hand-wash, place a drop of water on the fabric and blot it up with a paper towel. If the color runs or bleeds, then take it to the dry cleaners. 2. Washing similar garments in the same load prevents colors from running. Sort your laundry so all the light fabrics are separated from the dark ones. Since darker colors could potentially discolor the water, wash the lightest colored clothes first and save the darker ones for last. If you have a new item of clothing that is dyed or colored, wash it separately in a different tub or basin so the color does not get on other clothing. 3. Using a stain remover beforehand makes it easier to wash out. Apply the stain remover directly over the mark on your clothes. Gently dab the stain with your fingers or brush it lightly with a new toothbrush to work the cleaner deeper into the fabric. Let the stain remover sit for about 10–15 minutes before you wash your garment. Test the stain remover in a small inconspicuous spot on your clothes before applying it directly to the stain. 4. A mild detergent meant for delicates cleans clothes more gently. Use your bathtub, sink, or large bowl depending on how many clothes you need to wash. Stick with cool or lukewarm water when you wash your clothes to prevent colors from running. Mix about 1 1 ⁄ 2 fluid ounces (44 ml) of detergent into the water until it’s completely dissolved and forms suds. [5] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source Wool and fine knits: Use cold water and wool detergent to keep the fabric soft. Silk or lace: Try a no-rinse detergent to limit how much water comes in contact with the fabric. Alternatively, use mild liquid dish soap if you’re in a pinch. 5. Gently stirring the water is less damaging to clothes than scrubbing. Drop your first load of clothes into the water so they’re submerged. Then, use your hands to gently move the clothes around to wash out the dirt between the fibers. Keep agitating the water for about 2–3 minutes, or until the clothes look clean. Sweaters: Turn sweaters inside-out before washing them to clean them better. Avoid scrubbing, twisting, or rubbing your clothes together when you hand-wash them since you could stretch and damage the fabric. 6. Soaking helps lift dirt and stains deep in the fabric. Leave your clothes submerged for at least 10 minutes so the detergent has time to work through the fabric. If your clothes are really dirty or have stubborn stains, leave them in the water for up to 30 minutes so it’s even more effective. It’s normal for the water to darken as dirt lifts out of the fabric. If the water ever looks really cloudy or dirty, empty it out and refill your container. 7. A thorough rinse removes all the detergent and leftover dirt. Either empty out your container and refill it with clean water, or hold your garments underneath a running faucet. Gently squeeze your clothes as you rinse them until you don’t see any more suds coming out. Alternatively, fill a second container with clean water and transfer your clothes over to rinse them. 8. Gently squeezing your clothes prevents them from stretching. Hold your garments above the water when you squeeze them so you don’t drip. then, lay your garment flat on a towel and slowly roll the towel up to squeeze out even more water. Avoid twisting or wringing out your clothes too forcefully since you’ll stretch or damage the fabric fibers. 9. Drying your clothes flat helps them preserve their shape. While T-shirts and pants are safe to hang dry, delicate fabrics could stretch or distort. When you’re washing sweaters, silks, bras, or lingerie, spread the garments flat so they’re shaped correctly. Keep them in a well-ventilated spot and flip your clothes over after 1–2 hours so the other side can dry. Turn a fan on in the same room as your clothes to help them dry faster. Avoid putting your clothes in the dryer unless the care tag says it’s safe. Otherwise, your clothes may get damaged or shrink.",
+    "reference_images": [
+      "data/life/12_1.jpg",
+      "data/life/12_2.jpg",
+      "data/life/12_3.jpg",
+      "data/life/12_4.jpg",
+      "data/life/12_5.jpg",
+      "data/life/12_6.jpg",
+      "data/life/12_7.jpg",
+      "data/life/12_8.jpg",
+      "data/life/12_9.jpg"
+    ],
+    "generated_text": "# Text guide: How to hand-wash delicate clothing safely\n\n## What you’ll need\n\n* Clean sink or basin\n* Cool to lukewarm water (68–86°F / 20–30°C)\n* Gentle detergent (labeled for delicates/wool/silk)\n* Optional: mesh laundry bag (for lace/beads), white towels, drying rack, measuring spoon, timer\n\n## Before you begin\n\n* **Check the care label.** If it says “hand wash,” you’re good. If it says “dry clean only,” see the notes below.\n* **Sort by color & fabric.** Wash darks separately; don’t mix heavy knits with ultra-sheer pieces.\n* **Close zippers/hooks** and turn garments inside out.\n\n## Step-by-step\n\n1. **Fill the basin** with cool/lukewarm water.\n2. **Add detergent:** about **1 tsp (5 mL) per 2 L** of water (≈½ Tbsp per gallon). Swirl to dissolve.\n3. **Pre-treat spots:** dab a drop of diluted detergent on the stain; tap gently; **test in a hidden seam** first.\n4. **Submerge the garment.** Gently press out air so it’s fully wet.\n5. **Soak** for **10 minutes** (silk: 3–5 minutes).\n6. **Agitate lightly** for **30–60 seconds**—swish and squeeze the water through the fabric. **No rubbing or wringing.**\n7. **Rinse**: drain, refill with cool water, and press water through the fabric until it runs clear (repeat as needed).\n\n   * Optional final rinse: **1 Tbsp white vinegar per gallon** to reduce residue and static (skip for garments with metal trims).\n8. **Remove excess water:** lift with two hands; press against the side of the basin. **Do not twist.**\n9. **Towel-roll:** lay flat on a clean towel, roll it up, and press along the roll to absorb water.\n10. **Dry properly:**\n\n    * **Knits/wool/cashmere:** lay flat on a dry towel or rack, **reshape** to measurements.\n    * **Lingerie/synthetics:** hang or lay on a rack; avoid clothespin dents (use padded hangers).\n    * Keep away from **direct sun or heat**; **never tumble-dry** delicates.\n\n## Fabric-specific tips\n\n* **Silk:** cool water, pH-neutral detergent, short soak; blot, then lay flat or hang to drip; press inside-out with a cool iron under a pressing cloth when nearly dry.\n* **Wool & cashmere:** cold–cool water with wool wash; avoid temperature shock; always flat-dry.\n* **Lace/tulle/beaded items:** place in a **mesh bag**, minimal agitation, flat-dry.\n* **Athletic synthetics:** avoid fabric softener (it reduces wicking); hang-dry.\n\n## Stain quick help\n\n* **Protein (blood, milk):** cold water only; dab, don’t rub.\n* **Oils/grease:** pre-treat with a small drop of detergent; let sit 5–10 min, then wash.\n* **Makeup/sunscreen:** dab with detergent solution; rinse well.\n* **Dye bleed:** if water tints, stop—rinse quickly and wash separately.\n\n## When to dry-clean instead\n\n* Structured or heavily **lined** garments, tailored suits, leather/suede, or items with heavy beading/embellishment. If unsure, test a seam first or choose professional care.\n\n## Common mistakes to avoid\n\n* Hot water, bleach, fabric softener on silk/wool, vigorous scrubbing, wringing/twisting, or drying in direct heat/sun.\n\n---\n\nIf you’d like, I can regenerate the visual as a different style (minimal icons, step photos, or dark theme) or add your specific fabrics.\n",
+    "generated_image": "GPT-thinking/life/12.png",
+    "gemini_evaluation": {
+      "Question": "How to hand-wash delicate clothing safely? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image provide accurate, safe, and standard instructions for hand-washing delicate clothing. All the steps and tips are factually correct and align with best practices."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image is a 10-step infographic that perfectly corresponds to the 10 steps listed in the text guide. Each visual panel clearly illustrates the action described in the accompanying text, creating a highly cohesive and easy-to-follow guide."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is exceptional. The image is a well-designed, clear, and aesthetically pleasing infographic. The text is expertly structured with clear headings, bullet points, and bolded text, making it highly readable and easy to scan for information. The grammar and writing style are professional."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, informative, safe, and presented in a visually appealing and easy-to-understand format. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The generated response is more complete than the reference. It not only covers the core washing process but also includes essential preliminary steps, material lists, fabric-specific advice, stain removal tips, and a list of common mistakes to avoid. It provides a comprehensive guide to the topic."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich in content. The single infographic cleverly packs 10 distinct steps into one visual. The text is exceptionally detailed, going far beyond a simple step-by-step list to include nuanced advice for different fabrics, stains, and situations, adding significant value for the user."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to hand-wash delicate clothing safely? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image provide accurate, safe, and standard instructions for hand-washing delicate clothing. All the steps and tips are factually correct and align with best practices.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image is a 10-step infographic that perfectly corresponds to the 10 steps listed in the text guide. Each visual panel clearly illustrates the action described in the accompanying text, creating a highly cohesive and easy-to-follow guide.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is exceptional. The image is a well-designed, clear, and aesthetically pleasing infographic. The text is expertly structured with clear headings, bullet points, and bolded text, making it highly readable and easy to scan for information. The grammar and writing style are professional.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, informative, safe, and presented in a visually appealing and easy-to-understand format. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response is more complete than the reference. It not only covers the core washing process but also includes essential preliminary steps, material lists, fabric-specific advice, stain removal tips, and a list of common mistakes to avoid. It provides a comprehensive guide to the topic.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich in content. The single infographic cleverly packs 10 distinct steps into one visual. The text is exceptionally detailed, going far beyond a simple step-by-step list to include nuanced advice for different fabrics, stains, and situations, adding significant value for the user.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 28,
+    "domain": "life",
+    "question": "How to clean eyeglasses without scratches or streaks? Provide a visual guide and text the steps. ",
+    "reference_text": "1. Wash your hands before cleaning your glasses. Wash up for 20 seconds with lotion-free soap and warm water. You’ll need to make sure your hands are free of dirt, grease, and grime before cleaning your glasses. 2. Rinse your glasses with warm water. Run a gentle stream of tap water over your glasses. Rotate them to wet both sides of each lens, the frame, and earpieces. Hot water is bad for lenses, protective coatings, and the frame, so be sure to use warm water. 3. Use your fingertips to carefully lather them with dish soap. Add a small drop of lotion-free dish soap to each lens. Make gentle circular motions with your fingertips to lather the soap over both sides of your lenses, around the frame, and down each earpiece. 4. Clean the nose pads with a cotton swab or soft toothbrush. Use gentle pressure as you scrub the nose pads and the crevices between them and the frame. If you’re using a toothbrush, make sure it’s soft-bristled. Avoid grazing the lenses with the toothbrush, even if it’s soft-bristled. If there’s buildup between the lenses and the frame, use a cotton swab to loosen it. 5. Wash away soap residue. Hold the glasses under running water again to rinse away soap suds. Make sure you’ve washed away all traces of soap, as any remaining residue will cause smudges. 6. Shake off excess water and make sure your lenses are clean. Turn off the water, then give your glasses a careful shake. Check the lenses to make sure they’re clear, and wash them again if you see any smudges. 7. Dry your glasses with a microfiber cloth. Fold a clean microfiber cloth over both sides of a lens. Make soft circular motions with your fingertips to dry it, then repeat on the other lens. Wipe the nose pads, then use the cloth to dry and polish the frame and earpieces. [6] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source 8. Spray your glasses liberally with eyeglass cleaner. Spray cleaners for eyewear are available at pharmacies and eyewear retailers. If you can’t get to a sink and dish soap, spray your glasses with lots of cleaner to flush away dirt and debris. Some eyewear manufacturers and optometrists also offer free samples of spray cleaner. If you have anti-reflective (AR) glasses, make sure the cleaner you use is labelled safe for the AR coating. 9. Wipe away the cleaner with a microfiber cloth. After spraying your glasses, carefully wipe off excess cleaner. Fold the cloth over both sides of each lens, and make gentle circular motions with your fingertips to absorb the cleaner. Then use the cloth to dry the frame and earpieces. 10. Touch up your lenses with disposable eyeglass wet wipes. You can also clean your glasses with wet wipes when you’re on the go. Gently blow on them to remove dust and dirt, then gently rub them with a wet wipe using soft, circular motions. After cleaning them, dry them with a microfiber cloth. Only use wet wipes labelled for cleaning eyewear. If you have AR glasses, make sure your wipes are labelled safe for the AR coating. 11. Clean your glasses every morning and as needed. Make cleaning your glasses part of your morning routine. Check them regularly throughout the day, and touch them up as needed. Keeping your glasses clean and smudge-free will help prevent scratches. 12. Store your glasses in a hard case when you’re not wearing them. Don’t just throw your glasses in your purse or bag, and avoid placing the lenses on hard surfaces. When they’re not in use, keep them in a hard-shell case. The case should fit your glasses; if it’s too big, they might roll around and get damaged. [11] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source 13. Wash your microfiber cloths frequently. Microfiber cloths collect grease and dirt, so you should wash yours after 2 or 3 uses. Some cloths are machine washable, so check the care instructions and launder them as directed. [12] X Trustworthy Source Consumer Reports Nonprofit organization dedicated to consumer advocacy and product testing Go to source If your cloth isn’t machine washable, or if you’re not sure, hand wash it with dish soap, wring it out, then let it air dry. 14. Don’t wipe your glasses with your shirt, tissue, or a paper towel. Shirts, tissues, and paper towels contain fine debris that could scratch your glasses. Additionally, never wipe your glasses when they’re dry, or you’ll risk damaging them. Exhaling on your glasses and wiping them with your shirt might be convenient, but that’s a quick way to scratch up your lenses. Need help keeping your glasses clean? Check out what wikiHow users recommend on our best way to clean glasses and keep them clean? forum .",
+    "reference_images": [
+      "data/life/28_1.jpg",
+      "data/life/28_2.jpg",
+      "data/life/28_3.jpg",
+      "data/life/28_4.jpg",
+      "data/life/28_5.jpg",
+      "data/life/28_6.jpg",
+      "data/life/28_7.jpg",
+      "data/life/28_8.jpg",
+      "data/life/28_9.jpg",
+      "data/life/28_10.jpg",
+      "data/life/28_11.jpg",
+      "data/life/28_12.jpg",
+      "data/life/28_13.jpg",
+      "data/life/28_14.jpg"
+    ],
+    "generated_text": "Here’s the text portion to pair with the visual:\n\n# How to Clean Eyeglasses (no scratches, no streaks)\n\n## What you’ll need\n\n* Clean, lotion-free hand soap\n* Lukewarm (not hot) water\n* A **clean microfiber cloth** (no paper towels/tissues)\n* Optional: lens-safe spray cleaner; soft brush or cotton swab for nose pads/hinges\n\n## Step-by-step\n\n1. **Wash your hands.** Use lotion-free soap, rinse well, and dry with a lint-free towel. Oily hands = smeary lenses.\n2. **Rinse the glasses first.** Hold frames under a gentle stream of **lukewarm** water to float off dust/grit (this prevents scratching).\n3. **Add a tiny drop of mild dish soap.** With wet fingertips, dab a **pin-head amount** on each lens.\n4. **Gently clean everything.** Using light pressure, rub both sides of the lenses, frame fronts/backs, bridge, nose pads, hinges, and temple tips for 10–15 seconds.\n5. **Rinse thoroughly.** Keep water moving from the top edge of each lens down so residue doesn’t redeposit.\n6. **Shake + air a moment.** Flick off excess water; let droplets slide away.\n7. **Dry with microfiber only.** **Pat**, then lightly buff in small circles with a clean section of the cloth.\n8. **Optional finish.** If a smudge remains, spray a lens-safe cleaner **onto the cloth (not the lens)** and buff again.\n\n## Quick do’s & don’ts\n\n**Do**\n\n* Rinse before wiping—always.\n* Handle by the bridge or temples so you don’t fingerprint the lenses.\n* Wash your microfiber cloth regularly (no fabric softener; air-dry).\n\n**Don’t**\n\n* Use hot water.\n* Wipe dry dust or use shirts, tissues, paper towels, or napkins.\n* Use household glass cleaner, bleach, ammonia, vinegar, baking soda, or toothpaste.\n* Use alcohol unless the cleaner specifically says it’s safe for your lens coatings and frames.\n\n## Between deep cleans\n\n* Use single-use **lens wipes** designed for eyeglasses when you’re on the go.\n* For gunky nose pads/hinges, soak a minute in warm soapy water, brush gently, rinse, and dry.\n\n## Streak & scratch troubleshooting\n\n* **Rainbow streaks:** Soap residue—re-rinse and buff with a fresh section of cloth.\n* **Persistent smears:** Cloth is dirty—wash it.\n* **Fine scratches:** Stop using abrasive materials; scratches can’t be polished out—ask your optician about replacement or coatings.\n\nIf you’d like tweaks to the visual (different colors, layout, or adding your brand/logo), tell me your preferences and I’ll regenerate it to match.\n",
+    "generated_image": "GPT-thinking/life/28.png",
+    "gemini_evaluation": {
+      "Question": "How to clean eyeglasses without scratches or streaks? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image provide factually correct and safe instructions for cleaning eyeglasses. The steps and advice align with standard optometric recommendations."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image and text are perfectly coherent. The numbered steps in the infographic directly correspond to the numbered steps in the text. The 'Do's & Don'ts' visuals also reflect the points made in the text."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, well-designed, and easy-to-understand infographic. The text is exceptionally well-written, with clear headings, bolding for emphasis, and perfect grammar, making it highly readable and user-friendly."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. The infographic format is visually appealing and provides a quick, scannable guide. The detailed but concise text is very helpful and presents the information in a professional and trustworthy manner."
+        ],
+        "Completeness": [
+          4,
+          "The response is very thorough, covering the main cleaning method, alternative methods (sprays, wipes), do's and don'ts, and even troubleshooting. However, it omits the important step of properly storing glasses in a hard case, which is included in the reference."
+        ],
+        "Content Richness": [
+          5,
+          "While the reference provides more individual images, the generated response is richer in its overall presentation. The single infographic consolidates the process effectively, and the text is exceptionally rich with well-organized sections like 'What you’ll need,' 'Do’s & don’ts,' and 'Streak & scratch troubleshooting,' which add significant value beyond a simple step-by-step list."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to clean eyeglasses without scratches or streaks? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image provide factually correct and safe instructions for cleaning eyeglasses. The steps and advice align with standard optometric recommendations.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The numbered steps in the infographic directly correspond to the numbered steps in the text. The 'Do's & Don'ts' visuals also reflect the points made in the text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, well-designed, and easy-to-understand infographic. The text is exceptionally well-written, with clear headings, bolding for emphasis, and perfect grammar, making it highly readable and user-friendly.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. The infographic format is visually appealing and provides a quick, scannable guide. The detailed but concise text is very helpful and presents the information in a professional and trustworthy manner.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response is very thorough, covering the main cleaning method, alternative methods (sprays, wipes), do's and don'ts, and even troubleshooting. However, it omits the important step of properly storing glasses in a hard case, which is included in the reference.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"While the reference provides more individual images, the generated response is richer in its overall presentation. The single infographic consolidates the process effectively, and the text is exceptionally rich with well-organized sections like 'What you’ll need,' 'Do’s & don’ts,' and 'Streak & scratch troubleshooting,' which add significant value beyond a simple step-by-step list.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 26,
+    "domain": "life",
+    "question": "How to tie a bowline knot securely? Provide a visual guide and text the steps. ",
+    "reference_text": "1. Use a mnemonic to remember how to tie the knot. Think of the loop as a \"rabbit's hole\" and the string end coming off the loop as a \"tree\". Imagine the other loose end of the string, which you're holding in your right hand, is the \"rabbit\". The rabbit comes up the hole, runs around the tree, and goes back down the hole. Another way to remember how to make this knot is with a rhyme: \"Lay the bight to make a hole Then under the back and around the pole Over the top and through the eye Clinch it tight and let it lie\" 2. Hold one end of the rope in your left hand. This will be your ‘standing end’ or the end that does not move (consider this end the ‘hole’ and the ‘tree’.) Hold the other end in your right hand (this is the free end--the end of the rope that will be used to form the knot, or the ‘rabbit.’)Make a small loop with the end of the string in your left hand. This loop is the ‘hole’ the rabbit comes out of. [4] X Expert Source Jordan Frazier Knot Tying Expert Expert Interview These instructions assume you start with an \"underhand\" loop, so that the free end of the string is under the intersection formed by the loop. 3. Draw the end of the string in your right hand (the rabbit) through the loop made by your left hand (the hole. ) The end should be coming towards you as it goes through the loop. Think of this as the rabbit coming out of its hole. [7] X Expert Source Jordan Frazier Knot Tying Expert Expert Interview 4. Bring the ‘rabbit’ end around (behind) the string. This string is the part pointing upwards from the loop (the ‘tree’.) Pull the ‘rabbit’ back through the loop and down into the ‘hole’. This time the end is going away from you. [9] X Expert Source Jordan Frazier Knot Tying Expert Expert Interview 5. Take the top loose string in your left hand. Hold the other end in your right hand and pull the ends in opposite directions to tighten the knot. [10] X Expert Source Jordan Frazier Knot Tying Expert Expert Interview",
+    "reference_images": [
+      "data/life/26_1.jpg",
+      "data/life/26_2.jpg",
+      "data/life/26_3.jpg",
+      "data/life/26_4.jpg",
+      "data/life/26_5.jpg"
+    ],
+    "generated_text": "Here’s the **text-only guide** (image above is separate, as requested):\n\n# How to tie a bowline (securely)\n\n**Names:** standing part = the side attached to the load; working end = free end (tail).\n\n1. **Make the “hole”.** In the standing part, form a small overhand loop with the standing part crossing *over* the rope behind it. Keep the loop large enough to pass the working end through.\n\n2. **Rabbit out of the hole.** Pass the working end **up through the loop**.\n\n3. **Around the tree.** Take the working end **around the back of the standing part**, then back toward the loop.\n\n4. **Back into the hole.** Feed the working end **down through the original loop**.\n\n5. **Dress and set.** Hold the loop you’ve made and pull firmly on the **standing part** while snugging the “collar” around it. Adjust until the knot is compact and tidy.\n\n6. **Safety checks (do these every time):**\n\n* There’s a **fixed loop** that does not slip when you pull the standing part.\n* A single **collar** (turn) wraps cleanly around the standing part.\n* Leave a **tail ≥ 10–15 cm (4–6 in)**.\n\n7. **Make it more secure (recommended):**\n\n* Tie a **double overhand stopper** with the tail snug against the bowline, **or**\n* Use a **Yosemite finish** (run the tail up behind the loop and back down beside the standing part, then dress snug). Either helps prevent loosening from repeated loading/unloading.\n\n**When to use (and not):**\n\n* Great for forming a non-slipping loop for general utility, boating, and rescue rigging by trained users.\n* **Avoid for life-safety or climbing unless you’re trained** and use an appropriate backup/variation; bowlines can loosen under cyclic load or if shaken when slack.\n\n**Quick memory aid:** *“Rabbit comes out of the hole, goes around the tree, and back into the hole.”*\n\n**To untie:** Push the collar to break the set, then pull the working end—bowlines are easy to release even after heavy load.\n",
+    "generated_image": "GPT-thinking/life/26.png",
+    "gemini_evaluation": {
+      "Question": "How to tie a bowline knot securely? Provide a visual guide and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image both correctly demonstrate how to tie a bowline knot. The text also provides accurate and important safety information and variations to make the knot more secure, which directly addresses the user's question."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image provides a clear visual representation of the first four core steps described in the text. The steps in the diagram perfectly match the 'rabbit out of the hole, around the tree, and back in' mnemonic used in the text."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and easy-to-follow instructional diagram. The text is exceptionally well-written, structured, and easy to understand. It uses clear headings, bolding, and provides definitions and safety warnings, making it a high-quality guide."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with user preference. It is helpful, safe, and well-presented. The inclusion of safety checks and warnings is particularly valuable for a question about knots."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers the question. It provides both a visual guide and text steps. It goes beyond the basic steps to explain how to tie the knot *securely*, which was a key part of the prompt."
+        ],
+        "Content Richness": [
+          5,
+          "The text is extremely rich, providing much more detail than the reference. It includes terminology, safety checks, variations (stopper knot, Yosemite finish), use cases, and instructions for untying. This level of detail makes it a comprehensive and highly valuable resource."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to tie a bowline knot securely? Provide a visual guide and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image both correctly demonstrate how to tie a bowline knot. The text also provides accurate and important safety information and variations to make the knot more secure, which directly addresses the user's question.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image provides a clear visual representation of the first four core steps described in the text. The steps in the diagram perfectly match the 'rabbit out of the hole, around the tree, and back in' mnemonic used in the text.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and easy-to-follow instructional diagram. The text is exceptionally well-written, structured, and easy to understand. It uses clear headings, bolding, and provides definitions and safety warnings, making it a high-quality guide.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with user preference. It is helpful, safe, and well-presented. The inclusion of safety checks and warnings is particularly valuable for a question about knots.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers the question. It provides both a visual guide and text steps. It goes beyond the basic steps to explain how to tie the knot *securely*, which was a key part of the prompt.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text is extremely rich, providing much more detail than the reference. It includes terminology, safety checks, variations (stopper knot, Yosemite finish), use cases, and instructions for untying. This level of detail makes it a comprehensive and highly valuable resource.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 54,
+    "domain": "space",
+    "question": "Why are there different shades of stone on the Washington Monument? Provide a photo and explain.",
+    "reference_text": "Construction stopped in 1854 due to lack of funds, then resumed decades later with marble from a different quarry. The mismatch created a permanent color line in the obelisk.",
+    "reference_images": [
+      "data/space/washington_monument_color_line.webp"
+    ],
+    "generated_text": "Here's the explanation (text), separate from the generated photo above:The Washington Monument's color changes partway up because construction stopped for decades. Builders laid the first ~150 feet (1848–1854) using one set of marble. Funding troubles and then the Civil War halted work. When construction resumed in the late 1870s and finished in 1884, crews used marble from different quarry seams (and some from a different quarry entirely). Those stones didn't match perfectly—and over time they weathered differently—so you see a distinct horizontal \"color line\" and slight banding higher up.",
+    "generated_image": "GPT-thinking/space/54.png",
+    "gemini_evaluation": {
+      "Question": "Why are there different shades of stone on the Washington Monument? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text is factually correct, accurately explaining the reason for the color change on the Washington Monument. The generated image is a correct and realistic depiction of the monument, clearly showing the color difference."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the 'distinct horizontal color line', and the generated image clearly visualizes this exact feature on the monument."
+        ],
+        "Content Quality": [
+          5,
+          "The image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear and concise explanation."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and aesthetically pleasing. It directly answers the user's question in an ideal way."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both the requested photo and a text explanation as prompted."
+        ],
+        "Content Richness": [
+          5,
+          "The text explanation is richer than the reference, providing additional details such as the specific dates of construction phases, the height of the initial construction (~150 feet), the role of the Civil War, and the effect of weathering over time. This adds valuable context."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why are there different shades of stone on the Washington Monument? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text is factually correct, accurately explaining the reason for the color change on the Washington Monument. The generated image is a correct and realistic depiction of the monument, clearly showing the color difference.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the 'distinct horizontal color line', and the generated image clearly visualizes this exact feature on the monument.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is high-quality, clear, and realistic. The text is well-written, grammatically correct, and provides a clear and concise explanation.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. It directly answers the user's question in an ideal way.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both the requested photo and a text explanation as prompted.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The text explanation is richer than the reference, providing additional details such as the specific dates of construction phases, the height of the initial construction (~150 feet), the role of the Civil War, and the effect of weathering over time. This adds valuable context.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 1,
+    "domain": "space",
+    "question": "Why can people stand on the Statue of Liberty? Provide a photo and explain.",
+    "reference_text": "An internal spiral staircase leads to the crown, which was designed to safely accommodate small groups of visitors as a viewing platform.",
+    "reference_images": [
+      "data/space/Nancy_Reagan_waves_while_visiting_the_Statue_of_Liberty_in_New_York_City.jpg"
+    ],
+    "generated_text": "Image (photo): (see generated image above)\n\nText (explanation):\nPeople can stand inside the Statue of Liberty—on the pedestal’s observation deck and in the crown—because the monument was engineered as a habitable structure, not a solid statue.\n • Load-bearing skeleton: A robust internal iron framework (designed to carry people and stairs) holds the statue up. The green copper skin you see outside is thin and non-structural; it hangs like a curtain on the frame.\n • Platforms & stairs anchored to the frame: Metal stairways and viewing platforms are bolted to the central support and armature, so a visitor’s weight goes into the steel/iron skeleton, not the copper shell.\n • Pedestal transfers the loads: All those forces flow down into a massive granite/concrete pedestal and then into the foundation, so visitor loads are easily supported.\n • Engineered for movement & safety: The structure can flex slightly in wind, and access is controlled with rails, capacity limits, and modern safety upgrades—making the crown room and decks safe for brief occupancy.\n • Where you can’t stand: The torch is not open to the public; visitors stand on engineered platforms (pedestal decks and the crown), not on the statue’s skin.",
+    "generated_image": "GPT-thinking/space/1.png",
+    "gemini_evaluation": {
+      "Question": "Why can people stand on the Statue of Liberty? Provide a photo and explain.",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The text explanation is factually correct and provides a detailed, accurate overview of the statue's structural engineering. The image is a correct representation of the internal structure (a staircase leading to the crown), but it is a diagrammatic illustration rather than a photograph as requested by the prompt."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image, a cutaway view showing the internal staircase and crown platform, perfectly illustrates the concepts explained in the text, such as the load-bearing skeleton, the stairs anchored to the frame, and the crown as a viewing area."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and informative illustration. The text is very well-written, grammatically correct, and logically structured with bullet points, making the complex engineering concepts easy to understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and aesthetically pleasing. The diagram is a great choice to explain the concept, and the text is clear and informative."
+        ],
+        "Completeness": [
+          5,
+          "The response fully answers the question. It provides both an image and a comprehensive text explanation that covers all the reasons why people can stand inside the statue."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. The text provides a multi-faceted explanation covering the internal skeleton, load transfer, the pedestal, and safety features, offering a much deeper understanding. The cutaway image is also more informative than the simple photo of the staircase."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"Why can people stand on the Statue of Liberty? Provide a photo and explain.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The text explanation is factually correct and provides a detailed, accurate overview of the statue's structural engineering. The image is a correct representation of the internal structure (a staircase leading to the crown), but it is a diagrammatic illustration rather than a photograph as requested by the prompt.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image, a cutaway view showing the internal staircase and crown platform, perfectly illustrates the concepts explained in the text, such as the load-bearing skeleton, the stairs anchored to the frame, and the crown as a viewing area.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and informative illustration. The text is very well-written, grammatically correct, and logically structured with bullet points, making the complex engineering concepts easy to understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and aesthetically pleasing. The diagram is a great choice to explain the concept, and the text is clear and informative.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response fully answers the question. It provides both an image and a comprehensive text explanation that covers all the reasons why people can stand inside the statue.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. The text provides a multi-faceted explanation covering the internal skeleton, load transfer, the pedestal, and safety features, offering a much deeper understanding. The cutaway image is also more informative than the simple photo of the staircase.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 55,
+    "domain": "exercise",
+    "question": "How to Do Kettlebell Shrugs the Right Way? Show visual steps and text the steps.",
+    "reference_text": "1. Stand holding a pair of dumbbells or kettlebells at your sides in a neutral grip. Squeeze your shoulder blades, abs, and glutes to create full-body tension. Keep your gaze straight ahead to maintain a neutral spine and stand tall to keep your shoulders back. 2. Activate your traps and raise your shoulders straight up. Do not roll your shoulders. 3. Pause for a count at the top, squeezing your traps. 4. Lower back down to the starting position slowly, taking at least two seconds.",
+    "reference_images": [
+      "data/exercise/55_1.png",
+      "data/exercise/55_2.png",
+      "data/exercise/55_3.png",
+      "data/exercise/55_4.png"
+    ],
+    "generated_text": "# Text steps — Kettlebell Shrugs (Double-KB)\n\n**Set-up**\n\n1. **Choose weights** you can control for 8–15 smooth reps.\n2. Place two kettlebells at your sides. Hinge at the hips, **neutral spine**, and deadlift them to standing.\n3. **Starting stance:** feet hip-width, knees soft, arms straight at your sides, palms facing in (neutral grip), ribs down, neck long, eyes forward.\n\n**Execution**\n4) **Brace** (light core tension).\n5) **Shrug straight up:** slide your shoulder blades **up** (and slightly back), bringing your shoulders toward your ears. **Do not bend your elbows** and don’t roll your shoulders.\n6) **Pause** at the top for 1 second—grow tall.\n7) **Lower slowly** until your shoulders are fully **down and back** (depressed). Feel a gentle stretch at the bottom.\n\n**Tempo & Breathing**\n8) Tempo: **1 second up, 2–3 seconds down.**\n9) Breathing: inhale to brace, **exhale gently as you lift**, inhale on the way down.\n\n**Reps & Sets**\n10) Do **2–4 sets of 8–15 reps.** Rest 60–90 seconds. Pick a load that keeps your neck relaxed and form crisp.\n\n**Form checkpoints (quick cues)**\n\n* “**Ears to shoulders, not elbows to ribs.**”\n* “**Arms long, wrists neutral.**”\n* “**Don’t roll** the shoulders forward.”\n* “**Tall neck**—no chin jutting.”\n* Bells stay near your thighs; torso doesn’t sway.\n\n**Common mistakes to avoid**\n\n* Bending the elbows or turning it into a curl.\n* Letting the ribs flare or leaning back.\n* Jerking/bouncing the weight; losing control on the way down.\n* Rolling the shoulders in circles.\n\n**Variations**\n\n* **Single-arm suitcase shrug:** one kettlebell; keep hips level—great for anti-lean stability.\n* **Paused top shrug:** 2–3-sec hold at the top.\n* **Heavier, low-rep sets (6–10)** once form is solid.\n\n**Warm-up idea (quick)**\n\n* 30–60s light band pull-apart holds + 10 scapular wall slides, then a light set of shrugs to groove the motion.\n\n> Tip: If you feel neck strain, reduce load, shorten range, and emphasize “shoulders down” between reps. Discomfort in the joint = stop and reassess.\n\n---\n\n**Visual steps**\nI generated a separate step-by-step kettlebell-shrug infographic above to match these instructions.\n",
+    "generated_image": "GPT-thinking/exercise/55.png",
+    "gemini_evaluation": {
+      "Question": "How to Do Kettlebell Shrugs the Right Way? Show visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The text provides a comprehensive and accurate guide to performing kettlebell shrugs, including setup, execution, common mistakes, and variations. The image correctly illustrates the start and end positions of the movement with proper form."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The image serves as a visual summary of the key execution steps described in the text. The text cues in the image (e.g., \"Shoulders to ears,\" \"Arms stay long\") directly reinforce the detailed instructions in the written portion."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a well-designed, clear, and easy-to-understand infographic. The text is exceptionally well-structured, using clear headings, bolding, and lists to make the information highly digestible. The language is professional and precise."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preferences. The infographic is aesthetically pleasing and informative. The text is helpful, safe, and encouraging, providing important safety cues and tips to avoid injury, which is crucial for exercise instructions."
+        ],
+        "Completeness": [
+          5,
+          "The response is very complete. It provides both the visual steps and the text steps requested in the prompt. It covers all phases of the exercise from setup to execution and cool-down, fully answering the user's question."
+        ],
+        "Content Richness": [
+          5,
+          "The response is exceptionally rich, far exceeding the reference. The text provides a wealth of information beyond the basic steps, including details on tempo, breathing, reps and sets, form checkpoints, common mistakes, variations, and even a warm-up idea. This level of detail makes it a comprehensive guide."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Do Kettlebell Shrugs the Right Way? Show visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The text provides a comprehensive and accurate guide to performing kettlebell shrugs, including setup, execution, common mistakes, and variations. The image correctly illustrates the start and end positions of the movement with proper form.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The image serves as a visual summary of the key execution steps described in the text. The text cues in the image (e.g., \\\"Shoulders to ears,\\\" \\\"Arms stay long\\\") directly reinforce the detailed instructions in the written portion.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a well-designed, clear, and easy-to-understand infographic. The text is exceptionally well-structured, using clear headings, bolding, and lists to make the information highly digestible. The language is professional and precise.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preferences. The infographic is aesthetically pleasing and informative. The text is helpful, safe, and encouraging, providing important safety cues and tips to avoid injury, which is crucial for exercise instructions.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is very complete. It provides both the visual steps and the text steps requested in the prompt. It covers all phases of the exercise from setup to execution and cool-down, fully answering the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is exceptionally rich, far exceeding the reference. The text provides a wealth of information beyond the basic steps, including details on tempo, breathing, reps and sets, form checkpoints, common mistakes, variations, and even a warm-up idea. This level of detail makes it a comprehensive guide.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 98,
+    "domain": "exercise",
+    "question": "How to Do a Cartwheel? Provide visual steps and text the steps.",
+    "reference_text": "1. Picture an imaginary line extending straight in front of you. Use this line as a guide while you perform your cartwheel. You can even use painter’s tape to create a real line across a carpet or a mat . Make this line several feet long. Try to stay on the line, as if the line is a balance beam. As you focus on the line, be sure to keep your form in mind, too. Make sure the area around your line is free and clear. Avoid practicing cartwheels near walls or pieces of furniture that you might run into. Injuries occur when you bump into something hard. Stretch your arms and legs before practicing a cartwheel. This helps to stretch out your muscles and reduces the risk of injury. 2. Lunge forward with your lead leg and raise your arms. Slightly bend your front leg at the knee and keep your back leg straight. Keep both feet pointing forward parallel to your imaginary line. Hold your arms straight up by your ears. A common mistake is to start a cartwheel while facing sideways. Make sure you’re facing forwards as you prepare and start for your cartwheel. That is the correct way. Either leg can be your lead leg. Sometimes, however, it's more comfortable to use one leg instead of the other—you can try to figure out which one by doing a series of handstands, some starting with your right leg in front, others with your left. Whichever leading leg feels more natural is the one you should use for your cartwheel.You can determine your leading by watching which leg in splits feels more comfortable. 3. Lower your arms towards the ground while raising your back leg. Keep your arms straight by your ears as you lower them down to bring your head and torso down as well. Only lower your arms about halfway to the ground. Bring your back leg up while keeping it straight so your body forms a “T” shape. This step requires balance. You may need to drop your leg several times before you find a balanced position you can hold. Don’t worry if you’re having trouble balancing. Once you get the hang of the cartwheel, you won’t have to hold this position for very long since it will all become one continuous and natural movement. 4. Place your hands on the mat as you turn your body sideways. Put down the arm on the same side of your body as your lead leg first. Then put your other arm down so they're spread about shoulder width apart, similar to the way they would be positioned for a handstand. Place both hands along the imaginary line. Think \"hand hand feet\" to help you process the cartwheel. For example, if you lunged with your right leg, place your right hand down first, then your left hand. Keep the fingers of each hand pointing away from your head. 5. Push off on your front leg, then bring your legs up in a V shape. Straighten your front leg as you push so your legs end up in the air, pointing straight upwards. Balance your weight on your arms with your hands shoulder-width apart on either side of your head. Keep your head and torso upside down and positioned directly over your arms. Use your shoulders and core for support. You won’t hold this position for long. Cartwheels should be performed in one fluid motion. Make sure to keep your legs straight the whole time. If you are a beginner, then you may want to practice more. 6. Lower your lead leg as you lift the first hand you put down off the mat. To complete the cartwheel, put your leading leg down first along your imaginary line. The first hand you placed on the mat will lift up naturally as your foot comes down. Bring your arm up by your ear to finish the cartwheel. Your weight should start to shift onto your legs. Keep your head and torso roughly parallel to the mat. 7. Bring your other leg down while lifting your other hand off the mat. Your other leg will follow the first as it comes down. Make sure to place your back foot behind your leading foot along the same imaginary line so both feet point back in the direction you came from. Your second hand will lift naturally off the mat, following the first hand. At this point, both your head and torso should be right side up, centered over your legs. A common mistake while cartwheeling is leaving your hands on the ground for too long. Make sure that your arms stay straight and by your ears as your chest and head come up at the end of the cartwheel. 8. Land in a lunge facing in the opposite direction. Position yourself so your original back leg is in front and slightly bent, while your original leading leg is behind you and straight, just like a lunge. Keep both feet pointing in the direction you came from. Make sure your arms are straight and pointing upwards, next to your ears. Position your torso in the same direction your feet are pointing.",
+    "reference_images": [
+      "data/exercise/98_1.jpg",
+      "data/exercise/98_2.jpg",
+      "data/exercise/98_3.jpg",
+      "data/exercise/98_4.jpg",
+      "data/exercise/98_5.jpg",
+      "data/exercise/98_6.jpg",
+      "data/exercise/98_7.jpg",
+      "data/exercise/98_8.jpg"
+    ],
+    "generated_text": "# How to Do a Cartwheel (6 Steps)\n\n> This guide describes a **right-handed cartwheel** (start with the **right foot forward**, plant **right hand, then left**, land **left foot, then right**). Reverse left/right if you’re left-handed.\n\n## 1) Start in a Lunge (Right Foot Forward)\n\n* Right foot in front, left foot behind on a straight “cartwheel line.”\n* Front knee bent, back leg straight.\n* Arms straight by your ears; torso tall, eyes forward.\n\n## 2) Reach & Kick\n\n* Lean over the front leg and **reach your right hand** toward the floor on the line.\n* **Kick the left leg** powerfully up to start the rotation.\n* Keep arms straight, ribs in, core tight.\n\n## 3) Place Hands (Right → Left)\n\n* **Right hand** plants first on the line; fingers slightly turned inward.\n* **Left hand** plants shoulder-width from the right, forming a half-circle print.\n* Head neutral (look past your hands); elbows locked.\n\n## 4) Inverted Split (Upside Down)\n\n* Stack **hips over shoulders**; body turns sideways.\n* Legs make a wide **split overhead**; knees straight, toes pointed.\n* Push tall through the shoulders to keep space between ears and shoulders.\n\n## 5) Feet Down (Left → Right)\n\n* The **left (kicking) foot** reaches for and **lands first** on the line.\n* The **right foot** follows to absorb into a lunge.\n* Keep chest lifted; don’t collapse.\n\n## 6) Finish Lunge (Opposite Direction)\n\n* End in a lunge facing the opposite way with **left foot forward**.\n* Arms finish by your ears; hold still for control.\n\n---\n\n### Quick Cues\n\n* “**Lunge → Reach → Kick → Hands → Split → Feet → Finish**.”\n* Think: **Right foot, right hand, left hand, left foot, right foot**.\n\n### Safety & Practice Tips\n\n* Warm up wrists, shoulders, and hamstrings.\n* Practice on a mat or grass with a clear, open lane.\n* Use a chalk/tape **line** to guide hands/feet.\n* If new to cartwheels, work with a **coach or spotter**.\n",
+    "generated_image": "GPT-thinking/exercise/98.png",
+    "gemini_evaluation": {
+      "Question": "How to Do a Cartwheel? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image both accurately describe and depict the steps for performing a cartwheel. The technique is sound and follows standard gymnastic principles."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "There is perfect coherency between the image and the text. The image shows six distinct poses, and the text provides a clear, numbered explanation for each of the six poses, matching them exactly."
+        ],
+        "Content Quality": [
+          5,
+          "The image quality is excellent—it's clear, aesthetically pleasing, and effectively illustrates the motion in a single composite picture. The text is exceptionally well-structured, using headings, bolding, and bullet points to create a guide that is very easy to read and understand."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The content is helpful, positive, and safe. The inclusion of a dedicated 'Safety & Practice Tips' section is a responsible and welcome addition."
+        ],
+        "Completeness": [
+          5,
+          "The generated response provides a complete, end-to-end guide for a cartwheel. Although it uses 6 steps compared to the reference's 8, it effectively combines some of the micro-steps without losing any critical information, resulting in a comprehensive and clear tutorial."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The composite image efficiently shows the entire flow of the movement. The text is rich with detail, including a clear explanation for right-handed vs. left-handed execution, quick cues for memorization, and safety tips, which adds significant value beyond just the core steps."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Do a Cartwheel? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image both accurately describe and depict the steps for performing a cartwheel. The technique is sound and follows standard gymnastic principles.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"There is perfect coherency between the image and the text. The image shows six distinct poses, and the text provides a clear, numbered explanation for each of the six poses, matching them exactly.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image quality is excellent—it's clear, aesthetically pleasing, and effectively illustrates the motion in a single composite picture. The text is exceptionally well-structured, using headings, bolding, and bullet points to create a guide that is very easy to read and understand.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The content is helpful, positive, and safe. The inclusion of a dedicated 'Safety & Practice Tips' section is a responsible and welcome addition.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response provides a complete, end-to-end guide for a cartwheel. Although it uses 6 steps compared to the reference's 8, it effectively combines some of the micro-steps without losing any critical information, resulting in a comprehensive and clear tutorial.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The composite image efficiently shows the entire flow of the movement. The text is rich with detail, including a clear explanation for right-handed vs. left-handed execution, quick cues for memorization, and safety tips, which adds significant value beyond just the core steps.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 46,
+    "domain": "diagram",
+    "question": "I'm illustrating the key distinction between traditional post-processing fusion of VLM and end-to-end models versus our proposed synergistic fusion framework.\n\n(a) **Previous Method**: An image sequence is processed by a Vision-Language Model (VLM) to produce an initial trajectory. This trajectory is then refined via an end-to-end model through post-processing.\n\n(b) **Our Method (SOLVE)**: The image sequence is passed through a shared visual encoder, producing inputs for both the VLM and the end-to-end model. Their respective predicted trajectories are then fused via a Synergy Module, enabling both **feature-level** and **trajectory-level** synergy.\n\nThe figure should clearly contrast the two pipelines, and use arrows to indicate flow of data and intermediate outputs.\n\nPlease provide:\n1. A clear, side-by-side diagram contrasting the two approaches.\n2. A caption summarizing the difference. Output the image and caption separately.",
+    "reference_text": "Figure 1. Previous methods combine VLM and end-to-end networks through post-processing, while our method combines VLM and end-to-end networks through both feature-level synergy (shared visual encoder) and trajectory-level synergy.",
+    "reference_images": [
+      "data/diagram/SOLVE-Synergy-Architecture.png"
+    ],
+    "generated_text": "Previous post-processing fusion (a) runs VLM → trajectory → end-to-end refinement sequentially with no shared features; SOLVE (b) uses a shared visual encoder with parallel VLM and end-to-end heads whose features and predicted trajectories are fused by a Synergy Module, enabling both feature-level and trajectory-level synergy for a single fused trajectory.",
+    "generated_image": "GPT-thinking/diagram/46.png",
+    "gemini_evaluation": {
+      "Question": "I'm illustrating the key distinction between traditional post-processing fusion of VLM and end-to-end models versus our proposed synergistic fusion framework.\n\n(a) **Previous Method**: An image sequence is processed by a Vision-Language Model (VLM) to produce an initial trajectory. This trajectory is then refined via an end-to-end model through post-processing.\n\n(b) **Our Method (SOLVE)**: The image sequence is passed through a shared visual encoder, producing inputs for both the VLM and the end-to-end model. Their respective predicted trajectories are then fused via a Synergy Module, enabling both **feature-level** and **trajectory-level** synergy.\n\nThe figure should clearly contrast the two pipelines, and use arrows to indicate flow of data and intermediate outputs.\n\nPlease provide:\n1. A clear, side-by-side diagram contrasting the two approaches.\n2. A caption summarizing the difference. Output the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both completely correct. The diagram accurately depicts the two distinct architectural pipelines described in the prompt: (a) a sequential post-processing method and (b) a parallel method with a shared encoder and a fusion module. The text accurately summarizes these diagrams and the core concepts."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text is an excellent and precise description of the generated image. Every component mentioned in the caption (shared visual encoder, parallel VLM and end-to-end heads, Synergy Module, sequential vs. parallel flow) is clearly and accurately represented in the corresponding parts of the diagram."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, professional-looking technical diagram. It is clear, well-labeled, and easy to understand. The text is also of high quality: it is well-written, grammatically correct, concise, and uses appropriate technical terminology."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with the user's request. It provides a technical illustration and caption that is professional, safe, and directly addresses the prompt without any undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested side-by-side diagram and a separate caption, fulfilling all parts of the user's request."
+        ],
+        "Content Richness": [
+          5,
+          "The response is very rich. The diagram effectively uses layout and labels to convey complex information clearly. The text is more detailed and descriptive than the reference text, providing a clearer explanation of the two methods by explicitly mentioning concepts like 'no shared features' and 'parallel heads', which enhances understanding."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm illustrating the key distinction between traditional post-processing fusion of VLM and end-to-end models versus our proposed synergistic fusion framework.\\n\\n(a) **Previous Method**: An image sequence is processed by a Vision-Language Model (VLM) to produce an initial trajectory. This trajectory is then refined via an end-to-end model through post-processing.\\n\\n(b) **Our Method (SOLVE)**: The image sequence is passed through a shared visual encoder, producing inputs for both the VLM and the end-to-end model. Their respective predicted trajectories are then fused via a Synergy Module, enabling both **feature-level** and **trajectory-level** synergy.\\n\\nThe figure should clearly contrast the two pipelines, and use arrows to indicate flow of data and intermediate outputs.\\n\\nPlease provide:\\n1. A clear, side-by-side diagram contrasting the two approaches.\\n2. A caption summarizing the difference. Output the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both completely correct. The diagram accurately depicts the two distinct architectural pipelines described in the prompt: (a) a sequential post-processing method and (b) a parallel method with a shared encoder and a fusion module. The text accurately summarizes these diagrams and the core concepts.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text is an excellent and precise description of the generated image. Every component mentioned in the caption (shared visual encoder, parallel VLM and end-to-end heads, Synergy Module, sequential vs. parallel flow) is clearly and accurately represented in the corresponding parts of the diagram.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, professional-looking technical diagram. It is clear, well-labeled, and easy to understand. The text is also of high quality: it is well-written, grammatically correct, concise, and uses appropriate technical terminology.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with the user's request. It provides a technical illustration and caption that is professional, safe, and directly addresses the prompt without any undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested side-by-side diagram and a separate caption, fulfilling all parts of the user's request.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is very rich. The diagram effectively uses layout and labels to convey complex information clearly. The text is more detailed and descriptive than the reference text, providing a clearer explanation of the two methods by explicitly mentioning concepts like 'no shared features' and 'parallel heads', which enhances understanding.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 104,
+    "domain": "diagram",
+    "question": "I'm preparing a figure for a simulation framework named BookWorld. The framework simulates interactions between story characters extracted from books. It involves three stages: (1) Initialization, where characters and world information are extracted from books; (2) Simulation, where characters interact in dynamically evolving scenes with memories and goals; and (3) Rephrasing, where interaction logs are compiled into a narrative. Please visualize the entire pipeline: agent initialization, dynamic attribute updates, scene-wise interactions, and the transformation into novel-style text. Also generate:\n\n1. A visual diagram showing this BookWorld framework.\n2. A short, publication-style caption summarizing the visual.\nPlease output the diagram path and caption separately.",
+    "reference_text": "Figure 2: The complete pipeline of BookWorld simulation. The framework starts from initializing the agents, then the agents interact across scenes.",
+    "reference_images": [
+      "data/diagram/BookWorld-Framework.png"
+    ],
+    "generated_text": "BookWorld pipeline: (1) Initialization extracts characters and world knowledge from books to instantiate agents with traits, memories, goals, and a shared world graph; (2) a scene-wise multi-agent simulation runs perception→retrieval→planning→action loops, logging events while dynamically updating attributes (memories, relations, goals, state); (3) a rephrasing stage compiles the logs into coherent novel-style narrative text.",
+    "generated_image": "GPT-thinking/diagram/104.png",
+    "gemini_evaluation": {
+      "Question": "I'm preparing a figure for a simulation framework named BookWorld. The framework simulates interactions between story characters extracted from books. It involves three stages: (1) Initialization, where characters and world information are extracted from books; (2) Simulation, where characters interact in dynamically evolving scenes with memories and goals; and (3) Rephrasing, where interaction logs are compiled into a narrative. Please visualize the entire pipeline: agent initialization, dynamic attribute updates, scene-wise interactions, and the transformation into novel-style text. Also generate:\n\n1. A visual diagram showing this BookWorld framework.\n2. A short, publication-style caption summarizing the visual.\nPlease output the diagram path and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text correctly represent the three-stage pipeline (Initialization, Simulation, Rephrasing) described in the prompt. All key components requested, such as agent initialization, dynamic updates, and transformation to text, are accurately included."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text serves as a perfect caption for the generated image. Each of the three numbered points in the text directly corresponds to one of the three main sections of the visual diagram, creating a strong and clear connection between the two."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a high-quality, clear, and professional-looking diagram suitable for a publication. The text is well-written, concise, and grammatically correct, effectively summarizing the process in a formal style."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The output is aesthetically pleasing and directly addresses the user's request for a publication-style figure. There is no undesirable or inappropriate content."
+        ],
+        "Completeness": [
+          5,
+          "The response successfully provides both the visual diagram and the text caption as requested in the prompt's two requirements."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is richer than the reference. The diagram includes more specific details about the agent's action loop (perception, retrieval, etc.), and the text caption is far more descriptive and informative than the very brief reference text, providing a comprehensive overview of the entire pipeline."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm preparing a figure for a simulation framework named BookWorld. The framework simulates interactions between story characters extracted from books. It involves three stages: (1) Initialization, where characters and world information are extracted from books; (2) Simulation, where characters interact in dynamically evolving scenes with memories and goals; and (3) Rephrasing, where interaction logs are compiled into a narrative. Please visualize the entire pipeline: agent initialization, dynamic attribute updates, scene-wise interactions, and the transformation into novel-style text. Also generate:\\n\\n1. A visual diagram showing this BookWorld framework.\\n2. A short, publication-style caption summarizing the visual.\\nPlease output the diagram path and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text correctly represent the three-stage pipeline (Initialization, Simulation, Rephrasing) described in the prompt. All key components requested, such as agent initialization, dynamic updates, and transformation to text, are accurately included.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text serves as a perfect caption for the generated image. Each of the three numbered points in the text directly corresponds to one of the three main sections of the visual diagram, creating a strong and clear connection between the two.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a high-quality, clear, and professional-looking diagram suitable for a publication. The text is well-written, concise, and grammatically correct, effectively summarizing the process in a formal style.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The output is aesthetically pleasing and directly addresses the user's request for a publication-style figure. There is no undesirable or inappropriate content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response successfully provides both the visual diagram and the text caption as requested in the prompt's two requirements.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is richer than the reference. The diagram includes more specific details about the agent's action loop (perception, retrieval, etc.), and the text caption is far more descriptive and informative than the very brief reference text, providing a comprehensive overview of the entire pipeline.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 16,
+    "domain": "diagram",
+    "question": "I am preparing a figure for my paper to illustrate the following framework:\nThis diagram presents the pipeline of the proposed **StyleMaster**, which performs video stylization guided by a style image and a textual description.\n\nThe framework is composed of the following major components:\n\n1. **Input & Output**:\n   - The input is a raw video and a style image (e.g., Van Gogh painting).\n   - The output is a stylized video with artistic consistency.\n\n2. **Style Extraction**:\n   - The style image is encoded using a **CLIP image encoder** to extract patch-level features and image embeddings.\n   - Patches with lower similarity to the accompanying text prompt (e.g., \"A lone penguin walks on a sandy beach at sunset.\") are selected for style representation.\n   - A local selection module (Q-Former) refines these patches.\n   - A **global projection module** transforms them into global style tokens using contrastive learning, enhanced with specially constructed data pairs.\n\n3. **Contrastive Dataset Construction**:\n   - Positive pairs are created by rearranging anchor images.\n   - Negative samples are synthesized via **model illusion** from arbitrary text-to-image models.\n\n4. **Stylization Network (DiT Block)**:\n   - A spatial-temporal diffusion transformer (DiT) applies multiple blocks of self-attention and cross-attention.\n   - Style and text features are injected via decoupled cross-attention modules.\n   - A motion adapter handles temporal consistency.\n\n5. **Gray Tile ControlNet**:\n   - Ensures better content preservation and stylization control.\n\nPlease generate:\n 1. A visual diagram that clearly shows the pipeline from video and style image input to stylized video output.\n 2. A separate caption summarizing the figure. Please provide the image and caption separately.",
+    "reference_text": "The pipeline of our proposed StyleMaster. We first obtain patch features and image embedding of the style image from CLIP, then we select the patches sharing less similarity with text prompt as texture guidance, and use a global projection module to transform it into global style descriptions. The global projection module is trained with a contrastive dataset constructed by model illusion through contrastive learning. The style information is then injected into the model through the decoupled cross-attention. The motion adapter and gray tile ControlNet are used to enhance dynamic quality and enable content control respectively.",
+    "reference_images": [
+      "data/diagram/StyleMaster_pipeline.png"
+    ],
+    "generated_text": "StyleMaster pipeline. A CLIP-based style extractor selects low text-aligned patches from the reference style image, refines them with a Q-Former, and projects them via contrastive learning into global style tokens trained with positives (rearranged anchors) and negatives (model-illusion samples). A spatial–temporal DiT injects text and style through decoupled cross-attention and a motion adapter for temporal consistency. A Gray Tile ControlNet conditions the diffusion to preserve content and control stylization, producing a coherent stylized video.",
+    "generated_image": "GPT-thinking/diagram/16.png",
+    "gemini_evaluation": {
+      "Question": "I am preparing a figure for my paper to illustrate the following framework:\nThis diagram presents the pipeline of the proposed **StyleMaster**, which performs video stylization guided by a style image and a textual description.\n\nThe framework is composed of the following major components:\n\n1. **Input & Output**:\n   - The input is a raw video and a style image (e.g., Van Gogh painting).\n   - The output is a stylized video with artistic consistency.\n\n2. **Style Extraction**:\n   - The style image is encoded using a **CLIP image encoder** to extract patch-level features and image embeddings.\n   - Patches with lower similarity to the accompanying text prompt (e.g., \"A lone penguin walks on a sandy beach at sunset.\") are selected for style representation.\n   - A local selection module (Q-Former) refines these patches.\n   - A **global projection module** transforms them into global style tokens using contrastive learning, enhanced with specially constructed data pairs.\n\n3. **Contrastive Dataset Construction**:\n   - Positive pairs are created by rearranging anchor images.\n   - Negative samples are synthesized via **model illusion** from arbitrary text-to-image models.\n\n4. **Stylization Network (DiT Block)**:\n   - A spatial-temporal diffusion transformer (DiT) applies multiple blocks of self-attention and cross-attention.\n   - Style and text features are injected via decoupled cross-attention modules.\n   - A motion adapter handles temporal consistency.\n\n5. **Gray Tile ControlNet**:\n   - Ensures better content preservation and stylization control.\n\nPlease generate:\n 1. A visual diagram that clearly shows the pipeline from video and style image input to stylized video output.\n 2. A separate caption summarizing the figure. Please provide the image and caption separately.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The diagram accurately represents all the specified components (CLIP encoder, Q-Former, Contrastive Learning, DiT, Motion Adapter, ControlNet) and their relationships as described in the prompt. The text summary is also a precise and accurate description of the pipeline."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated text serves as a perfect caption for the generated image. Every element and process mentioned in the text (CLIP-based extractor, Q-Former, contrastive learning, DiT, decoupled cross-attention, etc.) is clearly and correctly depicted in the diagram, and the text follows the logical flow of the visual pipeline."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the image and text is exceptionally high. The diagram is clear, professionally designed, well-organized, and uses color and icons effectively to enhance understanding. The text is well-written, concise, grammatically correct, and uses appropriate technical terminology."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with human preference for a technical illustration. The diagram is aesthetically pleasing and easy to interpret, and the text is formal and informative, making it ideal for a scientific paper. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response is fully complete. It provides both the requested visual diagram and the separate text caption. All components mentioned in the detailed prompt have been successfully incorporated into both the image and the text, with no omissions."
+        ],
+        "Content Richness": [
+          5,
+          "The generated content is very rich. The diagram includes a high level of detail, showing not just the main blocks but also the flow of different types of information (e.g., patch features, style tokens) and the training loop for the projection module. The text, while concise, is packed with all the key technical terms and concepts from the prompt."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I am preparing a figure for my paper to illustrate the following framework:\\nThis diagram presents the pipeline of the proposed **StyleMaster**, which performs video stylization guided by a style image and a textual description.\\n\\nThe framework is composed of the following major components:\\n\\n1. **Input & Output**:\\n   - The input is a raw video and a style image (e.g., Van Gogh painting).\\n   - The output is a stylized video with artistic consistency.\\n\\n2. **Style Extraction**:\\n   - The style image is encoded using a **CLIP image encoder** to extract patch-level features and image embeddings.\\n   - Patches with lower similarity to the accompanying text prompt (e.g., \\\"A lone penguin walks on a sandy beach at sunset.\\\") are selected for style representation.\\n   - A local selection module (Q-Former) refines these patches.\\n   - A **global projection module** transforms them into global style tokens using contrastive learning, enhanced with specially constructed data pairs.\\n\\n3. **Contrastive Dataset Construction**:\\n   - Positive pairs are created by rearranging anchor images.\\n   - Negative samples are synthesized via **model illusion** from arbitrary text-to-image models.\\n\\n4. **Stylization Network (DiT Block)**:\\n   - A spatial-temporal diffusion transformer (DiT) applies multiple blocks of self-attention and cross-attention.\\n   - Style and text features are injected via decoupled cross-attention modules.\\n   - A motion adapter handles temporal consistency.\\n\\n5. **Gray Tile ControlNet**:\\n   - Ensures better content preservation and stylization control.\\n\\nPlease generate:\\n\\u20031. A visual diagram that clearly shows the pipeline from video and style image input to stylized video output.\\n\\u20032. A separate caption summarizing the figure. Please provide the image and caption separately.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The diagram accurately represents all the specified components (CLIP encoder, Q-Former, Contrastive Learning, DiT, Motion Adapter, ControlNet) and their relationships as described in the prompt. The text summary is also a precise and accurate description of the pipeline.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated text serves as a perfect caption for the generated image. Every element and process mentioned in the text (CLIP-based extractor, Q-Former, contrastive learning, DiT, decoupled cross-attention, etc.) is clearly and correctly depicted in the diagram, and the text follows the logical flow of the visual pipeline.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is exceptionally high. The diagram is clear, professionally designed, well-organized, and uses color and icons effectively to enhance understanding. The text is well-written, concise, grammatically correct, and uses appropriate technical terminology.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with human preference for a technical illustration. The diagram is aesthetically pleasing and easy to interpret, and the text is formal and informative, making it ideal for a scientific paper. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is fully complete. It provides both the requested visual diagram and the separate text caption. All components mentioned in the detailed prompt have been successfully incorporated into both the image and the text, with no omissions.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated content is very rich. The diagram includes a high level of detail, showing not just the main blocks but also the flow of different types of information (e.g., patch features, style tokens) and the training loop for the projection module. The text, while concise, is packed with all the key technical terms and concepts from the prompt.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0257",
+    "domain": "textbook",
+    "question": "What is a covalent bond and how does it form in ammonia (NH₃)? Please answer with both an image and a written explanation.",
+    "reference_text": "This diagram depicts covalent bonds in the ammonia compound. A covalent bond is a chemical bond that involves the sharing of electron pairs between atoms. Ammonia is a compound of nitrogen and hydrogen with the formula NH₃. It has 3 hydrogen atoms and 1 nitrogen atom. The nitrogen atom has 5 outer electrons, and the hydrogen atom has 1 electron. The nitrogen atom shares 2 electrons with each hydrogen atom, one provided by the nitrogen atom and the other provided by the hydrogen atom.",
+    "reference_images": [
+      "data/textbook/chemical_bonding_covalent_9051.png"
+    ],
+    "generated_text": "# Image\n\n*(Generated above.)*\n\n# Written explanation\n\nA **covalent bond** is a chemical bond formed when two atoms **share a pair of electrons**. The shared pair is attracted by both nuclei, which holds the atoms together. Each atom “counts” both electrons toward a stable valence (an octet for most atoms, a duet for hydrogen).\n\n**How it forms in ammonia (NH₃):**\n\n* **Nitrogen (N)** has **5 valence electrons**. Three are unpaired and available for bonding; the remaining two make **one lone pair**.\n* **Each hydrogen (H)** has **1 valence electron** and needs one more to reach a duet.\n* Nitrogen shares one electron with each of three hydrogens, creating **three N–H covalent (σ) bonds**—three shared pairs.\n* After bonding, **N achieves an octet** (3 shared pairs = 6 electrons + its lone pair = 8) and **each H achieves a duet**.\n* The molecule adopts **sp³** electron geometry with a **trigonal pyramidal shape**; the **H–N–H angle is ~107°** (slightly less than 109.5° because the lone pair repels bonding pairs more strongly).\n* Each **N–H bond is polar covalent** (electrons are drawn a bit toward N), making NH₃ a polar molecule.",
+    "generated_image": "GPT-thinking/textbook/257.png",
+    "gemini_evaluation": {
+      "Question": "What is a covalent bond and how does it form in ammonia (NH₃)? Please answer with both an image and a written explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both scientifically accurate. The text correctly defines a covalent bond and accurately describes its formation in ammonia, including valence electrons, octet/duet rules, and molecular geometry. The image correctly depicts the 3D trigonal pyramidal structure of ammonia, including the lone pair of electrons."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly coherent. The text describes the trigonal pyramidal shape, the three N-H bonds, and the lone pair on the nitrogen atom, all of which are clearly and accurately visualized in the 3D model shown in the image."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear 3D rendering of the ammonia molecule. The text is well-structured, using bolding and bullet points effectively, and is written with correct grammar and clear scientific language."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and provides a clear, educational explanation. The image is aesthetically pleasing for a scientific diagram. There is no undesirable content."
+        ],
+        "Completeness": [
+          5,
+          "The response completely answers both parts of the question. It provides a clear definition of a covalent bond and then gives a detailed explanation of how these bonds form specifically in the ammonia molecule."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. The text goes into much greater detail, explaining concepts like valence electrons, lone pairs, molecular geometry (sp³ hybridization, trigonal pyramidal shape), bond angles, and molecular polarity, which provides a more thorough and advanced understanding. The 3D image also provides more structural information than the 2D reference Lewis structure."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What is a covalent bond and how does it form in ammonia (NH₃)? Please answer with both an image and a written explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both scientifically accurate. The text correctly defines a covalent bond and accurately describes its formation in ammonia, including valence electrons, octet/duet rules, and molecular geometry. The image correctly depicts the 3D trigonal pyramidal structure of ammonia, including the lone pair of electrons.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly coherent. The text describes the trigonal pyramidal shape, the three N-H bonds, and the lone pair on the nitrogen atom, all of which are clearly and accurately visualized in the 3D model shown in the image.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear 3D rendering of the ammonia molecule. The text is well-structured, using bolding and bullet points effectively, and is written with correct grammar and clear scientific language.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and provides a clear, educational explanation. The image is aesthetically pleasing for a scientific diagram. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely answers both parts of the question. It provides a clear definition of a covalent bond and then gives a detailed explanation of how these bonds form specifically in the ammonia molecule.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. The text goes into much greater detail, explaining concepts like valence electrons, lone pairs, molecular geometry (sp³ hybridization, trigonal pyramidal shape), bond angles, and molecular polarity, which provides a more thorough and advanced understanding. The 3D image also provides more structural information than the 2D reference Lewis structure.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0018",
+    "domain": "textbook",
+    "question": "How does the alignment of the Sun and Moon cause a spring tide? Provide an image and brief explanation.",
+    "reference_text": "Spring tides occur after new or full moons when Sun, Moon, and Earth are aligned. The combined gravitational force creates the largest tidal ranges.",
+    "reference_images": [
+      "data/textbook/tides_2614.png"
+    ],
+    "generated_text": "**Image (diagram):**\n*Spring Tides — Sun–Earth–Moon Alignment*\n(Shows new moon and full moon syzygy with aligned gravitational pulls, reinforcing tidal bulges and producing higher highs & lower lows.)\n\n**Text (brief explanation):**\nA **spring tide** happens during the **new moon** and **full moon** when the **Sun, Moon, and Earth line up** (syzygy). In this alignment, the Sun’s tidal pull **adds to** the Moon’s stronger tidal pull, so the ocean’s tidal bulges line up along the Sun–Moon–Earth line. The result is a **larger tidal range**: **higher high tides** and **lower low tides** than average, occurring about **every two weeks**. Local coastline shape, depth, and weather can modify the exact heights.\n",
+    "generated_image": "GPT-thinking/textbook/18.png",
+    "gemini_evaluation": {
+      "Question": "How does the alignment of the Sun and Moon cause a spring tide? Provide an image and brief explanation.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both factually correct. The explanation accurately describes the alignment of the Sun, Earth, and Moon during new and full moons, and the image correctly illustrates this concept and the resulting tidal bulges."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The image and text are perfectly aligned. The text explains the Sun-Earth-Moon alignment, the combined gravitational pulls, and the resulting higher high tides and lower low tides, all of which are clearly and accurately depicted in the diagram."
+        ],
+        "Content Quality": [
+          5,
+          "The content quality is excellent. The image is a clear, well-labeled, and effective diagram for explaining the scientific concept. The text is well-written, grammatically correct, and uses formatting (bolding) effectively to highlight key terms."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and well-presented. The diagram is aesthetically pleasing for a technical illustration, and the text is easy to read and understand."
+        ],
+        "Completeness": [
+          5,
+          "The response is complete, providing both an image and a text explanation as requested. It fully answers the question by explaining the mechanism behind spring tides."
+        ],
+        "Content Richness": [
+          5,
+          "The response is richer than the reference. The text includes additional relevant details such as the term 'syzygy', the frequency of spring tides ('every two weeks'), and a note on local factors. The image is also detailed, showing both new and full moon positions and labeling the resulting tides."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How does the alignment of the Sun and Moon cause a spring tide? Provide an image and brief explanation.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both factually correct. The explanation accurately describes the alignment of the Sun, Earth, and Moon during new and full moons, and the image correctly illustrates this concept and the resulting tidal bulges.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The image and text are perfectly aligned. The text explains the Sun-Earth-Moon alignment, the combined gravitational pulls, and the resulting higher high tides and lower low tides, all of which are clearly and accurately depicted in the diagram.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The content quality is excellent. The image is a clear, well-labeled, and effective diagram for explaining the scientific concept. The text is well-written, grammatically correct, and uses formatting (bolding) effectively to highlight key terms.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and well-presented. The diagram is aesthetically pleasing for a technical illustration, and the text is easy to read and understand.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response is complete, providing both an image and a text explanation as requested. It fully answers the question by explaining the mechanism behind spring tides.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is richer than the reference. The text includes additional relevant details such as the term 'syzygy', the frequency of spring tides ('every two weeks'), and a note on local factors. The image is also detailed, showing both new and full moon positions and labeling the resulting tides.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": "DD_0084",
+    "domain": "textbook",
+    "question": "What happens during alpha decay? Can you explain using the diagram?",
+    "reference_text": "Alpha decay is when a heavy atom like Radium loses an alpha particle (2 protons and 2 neutrons), forming a new, lighter atom like Radon. The diagram shows how the mass and atomic number change.",
+    "reference_images": [
+      "data/textbook/radioactive_decay_8173.png"
+    ],
+    "generated_text": "# Text explanation (paired with the diagram above)\n\nAlpha decay is when a heavy, unstable nucleus ejects an **alpha particle**—a tightly bound cluster of **2 protons + 2 neutrons** (a (^{4}_{2}\\mathrm{He}) nucleus). This turns the original (parent) nucleus into a new (daughter) element.\n\n**What the diagram shows:**\n\n1. **Alpha cluster inside the parent.**\n   For brief moments, a (2p+2n) cluster exists inside the nucleus.\n\n2. **Quantum tunneling through the barrier.**\n   The alpha is trapped by the strong nuclear force but pushed outward by Coulomb repulsion from the other protons. Its energy is **below** the top of the barrier, yet it can still escape by *tunneling* (inset potential curve).\n\n3. **Transformation (notation).**\n   [\n   ^A_Z X ;\\rightarrow; ^{A-4}_{Z-2} Y ;+; ^4_2\\mathrm{He} ;+; Q\n   ]\n\n   * **Mass number (A)** drops by 4.\n   * **Atomic number (Z)** drops by 2 (element changes).\n   * (Q) is the released energy from the small mass difference.\n\n4. **Energy and momentum sharing.**\n   The (Q)-value appears mainly as the **kinetic energy of the alpha**, with a smaller **recoil** of the daughter nucleus; momenta are equal and opposite.\n\n5. **Takeaway.**\n   Alpha decay reduces a heavy nucleus to a slightly lighter one, emitting a helium-4 nucleus and energy; the escape happens via **quantum tunneling**, not by climbing over the barrier.\n\nIf you’d like, I can generate a second version of the diagram with a specific real example (e.g., (^{238}\\mathrm{U}\\rightarrow{}^{234}\\mathrm{Th}+\\alpha)) and labeled numbers that match these steps exactly.",
+    "generated_image": "GPT-thinking/textbook/84.png",
+    "gemini_evaluation": {
+      "Question": "What happens during alpha decay? Can you explain using the diagram?",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image are both scientifically correct. The explanation of alpha decay, including the concept of quantum tunneling, the change in atomic and mass numbers, and the conservation of momentum, is accurate."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text is explicitly structured to explain the different parts of the diagram. Each numbered point in the text corresponds directly to a visual element in the image, creating a perfect and seamless connection between the two."
+        ],
+        "Content Quality": [
+          5,
+          "The image is a high-quality, clear, and well-labeled scientific diagram. The text is well-written, grammatically correct, and effectively breaks down a complex topic into understandable segments using formatting like bolding and lists."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is excellent. It's a helpful, safe, and well-presented educational explanation. The diagram is aesthetically pleasing and informative."
+        ],
+        "Completeness": [
+          5,
+          "The response provides a very complete explanation of alpha decay, going beyond the simple definition in the reference. It covers the what, how, and why of the process, fully answering the user's question."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is significantly richer than the reference. The diagram incorporates multiple concepts (quantum tunneling, conservation of momentum, nuclear notation), and the text explains each of these in detail, providing a much deeper and more comprehensive understanding of the topic."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"What happens during alpha decay? Can you explain using the diagram?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image are both scientifically correct. The explanation of alpha decay, including the concept of quantum tunneling, the change in atomic and mass numbers, and the conservation of momentum, is accurate.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text is explicitly structured to explain the different parts of the diagram. Each numbered point in the text corresponds directly to a visual element in the image, creating a perfect and seamless connection between the two.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The image is a high-quality, clear, and well-labeled scientific diagram. The text is well-written, grammatically correct, and effectively breaks down a complex topic into understandable segments using formatting like bolding and lists.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is excellent. It's a helpful, safe, and well-presented educational explanation. The diagram is aesthetically pleasing and informative.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response provides a very complete explanation of alpha decay, going beyond the simple definition in the reference. It covers the what, how, and why of the process, fully answering the user's question.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is significantly richer than the reference. The diagram incorporates multiple concepts (quantum tunneling, conservation of momentum, nuclear notation), and the text explains each of these in detail, providing a much deeper and more comprehensive understanding of the topic.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 82,
+    "domain": "paper",
+    "question": "I'm learning about convolutional neural networks. Can you show how a CNN layer processes an image and what a neuron does in that context?",
+    "reference_text": "An example input volume is shown in red (e.g. a 32x32x3 CIFAR-10 image), and an example volume of neurons in the first Convolutional layer is shown in blue. Each neuron in this layer is connected only to a local spatial region in the input volume, but spans the full depth (i.e. all color channels). There are multiple neurons (5 in this example) along the depth, each using a different filter. These neurons share the same receptive field but not weights. On the right, a neuron is depicted using the standard neural network model: it computes a weighted sum of inputs followed by a non-linearity (activation function), with connectivity restricted spatially in CNNs.",
+    "reference_images": [
+      "data/paper/cnn_receptive_field_and_neuron.png"
+    ],
+    "generated_text": "Alright, here’s how a CNN layer processes an image:\n\n1. **Input Image**: A CNN starts with an image, which is represented as a matrix of pixel values. Each pixel has color channels (e.g., RGB).\n\n2. **Convolution Operation**: In a CNN layer, a small matrix called a filter (or kernel) slides over the image. This filter performs a dot product between itself and the section of the image it’s currently covering. It moves across the entire image, extracting features like edges, textures, or patterns.\n\n3. **Neurons**: Each neuron in the CNN layer corresponds to one region of the image processed by the filter. After the filter slides over an area of the image, the result of the convolution is passed to a neuron, which computes the weighted sum of the values and then applies an activation function (like ReLU).\n\n4. **Activation**: After the neuron processes the result, it passes the output to the next layer or saves it for further processing.\n\nNow I’ll generate an image to visualize this process. Please give me a moment.\n",
+    "generated_image": "GPT-thinking/paper/82.png",
+    "gemini_evaluation": {
+      "Question": "I'm learning about convolutional neural networks. Can you show how a CNN layer processes an image and what a neuron does in that context?",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated text and image provide a correct, albeit simplified, explanation of a convolutional layer. It accurately describes the filter (kernel) sliding over the input, the convolution operation (dot product), and the role of the neuron in applying an activation function. However, it simplifies the process to 2D and doesn't explicitly mention the crucial concept of depth (color channels) and how the filter spans the full depth of the input, which is a key detail in the reference."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image is an excellent visualization of the process described in the generated text. Each numbered point in the text corresponds directly to a labeled component in the diagram (Input Image, Filter, Convolution Operation, Neuron, Activation Function)."
+        ],
+        "Content Quality": [
+          5,
+          "The generated image is a very clear and well-designed diagram that is easy to understand. The text is well-structured, uses clear language, and is grammatically correct. The overall presentation quality is high."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is helpful, safe, and directly addresses the user's educational question. The diagram is aesthetically pleasing and effective for learning."
+        ],
+        "Completeness": [
+          4,
+          "The response answers both parts of the question: how a layer processes an image and what a neuron does. However, it lacks the completeness of the reference answer by omitting the discussion of the 3D nature of the volumes (input and neuron layers) and the concept of multiple filters creating an output with depth."
+        ],
+        "Content Richness": [
+          3,
+          "The response provides a good, fundamental explanation. However, it is not particularly rich in detail. The reference explanation is richer as it incorporates the concepts of input depth, receptive fields, and multiple filters for the same receptive field, all within one diagram. The generated answer provides a solid but basic overview."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm learning about convolutional neural networks. Can you show how a CNN layer processes an image and what a neuron does in that context?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated text and image provide a correct, albeit simplified, explanation of a convolutional layer. It accurately describes the filter (kernel) sliding over the input, the convolution operation (dot product), and the role of the neuron in applying an activation function. However, it simplifies the process to 2D and doesn't explicitly mention the crucial concept of depth (color channels) and how the filter spans the full depth of the input, which is a key detail in the reference.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image is an excellent visualization of the process described in the generated text. Each numbered point in the text corresponds directly to a labeled component in the diagram (Input Image, Filter, Convolution Operation, Neuron, Activation Function).\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated image is a very clear and well-designed diagram that is easy to understand. The text is well-structured, uses clear language, and is grammatically correct. The overall presentation quality is high.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is helpful, safe, and directly addresses the user's educational question. The diagram is aesthetically pleasing and effective for learning.\"\n        ],\n        \"Completeness\": [\n            4,\n            \"The response answers both parts of the question: how a layer processes an image and what a neuron does. However, it lacks the completeness of the reference answer by omitting the discussion of the 3D nature of the volumes (input and neuron layers) and the concept of multiple filters creating an output with depth.\"\n        ],\n        \"Content Richness\": [\n            3,\n            \"The response provides a good, fundamental explanation. However, it is not particularly rich in detail. The reference explanation is richer as it incorporates the concepts of input depth, receptive fields, and multiple filters for the same receptive field, all within one diagram. The generated answer provides a solid but basic overview.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 46,
+    "domain": "paper",
+    "question": "I'm studying BERT and trying to understand how it creates contextual word embeddings. Can you generate an image and explain how the embeddings are generated from the final transformer layers?",
+    "reference_text": "BERT generates contextual word embeddings by passing input tokens through multiple layers of a transformer encoder. Each token (e.g., 'they', 'were') is represented as an embedding vector that changes across layers based on attention to all other tokens in the sequence. The final layer’s hidden states serve as contextual embeddings, capturing the meaning of each token in its sentence context. Special tokens like [CLS] and [SEP] are used for classification and separation. These embeddings are then used for downstream tasks such as classification, question answering, or token labeling.",
+    "reference_images": [
+      "data/paper/bert_embeddings.png"
+    ],
+    "generated_text": "Here’s the image showing how BERT generates contextual word embeddings through its Transformer layers. It represents the flow of input words through the model, producing the final embeddings. Let me know if you need any further explanation!\n",
+    "generated_image": "GPT-thinking/paper/46.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying BERT and trying to understand how it creates contextual word embeddings. Can you generate an image and explain how the embeddings are generated from the final transformer layers?",
+      "Evaluation": {
+        "Correctness": [
+          4,
+          "The generated image correctly illustrates the high-level architecture of BERT for generating contextual embeddings. The text is also factually correct, but it's a description of the image rather than an explanation of the process."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The text directly refers to the image and accurately describes what the image is showing. The two components are perfectly aligned."
+        ],
+        "Content Quality": [
+          4,
+          "The generated image is a high-quality, clear, and easy-to-understand diagram. The text is grammatically correct, but it is too simplistic and lacks substance."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is safe, helpful, and aesthetically pleasing for a technical diagram. There is no undesirable content."
+        ],
+        "Completeness": [
+          1,
+          "The response is highly incomplete. While it provides the requested image, it fails to provide the requested explanation. The text merely points to the image without explaining the underlying mechanism (e.g., how attention works, what the hidden states are, etc.) as the reference text does."
+        ],
+        "Content Richness": [
+          1,
+          "The response lacks richness and detail. The image is good, but the text is extremely sparse and provides no meaningful information beyond what can be inferred from the image's labels. It omits key concepts like attention, the role of hidden states, and the purpose of special tokens."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying BERT and trying to understand how it creates contextual word embeddings. Can you generate an image and explain how the embeddings are generated from the final transformer layers?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            4,\n            \"The generated image correctly illustrates the high-level architecture of BERT for generating contextual embeddings. The text is also factually correct, but it's a description of the image rather than an explanation of the process.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The text directly refers to the image and accurately describes what the image is showing. The two components are perfectly aligned.\"\n        ],\n        \"Content Quality\": [\n            4,\n            \"The generated image is a high-quality, clear, and easy-to-understand diagram. The text is grammatically correct, but it is too simplistic and lacks substance.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is safe, helpful, and aesthetically pleasing for a technical diagram. There is no undesirable content.\"\n        ],\n        \"Completeness\": [\n            1,\n            \"The response is highly incomplete. While it provides the requested image, it fails to provide the requested explanation. The text merely points to the image without explaining the underlying mechanism (e.g., how attention works, what the hidden states are, etc.) as the reference text does.\"\n        ],\n        \"Content Richness\": [\n            1,\n            \"The response lacks richness and detail. The image is good, but the text is extremely sparse and provides no meaningful information beyond what can be inferred from the image's labels. It omits key concepts like attention, the role of hidden states, and the purpose of special tokens.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 120,
+    "domain": "paper",
+    "question": "I'm studying the Flamingo model architecture, specifically the Gated XATTN-DENSE layer. Can you explain how this layer works and its components?",
+    "reference_text": "The Gated XATTN-DENSE layer in Flamingo is a crucial component that combines gated cross-attention and gated feed-forward layers to process vision and language inputs. It performs self-attention on the language input and cross-attention with the vision input. The layer includes gating parameters, alpha_xattn and alpha_dense, to control the contribution of the attention and feed-forward operations. The layer outputs language features enhanced with visual information, allowing the model to process multimodal data efficiently.",
+    "reference_images": [
+      "data/paper/flamingo_gated_xattn_dense.png"
+    ],
+    "generated_text": "Text (separate from the image):\n\n# What is the Gated XATTN-DENSE layer?\n\nIn Flamingo, this is the multimodal **adapter** inserted into a frozen language model (LM) so token representations can **attend to visual latents** while keeping the LM’s original behavior largely intact. It’s a two-part block:\n\n1. a **gated cross-attention (XATTN)** sublayer, and\n2. a **gated feed-forward (“DENSE”/MLP)** sublayer, each wrapped with pre-LayerNorm and residual connections.\n\n---\n\n## Inputs\n\n* **Text hidden states** (H \\in \\mathbb{R^{T\\times d}}): current LM token embeddings.\n* **Visual latents** (Z \\in \\mathbb{R^{M\\times d_v}}): a fixed set of tokens produced by the Perceiver Resampler from one or more images/video frames.\n* (Learned) **gating projections** that turn each token’s state into an element-wise gate.\n\n---\n\n## Step-by-step flow\n\n### 1) Gated Cross-Attention (XATTN)\n\n* **Pre-norm:** (\\tilde H = \\mathrm{LN}(H)).\n* **Cross-attention:** queries (Q) come from (\\tilde H); keys/values (K,V) come from (Z).\n  [\n  A=\\mathrm{MHA}(\\tilde H W_Q,\\; ZW_K,\\; ZW_V)\n    ]\n* **Gate the visual update:** compute a token-wise, channel-wise gate\n  [\n  g_x=\\sigma(\\tilde H W_{gx}+b_{gx})\\in\\mathbb{R^{T\\times d}},\n    ]\n  then modulate the cross-attn output and add residually: [\n  H^{(1)}=H + g_x \\odot A.\n    ]\n  The gate lets the layer learn **how much** each token should trust vision, often starting near “closed” so initial behavior matches the base LM.\n\n### 2) Gated DENSE (position-wise MLP)\n\n* **Pre-norm:** (\\hat H=\\mathrm{LN}(H^{(1)})).\n* **MLP/Dense:** (F=\\phi(\\hat H W_1 + b_1) W_2 + b_2) (with a standard nonlinearity (\\phi), e.g., GELU).\n* **Gate the MLP update:**\n  [\n  g_d=\\sigma(\\hat H W_{gd}+b_{gd}),\\qquad\n  H_{\\text{out}}=H^{(1)} + g_d \\odot F.\n    ]\n\n---\n\n## Why the gating?\n\n* **Stability with frozen backbones:** The LM (and typically the vision encoder) can remain frozen; new parameters are in the XATTN/DENSE paths and their gates. Gating prevents overwhelming the LM with visual signals early in training and enables smooth **modality balancing**.\n* **Token-specific control:** Gates are computed **per token** and **per channel**, so some words (e.g., nouns near image mentions) can open the visual pathway more than others.\n* **Regularization by design:** With gates near zero, the block reduces to an identity map, which curbs overfitting and preserves strong language priors.\n\n---\n\n## Placement in Flamingo\n\nThese Gated XATTN-DENSE blocks are **interleaved at several points** inside the LM stack. During inference on interleaved image–text streams, each text segment can query the relevant **cached** visual latents via the XATTN, while standard self-attention continues to handle language context.\n\n---\n\n## Summary of components\n\n* **LayerNorm (pre-norm)** before each sublayer\n* **Multi-Head Cross-Attention** (Q from text, K/V from visual latents)\n* **Learned sigmoid gates** (g_x, g_d) (element-wise modulation)\n* **Position-wise MLP (“DENSE”)**\n* **Residual connections** after both sublayers\n\nIf you’d like, I can annotate the diagram with your preferred symbols (e.g., different gate shapes, head counts, or exact tensor sizes) and export it as SVG or PDF.\n",
+    "generated_image": "GPT-thinking/paper/120.png",
+    "gemini_evaluation": {
+      "Question": "I'm studying the Flamingo model architecture, specifically the Gated XATTN-DENSE layer. Can you explain how this layer works and its components?",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image provide a highly accurate and detailed explanation of the Gated XATTN-DENSE layer in the Flamingo model. All components, mathematical formulas, and the data flow are correctly represented, aligning with the descriptions in the original research paper."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated image and text are perfectly coherent. The text explicitly describes each step shown in the diagram, using consistent notation (e.g., H for text hidden states, Z for visual latents, g_x for the cross-attention gate). The step-by-step flow in the text is a direct walkthrough of the visual diagram."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the image and text is exceptional. The diagram is clear, professional, and easy to follow. The text is well-structured, uses clear headings, bullet points, and properly formatted mathematical equations, making a complex topic highly understandable."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is perfectly aligned with user intent. It provides a technical, educational explanation without any undesirable or biased content. The tone is helpful and informative."
+        ],
+        "Completeness": [
+          5,
+          "The answer is extremely comprehensive. It not only explains the 'how' (the step-by-step flow) but also the 'what' (the components) and the 'why' (the purpose of gating and its placement in the model). It thoroughly answers the user's question from multiple angles."
+        ],
+        "Content Richness": [
+          5,
+          "The response is incredibly rich in detail. It goes far beyond the reference by including mathematical formulas, explaining the rationale behind the design choices (e.g., stability with frozen backbones), and providing context about its integration into the larger Flamingo architecture. This level of detail is extremely valuable for someone studying the model."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"I'm studying the Flamingo model architecture, specifically the Gated XATTN-DENSE layer. Can you explain how this layer works and its components?\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image provide a highly accurate and detailed explanation of the Gated XATTN-DENSE layer in the Flamingo model. All components, mathematical formulas, and the data flow are correctly represented, aligning with the descriptions in the original research paper.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated image and text are perfectly coherent. The text explicitly describes each step shown in the diagram, using consistent notation (e.g., H for text hidden states, Z for visual latents, g_x for the cross-attention gate). The step-by-step flow in the text is a direct walkthrough of the visual diagram.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is exceptional. The diagram is clear, professional, and easy to follow. The text is well-structured, uses clear headings, bullet points, and properly formatted mathematical equations, making a complex topic highly understandable.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is perfectly aligned with user intent. It provides a technical, educational explanation without any undesirable or biased content. The tone is helpful and informative.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The answer is extremely comprehensive. It not only explains the 'how' (the step-by-step flow) but also the 'what' (the components) and the 'why' (the purpose of gating and its placement in the model). It thoroughly answers the user's question from multiple angles.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The response is incredibly rich in detail. It goes far beyond the reference by including mathematical formulas, explaining the rationale behind the design choices (e.g., stability with frozen backbones), and providing context about its integration into the larger Flamingo architecture. This level of detail is extremely valuable for someone studying the model.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 36,
+    "domain": "tech",
+    "question": "How to scan a QR code on iPhone? Show easy visual steps and text the steps.",
+    "reference_text": "1. Open the Photos app. In most cases, you'll need the screenshot saved to your device in order to use the QR code. If you were sent a screenshot through Messages or another messaging service, be sure to save it to your gallery. As this is a recent feature, make sure to update your iOS version . 2. Open the screenshot. Locate the screenshot in your gallery and tap it. 3. Long-press the QR code. To long-press, tap and hold the code. A pop-up menu will open. You'll see several options, depending on the link. 4. Tap Open in Safari . If you have another preferred browser, you can select it. Additionally, if the link leads to a website that has a mobile app installed on your device, you can tap Open in (app) . You'll be redirected to the link immediately.",
+    "reference_images": [
+      "data/tech/36_1.jpg",
+      "data/tech/36_2.jpg",
+      "data/tech/36_3.jpg",
+      "data/tech/36_4.jpg"
+    ],
+    "generated_text": "Here are the **steps in text**, followed by the **visual** I generated above.\n\n# Text: How to scan a QR code on iPhone\n\n**Method 1 — Camera app (fastest)**\n\n1. Open the **Camera** app.\n2. Point the rear camera at the QR code (keep it centered and steady).\n3. When a banner pops up at the top, **tap it**.\n4. You’ll be taken to the link, app, or action.\n\n**Method 2 — Control Center QR Scanner**\n\n1. Open **Control Center** (swipe down from the top-right on Face ID models; swipe up from the bottom on Home-button models).\n2. Tap the **QR Code Scanner** tile (looks like a small QR inside a rounded square).\n3. Aim at the code and follow the prompt.\n\n**Tips if it doesn’t scan**\n\n* Increase room or screen **brightness** and avoid glare.\n* **Move closer** or farther until the code is sharp; keep it flat in frame.\n* **Rotate** the code 90° if it’s at an odd angle.\n* For tickets/passes, you may see **“Add to Wallet”**—use that instead of the link.\n\n# Visual: “Scan a QR Code on iPhone”\n\n(Infographic generated above: shows 4 numbered panels—Open Camera → Point at code → Tap the banner → Open the link—plus an extra panel for the Control Center scanner and a short Tips list.)\n\",",
+    "generated_image": "GPT-thinking/tech/36.png",
+    "gemini_evaluation": {
+      "Question": "How to scan a QR code on iPhone? Show easy visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated text and image provide factually correct and valid methods for scanning a QR code on an iPhone. While it demonstrates a different method (using the Camera app) than the reference (scanning from a photo), it is a very common and accurate way to answer the question."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The generated infographic perfectly visualizes the steps described in the text. Each panel in the image corresponds directly to a step or tip mentioned in the text explanation, creating a very strong and clear connection between the visual and textual elements."
+        ],
+        "Content Quality": [
+          5,
+          "The quality of both the image and text is excellent. The infographic is clean, professionally designed, and easy to understand. The text is well-structured, clearly written, and uses formatting effectively to guide the reader through the steps."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The infographic format is an ideal way to present this type of instructional content, making it easy to digest at a glance."
+        ],
+        "Completeness": [
+          5,
+          "The response completely fulfills the user's request by providing both visual and text steps. It covers the primary method (Camera app) in detail and offers a complete guide for that process."
+        ],
+        "Content Richness": [
+          5,
+          "The generated answer is very rich. It provides two different methods for scanning a QR code (Camera app and Control Center) and also includes a valuable 'Tips' section for troubleshooting. This is more comprehensive than the reference, which only shows one method."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to scan a QR code on iPhone? Show easy visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated text and image provide factually correct and valid methods for scanning a QR code on an iPhone. While it demonstrates a different method (using the Camera app) than the reference (scanning from a photo), it is a very common and accurate way to answer the question.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The generated infographic perfectly visualizes the steps described in the text. Each panel in the image corresponds directly to a step or tip mentioned in the text explanation, creating a very strong and clear connection between the visual and textual elements.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The quality of both the image and text is excellent. The infographic is clean, professionally designed, and easy to understand. The text is well-structured, clearly written, and uses formatting effectively to guide the reader through the steps.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The response is highly aligned with human preference. It is helpful, safe, and aesthetically pleasing. The infographic format is an ideal way to present this type of instructional content, making it easy to digest at a glance.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The response completely fulfills the user's request by providing both visual and text steps. It covers the primary method (Camera app) in detail and offers a complete guide for that process.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated answer is very rich. It provides two different methods for scanning a QR code (Camera app and Control Center) and also includes a valuable 'Tips' section for troubleshooting. This is more comprehensive than the reference, which only shows one method.\"\n        ]\n    }\n}\n```"
+  },
+  {
+    "id": 87,
+    "domain": "tech",
+    "question": "How to Turn Off Your iPhone? Provide visual steps and text the steps.",
+    "reference_text": "1. Press and hold a volume button and the right side button simultaneously. It doesn't matter which volume button you press. After holding down these buttons for a few seconds, a slider will appear on the screen. If you don't hold down long enough, you might take a screenshot . 2. Drag the slider to the right. This powers off your iPhone. It can take up to 30 seconds for your iPhone to power down. 3. Press and hold the right side button to turn the iPhone back on. You can lift your finger from the button once the Apple logo appears. You may need to wait a few moments until you can use your iPhone . If your device is unresponsive, you can perform a hard reset .",
+    "reference_images": [
+      "data/tech/87_1.jpg",
+      "data/tech/87_2.jpg",
+      "data/tech/87_3.jpg"
+    ],
+    "generated_text": "Here are the steps—first the visuals, then the text.\n\n# Visual Steps (image)\n\n*(Infographic above shows both methods: buttons and Settings.)*\n\n# Text Steps\n\n## Method 1 — Using the buttons\n\n1. On iPhones with **Face ID** (no Home button): **press and hold the Side button + either Volume button** together until the **“slide to power off”** slider appears.\n   On older iPhones with a **Home button** (Touch ID): **press and hold the Side (or Top) button** until the slider appears.\n\n2. **Drag the slider to the right** to power off.\n\n3. **Wait** a few seconds until the screen turns completely black.\n\n4. (Optional) **Turn it back on**: press and hold the **Side button** until you see the Apple logo.\n\n> Tip: If you keep holding the buttons after the slider appears, some models may start **Emergency SOS**. If that happens, release the buttons and cancel SOS, then try again.\n\n## Method 2 — Using the Settings app (works even if buttons are broken)\n\n1. Open **Settings** → **General**.\n2. Scroll down and tap **Shut Down**.\n3. **Slide to power off**.\n\nThat’s it!\n\",",
+    "generated_image": "GPT-thinking/tech/87.png",
+    "gemini_evaluation": {
+      "Question": "How to Turn Off Your iPhone? Provide visual steps and text the steps.",
+      "Evaluation": {
+        "Correctness": [
+          5,
+          "The generated image and text are both factually correct. The text accurately describes two different methods for turning off an iPhone and even differentiates between models (Face ID vs. Home button), which is a crucial detail. The image correctly illustrates these two methods."
+        ],
+        "Image-Text Coherency": [
+          5,
+          "The infographic image perfectly corresponds to the two methods described in the text. It visually lays out the button combination for Method 1 and the navigation path in the Settings app for Method 2, directly aligning with the written steps."
+        ],
+        "Content Quality": [
+          5,
+          "The generated response is of very high quality. The infographic is clear, well-designed, and easy to understand. The text is well-structured with clear headings, bolding, and numbered lists, making it exceptionally easy to follow. The grammar and writing style are excellent."
+        ],
+        "Human Preference Alignment": [
+          5,
+          "The generated response is highly preferable. The infographic format is clean and efficient. The inclusion of two methods (buttons and settings) and the distinction between phone models makes the answer more useful and user-friendly than the reference. The layout is aesthetically pleasing and professional."
+        ],
+        "Completeness": [
+          5,
+          "The generated response completely answers the question. It provides full instructions for turning off the phone using the standard button method (including turning it back on) and also provides a complete alternative method through the Settings app, which the reference lacks."
+        ],
+        "Content Richness": [
+          5,
+          "The generated response is significantly richer than the reference. It provides two distinct methods, accounts for different iPhone models, and includes a helpful tip about the Emergency SOS feature. The single infographic conveys more information more efficiently than the three separate reference images."
+        ]
+      }
+    },
+    "gemini_raw_response": "```json\n{\n    \"Question\": \"How to Turn Off Your iPhone? Provide visual steps and text the steps.\",\n    \"Evaluation\": {\n        \"Correctness\": [\n            5,\n            \"The generated image and text are both factually correct. The text accurately describes two different methods for turning off an iPhone and even differentiates between models (Face ID vs. Home button), which is a crucial detail. The image correctly illustrates these two methods.\"\n        ],\n        \"Image-Text Coherency\": [\n            5,\n            \"The infographic image perfectly corresponds to the two methods described in the text. It visually lays out the button combination for Method 1 and the navigation path in the Settings app for Method 2, directly aligning with the written steps.\"\n        ],\n        \"Content Quality\": [\n            5,\n            \"The generated response is of very high quality. The infographic is clear, well-designed, and easy to understand. The text is well-structured with clear headings, bolding, and numbered lists, making it exceptionally easy to follow. The grammar and writing style are excellent.\"\n        ],\n        \"Human Preference Alignment\": [\n            5,\n            \"The generated response is highly preferable. The infographic format is clean and efficient. The inclusion of two methods (buttons and settings) and the distinction between phone models makes the answer more useful and user-friendly than the reference. The layout is aesthetically pleasing and professional.\"\n        ],\n        \"Completeness\": [\n            5,\n            \"The generated response completely answers the question. It provides full instructions for turning off the phone using the standard button method (including turning it back on) and also provides a complete alternative method through the Settings app, which the reference lacks.\"\n        ],\n        \"Content Richness\": [\n            5,\n            \"The generated response is significantly richer than the reference. It provides two distinct methods, accounts for different iPhone models, and includes a helpful tip about the Emergency SOS feature. The single infographic conveys more information more efficiently than the three separate reference images.\"\n        ]\n    }\n}\n```"
+  }
+]

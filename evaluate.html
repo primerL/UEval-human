@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEval Human Evaluation Interface</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+
+        .progress-bar {
+            background: rgba(255, 255, 255, 0.2);
+            height: 8px;
+            border-radius: 4px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: white;
+            transition: width 0.3s ease;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+
+        .nav-button {
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .nav-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .item-info {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .evaluation-section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .question-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+        }
+
+        .question-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .content-panel {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid #e9ecef;
+        }
+
+        .content-panel h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .reference-label {
+            color: #28a745;
+        }
+
+        .generated-label {
+            color: #667eea;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            border: 2px solid #e9ecef;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .text-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.8;
+            color: #333;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+        }
+
+        .rating-section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #e9ecef;
+        }
+
+        .criterion {
+            margin-bottom: 30px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+        }
+
+        .criterion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .criterion-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .criterion-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .score-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .score-button {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #dee2e6;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .score-button:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .score-button.selected {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .reason-textarea {
+            width: 100%;
+            min-height: 100px;
+            padding: 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            resize: vertical;
+            transition: border-color 0.2s ease;
+        }
+
+        .reason-textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .submit-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .submit-button {
+            padding: 16px 48px;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+        }
+
+        .submit-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+        }
+
+        .download-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .download-button {
+            padding: 12px 32px;
+            background: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .download-button:hover {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .status-message {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .score-selector {
+                flex-wrap: wrap;
+            }
+
+            .score-button {
+                flex: 0 0 calc(33.333% - 7px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>UEval Human Evaluation</h1>
+            <p>Evaluate AI-generated multimodal outputs based on 6 criteria</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div id="statusMessage"></div>
+
+            <div class="navigation">
+                <button class="nav-button" id="prevButton" onclick="previousItem()">← Previous</button>
+                <div class="item-info">
+                    <span id="currentItem">0</span> / <span id="totalItems">0</span>
+                    <div style="margin-top: 5px; font-size: 14px; color: #666;">
+                        Domain: <span id="currentDomain">-</span>
+                    </div>
+                </div>
+                <button class="nav-button" id="nextButton" onclick="nextItem()">Next →</button>
+            </div>
+
+            <div class="evaluation-section">
+                <div class="question-box">
+                    <h3>📋 Question</h3>
+                    <div class="question-text" id="questionText">Loading...</div>
+                </div>
+
+                <div class="content-grid">
+                    <div class="content-panel">
+                        <h3><span class="reference-label">✓ Reference</span></h3>
+                        <div class="image-gallery" id="referenceImages"></div>
+                        <div class="text-content" id="referenceText"></div>
+                    </div>
+
+                    <div class="content-panel">
+                        <h3><span class="generated-label">🤖 Generated (GPT)</span></h3>
+                        <div class="image-gallery" id="generatedImages"></div>
+                        <div class="text-content" id="generatedText"></div>
+                    </div>
+                </div>
+
+                <div class="section-title">📊 Your Evaluation (0-5 scale, 5 is best)</div>
+                <div class="rating-section" id="criteriaContainer"></div>
+
+                <div class="submit-section">
+                    <button class="submit-button" onclick="submitEvaluation()">💾 Save Evaluation</button>
+                </div>
+
+                <div class="download-section">
+                    <button class="download-button" onclick="downloadResults()">⬇ Download All Evaluations</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="imageModal" onclick="closeModal()">
+        <span class="modal-close">×</span>
+        <img id="modalImage" src="" alt="Full size image">
+    </div>
+
+    <script>
+        const CRITERIA = [
+            {
+                name: 'Correctness',
+                description: 'Evaluate the accuracy and validity of the generated answers. Assess logical coherence, factual accuracy of text, and reasonableness/fidelity of images.'
+            },
+            {
+                name: 'Image-Text Coherency',
+                description: 'Assess how well the images and text align with each other. Does the visual content accurately reflect and complement the textual descriptions?'
+            },
+            {
+                name: 'Content Quality',
+                description: 'Assess the quality by prioritizing clarity and realism of images, and correctness of text in terms of grammar and linguistics.'
+            },
+            {
+                name: 'Human Preference Alignment',
+                description: 'Evaluate whether the text avoids undesirable content (higher importance), and whether images meet aesthetic standards.'
+            },
+            {
+                name: 'Completeness',
+                description: 'Assess whether the content thoroughly provides all intended multi-step outputs without omissions.'
+            },
+            {
+                name: 'Content Richness',
+                description: 'Evaluate diversity of images (prioritized) and detail level of text without sacrificing meaningfulness.'
+            }
+        ];
+
+        let evaluationData = [];
+        let currentIndex = 0;
+        let userEvaluations = {};
+        let storageKey = 'userEvaluations';
+        let dataFile = 'evaluation_results.json';
+
+        // Get data file from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('data')) {
+            dataFile = urlParams.get('data');
+            storageKey = 'userEvaluations_' + dataFile.replace(/[^a-zA-Z0-9]/g, '_');
+        }
+
+        // Load saved evaluations
+        userEvaluations = JSON.parse(localStorage.getItem(storageKey) || '{}');
+
+        // Load evaluation data
+        async function loadData() {
+            try {
+                const response = await fetch(dataFile);
+                evaluationData = await response.json();
+                document.getElementById('totalItems').textContent = evaluationData.length;
+                renderCurrentItem();
+            } catch (error) {
+                showStatus('Error loading data: ' + error.message, 'error');
+            }
+        }
+
+        function renderCurrentItem() {
+            if (evaluationData.length === 0) return;
+
+            const item = evaluationData[currentIndex];
+
+            // Update navigation
+            document.getElementById('currentItem').textContent = currentIndex + 1;
+            document.getElementById('currentDomain').textContent = item.domain;
+            document.getElementById('prevButton').disabled = currentIndex === 0;
+            document.getElementById('nextButton').disabled = currentIndex === evaluationData.length - 1;
+
+            // Update progress
+            const progress = ((currentIndex + 1) / evaluationData.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            // Update question
+            document.getElementById('questionText').textContent = item.question;
+
+            // Update reference images
+            const refImagesContainer = document.getElementById('referenceImages');
+            refImagesContainer.innerHTML = '';
+            if (item.reference_images && item.reference_images.length > 0) {
+                item.reference_images.forEach(imgPath => {
+                    const img = document.createElement('img');
+                    img.src = '../../' + imgPath;
+                    img.onclick = () => openModal('../../' + imgPath);
+                    refImagesContainer.appendChild(img);
+                });
+            } else {
+                refImagesContainer.innerHTML = '<p style="padding: 20px; color: #999;">No reference images</p>';
+            }
+
+            // Update reference text
+            document.getElementById('referenceText').textContent = item.reference_text;
+
+            // Update generated images
+            const genImagesContainer = document.getElementById('generatedImages');
+            genImagesContainer.innerHTML = '';
+            if (item.generated_image) {
+                const img = document.createElement('img');
+                img.src = '../../' + item.generated_image;
+                img.onclick = () => openModal('../../' + item.generated_image);
+                genImagesContainer.appendChild(img);
+            } else {
+                genImagesContainer.innerHTML = '<p style="padding: 20px; color: #999;">No generated image</p>';
+            }
+
+            // Update generated text
+            document.getElementById('generatedText').textContent = item.generated_text;
+
+            // Render rating criteria
+            renderCriteria();
+        }
+
+        function renderCriteria() {
+            const container = document.getElementById('criteriaContainer');
+            container.innerHTML = '';
+
+            const itemId = evaluationData[currentIndex].id;
+            const savedEval = userEvaluations[itemId] || {};
+
+            CRITERIA.forEach((criterion, index) => {
+                const criterionDiv = document.createElement('div');
+                criterionDiv.className = 'criterion';
+
+                const savedScore = savedEval[criterion.name]?.score;
+                const savedReason = savedEval[criterion.name]?.reason || '';
+
+                criterionDiv.innerHTML = `
+                    <div class="criterion-header">
+                        <div class="criterion-name">${index + 1}. ${criterion.name}</div>
+                    </div>
+                    <div class="criterion-description">${criterion.description}</div>
+                    <div class="score-selector">
+                        ${[0, 1, 2, 3, 4, 5].map(score => `
+                            <button class="score-button ${savedScore === score ? 'selected' : ''}"
+                                    onclick="selectScore('${criterion.name}', ${score})">
+                                ${score}
+                            </button>
+                        `).join('')}
+                    </div>
+                    <textarea class="reason-textarea"
+                              placeholder="Explain your rating..."
+                              onchange="saveReason('${criterion.name}', this.value)">${savedReason}</textarea>
+                `;
+
+                container.appendChild(criterionDiv);
+            });
+        }
+
+        function selectScore(criterionName, score) {
+            const itemId = evaluationData[currentIndex].id;
+
+            if (!userEvaluations[itemId]) {
+                userEvaluations[itemId] = {};
+            }
+            if (!userEvaluations[itemId][criterionName]) {
+                userEvaluations[itemId][criterionName] = {};
+            }
+
+            userEvaluations[itemId][criterionName].score = score;
+            localStorage.setItem(storageKey, JSON.stringify(userEvaluations));
+
+            renderCriteria();
+        }
+
+        function saveReason(criterionName, reason) {
+            const itemId = evaluationData[currentIndex].id;
+
+            if (!userEvaluations[itemId]) {
+                userEvaluations[itemId] = {};
+            }
+            if (!userEvaluations[itemId][criterionName]) {
+                userEvaluations[itemId][criterionName] = {};
+            }
+
+            userEvaluations[itemId][criterionName].reason = reason;
+            localStorage.setItem(storageKey, JSON.stringify(userEvaluations));
+        }
+
+        function submitEvaluation() {
+            const itemId = evaluationData[currentIndex].id;
+            const evaluation = userEvaluations[itemId];
+
+            if (!evaluation || Object.keys(evaluation).length !== CRITERIA.length) {
+                showStatus('Please complete all criteria before submitting!', 'error');
+                return;
+            }
+
+            // Check if all scores are set
+            let allScoresSet = true;
+            CRITERIA.forEach(criterion => {
+                if (evaluation[criterion.name]?.score === undefined) {
+                    allScoresSet = false;
+                }
+            });
+
+            if (!allScoresSet) {
+                showStatus('Please rate all criteria before submitting!', 'error');
+                return;
+            }
+
+            showStatus('✓ Evaluation saved successfully!', 'success');
+
+            // Auto-advance to next item
+            setTimeout(() => {
+                if (currentIndex < evaluationData.length - 1) {
+                    nextItem();
+                }
+            }, 1000);
+        }
+
+        function previousItem() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderCurrentItem();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function nextItem() {
+            if (currentIndex < evaluationData.length - 1) {
+                currentIndex++;
+                renderCurrentItem();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function openModal(imageSrc) {
+            document.getElementById('modalImage').src = imageSrc;
+            document.getElementById('imageModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').classList.remove('active');
+        }
+
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('statusMessage');
+            statusDiv.className = 'status-message status-' + type;
+            statusDiv.textContent = message;
+            statusDiv.style.display = 'block';
+
+            setTimeout(() => {
+                statusDiv.style.display = 'none';
+            }, 3000);
+        }
+
+        function downloadResults() {
+            const results = [];
+
+            evaluationData.forEach(item => {
+                const evaluation = userEvaluations[item.id];
+                if (evaluation && Object.keys(evaluation).length > 0) {
+                    results.push({
+                        id: item.id,
+                        domain: item.domain,
+                        question: item.question,
+                        human_evaluation: evaluation
+                    });
+                }
+            });
+
+            if (results.length === 0) {
+                showStatus('No evaluations to download!', 'error');
+                return;
+            }
+
+            const blob = new Blob([JSON.stringify(results, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            const filename = dataFile.replace(/.*\//, '').replace('.json', '');
+            a.download = 'human_evaluations_' + filename + '_' + new Date().toISOString().split('T')[0] + '.json';
+            a.click();
+            URL.revokeObjectURL(url);
+
+            showStatus(`Downloaded ${results.length} evaluations!`, 'success');
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') previousItem();
+            if (e.key === 'ArrowRight') nextItem();
+        });
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
