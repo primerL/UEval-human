@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Rubric Evaluation - GPT-thinking</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .instruction {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 15px;
+            border-left: 4px solid #2196f3;
+        }
+
+        .instruction strong {
+            color: #1976d2;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .stat-item {
+            background: #f0f0f0;
+            padding: 10px 15px;
+            border-radius: 4px;
+        }
+
+        .stat-label {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        .controls {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        select, button {
+            padding: 8px 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background: #3498db;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .export-btn {
+            background: #27ae60;
+        }
+
+        .export-btn:hover {
+            background: #229954;
+        }
+
+        .item-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .item-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+        }
+
+        .item-id {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .domain-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-right: 10px;
+        }
+
+        .item-content {
+            padding: 25px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .prompt {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+
+        .reference, .gpt-output {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+        }
+
+        .rubrics-section {
+            margin-top: 30px;
+        }
+
+        .rubric-type-header {
+            background: #34495e;
+            color: white;
+            padding: 12px 20px;
+            font-weight: 600;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+
+        .rubric-item {
+            background: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 15px 0;
+            transition: all 0.3s;
+        }
+
+        .rubric-item:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .rubric-item.evaluated {
+            border-color: #3498db;
+        }
+
+        .rubric-criterion {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            font-size: 1.05em;
+        }
+
+        .human-evaluation {
+            background: #e8f5e9;
+            padding: 18px;
+            border-radius: 6px;
+            border-left: 4px solid #4caf50;
+            margin-bottom: 15px;
+        }
+
+        .evaluation-label {
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #2c3e50;
+            font-size: 1em;
+        }
+
+        .rating-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .rating-btn {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .rating-btn:hover {
+            border-color: #3498db;
+            background: #ecf6fc;
+            transform: translateY(-2px);
+        }
+
+        .rating-btn.selected {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .rating-btn.true.selected {
+            background: #4caf50;
+            border-color: #4caf50;
+            color: white;
+        }
+
+        .rating-btn.false.selected {
+            background: #f44336;
+            border-color: #f44336;
+            color: white;
+        }
+
+        .rating-btn.not-sure.selected {
+            background: #ff9800;
+            border-color: #ff9800;
+            color: white;
+        }
+
+        .ai-reference {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .ai-toggle {
+            padding: 12px;
+            background: #e0e0e0;
+            cursor: pointer;
+            font-weight: 600;
+            color: #555;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .ai-toggle:hover {
+            background: #d0d0d0;
+        }
+
+        .ai-toggle-icon {
+            transition: transform 0.3s;
+        }
+
+        .ai-toggle-icon.expanded {
+            transform: rotate(180deg);
+        }
+
+        .ai-content {
+            padding: 15px;
+            display: none;
+        }
+
+        .ai-content.expanded {
+            display: block;
+        }
+
+        .ai-result {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .ai-label {
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .criteria-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .criteria-badge.met {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .criteria-badge.not-met {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .criteria-badge.not-sure {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .ai-explanation {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+        }
+
+        .agreement-indicator {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .agreement-indicator.match {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .agreement-indicator.mismatch {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            position: sticky;
+            bottom: 20px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav-btn {
+            padding: 12px 30px;
+            font-size: 16px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #ecf0f1;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            transition: width 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .stats {
+                font-size: 0.9em;
+            }
+
+            .item-content {
+                padding: 15px;
+            }
+
+            .rating-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Human Rubric Evaluation - GPT-thinking</h1>
+            <p>Evaluate whether GPT-thinking outputs meet the rubric criteria</p>
+            <div class="instruction">
+                <strong>Instructions:</strong> For each rubric criterion, evaluate whether the GPT output satisfies it.
+                Select <strong>True</strong> (criterion met), <strong>False</strong> (criterion not met), or <strong>Not Sure</strong> (uncertain).
+                AI evaluation is shown for reference but should not influence your judgment.
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-label">Total Items</div>
+                    <div class="stat-value" id="totalItems">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Current Item</div>
+                    <div class="stat-value" id="currentItem">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Evaluated</div>
+                    <div class="stat-value" id="evaluatedCount">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Agreement Rate</div>
+                    <div class="stat-value" id="agreementRate">-</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Progress</div>
+                    <div class="stat-value" id="progressPercent">0%</div>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar" style="width: 0%"></div>
+            </div>
+        </header>
+
+        <div class="controls">
+            <div class="filter-group">
+                <label>Domain:</label>
+                <select id="domainFilter">
+                    <option value="all">All Domains</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Status:</label>
+                <select id="statusFilter">
+                    <option value="all">All</option>
+                    <option value="evaluated">Evaluated</option>
+                    <option value="unevaluated">Not Evaluated</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>
+                    <input type="checkbox" id="showAIDefault" checked>
+                    Show AI evaluation by default
+                </label>
+            </div>
+            <button onclick="exportResults()" class="export-btn">Export Results</button>
+            <button onclick="clearAllData()">Clear All Data</button>
+        </div>
+
+        <div id="itemContainer"></div>
+
+        <div class="navigation">
+            <button class="nav-btn" onclick="previousItem()" id="prevBtn">← Previous</button>
+            <div style="text-align: center;">
+                <div style="font-size: 0.9em; color: #666;">Item <span id="navCurrent">1</span> of <span id="navTotal">0</span></div>
+            </div>
+            <button class="nav-btn" onclick="nextItem()" id="nextBtn">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        let filteredData = [];
+        let currentIndex = 0;
+        let evaluations = {};
+        let showAIByDefault = true;
+
+        // Load data from JSON file
+        async function loadData() {
+            try {
+                const response = await fetch('sampled_merged_data.json');
+                allData = await response.json();
+
+                // Load saved evaluations from localStorage
+                const saved = localStorage.getItem('rubricEvaluations');
+                if (saved) {
+                    evaluations = JSON.parse(saved);
+                }
+
+                // Populate domain filter
+                const domains = [...new Set(allData.map(item => item.domain))];
+                const domainFilter = document.getElementById('domainFilter');
+                domains.forEach(domain => {
+                    const option = document.createElement('option');
+                    option.value = domain;
+                    option.textContent = domain.charAt(0).toUpperCase() + domain.slice(1);
+                    domainFilter.appendChild(option);
+                });
+
+                applyFilters();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert('Error loading data. Please ensure sampled_merged_data.json is in the same directory.');
+            }
+        }
+
+        function applyFilters() {
+            const domainFilter = document.getElementById('domainFilter').value;
+            const statusFilter = document.getElementById('statusFilter').value;
+
+            filteredData = allData.filter(item => {
+                const domainMatch = domainFilter === 'all' || item.domain === domainFilter;
+
+                let statusMatch = true;
+                if (statusFilter === 'evaluated') {
+                    statusMatch = evaluations[item.id] && isItemFullyEvaluated(item);
+                } else if (statusFilter === 'unevaluated') {
+                    statusMatch = !evaluations[item.id] || !isItemFullyEvaluated(item);
+                }
+
+                return domainMatch && statusMatch;
+            });
+
+            currentIndex = 0;
+            displayCurrentItem();
+            updateStats();
+        }
+
+        function isItemFullyEvaluated(item) {
+            if (!evaluations[item.id]) return false;
+
+            const textCount = item.text_results?.length || 0;
+            const imageCount = item.image_results?.length || 0;
+            const totalRubrics = textCount + imageCount;
+
+            const evalCount = Object.keys(evaluations[item.id]).length;
+            return evalCount === totalRubrics;
+        }
+
+        function displayCurrentItem() {
+            if (filteredData.length === 0) {
+                document.getElementById('itemContainer').innerHTML = '<div style="text-align: center; padding: 50px; background: white; border-radius: 8px;"><h2>No items match the current filters</h2></div>';
+                return;
+            }
+
+            const item = filteredData[currentIndex];
+            const container = document.getElementById('itemContainer');
+
+            let html = `
+                <div class="item-card">
+                    <div class="item-header">
+                        <div class="item-id">ID: ${item.id}</div>
+                        <div>
+                            <span class="domain-badge">${item.domain}</span>
+                            <span class="domain-badge">${item.task_type}</span>
+                            <span class="domain-badge">${item.question_type}</span>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <div class="section">
+                            <div class="section-title">Prompt</div>
+                            <div class="prompt">${escapeHtml(item.prompt)}</div>
+                        </div>
+
+                        ${item.text_ref ? `
+                        <div class="section">
+                            <div class="section-title">Reference Answer</div>
+                            <div class="reference">${escapeHtml(item.text_ref)}</div>
+                        </div>
+                        ` : ''}
+
+                        ${item.image_ref && item.image_ref.length > 0 ? `
+                        <div class="section">
+                            <div class="section-title">Reference Images</div>
+                            <div class="image-grid">
+                                ${item.image_ref.map(img => `<img src="/Users/libo/multimodel_eval/${img}" alt="Reference" onerror="this.style.display='none'">`).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+
+                        ${item.GPT_text ? `
+                        <div class="section">
+                            <div class="section-title">GPT-thinking Text Output</div>
+                            <div class="gpt-output">${escapeHtml(item.GPT_text)}</div>
+                        </div>
+                        ` : ''}
+
+                        ${item.GPT_image ? `
+                        <div class="section">
+                            <div class="section-title">GPT-thinking Image Output</div>
+                            <div class="image-grid">
+                                <img src="/Users/libo/multimodel_eval/${item.GPT_image}" alt="GPT Output" onerror="this.style.display='none'">
+                            </div>
+                        </div>
+                        ` : ''}
+
+                        <div class="rubrics-section">
+                            ${item.text_results && item.text_results.length > 0 ? `
+                                <div class="rubric-type-header">Text Rubrics (${item.text_results.length})</div>
+                                ${item.text_results.map((rubric, idx) => renderRubric(item.id, rubric, 'text', idx)).join('')}
+                            ` : ''}
+
+                            ${item.image_results && item.image_results.length > 0 ? `
+                                <div class="rubric-type-header">Image Rubrics (${item.image_results.length})</div>
+                                ${item.image_results.map((rubric, idx) => renderRubric(item.id, rubric, 'image', idx)).join('')}
+                            ` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = html;
+            updateNavigationButtons();
+        }
+
+        function renderRubric(itemId, rubric, type, index) {
+            const rubricKey = `${type}_${index}`;
+            const savedRating = evaluations[itemId]?.[rubricKey];
+
+            const criteriaMet = rubric.criteria_met;
+            let badgeClass = 'not-sure';
+            let badgeText = 'Not Sure';
+            let aiValue = 'not-sure';
+
+            if (criteriaMet === true) {
+                badgeClass = 'met';
+                badgeText = 'True';
+                aiValue = 'true';
+            } else if (criteriaMet === false) {
+                badgeClass = 'not-met';
+                badgeText = 'False';
+                aiValue = 'false';
+            }
+
+            // Check agreement
+            let agreementHtml = '';
+            if (savedRating) {
+                const match = savedRating === aiValue;
+                agreementHtml = `<span class="agreement-indicator ${match ? 'match' : 'mismatch'}">${match ? '✓ Match' : '✗ Differ'}</span>`;
+            }
+
+            return `
+                <div class="rubric-item ${savedRating ? 'evaluated' : ''}">
+                    <div class="rubric-criterion">${escapeHtml(rubric.criterion)}</div>
+
+                    <div class="human-evaluation">
+                        <div class="evaluation-label">Your Evaluation: Does the GPT output meet this criterion?</div>
+                        <div class="rating-buttons">
+                            <button class="rating-btn true ${savedRating === 'true' ? 'selected' : ''}"
+                                    onclick="rateRubric('${itemId}', '${rubricKey}', 'true')">
+                                ✓ True (Met)
+                            </button>
+                            <button class="rating-btn false ${savedRating === 'false' ? 'selected' : ''}"
+                                    onclick="rateRubric('${itemId}', '${rubricKey}', 'false')">
+                                ✗ False (Not Met)
+                            </button>
+                            <button class="rating-btn not-sure ${savedRating === 'not-sure' ? 'selected' : ''}"
+                                    onclick="rateRubric('${itemId}', '${rubricKey}', 'not-sure')">
+                                ? Not Sure
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="ai-reference">
+                        <div class="ai-toggle" onclick="toggleAI(this)">
+                            <span>AI Evaluation (Reference Only) ${agreementHtml}</span>
+                            <span class="ai-toggle-icon ${showAIByDefault ? 'expanded' : ''}">▼</span>
+                        </div>
+                        <div class="ai-content ${showAIByDefault ? 'expanded' : ''}">
+                            <div class="ai-result">
+                                <span class="ai-label">AI Result:</span>
+                                <span class="criteria-badge ${badgeClass}">${badgeText}</span>
+                            </div>
+                            ${rubric.explanation ? `
+                                <div class="ai-explanation"><strong>AI Explanation:</strong><br>${escapeHtml(rubric.explanation)}</div>
+                            ` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function toggleAI(element) {
+            const content = element.nextElementSibling;
+            const icon = element.querySelector('.ai-toggle-icon');
+
+            content.classList.toggle('expanded');
+            icon.classList.toggle('expanded');
+        }
+
+        function rateRubric(itemId, rubricKey, rating) {
+            if (!evaluations[itemId]) {
+                evaluations[itemId] = {};
+            }
+            evaluations[itemId][rubricKey] = rating;
+
+            // Save to localStorage
+            localStorage.setItem('rubricEvaluations', JSON.stringify(evaluations));
+
+            // Update UI
+            displayCurrentItem();
+            updateStats();
+        }
+
+        function calculateAgreementRate() {
+            let totalEvaluated = 0;
+            let agreements = 0;
+
+            for (const item of allData) {
+                if (!evaluations[item.id]) continue;
+
+                const textResults = item.text_results || [];
+                const imageResults = item.image_results || [];
+
+                [...textResults, ...imageResults].forEach((rubric, idx) => {
+                    const type = idx < textResults.length ? 'text' : 'image';
+                    const actualIdx = idx < textResults.length ? idx : idx - textResults.length;
+                    const rubricKey = `${type}_${actualIdx}`;
+
+                    if (evaluations[item.id][rubricKey]) {
+                        totalEvaluated++;
+
+                        const criteriaMet = rubric.criteria_met;
+                        let aiValue = 'not-sure';
+                        if (criteriaMet === true) aiValue = 'true';
+                        else if (criteriaMet === false) aiValue = 'false';
+
+                        if (evaluations[item.id][rubricKey] === aiValue) {
+                            agreements++;
+                        }
+                    }
+                });
+            }
+
+            return totalEvaluated > 0 ? (agreements / totalEvaluated * 100).toFixed(1) : null;
+        }
+
+        function updateStats() {
+            document.getElementById('totalItems').textContent = filteredData.length;
+            document.getElementById('currentItem').textContent = currentIndex + 1;
+            document.getElementById('navCurrent').textContent = currentIndex + 1;
+            document.getElementById('navTotal').textContent = filteredData.length;
+
+            const evaluatedCount = filteredData.filter(item => isItemFullyEvaluated(item)).length;
+            document.getElementById('evaluatedCount').textContent = evaluatedCount;
+
+            const progress = filteredData.length > 0 ? (evaluatedCount / filteredData.length * 100).toFixed(1) : 0;
+            document.getElementById('progressPercent').textContent = progress + '%';
+            document.getElementById('progressBar').style.width = progress + '%';
+
+            const agreementRate = calculateAgreementRate();
+            document.getElementById('agreementRate').textContent = agreementRate !== null ? agreementRate + '%' : '-';
+        }
+
+        function updateNavigationButtons() {
+            document.getElementById('prevBtn').disabled = currentIndex === 0;
+            document.getElementById('nextBtn').disabled = currentIndex >= filteredData.length - 1;
+        }
+
+        function nextItem() {
+            if (currentIndex < filteredData.length - 1) {
+                currentIndex++;
+                displayCurrentItem();
+                updateStats();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function previousItem() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                displayCurrentItem();
+                updateStats();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function exportResults() {
+            // Calculate detailed statistics
+            let totalRubrics = 0;
+            let evaluatedRubrics = 0;
+            let agreements = 0;
+            let humanTrue = 0;
+            let humanFalse = 0;
+            let humanNotSure = 0;
+
+            const detailedResults = allData.map(item => {
+                const itemEvals = evaluations[item.id] || {};
+                const results = {
+                    id: item.id,
+                    domain: item.domain,
+                    evaluations: {}
+                };
+
+                const textResults = item.text_results || [];
+                const imageResults = item.image_results || [];
+
+                [...textResults, ...imageResults].forEach((rubric, idx) => {
+                    const type = idx < textResults.length ? 'text' : 'image';
+                    const actualIdx = idx < textResults.length ? idx : idx - textResults.length;
+                    const rubricKey = `${type}_${actualIdx}`;
+
+                    totalRubrics++;
+
+                    const criteriaMet = rubric.criteria_met;
+                    let aiValue = 'not-sure';
+                    if (criteriaMet === true) aiValue = 'true';
+                    else if (criteriaMet === false) aiValue = 'false';
+
+                    const humanEval = itemEvals[rubricKey];
+
+                    if (humanEval) {
+                        evaluatedRubrics++;
+                        if (humanEval === 'true') humanTrue++;
+                        else if (humanEval === 'false') humanFalse++;
+                        else humanNotSure++;
+
+                        if (humanEval === aiValue) agreements++;
+                    }
+
+                    results.evaluations[rubricKey] = {
+                        criterion: rubric.criterion,
+                        human_evaluation: humanEval || null,
+                        ai_evaluation: aiValue,
+                        agreement: humanEval ? (humanEval === aiValue) : null
+                    };
+                });
+
+                return results;
+            });
+
+            const exportData = {
+                export_date: new Date().toISOString(),
+                summary: {
+                    total_items: allData.length,
+                    total_rubrics: totalRubrics,
+                    evaluated_rubrics: evaluatedRubrics,
+                    evaluation_progress: ((evaluatedRubrics / totalRubrics) * 100).toFixed(1) + '%',
+                    agreement_rate: evaluatedRubrics > 0 ? ((agreements / evaluatedRubrics) * 100).toFixed(1) + '%' : 'N/A',
+                    human_evaluations: {
+                        true: humanTrue,
+                        false: humanFalse,
+                        not_sure: humanNotSure
+                    }
+                },
+                detailed_results: detailedResults
+            };
+
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `human_rubric_evaluations_${new Date().toISOString().split('T')[0]}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            alert('Evaluation results exported successfully!');
+        }
+
+        function clearAllData() {
+            if (confirm('Are you sure you want to clear all evaluation data? This cannot be undone.')) {
+                evaluations = {};
+                localStorage.removeItem('rubricEvaluations');
+                displayCurrentItem();
+                updateStats();
+                alert('All evaluation data has been cleared.');
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                previousItem();
+            } else if (e.key === 'ArrowRight') {
+                nextItem();
+            }
+        });
+
+        // Event listeners for filters
+        document.getElementById('domainFilter').addEventListener('change', applyFilters);
+        document.getElementById('statusFilter').addEventListener('change', applyFilters);
+        document.getElementById('showAIDefault').addEventListener('change', (e) => {
+            showAIByDefault = e.target.checked;
+            displayCurrentItem();
+        });
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
