@@ -560,6 +560,16 @@
                     domainFilter.appendChild(option);
                 });
 
+                // Check URL parameter for domain
+                const urlParams = new URLSearchParams(window.location.search);
+                const domainParam = urlParams.get('domain');
+                if (domainParam && domains.includes(domainParam)) {
+                    domainFilter.value = domainParam;
+                    // Update page title
+                    document.title = `${domainParam.charAt(0).toUpperCase() + domainParam.slice(1)} - Human Rubric Evaluation`;
+                    document.querySelector('h1').textContent = `Human Rubric Evaluation - ${domainParam.charAt(0).toUpperCase() + domainParam.slice(1)}`;
+                }
+
                 applyFilters();
                 updateStats();
             } catch (error) {
