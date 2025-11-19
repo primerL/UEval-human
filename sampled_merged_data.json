@@ -9735,195 +9735,182 @@
     ]
   },
   {
-    "id": "44",
+    "id": "1",
     "domain": "space",
-    "prompt": "How do boats pass through the Gateshead Millennium Bridge? Provide a realistic image and explain it.",
-    "source": "https://en.wikipedia.org/wiki/Gateshead_Millennium_Bridge",
+    "prompt": "Why can people stand on the Statue of Liberty? Provide a realistic image and explain it.",
+    "source": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
     "task_type": "space",
     "question_type": "closed",
-    "text_ref": "The Gateshead Millennium Bridge is a tilting pedestrian/cyclist bridge. When vessels need to pass, the entire structure—arch and deck together—rotates about bearings at both ends, driven by hydraulic cylinders, to create sufficient navigational clearance. It then tilts back to its level position for normal use.",
+    "text_ref": "People can stand inside the Statue of Liberty’s crown because the statue was engineered with an enclosed spiral staircase that threads up through internal inspection passages and terminates in the crown’s ring-shaped, enclosed viewing platform. The crown was purpose-built for small visitor groups: it has limited capacity, narrow stairs with handrails and intermediate landings, and a reinforced interior supported by circular ribs and framing that carry live loads safely into the main armature and down to the pedestal. The statue’s flexible metal framework and copper skin work together to allow controlled, small-amplitude sway under wind, dispersing wind loads and damping vibrations without compromising structural integrity. Strict occupancy limits and the compact stair profile preserve safety while enabling public access. This approach emphasizes engineered accessibility and load management, rather than the statue’s symbolic meaning or the view alone.",
     "image_ref": [
-      "data/space/gateshead_millennium_bridge_tilting.jpg"
+      "data/space/Nancy_Reagan_waves_while_visiting_the_Statue_of_Liberty_in_New_York_City.jpg"
     ],
-    "GPT_text": "# Text (Explanation)\n\nBoats pass under the Gateshead Millennium Bridge when the entire bridge **tilts**—like a blinking eyelid.\n\n* **How it opens:** The pedestrian/cycle deck and the arch are a single rigid piece. Powerful **hydraulic rams** at each end rotate this whole assembly around pivots on the riverbanks. As it tilts, the **deck rises** and the **arch dips**, creating a tall navigation gap for vessels.\n* **Why it’s efficient:** The arch acts as a **counterweight** to the deck, so the system stays balanced and needs relatively little energy to move.\n* **What people experience:** Before a lift, barriers and signals stop foot and cycle traffic. The bridge then tilts smoothly over a few minutes, holds position while boats pass, and tilts back to level.\n* **Nickname:** Because it looks like a giant eye opening and closing, it’s often called the **“Winking Eye”** bridge.\n\n---\n\n# Photo (separate)\n\n*(A generated photo of the Gateshead Millennium Bridge in its open/tilted position with a boat passing beneath is attached above.)*\n",
-    "GPT_image": "GPT-thinking/space/44.png",
-    "thinking_trace": "",
+    "GPT_text": "Image (photo): (see generated image above)\n\nText (explanation):\nPeople can stand inside the Statue of Liberty—on the pedestal’s observation deck and in the crown—because the monument was engineered as a habitable structure, not a solid statue.\n • Load-bearing skeleton: A robust internal iron framework (designed to carry people and stairs) holds the statue up. The green copper skin you see outside is thin and non-structural; it hangs like a curtain on the frame.\n • Platforms & stairs anchored to the frame: Metal stairways and viewing platforms are bolted to the central support and armature, so a visitor’s weight goes into the steel/iron skeleton, not the copper shell.\n • Pedestal transfers the loads: All those forces flow down into a massive granite/concrete pedestal and then into the foundation, so visitor loads are easily supported.\n • Engineered for movement & safety: The structure can flex slightly in wind, and access is controlled with rails, capacity limits, and modern safety upgrades—making the crown room and decks safe for brief occupancy.\n • Where you can’t stand: The torch is not open to the public; visitors stand on engineered platforms (pedestal decks and the crown), not on the statue’s skin.",
+    "GPT_image": "GPT-thinking/space/1.png",
+    "thinking_trace": "The commonly cited figure for the number of steps to the crown is 354, though I’ve also seen 345 and 377 mentioned at times. It’s important to get this right: the widely accepted number is 354 steps to the crown, not the torch, which is not accessible. There are 25 windows up there.\\n\\nThe statue has copper skin (3/32 inch thick) supported by an iron frame. The flexible copper allows movement with the wind. I recall a double-helix staircase inside for up and down traffic, but I’m not completely sure—it might be more of a narrow spiral. The crown has windows and a small platform for visitors.\\n\\nThe crown has 25 windows, which represent gemstones, and they're located in the diadem below the crown itself. These 25 windows symbolize “earth's gemstones,” while the seven rays of the crown represent the seven continents and seas. This is a commonly shared interpretation.\\n\\nThe statue’s interior supports an observation area accessed by stairs behind the 25 windows. The copper shell is thin and not load-bearing; the iron (now stainless steel) armature holds the structure’s weight. The crown has a ring beam for stability. The windows are small, possibly rectangular portholes.",
     "text_results": [
       {
-        "criterion": "The answer must describe the bridge's opening mechanism as a tilting or rotating motion.",
-        "criteria_met": true,
-        "explanation": "The answer satisfies the rubric by explicitly stating in the first sentence that \"the entire bridge tilts.\" It further reinforces this by describing how hydraulic rams \"rotate this whole assembly\" in the bullet points.",
+        "criterion": "The answer must explain the structural design of the internal spiral staircase and how it connects to the crown as an enclosed, elevated space.",
+        "criteria_met": false,
+        "explanation": "The answer explains the general structural principle of how stairs and platforms are supported by the internal framework. However, it fails to mention the specific 'spiral' design of the staircase, which is a key term in the rubric. It also does not explicitly describe how that staircase connects to the crown.",
         "rubric_tags": [
           "level:example",
-          "axis:accuracy",
-          "axis:completeness"
-        ],
-        "type": "text",
-        "raw_response": "```json\n{\n  \"explanation\": \"The answer satisfies the rubric by explicitly stating in the first sentence that \\\"the entire bridge tilts.\\\" It further reinforces this by describing how hydraulic rams \\\"rotate this whole assembly\\\" in the bullet points.\",\n  \"criteria_met\": true\n}\n```"
-      },
-      {
-        "criterion": "The answer should specify that the entire structure, including both the arch and the deck, moves together as a single unit.",
-        "criteria_met": true,
-        "explanation": "The answer explicitly states, \"The pedestrian/cycle deck and the arch are a single rigid piece.\" It also refers to the movement of \"this whole assembly,\" which directly satisfies the rubric's requirement.",
-        "rubric_tags": [
-          "level:example",
-          "axis:accuracy",
-          "axis:completeness"
-        ],
-        "type": "text",
-        "raw_response": "```json\n{\n  \"explanation\": \"The answer explicitly states, \\\"The pedestrian/cycle deck and the arch are a single rigid piece.\\\" It also refers to the movement of \\\"this whole assembly,\\\" which directly satisfies the rubric's requirement.\",\n  \"criteria_met\": true\n}\n```"
-      },
-      {
-        "criterion": "The answer should mention that the movement is powered by hydraulic cylinders.",
-        "criteria_met": true,
-        "explanation": "The text answer states that the bridge is moved by \"Powerful hydraulic rams\". A hydraulic ram is a type of hydraulic cylinder, so this accurately and specifically satisfies the rubric's requirement.",
-        "rubric_tags": [
-          "level:example",
-          "axis:completeness"
-        ],
-        "type": "text",
-        "raw_response": "```json\n{\n  \"explanation\": \"The text answer states that the bridge is moved by \\\"Powerful hydraulic rams\\\". A hydraulic ram is a type of hydraulic cylinder, so this accurately and specifically satisfies the rubric's requirement.\",\n  \"criteria_met\": true\n}\n```"
-      },
-      {
-        "criterion": "The answer should state that the purpose of the movement is to create navigational clearance for boats or vessels.",
-        "criteria_met": true,
-        "explanation": "The text explicitly states that as the bridge tilts, the process results in \"creating a tall navigation gap for vessels.\" This directly addresses the purpose of the movement as required by the rubric.",
-        "rubric_tags": [
-          "level:example",
-          "axis:context_awareness"
-        ],
-        "type": "text",
-        "raw_response": "```json\n{\n  \"explanation\": \"The text explicitly states that as the bridge tilts, the process results in \\\"creating a tall navigation gap for vessels.\\\" This directly addresses the purpose of the movement as required by the rubric.\",\n  \"criteria_met\": true\n}\n```"
-      },
-      {
-        "criterion": "The answer should not incorrectly describe the bridge as a drawbridge, swing bridge, or vertical-lift bridge.",
-        "criteria_met": true,
-        "explanation": "The answer correctly describes the bridge's mechanism as a 'tilt' and avoids using incorrect classifications like drawbridge, swing bridge, or vertical-lift bridge.",
-        "rubric_tags": [
-          "level:example",
+          "axis:completeness",
           "axis:accuracy"
         ],
         "type": "text",
-        "raw_response": "```json\n{\n  \"explanation\": \"The answer correctly describes the bridge's mechanism as a 'tilt' and avoids using incorrect classifications like drawbridge, swing bridge, or vertical-lift bridge.\",\n  \"criteria_met\": true\n}\n```"
+        "raw_response": "```json\n{\n  \"explanation\": \"The answer explains the general structural principle of how stairs and platforms are supported by the internal framework. However, it fails to mention the specific 'spiral' design of the staircase, which is a key term in the rubric. It also does not explicitly describe how that staircase connects to the crown.\",\n  \"criteria_met\": false\n}\n```"
+      },
+      {
+        "criterion": "The answer should reference how the crown's design integrates safety and load-bearing considerations for visitors, such as limited capacity and reinforced interior.",
+        "criteria_met": true,
+        "explanation": "The answer directly addresses the rubric by explaining that the crown is an engineered platform made safe for occupancy. It specifically mentions key safety and load-bearing considerations like the internal framework supporting visitor weight, as well as safety features like 'rails, capacity limits, and modern safety upgrades' for the crown room.",
+        "rubric_tags": [
+          "level:example",
+          "axis:depth_of_explanation",
+          "axis:accuracy"
+        ],
+        "type": "text",
+        "raw_response": "```json\n{\n  \"explanation\": \"The answer directly addresses the rubric by explaining that the crown is an engineered platform made safe for occupancy. It specifically mentions key safety and load-bearing considerations like the internal framework supporting visitor weight, as well as safety features like 'rails, capacity limits, and modern safety upgrades' for the crown room.\",\n  \"criteria_met\": true\n}\n```"
+      },
+      {
+        "criterion": "The answer should show understanding that the statue was engineered to support human access without compromising structural integrity (e.g., wind load, vibration dampening).",
+        "criteria_met": true,
+        "explanation": "The answer explicitly states that the statue was \"engineered as a habitable structure\" and mentions it is \"Engineered for movement & safety.\" It directly addresses the rubric's example of wind load by stating, \"The structure can flex slightly in wind,\" demonstrating an understanding of how engineering supports human access without compromising structural integrity.",
+        "rubric_tags": [
+          "level:example",
+          "axis:depth_of_explanation",
+          "axis:context_awareness"
+        ],
+        "type": "text",
+        "raw_response": "```json\n{\n  \"explanation\": \"The answer explicitly states that the statue was \\\"engineered as a habitable structure\\\" and mentions it is \\\"Engineered for movement & safety.\\\" It directly addresses the rubric's example of wind load by stating, \\\"The structure can flex slightly in wind,\\\" demonstrating an understanding of how engineering supports human access without compromising structural integrity.\",\n  \"criteria_met\": true\n}\n```"
+      },
+      {
+        "criterion": " The answers should not only describe the view from the crown or symbolic meaning, but also address the structural access.",
+        "criteria_met": true,
+        "explanation": "The answer directly addresses the structural access by explaining the internal load-bearing skeleton, how the platforms and stairs are anchored to it, and how the pedestal supports the weight. It explicitly avoids discussing the view or symbolic meaning, perfectly satisfying the rubric's requirements.",
+        "rubric_tags": [
+          "level:must",
+          "axis:completeness"
+        ],
+        "type": "text",
+        "raw_response": "```json\n{\n  \"explanation\": \"The answer directly addresses the structural access by explaining the internal load-bearing skeleton, how the platforms and stairs are anchored to it, and how the pedestal supports the weight. It explicitly avoids discussing the view or symbolic meaning, perfectly satisfying the rubric's requirements.\",\n  \"criteria_met\": true\n}\n```"
+      },
+      {
+        "criterion": "The explanation should distinguish between the statue’s symbolic purpose and its engineered features that enable safe public access.",
+        "criteria_met": false,
+        "explanation": "The explanation focuses entirely on the engineered features that enable safe public access, such as the load-bearing skeleton, platforms, and pedestal. It does not mention the statue's symbolic purpose (e.g., a symbol of liberty, a gift from France) and therefore fails to make the required distinction between the two aspects.",
+        "rubric_tags": [
+          "level:example",
+          "axis:context_awareness",
+          "axis:depth_of_explanation"
+        ],
+        "type": "text",
+        "raw_response": "```json\n{\n  \"explanation\": \"The explanation focuses entirely on the engineered features that enable safe public access, such as the load-bearing skeleton, platforms, and pedestal. It does not mention the statue's symbolic purpose (e.g., a symbol of liberty, a gift from France) and therefore fails to make the required distinction between the two aspects.\",\n  \"criteria_met\": false\n}\n```"
       }
     ],
     "image_results": [
       {
-        "criterion": "Image must show the Gateshead Millennium Bridge in its tilted, open position, which is essential to illustrate its unique opening mechanism.",
+        "criterion": "The image shows a close view of the Statue of Liberty’s face with visitors visible through the crown windows, indicating they are inside the crown (within the statue), not on its exterior or nearby structures.",
         "criteria_met": false,
-        "explanation": "The image shows the Gateshead Millennium Bridge in its normal, closed position, allowing a small boat to pass underneath. The rubric requires the image to show the bridge in its tilted, open position to illustrate its unique mechanism for letting taller vessels pass. This crucial aspect is missing from the image.",
+        "explanation": "The rubric requires a close-up, exterior view of the Statue of Liberty's face, showing visitors through the crown's windows. The provided image is an interior view from within the crown, looking out. It does not show the statue's face from the outside.",
         "rubric_tags": [
           "level:example",
-          "axis:accuracy",
-          "axis:context_awareness"
-        ],
-        "type": "image",
-        "raw_response": "```json\n{\n  \"explanation\": \"The image shows the Gateshead Millennium Bridge in its normal, closed position, allowing a small boat to pass underneath. The rubric requires the image to show the bridge in its tilted, open position to illustrate its unique mechanism for letting taller vessels pass. This crucial aspect is missing from the image.\",\n  \"criteria_met\": false\n}\n```"
-      },
-      {
-        "criterion": "Image must not show the bridge in its horizontal, closed position, as this fails to visually answer how boats pass underneath.",
-        "criteria_met": false,
-        "explanation": "The image shows the Gateshead Millennium Bridge in its horizontal, closed position. The rubric explicitly states that the image must not show the bridge in this state because it fails to visually answer the question of how boats pass through (which involves the bridge tilting).",
-        "rubric_tags": [
-          "level:example",
-          "axis:context_awareness"
-        ],
-        "type": "image",
-        "raw_response": "```json\n{\n  \"explanation\": \"The image shows the Gateshead Millennium Bridge in its horizontal, closed position. The rubric explicitly states that the image must not show the bridge in this state because it fails to visually answer the question of how boats pass through (which involves the bridge tilting).\",\n  \"criteria_met\": false\n}\n```"
-      },
-      {
-        "criterion": "The image must clearly show that both the upper supporting arch and the lower pedestrian deck move together as one single structure during the tilting motion.",
-        "criteria_met": false,
-        "explanation": "The image shows the Gateshead Millennium Bridge in its static, non-tilted position. The rubric requires the image to show the bridge in the middle of its tilting motion to demonstrate that the upper arch and lower deck move together. This image does not depict any motion.",
-        "rubric_tags": [
-          "level:detailed",
-          "axis:completeness"
-        ],
-        "type": "image",
-        "raw_response": "```json\n{\n  \"explanation\": \"The image shows the Gateshead Millennium Bridge in its static, non-tilted position. The rubric requires the image to show the bridge in the middle of its tilting motion to demonstrate that the upper arch and lower deck move together. This image does not depict any motion.\",\n  \"criteria_met\": false\n}\n```"
-      },
-      {
-        "criterion": "Image must not depict a different type of movable bridge, such as a drawbridge or a lift bridge.",
-        "criteria_met": true,
-        "explanation": "The image correctly depicts the Gateshead Millennium Bridge, which is a tilt bridge. It does not show a different type of movable bridge, such as a drawbridge or a lift bridge. Therefore, it meets the rubric's requirement.",
-        "rubric_tags": [
-          "level:essential",
+          "axis:context_awareness",
           "axis:accuracy"
         ],
         "type": "image",
-        "raw_response": "```json\n{\n  \"explanation\": \"The image correctly depicts the Gateshead Millennium Bridge, which is a tilt bridge. It does not show a different type of movable bridge, such as a drawbridge or a lift bridge. Therefore, it meets the rubric's requirement.\",\n  \"criteria_met\": true\n}\n```"
+        "raw_response": "```json\n{\n  \"explanation\": \"The rubric requires a close-up, exterior view of the Statue of Liberty's face, showing visitors through the crown's windows. The provided image is an interior view from within the crown, looking out. It does not show the statue's face from the outside.\",\n  \"criteria_met\": false\n}\n```"
+      },
+      {
+        "criterion": "Image should include visual evidence of people behind the crown’s windows, helping to establish the internal access and occupancy.",
+        "criteria_met": true,
+        "explanation": "The image clearly depicts the interior of the Statue of Liberty's crown, showing several people standing on an observation platform and looking out through the windows. This directly fulfills the rubric's requirement for visual evidence of people behind the crown's windows, demonstrating internal access and occupancy.",
+        "rubric_tags": [
+          "level:example",
+          "axis:completeness",
+          "axis:context_awareness"
+        ],
+        "type": "image",
+        "raw_response": "```json\n{\n  \"explanation\": \"The image clearly depicts the interior of the Statue of Liberty's crown, showing several people standing on an observation platform and looking out through the windows. This directly fulfills the rubric's requirement for visual evidence of people behind the crown's windows, demonstrating internal access and occupancy.\",\n  \"criteria_met\": true\n}\n```"
+      },
+      {
+        "criterion": "Image must not be cropped in a way that excludes the face or crown of the statue, as this removes critical spatial context.",
+        "criteria_met": false,
+        "explanation": "The image shows the interior of the Statue of Liberty's crown, which is a valid way to answer the question. However, the rubric explicitly states that the image must not exclude the face or crown of the statue. This image, being an interior shot, necessarily excludes any view of the statue's face, and does not show the exterior of the crown. Therefore, it does not meet the rubric's requirements.",
+        "rubric_tags": [
+          "level:must_avoid",
+          "axis:context_awareness"
+        ],
+        "type": "image",
+        "raw_response": "```json\n{\n  \"explanation\": \"The image shows the interior of the Statue of Liberty's crown, which is a valid way to answer the question. However, the rubric explicitly states that the image must not exclude the face or crown of the statue. This image, being an interior shot, necessarily excludes any view of the statue's face, and does not show the exterior of the crown. Therefore, it does not meet the rubric's requirements.\",\n  \"criteria_met\": false\n}\n```"
       }
     ],
     "text_rubrics": [
       {
-        "criterion": "The answer must describe the bridge's opening mechanism as a tilting or rotating motion.",
+        "criterion": "The answer must explain the structural design of the internal spiral staircase and how it connects to the crown as an enclosed, elevated space.",
         "tags": [
           "level:example",
-          "axis:accuracy",
-          "axis:completeness"
+          "axis:completeness",
+          "axis:accuracy"
         ]
       },
       {
-        "criterion": "The answer should specify that the entire structure, including both the arch and the deck, moves together as a single unit.",
+        "criterion": "The answer should reference how the crown's design integrates safety and load-bearing considerations for visitors, such as limited capacity and reinforced interior.",
         "tags": [
           "level:example",
-          "axis:accuracy",
-          "axis:completeness"
+          "axis:depth_of_explanation",
+          "axis:accuracy"
         ]
       },
       {
-        "criterion": "The answer should mention that the movement is powered by hydraulic cylinders.",
+        "criterion": "The answer should show understanding that the statue was engineered to support human access without compromising structural integrity (e.g., wind load, vibration dampening).",
         "tags": [
           "level:example",
-          "axis:completeness"
-        ]
-      },
-      {
-        "criterion": "The answer should state that the purpose of the movement is to create navigational clearance for boats or vessels.",
-        "tags": [
-          "level:example",
+          "axis:depth_of_explanation",
           "axis:context_awareness"
         ]
       },
       {
-        "criterion": "The answer should not incorrectly describe the bridge as a drawbridge, swing bridge, or vertical-lift bridge.",
+        "criterion": " The answers should not only describe the view from the crown or symbolic meaning, but also address the structural access.",
+        "tags": [
+          "level:must",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "The explanation should distinguish between the statue’s symbolic purpose and its engineered features that enable safe public access.",
         "tags": [
           "level:example",
-          "axis:accuracy"
+          "axis:context_awareness",
+          "axis:depth_of_explanation"
         ]
       }
     ],
     "image_rubrics": [
       {
-        "criterion": "Image must show the Gateshead Millennium Bridge in its tilted, open position, which is essential to illustrate its unique opening mechanism.",
+        "criterion": "The image shows a close view of the Statue of Liberty’s face with visitors visible through the crown windows, indicating they are inside the crown (within the statue), not on its exterior or nearby structures.",
         "tags": [
           "level:example",
-          "axis:accuracy",
-          "axis:context_awareness"
-        ],
-        "type": "image"
-      },
-      {
-        "criterion": "Image must not show the bridge in its horizontal, closed position, as this fails to visually answer how boats pass underneath.",
-        "tags": [
-          "level:example",
-          "axis:context_awareness"
-        ],
-        "type": "image"
-      },
-      {
-        "criterion": "The image must clearly show that both the upper supporting arch and the lower pedestrian deck move together as one single structure during the tilting motion.",
-        "tags": [
-          "level:detailed",
-          "axis:completeness"
-        ],
-        "type": "image"
-      },
-      {
-        "criterion": "Image must not depict a different type of movable bridge, such as a drawbridge or a lift bridge.",
-        "tags": [
-          "level:essential",
+          "axis:context_awareness",
           "axis:accuracy"
+        ],
+        "type": "image"
+      },
+      {
+        "criterion": "Image should include visual evidence of people behind the crown’s windows, helping to establish the internal access and occupancy.",
+        "tags": [
+          "level:example",
+          "axis:completeness",
+          "axis:context_awareness"
+        ],
+        "type": "image"
+      },
+      {
+        "criterion": "Image must not be cropped in a way that excludes the face or crown of the statue, as this removes critical spatial context.",
+        "tags": [
+          "level:must_avoid",
+          "axis:context_awareness"
         ],
         "type": "image"
       }
