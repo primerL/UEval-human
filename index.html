@@ -637,7 +637,7 @@
                         <div class="section">
                             <div class="section-title">Reference Images</div>
                             <div class="image-grid">
-                                ${item.image_ref.map(img => `<img src="/Users/libo/multimodel_eval/${img}" alt="Reference" onerror="this.style.display='none'">`).join('')}
+                                ${item.image_ref.map(img => `<img src="${img}" alt="Reference" onerror="this.style.display='none'">`).join('')}
                             </div>
                         </div>
                         ` : ''}
@@ -653,7 +653,7 @@
                         <div class="section">
                             <div class="section-title">GPT-thinking Image Output</div>
                             <div class="image-grid">
-                                <img src="/Users/libo/multimodel_eval/${item.GPT_image}" alt="GPT Output" onerror="this.style.display='none'">
+                                <img src="${item.GPT_image}" alt="GPT Output" onerror="this.style.display='none'">
                             </div>
                         </div>
                         ` : ''}
